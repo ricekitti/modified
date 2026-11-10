@@ -1,0 +1,64 @@
+{
+  "version": "1.8.13.0",
+  "feature": "Auto Pearl",
+  "exe_sha256": "77746aadad53df80ade894a6fb847d449d9c5fafaf10d20bf150e2bff4cadf10",
+  "native_sha256": "72af0d7fd92d028fd6997a8aa107a3495adcecc9e86b8accda078c62e8167b00",
+  "embedded_payload_matches": true,
+  "embedded_match_evidence": "Versioned release --check-runtime decoded RiceNative.dll SHA-256 equals rebuilt build/slinky.dll",
+  "runtime_check_directory": ".build-tools\\auto-pearl-v1.8.13-runtime-check",
+  "ctest": {
+    "passed": 32,
+    "failed": 0
+  },
+  "auto_pearl_checks_per_mapping": 22,
+  "mappings": [
+    "named",
+    "srg",
+    "official"
+  ],
+  "module": {
+    "feature_index": 6,
+    "native_menu_slot": "0x4c",
+    "id": "auto_pearl"
+  },
+  "source_sha256": {
+    "modified\\feature-bridge\\prepare_pearl.py": "8b38acbc593a6e316635cc2079aebaed5cf3ffcae7eb97148f7f707ae09a7c72",
+    "modified\\feature-bridge\\build.py": "b699f608082a2b525581f120c990abcefc10d6c7702a64201d9d9cda74787903",
+    "modified\\feature-bridge\\java\\NativeFeatureBridge.java": "c728929e3fa535f33fe9215c17f238c3647df32ff841fd88d5a45bcb29ae1e5e",
+    "modified\\feature-bridge\\java\\FireballBoostFeatureModule.java": "741facc91c95395873cc4e66cad4d0039ed8088f777be40754de1fa49c4c0f1b",
+    "modified\\feature-bridge\\java\\AutoPearlFeatureModule.java": "401b8e7236934188bd9b5d1736d70ad53e17616dce318e2bc25e783a17fd5952",
+    "modified\\feature-bridge\\java\\pearl\\ContinuousCondition.java": "5ee6252a26559bdda5370be5643e067363439e6210c3241c11592ce4eec323d9",
+    "modified\\feature-bridge\\java\\pearl\\RescueItemUse.java": "54ff69430d1dc94ee5114cb55804da5a1a8a049fa7a9f77d801dd12456eeac8d",
+    "modified\\feature-bridge\\java\\pearl\\RescueServices.java": "2e4f22c95a7d8c52f0f0d98a31a6749a331f362cbc25cc10c9f0f3661d58c0d1",
+    "modified\\feature-bridge\\tests\\PearlFixture.java": "09a9f18278f16983160d664c9b96a80f793aa53fe909aa222db45642d8517b62",
+    "modified\\feature-bridge\\tests\\FeatureFixture.java": "fdd90696df8712941eda95300baaa98a56c2e1f8218fd2b826c17e9893c8247f",
+    "modified\\provided-injector\\rice-launcher\\tests\\SourceFeaturesJvmTest.cpp": "a9c9d7a11599a15b9ea6213ee6287c36bef04b990eefb4048d826d84f9c3d94d",
+    "modified\\slinkyreadablesource\\slinkyreadablesource\\src\\logic\\combat\\source_features.cpp": "fc6f1248e4b083010c8635f0863207b38b3b4b983ab36c9a67c5dd80656a2fbc",
+    "modified\\slinkyreadablesource\\slinkyreadablesource\\src\\engine\\jni\\module_manager.cpp": "158e778cd8c16157056346784d8181dbb7bc4a680a8268826b4ecc16e66d8559",
+    "modified\\provided-injector\\rice-launcher\\CMakeLists.txt": "8c2f45204c419d4cdf1290d5afb2e51c5d938416ecf6415648e9f39928040fda",
+    "modified\\provided-injector\\rice-launcher\\src\\rice-slinky.rc": "8a880678743e83ca40c03d1de3406611fe580be5b21c189a83f873e0d20648ac"
+  },
+  "reference_sha256": {
+    "module/impl/player/PearlRescueModule.java": "12ba2f18c45fe9af345ad51e448ff539738e729d4a7ba4af9ffe46caaa4e2ad0",
+    "utility/PearlFireballSequence.java": "096312ea70513449961739e1d2dd8002938897a2575f222f9ecf14498b1bf767",
+    "utility/RescueFall.java": "1ebcb3e7f37dd22a2019a2634304d21fb93b8f4ea17be9ac9fdf8b9a900c3810",
+    "utility/SimulatedPlayer.java": "c87643ee62437b9884332facad1505ca3c43e34e0e4dba27239805a5b22ade18"
+  },
+  "documented_adaptations": [
+    "native Clutch planned-target query replaces foreign Clutch prediction interface",
+    "bed-target/mining guard replaces foreign module-manager bed-mining flag",
+    "native timer conflicts yield instead of disabling a foreign Timer module",
+    "shared Bridge Egg query has no instance until its port is registered",
+    "hold-bind re-press omitted for native toggle semantics",
+    "declaring-class-specific mapped private-field access replaces Lunar mixin accessors"
+  ],
+  "live_gameplay_tested": false,
+  "live_anticheat_interaction_tested": false,
+  "releases_preserved": true,
+  "updated_copies": [
+    "modified\\rice-loader.exe",
+    "slinky-modified.exe",
+    "modified\\slinky.dll"
+  ],
+  "locked_copies": []
+}

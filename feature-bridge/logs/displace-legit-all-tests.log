@@ -1,0 +1,63 @@
+Test project C:/Users/ethan/Documents/rice slinky new/modified/provided-injector/rice-launcher/build
+      Start  1: LicensePrompt
+ 1/29 Test  #1: LicensePrompt ....................   Passed    0.01 sec
+      Start  2: GuiBranding
+ 2/29 Test  #2: GuiBranding ......................   Passed    0.01 sec
+      Start  3: PlayerEspCompatibility
+ 3/29 Test  #3: PlayerEspCompatibility ...........   Passed    0.01 sec
+      Start  4: BlockInLifecycle
+ 4/29 Test  #4: BlockInLifecycle .................   Passed    0.01 sec
+      Start  5: KeyAuthTransport
+ 5/29 Test  #5: KeyAuthTransport .................   Passed    0.01 sec
+      Start  6: KeyAuthClient
+ 6/29 Test  #6: KeyAuthClient ....................   Passed    0.01 sec
+      Start  7: InjectionNotice
+ 7/29 Test  #7: InjectionNotice ..................   Passed    0.01 sec
+      Start  8: HudEditor
+ 8/29 Test  #8: HudEditor ........................   Passed    0.01 sec
+      Start  9: HeavyGlowGpu
+ 9/29 Test  #9: HeavyGlowGpu .....................   Passed    0.35 sec
+      Start 10: HeavyGlowTwoTextureUnits
+10/29 Test #10: HeavyGlowTwoTextureUnits .........   Passed    0.37 sec
+      Start 11: HeavyGlowUnsupportedFallback
+11/29 Test #11: HeavyGlowUnsupportedFallback .....   Passed    0.33 sec
+      Start 12: FireballPearlNative
+12/29 Test #12: FireballPearlNative ..............   Passed    0.01 sec
+      Start 13: GuiStartup
+13/29 Test #13: GuiStartup .......................   Passed    0.01 sec
+      Start 14: AntiFireballCore
+14/29 Test #14: AntiFireballCore .................   Passed    0.01 sec
+      Start 15: AntiFireballNative
+15/29 Test #15: AntiFireballNative ...............   Passed    0.01 sec
+      Start 16: OgDisplaceVoid
+16/29 Test #16: OgDisplaceVoid ...................   Passed    0.01 sec
+      Start 17: SourceFeaturesJvm
+17/29 Test #17: SourceFeaturesJvm ................   Passed    2.18 sec
+      Start 18: SourceFeaturesJvm_srg
+18/29 Test #18: SourceFeaturesJvm_srg ............   Passed    1.93 sec
+      Start 19: SourceFeaturesJvm_official
+19/29 Test #19: SourceFeaturesJvm_official .......   Passed    1.93 sec
+      Start 20: Bedplates_named
+20/29 Test #20: Bedplates_named ..................   Passed    2.13 sec
+      Start 21: Bedplates_srg
+21/29 Test #21: Bedplates_srg ....................   Passed    1.89 sec
+      Start 22: Bedplates_official
+22/29 Test #22: Bedplates_official ...............   Passed    1.87 sec
+      Start 23: ModuleStartup
+23/29 Test #23: ModuleStartup ....................   Passed    0.01 sec
+      Start 24: StasisNative
+24/29 Test #24: StasisNative .....................   Passed    0.01 sec
+      Start 25: LauncherRegression
+25/29 Test #25: LauncherRegression ...............   Passed    0.17 sec
+      Start 26: NativePayloadRoundtrip
+26/29 Test #26: NativePayloadRoundtrip ...........   Passed    0.39 sec
+      Start 27: ScaffoldWalkOff
+27/29 Test #27: ScaffoldWalkOff ..................   Passed    0.01 sec
+      Start 28: ScaffoldModes
+28/29 Test #28: ScaffoldModes ....................   Passed    0.01 sec
+      Start 29: ScaffoldPlacement
+29/29 Test #29: ScaffoldPlacement ................   Passed    0.01 sec
+
+100% tests passed, 0 tests failed out of 29
+
+Total Test time (real) =  13.80 sec

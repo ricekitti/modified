@@ -1,0 +1,4 @@
+C:/Users/ethan/Documents/rice slinky new/modified/slinkyreadablesource/slinkyreadablesource/build/CMakeFiles/slinky_imports.dir
+C:/Users/ethan/Documents/rice slinky new/modified/slinkyreadablesource/slinkyreadablesource/build/CMakeFiles/slinky.dir
+C:/Users/ethan/Documents/rice slinky new/modified/slinkyreadablesource/slinkyreadablesource/build/CMakeFiles/edit_cache.dir
+C:/Users/ethan/Documents/rice slinky new/modified/slinkyreadablesource/slinkyreadablesource/build/CMakeFiles/rebuild_cache.dir

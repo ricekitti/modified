@@ -1,0 +1,28 @@
+{
+  "evidence_kind": "static local dump and readable reconstruction; not REA retained evidence or runtime trace",
+  "classdump_version": "unverified",
+  "parent_class_sha256": "910f0bb53699492e58268afba03f1bb21ec1d167fb703c2d51098521937d4057",
+  "readable_parent_sha256": "465a81fed7a963acb0c5343e3a306fd0e142b6730bfa83c2c90c14c43e6f23c2",
+  "counter_string_scan_scope": "C:/classdump/out/com.alan.clients.*.class",
+  "counter_string_hits": [
+    "com.alan.clients.module.impl.player.Scaffold.class",
+    "com.alan.clients.module.impl.player.Scaffold_1.class",
+    "com.alan.clients.module.impl.player.Scaffold_2.class"
+  ],
+  "scan_limit": "String presence only. Missing classes, reflection and runtime writes are not ruled out. No external trigger was inferred.",
+  "implemented_parent_paths": [
+    "enable rotation target seed",
+    "temporary blocked-input cache and Snap heading",
+    "pause sneak scheduler and direct placement threshold",
+    "Watchdog default parent rotations and movement",
+    "falling UP face preference",
+    "reused-face grounded Same-Y placement gate",
+    "Strict top-face retry",
+    "grounded support start-height correction"
+  ],
+  "remaining_dependencies": [
+    "Rise Speed alternate Keep-Y branch",
+    "Rise Sprint static prediction slot-selection predicate",
+    "exact original-client event arbitration and missing branches"
+  ]
+}

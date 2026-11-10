@@ -1,0 +1,22 @@
+[
+  {
+    "display_name": "Fireball Boost",
+    "source": "src/main/java/valen/module/impl/movement/FireballBoost.java"
+  },
+  {
+    "display_name": "Bridge Egg Clutch",
+    "source": "src/main/java/valen/module/impl/player/BridgeEgg.java"
+  },
+  {
+    "display_name": "Fireball Pearl Clutch",
+    "source": "src/main/java/valen/module/impl/player/FireballPearlClutch.java"
+  },
+  {
+    "display_name": "Auto Pearl",
+    "source": "src/main/java/valen/module/impl/player/AutoPearl.java"
+  },
+  {
+    "display_name": "Auto Quick Buy",
+    "source": "src/main/java/valen/module/impl/minigames/AutoQuickBuy.java"
+  }
+]

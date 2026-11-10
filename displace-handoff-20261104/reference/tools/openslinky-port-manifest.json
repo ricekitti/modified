@@ -1,0 +1,51 @@
+{
+ "commit": "9c1430df6e0f32582b5762b358a58546c5f94390",
+ "files": {
+  "CriticalsModule.java": {
+   "renames": [
+    [
+     "CatalogModule",
+     "EvidenceModule"
+    ],
+    [
+     "NumericMath",
+     "RecoveredMath"
+    ],
+    [
+     "RotationRandom",
+     "RecoveredRandom"
+    ]
+   ],
+   "upstream_sha256": "b0dac56dd1e02969cfb4d4bd9a8d8981a329e32b973f1ca0651dd59617c9c48b"
+  },
+  "TimerRangeModule.java": {
+   "renames": [
+    [
+     "CatalogModule",
+     "EvidenceModule"
+    ],
+    [
+     "NumericMath",
+     "RecoveredMath"
+    ],
+    [
+     "RotationRandom",
+     "RecoveredRandom"
+    ]
+   ],
+   "upstream_sha256": "8159c95aa66d996382c53a82135e87ed62cefdf0679fea17ca2e957ced2c3c8e"
+  }
+ },
+ "pipeline": {
+  "rewrites": [
+   "package/imports dev.slinky -> dev.rice",
+   [
+    "public static final String NAME = \"slinky_semantic_packets\";",
+    "public static final String NAME = \"rice_semantic_packets\";"
+   ]
+  ],
+  "upstream": "dev/slinky/client/packet/PacketPipeline.java",
+  "upstream_sha256": "da73dfa0417db87ea7406607504775db7eb02e2877c132e846664ccdf8546940"
+ },
+ "upstream": "https://github.com/Skid-Technology/OpenSlinky"
+}

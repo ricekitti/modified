@@ -1,0 +1,30 @@
+{
+  "version": "1.8.3",
+  "file_version": "1.8.3.0",
+  "executable": "C:\\Users\\ethan\\Documents\\rice slinky new\\modified\\releases\\rice-loader-v1.8.3-scaffold-clutch-copy.exe",
+  "exe_sha256": "86e32bb54046c6af8fdb8934793044f25a7c3549979824153779304dfc1c3494",
+  "dll_sha256": "91a22963f064df7e7babba4ca28f96acde220551c9b975f4163e2c427c4605f3",
+  "embedded_payload_matches": true,
+  "native_clone_verification": {
+    "implementation": "Independent native Clutch copy named Scaffold",
+    "logic_machine_code_bytes_identical": 5981,
+    "gui_machine_code_bytes_identical": 829,
+    "relocations_match_after_symbol_isolation": true,
+    "settings_descriptor_bytes_match_except_name_and_private_callbacks": 1400,
+    "independent_runtime_state_bytes": 208,
+    "independent_mutable_aliases": 58,
+    "original_clutch_sources_unchanged": {
+      "modified\\slinkyreadablesource\\slinkyreadablesource\\src\\modules\\block\\clutch.cpp": "48867354689315975cbf2c4661951f04dd2c90ff2138d9527b8548d53c27f882",
+      "modified\\slinkyreadablesource\\slinkyreadablesource\\src\\logic\\block\\clutch.cpp": "a1bbebaab017e17ceb6160aa8d83f6c32163306dbc80cb927caa33feb79e0bfa",
+      "modified\\slinkyreadablesource\\slinkyreadablesource\\original\\slinky-main\\src\\modules\\block\\clutch.cpp": "e57c138eecc8c608d11657dcefb1fbf78cffdfb8de1a43a9e626bfe03a220660",
+      "modified\\slinkyreadablesource\\slinkyreadablesource\\original\\slinky-main\\src\\logic\\block\\clutch.cpp": "5126f400f565eda83258d06ff0ae8b93137893592b02774c8b2f07332080e6c2"
+    },
+    "registry_uses_native_clone": true
+  },
+  "existing_ctest": "23/23 passed",
+  "live_game_tested": false,
+  "changelog": "C:\\Users\\ethan\\Documents\\rice slinky new\\modified\\releases\\rice-loader-v1.8.3-scaffold-clutch-copy.changes.md",
+  "locked_unversioned_files": [
+    "C:\\Users\\ethan\\Documents\\rice slinky new\\slinky-modified.exe"
+  ]
+}

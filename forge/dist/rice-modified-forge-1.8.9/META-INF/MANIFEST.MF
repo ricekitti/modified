@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+FMLCorePlugin: cc181375895fa45df.C438cc4b2c077ee5b1eed
+FMLCorePluginContainsFMLMod: true
+ForceLoadAsMod: true
+FMLAT: aa495.bin
+Implementation-Title: Rice Modified Forge
+Implementation-Version: 0.2.2-forge
+Rice-Build-ID: c1813758-95fa-45df-b56d-032c09e6a495
+

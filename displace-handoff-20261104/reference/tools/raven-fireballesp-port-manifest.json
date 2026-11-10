@@ -1,0 +1,10 @@
+{
+ "rewrites": {
+  "client.raycastBlock(range, aimYaw, aimPitch)": "client.raycastBlock(range, aimYaw, aimPitch, partialTicks)",
+  "client.raycastEntity(blockDist, aimYaw, aimPitch)": "client.raycastEntity(blockDist, aimYaw, aimPitch, partialTicks)",
+  "double eyeX = cam.x;\n    double eyeY = cam.y + player.getEyeHeight();\n    double eyeZ = cam.z;": "Vec3 eye = client.eyePosition(partialTicks);\n    double eyeX = eye.x;\n    double eyeY = eye.y;\n    double eyeZ = eye.z;"
+ },
+ "script": "tools/fixtures/raven/FireballESP.java.txt",
+ "script_sha256": "ec6403fcd10cedbc7c3dc73f927394901266a20748bda5ef98796cf6548680c5",
+ "transform": "4-space indent; wrapper adds live settings refresh; exact body rewrites listed below"
+}

@@ -1,0 +1,246 @@
+[
+  {
+    "module": "Knockback Displace",
+    "gates": [
+      "direction"
+    ],
+    "variants": [
+      {
+        "values": [
+          0
+        ],
+        "controls": [
+          {
+            "section": "Main"
+          },
+          {
+            "key": "direction"
+          },
+          {
+            "key": "cooldown"
+          },
+          {
+            "key": "angle"
+          },
+          {
+            "key": "hide_rotation"
+          },
+          {
+            "section": "Condition"
+          },
+          {
+            "key": "require_no_kb"
+          },
+          {
+            "key": "require_weapon"
+          },
+          {
+            "key": "require_kb_enchant"
+          },
+          {
+            "key": "require_facing_away"
+          }
+        ]
+      },
+      {
+        "values": [
+          1
+        ],
+        "controls": [
+          {
+            "section": "Main"
+          },
+          {
+            "key": "direction"
+          },
+          {
+            "key": "cooldown"
+          },
+          {
+            "key": "angle"
+          },
+          {
+            "key": "hide_rotation"
+          },
+          {
+            "section": "Condition"
+          },
+          {
+            "key": "require_no_kb"
+          },
+          {
+            "key": "require_weapon"
+          },
+          {
+            "key": "require_kb_enchant"
+          },
+          {
+            "key": "require_facing_away"
+          }
+        ]
+      },
+      {
+        "values": [
+          2
+        ],
+        "controls": [
+          {
+            "section": "Main"
+          },
+          {
+            "key": "direction"
+          },
+          {
+            "key": "cooldown"
+          },
+          {
+            "key": "angle"
+          },
+          {
+            "key": "hide_rotation"
+          },
+          {
+            "section": "Condition"
+          },
+          {
+            "key": "require_no_kb"
+          },
+          {
+            "key": "require_weapon"
+          },
+          {
+            "key": "require_kb_enchant"
+          },
+          {
+            "key": "require_facing_away"
+          }
+        ]
+      },
+      {
+        "values": [
+          3
+        ],
+        "controls": [
+          {
+            "section": "Main"
+          },
+          {
+            "key": "direction"
+          },
+          {
+            "key": "use_last_strafe"
+          },
+          {
+            "key": "cooldown"
+          },
+          {
+            "key": "angle"
+          },
+          {
+            "key": "hide_rotation"
+          },
+          {
+            "section": "Condition"
+          },
+          {
+            "key": "require_no_kb"
+          },
+          {
+            "key": "require_weapon"
+          },
+          {
+            "key": "require_kb_enchant"
+          },
+          {
+            "key": "require_facing_away"
+          }
+        ]
+      },
+      {
+        "values": [
+          4
+        ],
+        "controls": [
+          {
+            "section": "Main"
+          },
+          {
+            "key": "direction"
+          },
+          {
+            "key": "use_last_strafe"
+          },
+          {
+            "key": "cooldown"
+          },
+          {
+            "key": "angle"
+          },
+          {
+            "key": "hide_rotation"
+          },
+          {
+            "section": "Condition"
+          },
+          {
+            "key": "require_no_kb"
+          },
+          {
+            "key": "require_weapon"
+          },
+          {
+            "key": "require_kb_enchant"
+          },
+          {
+            "key": "require_facing_away"
+          }
+        ]
+      },
+      {
+        "values": [
+          5
+        ],
+        "controls": [
+          {
+            "section": "Main"
+          },
+          {
+            "key": "direction"
+          },
+          {
+            "key": "cooldown"
+          },
+          {
+            "key": "angle"
+          },
+          {
+            "key": "void_scan_radius"
+          },
+          {
+            "key": "void_ignore_one_block_wall"
+          },
+          {
+            "key": "hide_rotation"
+          },
+          {
+            "section": "Condition"
+          },
+          {
+            "key": "require_no_kb"
+          },
+          {
+            "key": "require_weapon"
+          },
+          {
+            "key": "require_kb_enchant"
+          },
+          {
+            "key": "require_facing_away"
+          }
+        ]
+      }
+    ],
+    "source": "reconstruction\\native\\verified\\surfaces\\Surface_Knockback_Displace.cpp",
+    "adjustments": []
+  }
+]

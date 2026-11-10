@@ -1,0 +1,45 @@
+Test project C:/Users/ethan/Documents/rice slinky new/modified/provided-injector/rice-launcher/build
+      Start  1: PlayerEspCompatibility
+ 1/20 Test  #1: PlayerEspCompatibility ...........   Passed    0.01 sec
+      Start  2: BlockInLifecycle
+ 2/20 Test  #2: BlockInLifecycle .................   Passed    0.01 sec
+      Start  3: KeyAuthTransport
+ 3/20 Test  #3: KeyAuthTransport .................   Passed    0.01 sec
+      Start  4: KeyAuthClient
+ 4/20 Test  #4: KeyAuthClient ....................   Passed    0.01 sec
+      Start  5: InjectionNotice
+ 5/20 Test  #5: InjectionNotice ..................   Passed    0.01 sec
+      Start  6: HudEditor
+ 6/20 Test  #6: HudEditor ........................   Passed    0.01 sec
+      Start  7: HeavyGlowGpu
+ 7/20 Test  #7: HeavyGlowGpu .....................   Passed    0.41 sec
+      Start  8: HeavyGlowTwoTextureUnits
+ 8/20 Test  #8: HeavyGlowTwoTextureUnits .........   Passed    0.35 sec
+      Start  9: HeavyGlowUnsupportedFallback
+ 9/20 Test  #9: HeavyGlowUnsupportedFallback .....   Passed    0.32 sec
+      Start 10: FireballPearlNative
+10/20 Test #10: FireballPearlNative ..............   Passed    0.01 sec
+      Start 11: GuiStartup
+11/20 Test #11: GuiStartup .......................   Passed    0.01 sec
+      Start 12: AntiFireballCore
+12/20 Test #12: AntiFireballCore .................   Passed    0.01 sec
+      Start 13: AntiFireballNative
+13/20 Test #13: AntiFireballNative ...............   Passed    0.01 sec
+      Start 14: SourceFeaturesJvm
+14/20 Test #14: SourceFeaturesJvm ................   Passed    2.22 sec
+      Start 15: SourceFeaturesJvm_srg
+15/20 Test #15: SourceFeaturesJvm_srg ............   Passed    1.90 sec
+      Start 16: SourceFeaturesJvm_official
+16/20 Test #16: SourceFeaturesJvm_official .......   Passed    2.02 sec
+      Start 17: ModuleStartup
+17/20 Test #17: ModuleStartup ....................   Passed    0.02 sec
+      Start 18: StasisNative
+18/20 Test #18: StasisNative .....................   Passed    0.01 sec
+      Start 19: LauncherRegression
+19/20 Test #19: LauncherRegression ...............   Passed    0.16 sec
+      Start 20: NativePayloadRoundtrip
+20/20 Test #20: NativePayloadRoundtrip ...........   Passed    0.37 sec
+
+100% tests passed, 0 tests failed out of 20
+
+Total Test time (real) =   7.93 sec

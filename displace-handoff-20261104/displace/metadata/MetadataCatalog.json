@@ -1,0 +1,218 @@
+[
+  {
+    "module": "Knockback Displace",
+    "registration": "registered",
+    "descriptor_observations": [
+      {
+        "rva": "0x2f5d60",
+        "name": "Knockback Displace",
+        "description": "Allows dealing knockback at a different angle.",
+        "category_numeric": 0,
+        "callbacks": [
+          {
+            "event": 3,
+            "rva": "0x4a520",
+            "priority_signed": 0
+          },
+          {
+            "event": 13,
+            "rva": "0x4a540",
+            "priority_signed": -1000
+          },
+          {
+            "event": 14,
+            "rva": "0x4a560",
+            "priority_signed": 1000
+          },
+          {
+            "event": 15,
+            "rva": "0x4a7d0",
+            "priority_signed": 0
+          },
+          {
+            "event": 18,
+            "rva": "0x4a800",
+            "priority_signed": 1000
+          }
+        ],
+        "metadata_pointer_slots": {}
+      }
+    ],
+    "settings": [
+      {
+        "control": "choice",
+        "key": "direction",
+        "setting_rva": "0x2f6088",
+        "type": "choice",
+        "label": "Direction",
+        "default": null,
+        "default_status": "Startup initialization is not established by captured current/saved values.",
+        "primary_text": null,
+        "secondary_text": "Direction",
+        "option_count": 6,
+        "options": [
+          {
+            "value": 0,
+            "label": "Left"
+          },
+          {
+            "value": 1,
+            "label": "Right"
+          },
+          {
+            "value": 2,
+            "label": "Random"
+          },
+          {
+            "value": 3,
+            "label": "Strafe"
+          },
+          {
+            "value": 4,
+            "label": "Strafe (inverted)"
+          },
+          {
+            "value": 5,
+            "label": "Void"
+          }
+        ],
+        "current_observation": 0,
+        "saved_observation": 0
+      },
+      {
+        "control": "boolean",
+        "key": "use_last_strafe",
+        "setting_rva": "0x2f60e8",
+        "type": "boolean",
+        "label": "Use last strafe direction",
+        "default": null,
+        "default_status": "Startup initialization is not established by captured current/saved values.",
+        "current_observation": 0,
+        "saved_observation": 0
+      },
+      {
+        "control": "number",
+        "key": "angle",
+        "setting_rva": "0x2f5fa8",
+        "type": "number",
+        "label": "Angle",
+        "default": null,
+        "default_status": "Startup initialization is not established by captured current/saved values.",
+        "format": "%.0f°",
+        "step_observation": {
+          "value": 0.0,
+          "bits": "0x00000000"
+        },
+        "extra_ui_parameter_observation": {
+          "value": 0.0,
+          "bits": "0x00000000"
+        },
+        "minimum_observation": {
+          "value": 45.0,
+          "bits": "0x42340000"
+        },
+        "maximum_observation": {
+          "value": 180.0,
+          "bits": "0x43340000"
+        },
+        "current_observation": {
+          "value": 90.0,
+          "bits": "0x42b40000"
+        },
+        "saved_observation": {
+          "value": 90.0,
+          "bits": "0x42b40000"
+        }
+      },
+      {
+        "control": "number",
+        "key": "cooldown",
+        "setting_rva": "0x2f5f70",
+        "type": "number",
+        "label": "Cooldown",
+        "default": null,
+        "default_status": "Startup initialization is not established by captured current/saved values.",
+        "format": "%.0f ms",
+        "step_observation": {
+          "value": 0.0,
+          "bits": "0x00000000"
+        },
+        "extra_ui_parameter_observation": {
+          "value": 50.0,
+          "bits": "0x42480000"
+        },
+        "minimum_observation": {
+          "value": 0.0,
+          "bits": "0x00000000"
+        },
+        "maximum_observation": {
+          "value": 40.0,
+          "bits": "0x42200000"
+        },
+        "current_observation": {
+          "value": 5.0,
+          "bits": "0x40a00000"
+        },
+        "saved_observation": {
+          "value": 5.0,
+          "bits": "0x40a00000"
+        }
+      },
+      {
+        "control": "boolean",
+        "key": "hide_rotation",
+        "setting_rva": "0x2f60c8",
+        "type": "boolean",
+        "label": "Hide rotation from players",
+        "default": null,
+        "default_status": "Startup initialization is not established by captured current/saved values.",
+        "current_observation": 0,
+        "saved_observation": 0
+      },
+      {
+        "control": "boolean",
+        "key": "require_no_kb",
+        "setting_rva": "0x2f5fe0",
+        "type": "boolean",
+        "label": "Not taking knockback",
+        "default": null,
+        "default_status": "Startup initialization is not established by captured current/saved values.",
+        "current_observation": 0,
+        "saved_observation": 0
+      },
+      {
+        "control": "boolean",
+        "key": "require_weapon",
+        "setting_rva": "0x2f6000",
+        "type": "boolean",
+        "label": "Holding weapon",
+        "default": null,
+        "default_status": "Startup initialization is not established by captured current/saved values.",
+        "current_observation": 0,
+        "saved_observation": 0
+      },
+      {
+        "control": "boolean",
+        "key": "require_kb_enchant",
+        "setting_rva": "0x2f6020",
+        "type": "boolean",
+        "label": "Knockback enchantment",
+        "default": null,
+        "default_status": "Startup initialization is not established by captured current/saved values.",
+        "current_observation": 0,
+        "saved_observation": 0
+      },
+      {
+        "control": "boolean",
+        "key": "require_facing_away",
+        "setting_rva": "0x2f6040",
+        "type": "boolean",
+        "label": "Target facing away",
+        "default": null,
+        "default_status": "Startup initialization is not established by captured current/saved values.",
+        "current_observation": 0,
+        "saved_observation": 0
+      }
+    ]
+  }
+]

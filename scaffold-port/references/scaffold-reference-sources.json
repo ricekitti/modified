@@ -1,0 +1,22 @@
+{
+  "primary": {
+    "repository": "https://github.com/ricekitti/Mayu-src-latest",
+    "commit": "7026f1748845db7593c607c5f936c79f7dc27183"
+  },
+  "supplemental": {
+    "repository": "https://github.com/IamNespola/OpenMyau-Plus",
+    "commit": "52c8492c68ed14a0dd6137d0c21f912c463af8d9"
+  },
+  "policy": "Use Mayu-src-latest for Scaffold behavior and defaults. Consult OpenMyau-Plus to understand missing dependencies or behavior; do not automatically import its additional modes.",
+  "files": [
+    "mayu-src-latest/src/main/java/myau/ScaffoldModule.java",
+    "openmyau-plus/src/main/java/myau/module/modules/Scaffold.java",
+    "mayu-src-latest/src/main/java/myau/RotationState.java",
+    "mayu-src-latest/src/main/java/myau/RotationUpdateEvent.java",
+    "mayu-src-latest/src/main/java/myau/mixin/MixinEntityPlayerSP.java",
+    "mayu-src-latest/src/main/java/myau/mixin/MixinMinecraft.java",
+    "mayu-src-latest/src/main/java/myau/mixin/MixinPlayerControllerMP.java",
+    "mayu-src-latest/src/main/java/myau/ItemUtils.java"
+  ]
+}
+

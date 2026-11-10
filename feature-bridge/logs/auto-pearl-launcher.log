@@ -1,0 +1,19 @@
+[0/1] Re-running CMake...
+-- Configuring done (0.4s)
+-- Generating done (0.1s)
+-- Build files have been written to: C:/Users/ethan/Documents/rice slinky new/modified/provided-injector/rice-launcher/build
+[1/14] Building CXX object CMakeFiles\SourceFeaturesJvmTest.dir\tests\SourceFeaturesJvmTest.cpp.obj
+[2/14] Linking CXX executable SourceFeaturesJvmTest.exe
+[3/14] Generating RiceNative.lzms
+Native resource: 29,289,984 -> 4,078,548 bytes
+[4/14] Building RC object CMakeFiles\rice_slinky.dir\src\rice-slinky.rc.res
+[5/14] Building CXX object CMakeFiles\rice_slinky.dir\src\AuthManager.cpp.obj
+[6/14] Building CXX object CMakeFiles\rice_slinky.dir\src\KeyAuthTransport.cpp.obj
+[7/14] Building CXX object CMakeFiles\rice_slinky.dir\src\Logger.cpp.obj
+[8/14] Building CXX object CMakeFiles\rice_slinky.dir\src\Process.cpp.obj
+[9/14] Building CXX object CMakeFiles\rice_slinky.dir\src\Resources.cpp.obj
+C:\Users\ethan\Documents\rice slinky new\modified\provided-injector\rice-launcher\src\Resources.cpp(117): warning C4505: 'soju::extractPayload': unreferenced function with internal linkage has been removed
+[10/14] Building CXX object CMakeFiles\rice_slinky.dir\src\main.cpp.obj
+[11/14] Building CXX object CMakeFiles\rice_slinky.dir\src\KeyAuthClient.cpp.obj
+[12/14] Building CXX object CMakeFiles\rice_slinky.dir\src\Loader.cpp.obj
+[13/14] Linking CXX executable rice-loader.exe

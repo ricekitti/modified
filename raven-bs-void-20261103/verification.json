@@ -1,0 +1,42 @@
+{
+  "built_at": "2026-11-03T20:46:24.230988",
+  "native_fix": "Get per-thread JNI environment from JavaVM; scoped callback contexts; no retained hook-stack or deleted local JNI refs",
+  "regression_tests": "22/22 passed; Bow idle enable/expired context and target aiming in named, SRG, official",
+  "raven_mode": "Mode -> Raven bS Void; legacy Direction -> Void supported",
+  "raven_source": {
+    "reference_sha256": "06626941523aae0c4ee58614f1e98abc1b80788faeb7e20cd0b00c34370149b7",
+    "methods": [
+      "findBestVoidYaw",
+      "selectBetterVoidYaw",
+      "scoreVoidPath",
+      "getVoidNeighborhood",
+      "getVoidPathBlockedDistance",
+      "isOneBlockWall",
+      "isVoidColumn",
+      "getColumnKey"
+    ],
+    "classes": [
+      "VoidYawCandidate",
+      "VoidPathScore",
+      "VoidNeighborhood"
+    ],
+    "adaptations": [
+      "host constructor/API",
+      "1.8.9 block collision API",
+      "debug observers omitted",
+      "optional existing Legit Void filter added by build.py"
+    ]
+  },
+  "packaged_dll_sha256": "f4f1809fa9407a8e3226785558ccc07e453713596cb59b62431699a8d9562027",
+  "loader_sha256": "b76b581891e1d87018776915451192dcd43e2f00dd3084f2e0da858f88348d7b",
+  "runtime_extraction": "matches built DLL",
+  "updated": [
+    "modified/rice-loader-bow-fixed-raven-void.exe",
+    "modified/rice-loader.exe",
+    "modified/rice-loader-remember-key.exe"
+  ],
+  "locked": [
+    "slinky-modified.exe"
+  ],
+  "live_gameplay_verified": false
+}

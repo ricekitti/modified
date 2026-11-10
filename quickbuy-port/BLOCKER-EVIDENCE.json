@@ -1,0 +1,29 @@
+{
+  "checked_at_utc": "2026-11-05T20:20:19.980683+00:00",
+  "missing": [
+    "valen.module.impl.minigames.quickbuy.PurchaseConfirmation",
+    "valen.module.impl.minigames.quickbuy.PurchaseConfirmation.Status"
+  ],
+  "archives": [
+    {
+      "path": "C:\\Users\\ethan\\Documents\\ChatGPT\\dfdfdf\\valen-selected-src.zip",
+      "sha256": "127f23aed8e9920cdd774f4c269f9faa330a7674c5846e8ade35144acad3a3bf",
+      "entries": 263,
+      "matching_entries": []
+    },
+    {
+      "path": "C:\\Users\\ethan\\Documents\\ChatGPT\\dfdfdf\\valen-module-src\\reference\\captured-input.jar",
+      "sha256": "491cc953e88df2528eefde2f19ed24f5df79ca29925e310d2ca11fdcdbaacd82",
+      "entries": 420,
+      "matching_entries": []
+    },
+    {
+      "path": "C:\\Users\\ethan\\Documents\\ChatGPT\\dfdfdf\\valen-analysis\\valen-captured-classes-20261105T180257Z.jar",
+      "sha256": "5a5d79d4339d7fc0111af91cf64c5144039984f6e29e22e73a789271a56afd5e",
+      "entries": 420,
+      "matching_entries": []
+    }
+  ],
+  "loose_files": [],
+  "result": "No helper source/class recovered; no replacement confirmation algorithm implemented."
+}

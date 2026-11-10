@@ -1,0 +1,7 @@
+[0/2] Re-checking globbed directories...
+[1/7] Generating data_scaffold_native.obj
+[2/7] Building CXX object CMakeFiles\slinky.dir\src\engine\jni\module_manager.cpp.obj
+[3/7] Building CXX object CMakeFiles\slinky.dir\src\engine\jni\hook_installer.cpp.obj
+[4/7] Building CXX object CMakeFiles\slinky.dir\src\logic\block\scaffold_native.cpp.obj
+[5/7] Building CXX object CMakeFiles\slinky.dir\src\logic\combat\source_features.cpp.obj
+[6/7] Linking CXX shared library slinky.dll

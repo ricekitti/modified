@@ -1,0 +1,129 @@
+{
+  "version": "1.8.15.0",
+  "feature": "Bridge Egg Clutch and independent Quick Buy helpers",
+  "exe_sha256": "c31c230e358951cccced5c4e46e05383fb5cabb84fd5f276ed0e7d7989d0e3dd",
+  "native_sha256": "0316bc4957283cb3f5abd6895810167491efd5eb3fb66a5d48ae5ca611b355ff",
+  "embedded_payload_matches": true,
+  "embedded_match_evidence": "Versioned release --check-runtime decoded DLL equals rebuilt DLL SHA-256",
+  "ctest": {
+    "passed": 32,
+    "failed": 0
+  },
+  "behavior_checks_per_mapping": {
+    "auto_pearl": 22,
+    "fireball_pearl_clutch": 13,
+    "bridge_egg": 21,
+    "quickbuy_helpers": 21
+  },
+  "mappings": [
+    "named",
+    "srg",
+    "official"
+  ],
+  "payloads": {
+    "named": {
+      "sha256": "ca708ee993acafcec15bb02df3afa59c11187460d2aa5b117623989e36a31603",
+      "class_count": 1301
+    },
+    "srg": {
+      "sha256": "4ea0d5ef0cf6a38ea68e31df1573f1b27b3ccf65b8c73f568f2b4339d3eb88bf",
+      "class_count": 1301
+    },
+    "official": {
+      "sha256": "912f581ddc31b7fcca5840bdf185254da0b60c44301d955d8ecdab9c0dc1cb75",
+      "class_count": 1301
+    }
+  },
+  "source_sha256": {
+    "modified\\feature-bridge\\build.py": "4b73ae381223aba2b1e3dd743b6e36963f2abafe348fa51ee45deca5ced84c00",
+    "modified\\feature-bridge\\prepare_bridge_egg.py": "85454d396c47907f060d063f865edd03254aa8bd4b428767ccb1e542a02f2f1d",
+    "modified\\feature-bridge\\prepare_displace_legit.py": "bb3932da7cc39e1581c8cd9f51b9da0a087e1e89e556e9fce96eeec17e7f0711",
+    "modified\\feature-bridge\\prepare_mayu.py": "74e6f33d011fd07da7636fc3bcd0c52fc7d33b6340c8b9ac4abe24b442f50975",
+    "modified\\feature-bridge\\prepare_pearl.py": "8b38acbc593a6e316635cc2079aebaed5cf3ffcae7eb97148f7f707ae09a7c72",
+    "modified\\feature-bridge\\prepare_quickbuy.py": "d39aa4ee449fbb3b6afbbbef81af8d85ce1bfdf1ddd7dc7e6870f30898b6f3f7",
+    "modified\\feature-bridge\\prepare_raven_void.py": "509b58908517499e58ae7eea008ef742c7606943b1bfd0694f4a63053c4b5181",
+    "modified\\feature-bridge\\prepare_rice_anticheat.py": "b340c22413614f91a462fe39e901518b8c7a1f7223901d27493b29c81d0cf1c4",
+    "modified\\feature-bridge\\prepare_slinky_scaffold.py": "80c51b5864d0fc678c31b85347ed46aedc99da3287b191acac5e8435edece25f",
+    "modified\\feature-bridge\\prepare_supplied.py": "65f994f2cf95cb29e034b699a28c8a65872d32f1d70c1a0cb3bb3ebc04be9946",
+    "modified\\feature-bridge\\java\\AutoPearlFeatureModule.java": "401b8e7236934188bd9b5d1736d70ad53e17616dce318e2bc25e783a17fd5952",
+    "modified\\feature-bridge\\java\\bedplates\\Bedplates.java": "cf9eea110b0cf1a0a2ff961dab3c20e9bc42dc9f4bb5a251dd81de0a58dd82cf",
+    "modified\\feature-bridge\\java\\bedplates\\BedplatesCore.java": "56bf8877408ac800f8a6567756fef7c7c2ccc3acfef1ae54be0464fb7dbc0cc0",
+    "modified\\feature-bridge\\java\\bedplates\\BedplatesVariants.java": "a89429e28ce50bf8cccd65d8da9bd21aed206f49d9f015cfb301cb9af5b2b3eb",
+    "modified\\feature-bridge\\java\\fireball\\FireballJumpTracker.java": "3b9f305646d7f69940b2f30089204a0aa38f59c21c4b7d034d89e80b51187f1f",
+    "modified\\feature-bridge\\java\\fireball\\TimerController.java": "b5ece7f366d2fea9a4c2b16851dbc7988fdb29b94324c7dd4e76ccd469cd9aa3",
+    "modified\\feature-bridge\\java\\fireball\\TimerRangeCycle.java": "2c155c2cbc34f7cba4aef5dd3e83770313ce3f2b55ce66c46721cab9596f4006",
+    "modified\\feature-bridge\\java\\FireballBoostFeatureModule.java": "741facc91c95395873cc4e66cad4d0039ed8088f777be40754de1fa49c4c0f1b",
+    "modified\\feature-bridge\\java\\FireballPearlClutchFeatureModule.java": "011aa00090e38d9ce57b1c61f648e232b1966b5c0a4cd43998d7137d780ef1dc",
+    "modified\\feature-bridge\\java\\LegitVoidPolicy.java": "ea856ad12d9bbbc9665557dbe3d6f3c85c75182f74220ed676a47f32b8c7412a",
+    "modified\\feature-bridge\\java\\mayu\\Compatibility.java": "b4a458843057fea917e3f5a4cebe64eefee36b0f2c0a8baf00c5b0e2070a77ff",
+    "modified\\feature-bridge\\java\\mayu\\Module.java": "3d3a9adfae6a551aa5cbc95ddcbbe6f4671264a27f93bef9aa4ebf2a2c365397",
+    "modified\\feature-bridge\\java\\NativeFeatureBridge.java": "09cf6d053214e04acb106502d7ca06a0020aaab8ec2e8b9243df79fc6eb4c138",
+    "modified\\feature-bridge\\java\\pearl\\ContinuousCondition.java": "5ee6252a26559bdda5370be5643e067363439e6210c3241c11592ce4eec323d9",
+    "modified\\feature-bridge\\java\\pearl\\RescueItemUse.java": "54ff69430d1dc94ee5114cb55804da5a1a8a049fa7a9f77d801dd12456eeac8d",
+    "modified\\feature-bridge\\java\\pearl\\RescueServices.java": "1f449219291dd49e98ae2420e9d859f3a814d1bdd77c7e8914d497745b3ce228",
+    "modified\\feature-bridge\\java\\pearl\\SupportScan.java": "de1a101a519fd59cadb4928ba161dbdada66bc92caab5e9e466255f181c63bd8",
+    "modified\\feature-bridge\\java\\quickbuy\\QuickBuyUi.java": "cc4df9115a30ad6c4956dca008b42d6e4545e82a56f54ae745ad0d473a7ab16a",
+    "modified\\feature-bridge\\java\\riceanticheat\\Configuration.java": "debd8a30e1bdaf41b212c52a21526528f02591a6d0ed523c31f47d2321f1400d",
+    "modified\\feature-bridge\\java\\riceanticheat\\FatigueControl.java": "012430ea52b411def1a2b3f258b2f6b4f5cb228db9c41a1761deb858df35a831",
+    "modified\\feature-bridge\\java\\riceanticheat\\Host.java": "7d117f29d778618a4f3fe7933773342f0a6f6f004b6da091383d535fa70cea54",
+    "modified\\feature-bridge\\java\\riceanticheat\\Monitor.java": "f4da73a903a3ddc4b7aa1b70628c5977db507c88420b8f12d734e05561e5da52",
+    "modified\\feature-bridge\\java\\riceanticheat\\Property.java": "17ede4d5afb6b421fad1a01c6efbe3d863131f1490c7a76e4ccdc61255ccf363",
+    "modified\\feature-bridge\\java\\riceanticheat\\RenderState.java": "557d681243f714447c4f0704bb867481048099f781970ca30b864e8fb0c531f6",
+    "modified\\feature-bridge\\java\\RiceFeatureLoader.java": "e1f7139c4b12a828f533b7922022ef5ffc4a8a981bc37d185aea37e67cb2c98c",
+    "modified\\feature-bridge\\java\\RiceFeatureLoader2.java": "803e54a6ded8723b14b7028eafeed48c4328e858a26c773bbafc5d19f9a15dbd",
+    "modified\\feature-bridge\\java\\ScaffoldModule.java": "89a0258fd8a6045b1477c6cec599d7ec8f2f372e41f7675ba89e057bf097d17b",
+    "modified\\feature-bridge\\java\\SlinkyScaffoldBackend.java": "f6f966cd0aaed6cf4d118e2d4325372c00f4420f4458c175f8037ebcafdfc23e",
+    "modified\\feature-bridge\\java\\supplied\\com\\snowy\\config\\Configuration.java": "da70f9f5589ca33d67561e86c76f3ba54e341364503fe769e121036abdb8cb0a",
+    "modified\\feature-bridge\\java\\supplied\\com\\snowy\\config\\Property.java": "d643f5ebd4b059048d765b502210c8837189399dd1346c3dc33cdc09e359a2df",
+    "modified\\feature-bridge\\java\\supplied\\com\\snowy\\core\\event\\RenderGameOverlayEvent.java": "7c34f4f255e92f4993ad13b38888002d2a8c1a421188178a91bcccceee9ddbe2",
+    "modified\\feature-bridge\\java\\supplied\\com\\snowy\\core\\event\\RenderWorldLastEvent.java": "ec58e4e65820483e7a6b116cd8b103ef4e42c19638ddfba5ef5ff8ee9a4bf6ee",
+    "modified\\feature-bridge\\java\\supplied\\com\\snowy\\core\\event\\SubscribeEvent.java": "3dfbc5bcbeb172e687adc3b16d5c777fe4643d51ae28abd6071c22a81c6c64b3",
+    "modified\\feature-bridge\\java\\supplied\\com\\snowy\\core\\event\\TickEvent.java": "3497c5d5ab262f26e9f2c1ee93df2435cd0f6f5253ed6892366f992a28b6b19a",
+    "modified\\feature-bridge\\java\\supplied\\com\\snowy\\gui\\HudStyle.java": "d17a9df1ed930b49c6509c7c88955feee4825baaee1b425b65a3f5502ffde169",
+    "modified\\feature-bridge\\java\\supplied\\com\\snowy\\gui\\Theme.java": "af327daa825e2694b9cb4f1e477ef23ccc93945fd9abdef65932d38a9d9a275e",
+    "modified\\feature-bridge\\java\\supplied\\com\\snowy\\module\\combat\\buffer\\AutoBuffer.java": "c361741c954b400edf7504601b58b310bf57efd653948a92a4a374bc275f2dbd",
+    "modified\\feature-bridge\\java\\supplied\\com\\snowy\\module\\combat\\displace\\WireRotation.java": "47f873acb7e280c8d840116c38fff38af6ac7f1c7b5ec5f2dbbee29d6863fb59",
+    "modified\\feature-bridge\\java\\supplied\\com\\snowy\\module\\Mod.java": "6cb6af833e60edbcfa5efe431073d772a7b1b07baec582fa44ac01b713c230cc",
+    "modified\\feature-bridge\\java\\supplied\\com\\snowy\\rotation\\MixinProbe.java": "ffd784e7f8161adaf0285aa5b0c9c2a668f4caa0d6154454c42bb1d7bdfdb6dd",
+    "modified\\feature-bridge\\java\\supplied\\com\\snowy\\util\\Claims.java": "2f4610841a44a419ae129f8105f500501ef9032ea19d0e4ea3ea9ee43378b176",
+    "modified\\feature-bridge\\java\\supplied\\com\\snowy\\util\\PlaceWatch.java": "aa1985922eb8e3a25dac4c6043232d05a740bab5328ca5840d787f256b6c49b6",
+    "modified\\feature-bridge\\tests\\PearlFixture.java": "f0dfe014e26bde7db46b0621a5fd4100d2a00ce2bf6bd6cd6d204e79c3eba04c",
+    "modified\\feature-bridge\\tests\\QuickBuyFixture.java": "49c604b4f9e374f43bb91e6c1a2111fed27d95a193cf416bd6be836802044299",
+    "modified\\feature-bridge\\tests\\FeatureFixture.java": "bd4abd69b79bd64618ca6e189e0866430ae235984090f29ad32f95f62faebd12",
+    "modified\\provided-injector\\rice-launcher\\tests\\SourceFeaturesJvmTest.cpp": "c0a480126c2d63baacae48f11bd78e514720669af63f4603f0e811b8838a10de",
+    "modified\\slinkyreadablesource\\slinkyreadablesource\\src\\logic\\combat\\source_features.cpp": "60d9289596c7e4489b4b4f1bb92e66daf6b0267fbafdf39070688f56fa44a439",
+    "modified\\slinkyreadablesource\\slinkyreadablesource\\src\\logic\\combat\\anti_fireball.cpp": "7cd88d7597abbdca6178bb90859a10a70b42f00efe295871d47a81527f56f4fa",
+    "modified\\slinkyreadablesource\\slinkyreadablesource\\src\\engine\\jni\\module_manager.cpp": "b802a971a20923fcedbcc155af5695d1a489b3cafd389768509aa9704eaffc05",
+    "modified\\provided-injector\\rice-launcher\\CMakeLists.txt": "a419fe8a8d51663b2c8db799d818690d93d24e3208cc9c816f26235ef9872150",
+    "modified\\provided-injector\\rice-launcher\\src\\rice-slinky.rc": "73ceb589bf531893c3a94ee1b5b782bd90a385efae9e4ee1d910849bf384e865"
+  },
+  "reference_manifests": {
+    "pearl\\bridge-egg-source-hashes.json": {
+      "bridge_egg": "7d33d5cdb76185f15d3340c72d9114f4a65fe9bdf40b1dbe4332d298da2bf25f",
+      "trajectory_source": "C:\\Users\\ethan\\Documents\\ChatGPT\\dfdfdf\\valen-module-src\\src\\main\\java\\valen\\module\\impl\\render\\Trajectories.java",
+      "trajectory_sha256": "f483990da1e143bf0b2f62601a618ca85b754fe9a35a0748549d34edb23488f8",
+      "adaptation": "VoidProximity replaced by recovered PearlRescue footprint support semantics; props/update holders reconstructed from constants and reads"
+    },
+    "pearl\\source-hashes.json": {
+      "module/impl/player/PearlRescueModule.java": "12ba2f18c45fe9af345ad51e448ff539738e729d4a7ba4af9ffe46caaa4e2ad0",
+      "utility/PearlFireballSequence.java": "096312ea70513449961739e1d2dd8002938897a2575f222f9ecf14498b1bf767",
+      "utility/RescueFall.java": "1ebcb3e7f37dd22a2019a2634304d21fb93b8f4ea17be9ac9fdf8b9a900c3810",
+      "utility/SimulatedPlayer.java": "c87643ee62437b9884332facad1505ca3c43e34e0e4dba27239805a5b22ade18"
+    },
+    "quickbuy\\source-hashes.json": {
+      "BedWarsShopItem.java": "a3e85f0635d4a35c761ca8c077481f2c36c028a766ce1931d6b74b8ea5216ab6",
+      "QuickBuyPresetsSetting.java": "8b44d38e11217cb119d767ab2359eaeadf418bdaece23be42a0f3b3df0b5de30",
+      "QuickBuyPresetScreen.java": "faa0dfa44ffef96692fb842e4e2402043d6770a12b16608387441e2eafcd5548",
+      "AutoQuickBuy.java": "28778640371cb0f802980a52e01832d1746788c7c075fad275fc33a575406fc4"
+    }
+  },
+  "live_gameplay_tested": false,
+  "live_anticheat_interaction_tested": false,
+  "releases_preserved": true,
+  "updated_copies": [
+    "modified\\rice-loader.exe",
+    "slinky-modified.exe",
+    "modified\\slinky.dll"
+  ],
+  "locked_copies": []
+}

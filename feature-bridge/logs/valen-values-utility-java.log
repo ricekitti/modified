@@ -1,0 +1,83 @@
+warning: [options] source value 8 is obsolete and will be removed in a future release
+warning: [options] target value 8 is obsolete and will be removed in a future release
+warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+3 warnings
+Statically transformed 4 class files into C:\Users\ethan\Documents\rice slinky new\modified\feature-bridge\build\supplied\helpers-named.jar
+warning: [options] source value 8 is obsolete and will be removed in a future release
+warning: [options] target value 8 is obsolete and will be removed in a future release
+warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+3 warnings
+warning: [options] source value 8 is obsolete and will be removed in a future release
+warning: [options] target value 8 is obsolete and will be removed in a future release
+warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+3 warnings
+warning: [options] source value 8 is obsolete and will be removed in a future release
+warning: [options] target value 8 is obsolete and will be removed in a future release
+warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+3 warnings
+warning: [options] source value 8 is obsolete and will be removed in a future release
+warning: [options] target value 8 is obsolete and will be removed in a future release
+warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+3 warnings
+Fog hook contract: net/minecraft/client/renderer/EntityRenderer.renderWorldPass, 5 setupFog calls; 34 JNI declarations
+Scaffold movement hook contract: net/minecraft/entity/EntityLivingBase, all three vanilla movement branches verified
+Scaffold jump hook contract: net/minecraft/entity/EntityLivingBase, vanilla jump call and native signature verified
+Mayu hook contracts: update, packet, input, living, scroll, number-key, block interaction verified: C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\build\minecraft-1.8.9-named.jar
+Statically transformed 1301 class files into C:\Users\ethan\Documents\rice slinky new\modified\feature-bridge\build\features-srg.jar
+Statically transformed 1301 class files into C:\Users\ethan\Documents\rice slinky new\modified\feature-bridge\build\features-official.jar
+warning: [options] source value 8 is obsolete and will be removed in a future release
+warning: [options] target value 8 is obsolete and will be removed in a future release
+warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+Note: C:\Users\ethan\Documents\rice slinky new\modified\feature-bridge\tests\RiceAnticheatTest.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+3 warnings
+wrote headless Keyboard/Mouse stand-ins to C:\Users\ethan\Documents\rice slinky new\modified\feature-bridge\build\fixture
+Statically transformed 63 class files into C:\Users\ethan\Documents\rice slinky new\modified\feature-bridge\build\fixture-srg.jar
+Fog hook contract: net/minecraft/client/renderer/EntityRenderer.func_175068_a, 5 setupFog calls; 34 JNI declarations
+Scaffold movement hook contract: net/minecraft/entity/EntityLivingBase, all three vanilla movement branches verified
+Scaffold jump hook contract: net/minecraft/entity/EntityLivingBase, vanilla jump call and native signature verified
+Mayu hook contracts: update, packet, input, living, scroll, number-key, block interaction verified: C:\Users\ethan\Documents\rice slinky new\modified\feature-bridge\build\minecraft-srg.jar
+Statically transformed 63 class files into C:\Users\ethan\Documents\rice slinky new\modified\feature-bridge\build\fixture-official.jar
+Fog hook contract: bfk.a, 5 setupFog calls; 34 JNI declarations
+Scaffold movement hook contract: pr, all three vanilla movement branches verified
+Scaffold jump hook contract: pr, vanilla jump call and native signature verified
+Mayu hook contracts: update, packet, input, living, scroll, number-key, block interaction verified: C:\Users\ethan\Documents\rice slinky new\modified\feature-bridge\build\minecraft-official-test.jar
+Nov 05, 2026 2:56:30 PM io.netty.util.internal.PlatformDependent <clinit>
+INFO: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+Supplied Scaffold source behavior: 17 assertions passed
+Nov 05, 2026 2:56:31 PM io.netty.util.internal.PlatformDependent <clinit>
+INFO: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+Supplied Scaffold source behavior: 17 assertions passed
+Nov 05, 2026 2:56:33 PM io.netty.util.internal.PlatformDependent <clinit>
+INFO: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+Supplied Scaffold source behavior: 17 assertions passed
+Nov 05, 2026 2:56:35 PM io.netty.util.internal.PlatformDependent <clinit>
+INFO: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+Slinky Scaffold backend: 159 geometry, continuity, reach and isolation assertions passed
+Nov 05, 2026 2:56:37 PM io.netty.util.internal.PlatformDependent <clinit>
+INFO: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+Slinky Scaffold backend: 159 geometry, continuity, reach and isolation assertions passed
+Nov 05, 2026 2:56:39 PM io.netty.util.internal.PlatformDependent <clinit>
+INFO: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+Slinky Scaffold backend: 159 geometry, continuity, reach and isolation assertions passed
+Nov 05, 2026 2:56:41 PM io.netty.util.internal.PlatformDependent <clinit>
+INFO: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+Bedplates: 39 defense, pairing, display, projection, loaded-chunk and lifecycle checks passed
+Nov 05, 2026 2:56:43 PM io.netty.util.internal.PlatformDependent <clinit>
+INFO: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+Bedplates: 39 defense, pairing, display, projection, loaded-chunk and lifecycle checks passed
+Nov 05, 2026 2:56:44 PM io.netty.util.internal.PlatformDependent <clinit>
+INFO: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+Bedplates: 39 defense, pairing, display, projection, loaded-chunk and lifecycle checks passed
+Nov 05, 2026 2:56:47 PM io.netty.util.internal.PlatformDependent <clinit>
+INFO: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+RiceSlinky Anticheat/Fatigue: 46 detector, blacklist, branding, motion, mining and scoped fatigue checks passed
+Nov 05, 2026 2:56:49 PM io.netty.util.internal.PlatformDependent <clinit>
+INFO: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+RiceSlinky Anticheat/Fatigue: 46 detector, blacklist, branding, motion, mining and scoped fatigue checks passed
+Nov 05, 2026 2:56:50 PM io.netty.util.internal.PlatformDependent <clinit>
+INFO: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+RiceSlinky Anticheat/Fatigue: 46 detector, blacklist, branding, motion, mining and scoped fatigue checks passed
+Built original supplied module classes for named, SRG, and official mappings.

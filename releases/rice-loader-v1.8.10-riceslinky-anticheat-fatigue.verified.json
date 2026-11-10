@@ -1,0 +1,78 @@
+{
+  "version": "1.8.10.0",
+  "exe_sha256": "e69cec7055e57cc8080c8d510a36ec1f07c9dd6177376cce7b074fef1acfc0fc",
+  "native_sha256": "7ac99b94edb731695019778acf45a57a4f0b8665da385780d2914f2afd858659",
+  "embedded_payload_matches": true,
+  "ctest": {
+    "passed": 32,
+    "failed": 0
+  },
+  "rice_anticheat_checks_per_mapping": 46,
+  "mappings": [
+    "named",
+    "srg",
+    "official"
+  ],
+  "defaults": {
+    "anticheat_enabled": false,
+    "fatigue_mode": "Off",
+    "fatigue_dig_speed_percent": 75
+  },
+  "coverage": [
+    "original detector default settings",
+    "Autoblock threshold and saved blacklist",
+    "RiceSlinky alert branding",
+    "Keep-Y/Tower motion scoring",
+    "Bridge Assist short sneak timing",
+    "Stasis support/placement gating",
+    "Fast Mine and No Break Delay packet timings",
+    "tab marker insertion and latest-server-component restoration",
+    "local blacklist command handling and untouched normal chat",
+    "fatigue level/wooden-tool multiplier",
+    "Hold packet filtering and remaining-effect restoration",
+    "effect removal and world reset",
+    "native Fast Mine GUI extension and scoped speed override"
+  ],
+  "scope_unchanged": {
+    "clutch": {
+      "modified\\slinkyreadablesource\\slinkyreadablesource\\src\\modules\\block\\clutch.cpp": "48867354689315975cbf2c4661951f04dd2c90ff2138d9527b8548d53c27f882",
+      "modified\\slinkyreadablesource\\slinkyreadablesource\\src\\logic\\block\\clutch.cpp": "a1bbebaab017e17ceb6160aa8d83f6c32163306dbc80cb927caa33feb79e0bfa",
+      "modified\\slinkyreadablesource\\slinkyreadablesource\\original\\slinky-main\\src\\modules\\block\\clutch.cpp": "e57c138eecc8c608d11657dcefb1fbf78cffdfb8de1a43a9e626bfe03a220660",
+      "modified\\slinkyreadablesource\\slinkyreadablesource\\original\\slinky-main\\src\\logic\\block\\clutch.cpp": "5126f400f565eda83258d06ff0ae8b93137893592b02774c8b2f07332080e6c2"
+    },
+    "scaffold_source_sha256": "87da075d43d4c157d8a4131addc2156ddf0e5aa4cddffff9801090e4f280a594",
+    "displace": true,
+    "bedplates": true,
+    "archived_fast_mine_sources": {
+      "src/logic/block/fast_mine.cpp": "ae35c7e0dd7256257b7decee56b72aeec81704fcb7c99ce35a2aca9062f96a01",
+      "src/modules/block/fast_mine.cpp": "5db7b4c238f87971aafa50301b5c157c3451a667aa99f1ab659ffe072d3f45e2"
+    }
+  },
+  "source_sha256": {
+    "modified\\feature-bridge\\prepare_rice_anticheat.py": "b340c22413614f91a462fe39e901518b8c7a1f7223901d27493b29c81d0cf1c4",
+    "modified\\feature-bridge\\java\\NativeFeatureBridge.java": "1f238caac2ccc5003209fe99fb2ef987b28c9eba441adc1f81206be7928d6cb8",
+    "modified\\feature-bridge\\build.py": "acb07a8f50c95e526d589c0a7892410e28af54b42a83ae271b88d6c924260e35",
+    "modified\\slinkyreadablesource\\slinkyreadablesource\\src\\logic\\utility\\rice_anticheat_adapter.inc": "ff96a01c8337e2edf0eff3cbb0ea49bf0c88390e77dbd6d6d8b5dac99af40038",
+    "modified\\slinkyreadablesource\\slinkyreadablesource\\src\\logic\\combat\\source_features.cpp": "6050fdd865cf04693716ef42251dea03472d310339d085db488d41301581ebf0",
+    "modified\\slinkyreadablesource\\slinkyreadablesource\\src\\engine\\jni\\module_manager.cpp": "54da1dc4915c93486b39b35d6721cb9c4360961cb73d36ecd99b591e1422dbce",
+    "modified\\feature-bridge\\java\\riceanticheat\\Configuration.java": "debd8a30e1bdaf41b212c52a21526528f02591a6d0ed523c31f47d2321f1400d",
+    "modified\\feature-bridge\\java\\riceanticheat\\FatigueControl.java": "012430ea52b411def1a2b3f258b2f6b4f5cb228db9c41a1761deb858df35a831",
+    "modified\\feature-bridge\\java\\riceanticheat\\Host.java": "7d117f29d778618a4f3fe7933773342f0a6f6f004b6da091383d535fa70cea54",
+    "modified\\feature-bridge\\java\\riceanticheat\\Monitor.java": "f4da73a903a3ddc4b7aa1b70628c5977db507c88420b8f12d734e05561e5da52",
+    "modified\\feature-bridge\\java\\riceanticheat\\Property.java": "17ede4d5afb6b421fad1a01c6efbe3d863131f1490c7a76e4ccdc61255ccf363",
+    "modified\\feature-bridge\\java\\riceanticheat\\RenderState.java": "557d681243f714447c4f0704bb867481048099f781970ca30b864e8fb0c531f6",
+    "modified\\feature-bridge\\build\\adapted\\Anticheat.java": "95fdf0fa57cb29a66fe0473a8264b65e4b1b0f94975be675351579b4f208bd6c",
+    "modified\\feature-bridge\\build\\adapted\\BreakCheck.java": "015e8989b3d434521b794f8f561064e0ea2d795492132d7f34331683e54c9772",
+    "modified\\feature-bridge\\build\\adapted\\CommandBlacklist.java": "de0033d8826c51a8fb13dfa82fbe5a3bee9d9f2fdd849fa92426cdf7ed5cec72"
+  },
+  "reference_class_manifest": "../snowify-anticheat-port/reference/class-sha256.json",
+  "license_embedded": true,
+  "live_gameplay_tested": false,
+  "live_gpu_visual_tested": false,
+  "updated_copies": [
+    "modified\\rice-loader.exe",
+    "slinky-modified.exe",
+    "modified\\slinky.dll"
+  ],
+  "locked_copies": []
+}

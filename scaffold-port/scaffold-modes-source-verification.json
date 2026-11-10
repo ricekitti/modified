@@ -1,0 +1,33 @@
+{
+  "version": "1.8.6",
+  "clutch_unchanged": {
+    "modified\\slinkyreadablesource\\slinkyreadablesource\\src\\modules\\block\\clutch.cpp": "48867354689315975cbf2c4661951f04dd2c90ff2138d9527b8548d53c27f882",
+    "modified\\slinkyreadablesource\\slinkyreadablesource\\src\\logic\\block\\clutch.cpp": "a1bbebaab017e17ceb6160aa8d83f6c32163306dbc80cb927caa33feb79e0bfa",
+    "modified\\slinkyreadablesource\\slinkyreadablesource\\original\\slinky-main\\src\\modules\\block\\clutch.cpp": "e57c138eecc8c608d11657dcefb1fbf78cffdfb8de1a43a9e626bfe03a220660",
+    "modified\\slinkyreadablesource\\slinkyreadablesource\\original\\slinky-main\\src\\logic\\block\\clutch.cpp": "5126f400f565eda83258d06ff0ae8b93137893592b02774c8b2f07332080e6c2"
+  },
+  "only_visible_control": "Mode",
+  "keep_y_profile_section_exact": true,
+  "regular_snapback_ms": {
+    "delay": 500,
+    "duration": 500,
+    "keep_jump": false,
+    "disable_after": false
+  },
+  "space_upward_placement": true,
+  "fast_place_paused_while_scaffold_enabled": true,
+  "block_click_ownership_guard": true,
+  "toggle_interact_world_callbacks_verified_in_dll": true,
+  "ctest": {
+    "passed": 26,
+    "failed": 0
+  },
+  "focused_checks": {
+    "walk_off": 16,
+    "modes": 52,
+    "placement": 219
+  },
+  "native_sha256": "6d7b894574fcba357372aad00255fa064562c3631a2b52bc58280b092970be3d",
+  "extracted_payload_matches": true,
+  "live_gameplay_tested": false
+}

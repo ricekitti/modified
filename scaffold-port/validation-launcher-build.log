@@ -1,0 +1,6 @@
+ninja: Entering directory `C:\Users\ethan\Documents\rice slinky new\modified\scaffold-port\..\provided-injector\rice-launcher\build'
+[1/4] Linking CXX executable SourceFeaturesJvmTest.exe
+[2/4] Generating RiceNative.lzms
+Native resource: 29,182,464 -> 3,974,066 bytes
+[3/4] Building RC object CMakeFiles\rice_slinky.dir\src\rice-slinky.rc.res
+[4/4] Linking CXX executable rice-loader.exe

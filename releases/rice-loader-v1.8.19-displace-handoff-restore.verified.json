@@ -1,0 +1,30 @@
+{
+  "version": "1.8.19.0",
+  "feature": "Displace implementation handoff restore (2026-11-04 supplied manual Displace)",
+  "method": "binary restore of preserved verified handoff artifacts; no rebuild",
+  "exe_sha256": "1670579ce8243a83d836165fd2bde3ddc72edc6b7d14ef45e391fee75b0b04d3",
+  "native_sha256": "5679f4553ffd895114b888dae5de7d64784fe04eebd50829d111c1ec7b4e3622",
+  "embedded_payload_matches": true,
+  "embedded_match_evidence": "EXE is byte-identical to the verified 2026-11-04 handoff build (DISPLACE-HANDOFF-VERIFIED.json); embedded-payload match inherited from that verification",
+  "source_archive": "C:/Users/ethan/Documents/ricerakak slionky/exports/Displace-implementation-handoff-2026-11-04.zip",
+  "archive_sha256": "231657c688ef548ee7cb0a57fd9c6def9322f143de3b64b58c1ac012f87c05a5",
+  "source_hashes": {
+    "displace\\KnockbackDisplaceModule.java": "e7410ba675008691418f8af3ae615f71cf38225027f9855c8dc0769ae9331d72",
+    "displace\\RavenBsVoidScanner.java": "8f1ef6e88eff49be9fdb9a41a04ac8e276f5a508c2ea7f67a43c975d938d43e6",
+    "reference\\java\\src\\main\\java\\myau\\RotationState.java": "e3c2571fdfec06d7358b13b4e4c5723f6663dfcbde1a4631618b3a842e32fd14"
+  },
+  "handoff_payload_match": "all 12 zip payload files equal in-tree modified/displace-handoff-20261104 sources byte-for-byte",
+  "scope_note": "v1.8.0 displace-handoff client state; later versioned features (bedplates v1.8.8/v1.8.11, scaffold v1.8.2-v1.8.7, fireball-boost v1.8.12, pearl/bridge-egg v1.8.13-v1.8.15, valen v1.8.16, v1.8.17-v1.8.18) are NOT included",
+  "rebuilt": false,
+  "legit_patch_applied": false,
+  "bs_port_applied": false,
+  "live_gameplay_tested": false,
+  "live_anticheat_interaction_tested": false,
+  "releases_preserved": true,
+  "updated_copies": [
+    "slinky-modified.exe",
+    "modified\\rice-loader.exe",
+    "modified\\slinky.dll"
+  ],
+  "locked_copies": []
+}

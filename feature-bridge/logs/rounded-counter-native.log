@@ -1,0 +1,8 @@
+ninja: Entering directory `modified/slinkyreadablesource/slinkyreadablesource/build'
+[0/2] Re-checking globbed directories...
+[1/7] Generating source_features_payload.obj
+[2/7] Building CXX object CMakeFiles\slinky.dir\src\engine\gui\gui_layout.cpp.obj
+[3/7] Building CXX object CMakeFiles\slinky.dir\src\engine\gui\gui_state.cpp.obj
+[4/7] Building CXX object CMakeFiles\slinky.dir\src\engine\gui\hud_editor.cpp.obj
+[5/7] Building CXX object CMakeFiles\slinky.dir\src\logic\combat\source_features.cpp.obj
+[6/7] Linking CXX shared library slinky.dll

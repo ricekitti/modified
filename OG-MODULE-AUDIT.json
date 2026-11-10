@@ -1,0 +1,812 @@
+{
+  "reference": "Uploaded slinky-main.zip",
+  "reference_sha256": "1F03BB9C7ABD285A2A00238A93E91B9C7663005E7FC2B839A1986C051B6A0068",
+  "scope": "133 original module logic/settings translation units; compared against an independent build of the uploaded source",
+  "module_units": [
+    {
+      "file": "src/logic/block/auto_tool.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/logic/block/block_in.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/logic/block/bridge_assist.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/logic/block/clutch.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/logic/block/fast_mine.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/logic/block/fast_place.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/logic/block/ghost_hand.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/logic/combat/aim_assist.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/logic/combat/auto_block.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/logic/combat/auto_clicker.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/logic/combat/auto_weapon.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/logic/combat/backtrack.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/logic/combat/criticals.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/logic/combat/hit_select.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/logic/combat/hitboxes.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/logic/combat/knockback_delay.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/logic/combat/knockback_displace.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/logic/combat/lag_range.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/logic/combat/piercing.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/logic/combat/reach.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/logic/combat/sprint_reset.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/logic/combat/timer_range.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/logic/combat/velocity.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/logic/combat/weapons.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/logic/move/fast_accel.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/logic/move/instant_stop.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/logic/move/inv_walk.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/logic/move/keep_sprint.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/logic/move/no_jump_delay.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/logic/move/no_slow.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/logic/move/null_move.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/logic/move/safe_walk.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/logic/move/sprint.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/logic/move/strafe.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/logic/utility/anti_bot.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/logic/utility/auto_pot.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/logic/utility/auto_rod.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/logic/utility/auto_soup.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/logic/utility/blink.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/logic/utility/chest_stealer.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/logic/utility/debug.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/logic/utility/fake_lag.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/logic/utility/friends.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/logic/utility/inv_manager.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/logic/utility/item_use_fix.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/logic/utility/no_hit_delay.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/logic/utility/no_item_release.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/logic/utility/no_use_delay.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/logic/utility/ping_fix.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/logic/utility/refill.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/logic/utility/teams.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/logic/utility/timer.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/logic/visual/anti_debuff.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/logic/visual/block_esp.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/logic/visual/chams.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/logic/visual/chest_esp.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/logic/visual/free_look.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/logic/visual/gui.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/logic/visual/indicators.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/logic/visual/item_esp.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/logic/visual/mod_overlay.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/logic/visual/name_tags.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/logic/visual/notifications.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/logic/visual/player_esp.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/logic/visual/pointers.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/logic/visual/trajectories.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/modules/block/auto_tool.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/modules/block/block_in.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/modules/block/bridge_assist.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/modules/block/clutch.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/modules/block/fast_mine.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/modules/block/fast_place.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/modules/block/ghost_hand.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/modules/combat/aim_assist.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/modules/combat/auto_block.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/modules/combat/auto_clicker.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/modules/combat/auto_weapon.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/modules/combat/backtrack.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/modules/combat/criticals.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/modules/combat/hit_select.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/modules/combat/hitboxes.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/modules/combat/knockback_delay.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/modules/combat/knockback_displace.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/modules/combat/lag_range.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/modules/combat/piercing.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/modules/combat/reach.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/modules/combat/sprint_reset.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/modules/combat/timer_range.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/modules/combat/velocity.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/modules/combat/weapons.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/modules/move/fast_accel.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/modules/move/instant_stop.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/modules/move/inv_walk.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/modules/move/keep_sprint.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/modules/move/no_jump_delay.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/modules/move/no_slow.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/modules/move/null_move.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/modules/move/safe_walk.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/modules/move/sprint.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/modules/move/strafe.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/modules/utility/anti_bot.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/modules/utility/auto_pot.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/modules/utility/auto_rod.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/modules/utility/auto_soup.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/modules/utility/blink.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/modules/utility/chest_stealer.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/modules/utility/debug.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/modules/utility/fake_lag.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/modules/utility/friends.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/modules/utility/inv_manager.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/modules/utility/item_use_fix.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/modules/utility/no_hit_delay.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/modules/utility/no_item_release.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/modules/utility/no_use_delay.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/modules/utility/ping_fix.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/modules/utility/refill.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/modules/utility/teams.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/modules/utility/timer.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/modules/visual/anti_debuff.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/modules/visual/block_esp.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/modules/visual/chams.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/modules/visual/chest_esp.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/modules/visual/free_look.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/modules/visual/gui.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/modules/visual/indicators.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/modules/visual/item_esp.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/modules/visual/mod_overlay.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/modules/visual/name_tags.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/modules/visual/no_hurt_cam.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/modules/visual/notifications.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/modules/visual/player_esp.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/modules/visual/pointers.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    },
+    {
+      "file": "src/modules/visual/trajectories.cpp",
+      "source_identical": true,
+      "code_identical": true,
+      "relocations_identical": true
+    }
+  ],
+  "original_data_and_rdata_match": true,
+  "menu_notification_source_sha256": "A170667C0B54CA5990C21851766877E13257252AE50DFE681AD0D66D3F0EF364",
+  "menu_notification_unchanged": true,
+  "tests_passed": 17,
+  "embedded_payload_verified": true,
+  "payload_sha256": "EA7D190343C752A8AE870C7B552BBA6EE207434641E823E8E7466CE9A0E9F03D",
+  "release_sha256": "F27620C090A549F34D08A5BB5A286CA643FBDFBA3209CBA2E9E7169F21F94265"
+}

@@ -1,0 +1,53 @@
+{
+  "version": "1.8.8.0",
+  "exe_sha256": "d41844661f765b59bcce788a73589fb7199b8242348f7c8d9ce9ad5be9f3b829",
+  "native_sha256": "705d1aaaa5f8d577734fe051e7f92e2ba54759ce0278aa5082d90c3c6824648e",
+  "embedded_payload_matches": true,
+  "ctest": {
+    "passed": 29,
+    "failed": 0
+  },
+  "bedplates_checks_per_mapping": 37,
+  "mappings": [
+    "named",
+    "srg",
+    "official"
+  ],
+  "coverage": [
+    "defense layer counts and air thresholds",
+    "bed-pair canonicalization in four directions",
+    "display toggle and hold controls",
+    "camera projection and clipping",
+    "loaded-chunk discovery without player swings",
+    "destroyed-bed and world/toggle cleanup",
+    "icon/count render calls and count visibility",
+    "GL stack restoration on normal and failing item rendering",
+    "native Visual registration and menu controls"
+  ],
+  "clutch_unchanged": {
+    "modified\\slinkyreadablesource\\slinkyreadablesource\\src\\modules\\block\\clutch.cpp": "48867354689315975cbf2c4661951f04dd2c90ff2138d9527b8548d53c27f882",
+    "modified\\slinkyreadablesource\\slinkyreadablesource\\src\\logic\\block\\clutch.cpp": "a1bbebaab017e17ceb6160aa8d83f6c32163306dbc80cb927caa33feb79e0bfa",
+    "modified\\slinkyreadablesource\\slinkyreadablesource\\original\\slinky-main\\src\\modules\\block\\clutch.cpp": "e57c138eecc8c608d11657dcefb1fbf78cffdfb8de1a43a9e626bfe03a220660",
+    "modified\\slinkyreadablesource\\slinkyreadablesource\\original\\slinky-main\\src\\logic\\block\\clutch.cpp": "5126f400f565eda83258d06ff0ae8b93137893592b02774c8b2f07332080e6c2"
+  },
+  "scaffold_unchanged_sha256": "87da075d43d4c157d8a4131addc2156ddf0e5aa4cddffff9801090e4f280a594",
+  "source_sha256": {
+    "modified\\feature-bridge\\java\\NativeFeatureBridge.java": "fa7ea5b681e8327d3d393dbb52f0e775e72760797af83576bea31ccc0311880c",
+    "modified\\feature-bridge\\build.py": "ea7009c3ae080f76dbcd3755c2cbb852c56bfec9f79afb570cf5c5e944e1bf9c",
+    "modified\\slinkyreadablesource\\slinkyreadablesource\\src\\logic\\visual\\bedplates_adapter.inc": "e22bf6cb237895e792f8f49604e6ca5b4945170363c449343ff1b81dfc96f2db",
+    "modified\\slinkyreadablesource\\slinkyreadablesource\\src\\engine\\jni\\module_manager.cpp": "820621de1f0cfa1b0a30c6538c3986b65686db243d0afcd2aa93236980ffb6b0",
+    "modified\\slinkyreadablesource\\slinkyreadablesource\\src\\logic\\combat\\source_features.cpp": "0fad65fed53e1df230e2e9081ade90d202285ac6ca40e0af76cdb194e646ecfb",
+    "modified\\feature-bridge\\java\\bedplates\\Bedplates.java": "f23f6ba8309a859166883b161152762cb1827b99c426ddaf81b0ba58db98b65e",
+    "modified\\feature-bridge\\java\\bedplates\\BedplatesCore.java": "56bf8877408ac800f8a6567756fef7c7c2ccc3acfef1ae54be0464fb7dbc0cc0",
+    "modified\\feature-bridge\\java\\bedplates\\BedplatesVariants.java": "a89429e28ce50bf8cccd65d8da9bd21aed206f49d9f015cfb301cb9af5b2b3eb"
+  },
+  "live_gameplay_tested": false,
+  "live_gpu_visual_tested": false,
+  "updated_copies": [
+    "modified\\rice-loader.exe",
+    "modified\\slinky.dll"
+  ],
+  "locked_copies": [
+    "slinky-modified.exe"
+  ]
+}

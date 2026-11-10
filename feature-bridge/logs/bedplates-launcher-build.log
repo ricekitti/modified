@@ -1,0 +1,13 @@
+[1/11] Generating RiceNative.lzms
+Native resource: 28,690,432 -> 3,957,978 bytes
+[2/11] Building RC object CMakeFiles\rice_slinky.dir\src\rice-slinky.rc.res
+[3/11] Building CXX object CMakeFiles\rice_slinky.dir\src\AuthManager.cpp.obj
+[4/11] Building CXX object CMakeFiles\rice_slinky.dir\src\KeyAuthTransport.cpp.obj
+[5/11] Building CXX object CMakeFiles\rice_slinky.dir\src\Logger.cpp.obj
+[6/11] Building CXX object CMakeFiles\rice_slinky.dir\src\Process.cpp.obj
+[7/11] Building CXX object CMakeFiles\rice_slinky.dir\src\Resources.cpp.obj
+C:\Users\ethan\Documents\rice slinky new\modified\provided-injector\rice-launcher\src\Resources.cpp(117): warning C4505: 'soju::extractPayload': unreferenced function with internal linkage has been removed
+[8/11] Building CXX object CMakeFiles\rice_slinky.dir\src\main.cpp.obj
+[9/11] Building CXX object CMakeFiles\rice_slinky.dir\src\KeyAuthClient.cpp.obj
+[10/11] Building CXX object CMakeFiles\rice_slinky.dir\src\Loader.cpp.obj
+[11/11] Linking CXX executable rice-loader.exe

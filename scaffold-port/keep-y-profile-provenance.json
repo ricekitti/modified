@@ -1,0 +1,10 @@
+{
+  "source": "C:\\Users\\ethan\\.slinky\\profiles\\clutch sets.txt",
+  "source_sha256": "1f8813dfdb2abc8161f480c678c0622438b1a8ffa8756e7104c450b8fbadb904",
+  "section": "Clutch only",
+  "ignored": [
+    "all other module sections",
+    "__on",
+    "__bind"
+  ]
+}

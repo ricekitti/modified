@@ -1,0 +1,8 @@
+Auth rebuild verification — 2026-10-30
+Configuration: Soju / UVLPXieCUS / 1.0
+Transport: WinINet HTTPS POST, keyauth.win/api/1.3/
+Live public app initialization: passed; no license or HWID sent
+Automated tests: regular 5/5; modified 15/15
+Release extraction: passed; embedded DLL SHA256 matches edition slinky.dll
+Executable SHA256: 801AD71717DA73ED7F61FDBA5CA5272EFBEF823A16E8E2E783F0AE6D4E291F7F
+Affected remote PC and valid-license authentication: not tested

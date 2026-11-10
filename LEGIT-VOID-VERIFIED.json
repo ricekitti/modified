@@ -1,0 +1,10 @@
+{
+  "Release": "C:\\Users\\ethan\\Documents\\rice slinky new\\modified\\rice-loader-legit-void.exe",
+  "SHA256": "1ED1EDACEF003D83000AB3C3BB84FC0152A3DBCE4CFABB82080A4FEB5F39FD12",
+  "ClientSHA256": "95CB7AC2390A4778F2907C5E6D7975D53E464366E7BD98B1F41953427ACBFFF6",
+  "TestsPassed": 18,
+  "EmbeddedClientMatches": true,
+  "LegitVoidMaximumDegrees": 90,
+  "DefaultEnabled": false,
+  "GameplayVerified": false
+}

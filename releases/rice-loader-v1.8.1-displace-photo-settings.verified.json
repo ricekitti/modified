@@ -1,0 +1,32 @@
+{
+  "version": "1.8.1",
+  "file_version": "1.8.1.0",
+  "date": "2026-11-04",
+  "executable": "C:\\Users\\ethan\\Documents\\rice slinky new\\modified\\releases\\rice-loader-v1.8.1-displace-photo-settings.exe",
+  "sha256": "48329cffbb15d71340af4944a57ec77856fc5cc3784f6d31dd4668f1d4515e89",
+  "dll_sha256": "15a5eb0c0b57c9cc5dc39dde04e3c8d5eb28c2d303f35bbdaee79d3443dc4803",
+  "embedded_payload_verified": true,
+  "tests": "23/23 passed",
+  "ui_contract": "Exact screenshot sections, visible control order, labels, numeric units/ranges and defaults verified under named, SRG and official mappings",
+  "live_visual_verification": false,
+  "defaults": {
+    "direction": "Void",
+    "cooldown_ms": 250,
+    "angle_degrees": 90,
+    "void_scan_radius": 6,
+    "void_ignore_one_block_wall": false,
+    "hide_rotation": false,
+    "require_no_kb": false,
+    "require_weapon": false,
+    "require_kb_enchant": false,
+    "require_facing_away": false
+  },
+  "hidden_controls": [
+    "third_person_rotations",
+    "use_last_strafe (unless strafe direction selected)"
+  ],
+  "changelog": "C:\\Users\\ethan\\Documents\\rice slinky new\\modified\\releases\\rice-loader-v1.8.1-displace-photo-settings.changes.md",
+  "locked_unversioned_files": [
+    "C:\\Users\\ethan\\Documents\\rice slinky new\\slinky-modified.exe"
+  ]
+}

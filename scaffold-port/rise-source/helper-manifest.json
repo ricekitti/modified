@@ -1,0 +1,61 @@
+{
+  "repository": "ricekitti/rise-open",
+  "commit": "c08acf7223ce9a6cde453cf86f97d77d92c742ba",
+  "source_files": [
+    {
+      "local_file": "helpers/Entity-c.java",
+      "path": "sources/deobfuscated/net/minecraft/entity/c.java",
+      "git_blob_sha": "ec0751189859a55629a958b0630cb15e784e6f05"
+    },
+    {
+      "local_file": "helpers/EntityPlayerSP-c.java",
+      "path": "sources/deobfuscated/net/minecraft/client/entity/c.java",
+      "git_blob_sha": "639ba31994c06044851d66450fe46ced1498d724"
+    },
+    {
+      "local_file": "helpers/ItemStack-co.java",
+      "path": "sources/deobfuscated/net/minecraft/item/co.java",
+      "git_blob_sha": "f4c3497c74b249b51953a0ac0a29ca205597f5c9"
+    },
+    {
+      "local_file": "helpers/PlayerController-d.java",
+      "path": "sources/deobfuscated/net/minecraft/client/multiplayer/d.java",
+      "git_blob_sha": "7179399dbf0c6d72ea5047ecaac91e700c65ebdc"
+    },
+    {
+      "local_file": "helpers/SlotUtil-aik.java",
+      "path": "sources/deobfuscated/hackclient/rise/aik.java",
+      "git_blob_sha": "f8c40dc7eb141a38f4ef6060a13c53cd4d34a1b6"
+    },
+    {
+      "local_file": "helpers/InventoryPlayer-g.java",
+      "path": "sources/deobfuscated/net/minecraft/entity/player/g.java",
+      "git_blob_sha": "3920e67d5eb6816ebb76a58f36ba474e245a127f"
+    },
+    {
+      "local_file": "helpers/PacketTiming-ao.java",
+      "path": "sources/deobfuscated/hackclient/rise/ao.java",
+      "git_blob_sha": "89b5a3b55c5074c79145622d46c9f31649083a06"
+    },
+    {
+      "local_file": "helpers/World-w.java",
+      "path": "sources/deobfuscated/net/minecraft/world/w.java",
+      "git_blob_sha": "848efc002baf629a24254311021c30c164e5086b"
+    },
+    {
+      "local_file": "helpers/EventBus.java",
+      "path": "sources/deobfuscated/rise/event/EventBus.java",
+      "git_blob_sha": "3453078cc5132bff74fc3b4012276c6a559b575c"
+    },
+    {
+      "local_file": "helpers/BadPackets-bb.java",
+      "path": "sources/deobfuscated/hackclient/rise/bb.java",
+      "git_blob_sha": "8a8026e6dab9d1f720bfdcc793821292acfdcb87"
+    },
+    {
+      "local_file": "helpers/CloseWindow-q.java",
+      "path": "sources/deobfuscated/net/minecraft/network/play/client/q.java",
+      "git_blob_sha": "6a0777ac37fe7eb686d994152f72c3c23c5dd231"
+    }
+  ]
+}

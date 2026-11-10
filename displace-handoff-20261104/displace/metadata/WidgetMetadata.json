@@ -1,0 +1,45 @@
+[
+  {
+    "Knockback Displace": {
+      "direction": {
+        "setting_rva": "0x2f6088",
+        "label": "Direction",
+        "flag": 0
+      },
+      "use_last_strafe": {
+        "setting_rva": "0x2f60e8",
+        "label": "Use last strafe direction"
+      },
+      "angle": {
+        "setting_rva": "0x2f5fa8",
+        "label": "Angle",
+        "format": "%.0f°"
+      },
+      "cooldown": {
+        "setting_rva": "0x2f5f70",
+        "label": "Cooldown",
+        "format": "%.0f ms"
+      },
+      "hide_rotation": {
+        "setting_rva": "0x2f60c8",
+        "label": "Hide rotation from players"
+      },
+      "require_no_kb": {
+        "setting_rva": "0x2f5fe0",
+        "label": "Not taking knockback"
+      },
+      "require_weapon": {
+        "setting_rva": "0x2f6000",
+        "label": "Holding weapon"
+      },
+      "require_kb_enchant": {
+        "setting_rva": "0x2f6020",
+        "label": "Knockback enchantment"
+      },
+      "require_facing_away": {
+        "setting_rva": "0x2f6040",
+        "label": "Target facing away"
+      }
+    }
+  }
+]

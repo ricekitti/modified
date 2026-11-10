@@ -1,0 +1,23 @@
+OG module compatibility verification — 2026-10-31
+
+Reference: the uploaded slinky-main.zip, not an independently supplied retail Slinky binary.
+Both editions now build the original 133 module logic/settings translation units verbatim from original/slinky-main/.
+The archived headers and source files are SHA256-pinned; configuration fails if they drift.
+Identifier-only compatibility aliases connect the renamed original symbols to the current engine.
+Compiled .text bytes and symbol-normalized relocations match the reference for all 133 units.
+Original .data and .rdata bytes and symbol-normalized references also match.
+
+Preserved intentional extensions:
+- Null-safe Block In lifecycle callback and world/player activation guards.
+- Menu GUI availability and the existing injection notification.
+- Modified only: Stasis, AntiFireball, Fireball Pearl, Displace Static/Dynamic, Heavy Glow.
+- Classic ESP modes call the original implementations; Heavy Glow is a separate wrapper.
+- Slinky Displace mode uses the original handlers; Static/Dynamic are extension modes.
+
+Menu notification: unchanged source hash, wording, configured GUI key, style, fade, and eight-second timing.
+Verification: regular 7/7 tests, modified 17/17 tests; embedded DLL hashes checked after extraction.
+Live gameplay still requires restarting Minecraft and retrying the new executable.
+
+Active OG module source: slinkyreadablesource/slinkyreadablesource/original/slinky-main/src/.
+Rice engine/crash fixes and extensions remain under the usual src/ tree.
+Main rice-loader.exe updated: True

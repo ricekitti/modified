@@ -1,0 +1,12 @@
+{
+  "restored_version": "1.8.3",
+  "executable": "C:\\Users\\ethan\\Documents\\rice slinky new\\modified\\releases\\rice-loader-v1.8.3-scaffold-clutch-copy.exe",
+  "exe_sha256": "86e32bb54046c6af8fdb8934793044f25a7c3549979824153779304dfc1c3494",
+  "dll_sha256": "91a22963f064df7e7babba4ca28f96acde220551c9b975f4163e2c427c4605f3",
+  "recorded_release_hashes_match": true,
+  "source_restored": true,
+  "v1.8.4_preserved": "C:\\Users\\ethan\\Documents\\rice slinky new\\.build-tools\\clutch-rollback-preserved-v1.8.4",
+  "locked_unversioned_files": [
+    "C:\\Users\\ethan\\Documents\\rice slinky new\\slinky-modified.exe"
+  ]
+}

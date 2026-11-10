@@ -1,0 +1,5 @@
+Supplied Scaffold movement: 1040 discrete direction/sneak cases passed
+Source features: ready (Knockback Displace + Bow Aimbot + Fog + Shaders + Scaffold)
+Supplied Scaffold: native registration, settings, real placement, movement yaw, input routing, menu/disable cleanup passed
+Source features: ready (Knockback Displace + Bow Aimbot + Fog + Shaders + Scaffold)
+Original supplied Java modules: startup, complete settings, real attack yaw/restore, bow prediction, native event/rotation handoff, and cleanup passed

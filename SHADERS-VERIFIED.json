@@ -1,0 +1,16 @@
+{
+  "Release": "C:\\Users\\ethan\\Documents\\rice slinky new\\modified\\rice-loader-shaders.exe",
+  "SHA256": "877442CD2E6A5E5F9AB734999C8F181FF16A9C37051D9A439CA90925D8609010",
+  "ClientSHA256": "357B7A99C294CDD1A690EF696C98361429FDB9C5D8F34307496C29FCBADACA8C",
+  "TestsPassed": 18,
+  "EmbeddedClientMatches": true,
+  "ShaderPresets": 20,
+  "ShaderSourceSHA256": "DBACDDB9C26FB8D6597C0EE65E560EEDB0EC689275FE96B53FC276B8D9E2ABDB",
+  "AssetFix": "scan_pixel -> scan_pincushion",
+  "NamingFormats": [
+    "named",
+    "srg",
+    "official"
+  ],
+  "LiveGpuGameplayVerified": false
+}

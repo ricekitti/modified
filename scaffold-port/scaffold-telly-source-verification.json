@@ -1,0 +1,34 @@
+{
+  "version": "1.8.7.0",
+  "exe_sha256": "3593ee9e3d666cfdbe31dab22cb25d512b9f9ef2fc44bc731822ea6e04247fc5",
+  "native_sha256": "adf22c01f03ee37b82bd062becf703e7fcde23766ea1e140307bc1002e79b38f",
+  "embedded_payload_matches": true,
+  "clutch_unchanged": {
+    "modified\\slinkyreadablesource\\slinkyreadablesource\\src\\modules\\block\\clutch.cpp": "48867354689315975cbf2c4661951f04dd2c90ff2138d9527b8548d53c27f882",
+    "modified\\slinkyreadablesource\\slinkyreadablesource\\src\\logic\\block\\clutch.cpp": "a1bbebaab017e17ceb6160aa8d83f6c32163306dbc80cb927caa33feb79e0bfa",
+    "modified\\slinkyreadablesource\\slinkyreadablesource\\original\\slinky-main\\src\\modules\\block\\clutch.cpp": "e57c138eecc8c608d11657dcefb1fbf78cffdfb8de1a43a9e626bfe03a220660",
+    "modified\\slinkyreadablesource\\slinkyreadablesource\\original\\slinky-main\\src\\logic\\block\\clutch.cpp": "5126f400f565eda83258d06ff0ae8b93137893592b02774c8b2f07332080e6c2"
+  },
+  "source_sha256": "87da075d43d4c157d8a4131addc2156ddf0e5aa4cddffff9801090e4f280a594",
+  "native_auto_jump_integrated": true,
+  "horizontal_motion_preserved": true,
+  "auto_jump_does_not_override_height": true,
+  "fast_place_guard_retained": true,
+  "ctest": {
+    "passed": 26,
+    "failed": 0
+  },
+  "focused_checks": {
+    "modes": 242,
+    "placement": 219,
+    "walk_off": 16
+  },
+  "live_gameplay_tested": false,
+  "updated_copies": [
+    "modified\\rice-loader.exe",
+    "modified\\slinky.dll"
+  ],
+  "locked_copies": [
+    "slinky-modified.exe"
+  ]
+}

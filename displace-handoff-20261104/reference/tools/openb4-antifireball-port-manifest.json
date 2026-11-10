@@ -1,0 +1,173 @@
+{
+ "files": {
+  "xyz/daikirai/client/Chat.java": "afeba87e825ecf0df36fc802dba1fffbb1741cf568653cc9f5188e5949f7eca0",
+  "xyz/daikirai/client/Hypixel.java": "dc70fe749067ae3fce04422e376f7070ee2f3e7af21b37f57d0bca9f8c66bffb",
+  "xyz/daikirai/client/Overlay.java": "4a28746fe80ce7ce687f249b7db2208f839aa5f175ad5dc5b6a8cca64e78ab8c",
+  "xyz/daikirai/module/player/AntiFireballModule.java": "8ed5564b96264cb4d95c1c2ae0fdd817f6a061379ed4ffab01bcb9d3f294408e",
+  "xyz/daikirai/util/ClickUtils.java": "5b6cf2eae7a4f2805117efc775e509b66a936628423f3763613e67a0662fad5e",
+  "xyz/daikirai/util/ItemUtils.java": "36f038067433341152347e07af3753f12263537ff0779f80819060c02fb98425",
+  "xyz/daikirai/util/MathUtils.java": "ff822925be1e2b6a9acb05df2c1d867c37c8ed8bcf1472df3767ba0816410740",
+  "xyz/daikirai/util/PacketUtils.java": "af97c592ffcce130050841fd34144bc63fc44a42c004d8b151040920b2aa1c2f",
+  "xyz/daikirai/util/PlayerUtils.java": "b78cb35d3c2bc6e3753d472243c3b34be4e33bc00b944cd732d1340d12c7c7b8",
+  "xyz/daikirai/util/RotationManager.java": "29fd7b050a4f8c8fe16d14d2ed7c37a0771530f17449d4f6aa876060b470015f",
+  "xyz/daikirai/util/RotationUtils.java": "7620bdeee9860b70b9ff57d07a4ca69e00931f4ac156f30f35b35de8fed3b117"
+ },
+ "members": {
+  "xyz/daikirai/client/Chat.java :: public static String strip(String s) {": "69cff9ae99aa554f552d86e574991371b9a5984ae4c1c7dffe2e2fc88f788ef4",
+  "xyz/daikirai/client/Chat.java :: public static final char SECTION = '§';": "08376ec2aa8f0e9412a3c730f8c8310b78e601363f82ad9fe7d49121dde2f65a",
+  "xyz/daikirai/client/Hypixel.java :: private static final Minecraft mc = Minecraft.getMinecraft();": "dca7badaa548a6c08f1d22cd52739dd2b55b0cbf6dc7267fceac997a58255eef",
+  "xyz/daikirai/client/Hypixel.java :: private static final String HOST = \"hypixel.net\";": "93516d6b24269b80e7d2d501e3d9ca572223b11a3c831fcc3c815e36c34f8af0",
+  "xyz/daikirai/client/Hypixel.java :: private static final String LOBBY_MARK = \"  \" + Chat.SECTION + \"8L\";": "02f228a9ffdebe0320d384b82359926b16d45bd95e5730be7a177b8fa48e0816",
+  "xyz/daikirai/client/Hypixel.java :: private static final char BED_MARK = '✓';": "f50756ada5480684945fb101c8abbab11cad85fd79b604f66759c14214878ffe",
+  "xyz/daikirai/client/Hypixel.java :: public enum State {": "cc2a082f38473ab7faf315c5cee3669cbd14c23d7a469e274d52d82fc0e24405",
+  "xyz/daikirai/client/Hypixel.java :: public static List<String> sidebar() {": "2845f1bd465085750a265d671ca32781e903c438eb600ec07bd63d5bcad146e5",
+  "xyz/daikirai/client/Hypixel.java :: public static State detect() {": "249ec32eb3accd666faac653775727a8ec81a6a8b35b56628dd5df06aaa5e8ba",
+  "xyz/daikirai/client/Hypixel.java :: public static State state = State.UNKNOWN;": "589851402c94787fb99133707f17224a638aa2e843f3149e393b8df2881061df",
+  "xyz/daikirai/client/Hypixel.java :: public static String tabHeader() {": "b6764fa2b271096bd4473976b0016149bfd050b938b4f40b1d91a9b042190651",
+  "xyz/daikirai/client/Hypixel.java :: public static boolean isHypixelServer() {": "a9d7d73dcf39d13080cd8c73ac3fb35086121952cb24ec6eda9d9e8e7572022c",
+  "xyz/daikirai/client/Overlay.java :: private static final Minecraft mc = Minecraft.getMinecraft();": "dca7badaa548a6c08f1d22cd52739dd2b55b0cbf6dc7267fceac997a58255eef",
+  "xyz/daikirai/client/Overlay.java :: public static boolean ownScreen() {": "264bfb1d84c86edc1512668ebbfa9c5f602aa5a8fcb812a589f0936d39463809",
+  "xyz/daikirai/client/Overlay.java :: public static boolean screenOpen() {": "0387732de4743516558baa213651e70541f8159ec378054e01743752f27673e4",
+  "xyz/daikirai/util/ClickUtils.java :: private static final List<Long> attackClicks = new ArrayList<Long>();": "b63e172679d10a68d1651d1e001607474bb80cd45af48363409f8defe68f357e",
+  "xyz/daikirai/util/ClickUtils.java :: public static long lastAttackClick;": "a5f56fa2c81588b43b9f2917a27768a372bc0fc8d7b5e592f95d509634fc2ad6",
+  "xyz/daikirai/util/ClickUtils.java :: public static void onAttackClick() {": "985522cc160be5eb9877f07fe263d9289a1fd4b2505c0e2a8a5714077f3ac57d",
+  "xyz/daikirai/util/ItemUtils.java :: public static boolean isSword(ItemStack itemStack) {": "e7aff93fcb50ee2d04431515f331a871da26fc7b639863358b30a2873d3c486c",
+  "xyz/daikirai/util/MathUtils.java :: public static final Random RANDOM = new Random();": "c2bfe789b44aed1b2b5c025f6510ee823fe59ea3462d7db99967746dc2522764",
+  "xyz/daikirai/util/MathUtils.java :: public static int randomInt(int min, int max) {": "c2b6e481dfbb288ad7b390d0b1f03465ea8a1399d88adb4dd5a7682e58cd98a2",
+  "xyz/daikirai/util/PacketUtils.java :: private static final Minecraft mc = Minecraft.getMinecraft();": "dca7badaa548a6c08f1d22cd52739dd2b55b0cbf6dc7267fceac997a58255eef",
+  "xyz/daikirai/util/PacketUtils.java :: public static Packet<?> sending;": "1920ec5bab38834eab1ca0aaf8764a448c399b5068fafadd85a67d7fd502c8d3",
+  "xyz/daikirai/util/PacketUtils.java :: public static boolean noAttackPlaceOrDig() {": "9b2984413686427d177569c655b9a7ded49f32d3163e85ef00ef8bba767738c4",
+  "xyz/daikirai/util/PacketUtils.java :: public static boolean sentAnyDigging;": "bf4fd8ff5143ebab8a75506b35cf468e3a1c9105f1a155f61cb718124d98b8f8",
+  "xyz/daikirai/util/PacketUtils.java :: public static boolean sentAnyPlacement;": "62019625830f867cdf5293d1717bdc442ae2807d57aee176a442ab68e1b23915",
+  "xyz/daikirai/util/PacketUtils.java :: public static boolean sentAttack;": "f49a625a54c3cc18e25ee6a171e65e9e8f33b7da21a0b8aa662fda807297a289",
+  "xyz/daikirai/util/PacketUtils.java :: public static boolean sentBlockPlace;": "0ac2f4af58bc8700fb088ae939d16289e8a9caeda0090a9c67e9759139e459c3",
+  "xyz/daikirai/util/PacketUtils.java :: public static boolean sentClickWindow;": "ae0254d9af4595306c038036f4a3c39f02b06ebdeb50e08afbf677de1b1560c2",
+  "xyz/daikirai/util/PacketUtils.java :: public static boolean sentCloseWindow;": "2eb3ddcefb7ae090130ce354aec1cf74b30deec11d280c0a0c79b46b07667248",
+  "xyz/daikirai/util/PacketUtils.java :: public static boolean sentDigging;": "c9442aa8555916d74711384332f2d2b7d38b90b7bc7b42966e2cc89bc1c305bd",
+  "xyz/daikirai/util/PacketUtils.java :: public static boolean sentInteractAt;": "02ab8660789daa31093d82c64941e3af5c5f343d79b78489f41a48ea6c7c875a",
+  "xyz/daikirai/util/PacketUtils.java :: public static boolean sentOpenInventory;": "9197c133ecd00e433c13d886a2d2bd91321631d1dc0ea867c82fe7518cf8fc04",
+  "xyz/daikirai/util/PacketUtils.java :: public static boolean sentSwing;": "bc15ad710667df90de4d79b2c3a14439c3975a056480aeff4a2d3c3436d1ab00",
+  "xyz/daikirai/util/PacketUtils.java :: public static boolean sentUseEntity;": "e0838ebfa1a4a03a43f7d7506f969853d11a221dcf27482ea3237406671d3662",
+  "xyz/daikirai/util/PacketUtils.java :: public static int lastUse = -1;": "035d786c23d49d99315b2f0d8510344e16ea429968cb95837cc9730125cd1882",
+  "xyz/daikirai/util/PacketUtils.java :: public static int previousServerSlot;": "dfb8c7a4971ef9efa95b2cff045bc994315e35073a14bb3f6eb7afc7f53f1a9d",
+  "xyz/daikirai/util/PacketUtils.java :: public static int serverSlot;": "0b5440f69d6d7490e487f899fab039ca529cc537d20624ce8e730b2884a495df",
+  "xyz/daikirai/util/PacketUtils.java :: public static int slotChanges;": "1dc61b1976800f002e16ca0e9587980f3faedcd0d83605cc71ad6ab4bec4058e",
+  "xyz/daikirai/util/PacketUtils.java :: public static void send(Packet<?> packet) {": "c2e23bc39b2ed6e0aa35baf80683a2444320ab86a2d6808c0f401eeb190e9b29",
+  "xyz/daikirai/util/PacketUtils.java :: public static void track(Packet<?> packet) {": "e5195965fe561dea222809979e5bfc4198276b4b0e23ea6b82728712cd3a7101",
+  "xyz/daikirai/util/PlayerUtils.java :: private static final Minecraft mc = Minecraft.getMinecraft();": "dca7badaa548a6c08f1d22cd52739dd2b55b0cbf6dc7267fceac997a58255eef",
+  "xyz/daikirai/util/PlayerUtils.java :: public static boolean attacking;": "a6166cb40de218d94aad3d42280376772d58c9c5701cde8950f05d18f97752e0",
+  "xyz/daikirai/util/PlayerUtils.java :: public static boolean holdingSword() {": "19fe88cfb07f63a2117e5fe6c62ed8305f945c33600c677451dfdbfde83e969a",
+  "xyz/daikirai/util/PlayerUtils.java :: public static boolean inFov(float fov, Entity entity) {": "e12aa2fad2215a5234c330831c5e7423c57e041e6651f756350204d2ab9806ca",
+  "xyz/daikirai/util/PlayerUtils.java :: public static boolean inFov(float fov, double x, double z) {": "ada6deeb13efd075429e5399ab66303ad72af34f9a37e2ca797489fcea4ba305",
+  "xyz/daikirai/util/PlayerUtils.java :: public static boolean isBlocking() {": "b6de6ba8e7ccfcdf1d48652bc64e3c9f79faea01cfa2ee3827400a4866bc97f9",
+  "xyz/daikirai/util/PlayerUtils.java :: public static void attack(Entity entity, boolean packetSwing) {": "c0999a832b59a8a6c9e51db5309de7b6feebbb8d33c21ff6d748c591d5b254a0",
+  "xyz/daikirai/util/PlayerUtils.java :: public static void swing(boolean packetOnly, boolean resetEquip) {": "4769fba5c51e8ce6de4b9f12ff7e8a1d3b2073dded9198f759e397cf18a4f4c5",
+  "xyz/daikirai/util/RotationManager.java :: public static boolean rotating;": "65b70e1d96bba86d81c37f9468d937e445841b386051c4498513bdab2e4114dd",
+  "xyz/daikirai/util/RotationManager.java :: public static boolean wasRotating;": "85c0c4dc3707b2ebcb4117904e1357db12e088e2e49a90656af58a95d278176b",
+  "xyz/daikirai/util/RotationManager.java :: public static float lastPitch;": "01fc25f89f6336c62d63edbfb3ceafaa931c0f1bc6bfdcd657ff4e1c5158b2d5",
+  "xyz/daikirai/util/RotationManager.java :: public static float lastYaw;": "0493d0ef6a2a87b077f49331072be63719ef9d3b502a092b67b22e9df15b2506",
+  "xyz/daikirai/util/RotationManager.java :: public static float serverPitch;": "c7e710f85565c0de9197809bf20f61f2a6262133e594a590a972cf8e8146e419",
+  "xyz/daikirai/util/RotationManager.java :: public static float serverYaw;": "d72ca055927c84ffbafc96d81fd9ac6426004521a1f46d5cbd42b2e6bfb7dc65",
+  "xyz/daikirai/util/RotationUtils.java :: private static final Minecraft mc = Minecraft.getMinecraft();": "dca7badaa548a6c08f1d22cd52739dd2b55b0cbf6dc7267fceac997a58255eef",
+  "xyz/daikirai/util/RotationUtils.java :: public static Vec3 aimPoint(Vec3 eyes, AxisAlignedBB box) {": "d3fbbcf75d0c1e05b301126651917d521ab3336c036f97ecae8c9a9a88bd712b",
+  "xyz/daikirai/util/RotationUtils.java :: public static float clampPitch(float pitch) {": "91767bcab38b9e1812c8b533cd4da9a386c5bb184aee1ca51439027be94195bc",
+  "xyz/daikirai/util/RotationUtils.java :: public static float lastYawStep, lastPitchStep;": "a777a1dbc4c6c4369de92d7bd86dec59d7871f917b2ae0c0493cd128a872fb7a",
+  "xyz/daikirai/util/RotationUtils.java :: public static float yawBetween(double fromX, double fromZ, double toX, double toZ) {": "e8dc0a22b86d2ff9accd987c160ab10d715f472a7bf267806d05429c2669d879",
+  "xyz/daikirai/util/RotationUtils.java :: public static float yawTo(double x, double z) {": "0496e4c040bfc670246cd8bdaab1d1fc6eb6eb02008ae5aa3d1c74ed1f3e48e8",
+  "xyz/daikirai/util/RotationUtils.java :: public static float[] currentRotation() {": "e23e2991617aa1c7a05a6152d2d0a5d27fe2e49bc3de2bfb1402a961c080823c",
+  "xyz/daikirai/util/RotationUtils.java :: public static float[] fixSensitivity(float yaw, float pitch, float lastYaw, float lastPitch) {": "6f7f79ca7710af17c31711625a3c02a09b1d6f9031244d5aaa3dc53e80ead208",
+  "xyz/daikirai/util/RotationUtils.java :: public static float[] fixSensitivity(float yaw, float pitch, float lastYaw, float lastPitch, boolean jitter) {": "eb0938fec036347df77ed207ae9db3fc2cd6bb948db7c69698e6307c91d3d5e4",
+  "xyz/daikirai/util/RotationUtils.java :: public static float[] fromDelta(double dx, double dy, double dz) {": "95f7eb006289d74e60cc3df75731756e16116ba2d448025b182c9b93c246c117",
+  "xyz/daikirai/util/RotationUtils.java :: public static float[] playerRotation() {": "9fa279ca9edcc51ebc2e4a148de8d951d3a7793419b90a8485e31e0903d7de6f",
+  "xyz/daikirai/util/RotationUtils.java :: public static float[] toBox(Entity entity, AxisAlignedBB box) {": "cf3e8feb2f5adf96b54e33a5e55fece1352bc8121de596575c29684c1a07d6b7",
+  "xyz/daikirai/util/RotationUtils.java :: public static float[] toEntityBox(Entity entity) {": "61eb06be7ec7eefd675cd59ad94aa195cc4aa3aa53813b888061ab963b751f26",
+  "xyz/daikirai/util/RotationUtils.java :: public static float[] toEntityFixed(Entity entity, float lastYaw, float lastPitch) {": "ac6d9f5fe78b8cf02d6cb9215980d74908941635043f7c03f186cde42297afb8"
+ },
+ "rewrites": [
+  {
+   "count": 1,
+   "new": "public final class OpenB4AntiFireballBackend {\n",
+   "old": "public class AntiFireballModule extends Module {\n",
+   "reason": "standalone backend; Rice lifecycle lives in module/impl/AntiFireballModule",
+   "scope": "module"
+  },
+  {
+   "count": 2,
+   "new": "OpenB4AntiFireballBackend",
+   "old": "AntiFireballModule",
+   "reason": "class rename (instance field, constructor)",
+   "scope": "module"
+  },
+  {
+   "count": 1,
+   "new": "",
+   "old": "        super(\"AntiFireball\", Category.player, key);\n",
+   "reason": "no OpenB4 Module superclass",
+   "scope": "module"
+  },
+  {
+   "count": 1,
+   "new": "public OpenB4AntiFireballBackend() {",
+   "old": "public OpenB4AntiFireballBackend(int key) {",
+   "reason": "keybinds are Rice-managed",
+   "scope": "module"
+  },
+  {
+   "count": 1,
+   "new": "",
+   "old": "    public void link() {\n        fov = (SliderSetting) ModuleManager.setting(this, \"FOV\");\n        range = (SliderSetting) ModuleManager.setting(this, \"Range\");\n        disableWhileFlying = (ButtonSetting) ModuleManager.setting(this, \"Disable while flying\");\n        disableWhileScaffold = (ButtonSetting) ModuleManager.setting(this, \"Disable while scaffold\");\n        rotateWithBlocks = (ButtonSetting) ModuleManager.setting(this, \"Rotate with blocks\");\n        rotateWithProjectiles = (ButtonSetting) ModuleManager.setting(this, \"Rotate with projectiles\");\n        silentSwing = (ButtonSetting) ModuleManager.setting(this, \"Silent swing\");\n    }\n\n",
+   "reason": "settings are bound by the Rice adapter (same names and defaults as OpenB4 modules.json)",
+   "scope": "module"
+  },
+  {
+   "count": 5,
+   "new": "",
+   "old": "    @Override\n",
+   "reason": "no superclass",
+   "scope": "module"
+  },
+  {
+   "count": 1,
+   "new": "",
+   "old": "    @SubscribeEvent\n",
+   "reason": "onJoin is driven by the World.spawnEntityInWorld head hook",
+   "scope": "module"
+  },
+  {
+   "count": 1,
+   "new": "        OpenB4KillAuraBackend killAura = OpenB4KillAuraBackend.instance;\n",
+   "old": "        Module killAura = ModuleManager.get(\"KillAura\");\n",
+   "reason": "OpenB4's KillAura is Rice's OpenB4KillAuraBackend (same isFakeBlocking)",
+   "scope": "PlayerUtils"
+  },
+  {
+   "count": 1,
+   "new": "(OpenB4AntiFireballHost.cameraYaw() - RotationUtils.yawTo(x, z))",
+   "old": "(mc.thePlayer.rotationYaw - RotationUtils.yawTo(x, z))",
+   "reason": "OpenB4 rotationYaw is always the camera; Rice keeps the silent yaw there while a rotation is held",
+   "scope": "PlayerUtils"
+  },
+  {
+   "count": 2,
+   "new": "        return new float[]{OpenB4AntiFireballHost.cameraYaw(), OpenB4AntiFireballHost.cameraPitch()};\n",
+   "old": "        return new float[]{mc.thePlayer.rotationYaw, mc.thePlayer.rotationPitch};\n",
+   "reason": "camera rotation (playerRotation, toBox inside-box case), see above",
+   "scope": "RotationUtils"
+  },
+  {
+   "count": 1,
+   "new": "",
+   "old": "            xyz.daikirai.module.dev.DebugAcModule.updateHeldItem(serverSlot);\n",
+   "reason": "OpenB4 developer anticheat module is not part of Rice",
+   "scope": "PacketUtils"
+  },
+  {
+   "count": 1,
+   "new": "        return OpenB4AntiFireballHost.ownScreen(mc.currentScreen);\n",
+   "old": "        return mc.currentScreen instanceof ClickGui || mc.currentScreen instanceof HudEditor;\n",
+   "reason": "Rice's own GUI screens",
+   "scope": "Overlay"
+  }
+ ],
+ "source": "OpenB4-u20 (local download, read-only)"
+}

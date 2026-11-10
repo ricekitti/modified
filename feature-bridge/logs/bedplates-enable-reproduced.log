@@ -1,0 +1,7 @@
+Exception in thread "main" java.lang.IllegalArgumentException: LWJGL glGetFloat requires at least 16 remaining float elements
+	at FeatureFixture.validateGlFloatQuery(FeatureFixture.java:125)
+	at org.lwjgl.opengl.GL11.glGetFloat(GL11.java)
+	at dev.rice.bedplates.Bedplates$State.<init>(Bedplates.java:152)
+	at dev.rice.bedplates.Bedplates.render(Bedplates.java:116)
+	at dev.rice.bedplates.Bedplates.event(Bedplates.java:165)
+	at BedplatesTest.main(BedplatesTest.java:80)

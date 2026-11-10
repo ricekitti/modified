@@ -1,0 +1,348 @@
+{
+  "module/modules/Scaffold.java": {
+    "source_sha256": "a9ece4fac63528125927dc904893f44ffd3e1fd56bc4aabf61a63d27673e30bc",
+    "ported_sha256": "769c2b70102b637ffaea5c0fa247a3b50f74129ec1642f7bc4e3d0fb0379925a",
+    "namespace_relocation": true,
+    "enum_values_adapter_count": 2,
+    "placement_pose_adapter": true,
+    "rice_behavior_overrides": [
+      "place",
+      "onUpdate"
+    ],
+    "methods": "whole class"
+  },
+  "management/RotationState.java": {
+    "source_sha256": "0f7dc5e8875eace25107da270561ae58d6a71aec06f84dbc586104928c1980f8",
+    "ported_sha256": "be1c608736665cd028efd8a4ebecb5f6ce5637385c182698b1af16e3b406b042",
+    "namespace_relocation": true,
+    "enum_values_adapter_count": 0,
+    "placement_pose_adapter": false,
+    "rice_behavior_overrides": [],
+    "methods": "whole class"
+  },
+  "management/RotationManager.java": {
+    "source_sha256": "a74eb67900a1a0fdcf14b9718bc9ab8ddf99e3bf6b9d5b9754e8b34354827456",
+    "ported_sha256": "91860f9d7f5d9808505fba706255ddf8f1140f3d52e4bfa65fe3dc4d49d740d3",
+    "namespace_relocation": true,
+    "enum_values_adapter_count": 0,
+    "placement_pose_adapter": false,
+    "rice_behavior_overrides": [],
+    "methods": "whole class"
+  },
+  "management/LateRotation.java": {
+    "source_sha256": "50b665ae4d0f92e5e50b9a1a8d8dd0908225bde08b62508d02106ce359b3733c",
+    "ported_sha256": "f510ffee8e03104c5dca7acf5e86edd8ac0b70112b08c4881e50896f0d7eb75b",
+    "namespace_relocation": true,
+    "enum_values_adapter_count": 0,
+    "placement_pose_adapter": false,
+    "rice_behavior_overrides": [],
+    "methods": "whole class"
+  },
+  "util/RiseRotation.java": {
+    "source_sha256": "c10da70aeea06e19af29349896aab487b63051812c0499202caad16c88259ed0",
+    "ported_sha256": "be15c6dc3cbab7b02a42aa0a3a91e3ef23dea7dcd541d59406084ef0762b6439",
+    "namespace_relocation": true,
+    "enum_values_adapter_count": 0,
+    "placement_pose_adapter": false,
+    "rice_behavior_overrides": [],
+    "methods": "whole class"
+  },
+  "util/RotationUtil.java": {
+    "source_sha256": "b98e12af21272d9a21a5a37c613d3483f75fbfc3b545c265b49d16c46225e3ea",
+    "ported_sha256": "2569eab58f94ae402fad98fb735e1704f29ef4d54745ac97a06f113e9057ecb9",
+    "namespace_relocation": true,
+    "enum_values_adapter_count": 0,
+    "placement_pose_adapter": false,
+    "rice_behavior_overrides": [],
+    "methods": "whole class"
+  },
+  "util/BlockUtil.java": {
+    "source_sha256": "4d2f30200c63af3586873192cc8e894a149c6e6ee8dc815f621a828dcbfa28fc",
+    "ported_sha256": "3e7f6feeda4dd93fbc46f5df82a756096ca4b20ad8a55de7de86aee79ef166dd",
+    "namespace_relocation": true,
+    "enum_values_adapter_count": 0,
+    "placement_pose_adapter": false,
+    "rice_behavior_overrides": [],
+    "methods": "whole class"
+  },
+  "util/RandomUtil.java": {
+    "source_sha256": "569ff052bf792dbed741e223c4143663ab57ba3a4a4b00d74bc4e06cba77aeb9",
+    "ported_sha256": "522fab78cb968ee89618e5bddd209594b1f509aabe9f5404e1e06fb43b7659ad",
+    "namespace_relocation": true,
+    "enum_values_adapter_count": 0,
+    "placement_pose_adapter": false,
+    "rice_behavior_overrides": [],
+    "methods": "whole class"
+  },
+  "util/KeyBindUtil.java": {
+    "source_sha256": "1892d41248c1ac8295df54dcfde3984b4df7d924bb238dba34160ae18f4919da",
+    "ported_sha256": "5da1ba362a8d168c815c8128f5d80816895c946a0175e552e692ef309ec25fc3",
+    "namespace_relocation": true,
+    "enum_values_adapter_count": 0,
+    "placement_pose_adapter": false,
+    "rice_behavior_overrides": [],
+    "methods": "whole class"
+  },
+  "property/Property.java": {
+    "source_sha256": "3afc3baa6fa85be35f61b7b20774e90fc043a01b869cc1f44b70ea0b3fd28bbb",
+    "ported_sha256": "9d61898fada334b096713cc637f8692743a1a8b5103d4c5d3eae687c0fd4772f",
+    "namespace_relocation": true,
+    "enum_values_adapter_count": 0,
+    "placement_pose_adapter": false,
+    "rice_behavior_overrides": [],
+    "methods": "whole class"
+  },
+  "property/properties/BooleanProperty.java": {
+    "source_sha256": "957c7eecd9b17e7ba5e7f139db10fdd9bcc48841f60f354cb754c636a32d8601",
+    "ported_sha256": "34a3039be2e6293326f8ba6c6c7f3365e99a2e565cfb993d8829e2543d60d79c",
+    "namespace_relocation": true,
+    "enum_values_adapter_count": 0,
+    "placement_pose_adapter": false,
+    "rice_behavior_overrides": [],
+    "methods": "whole class"
+  },
+  "property/properties/FloatProperty.java": {
+    "source_sha256": "2d729d2fb7fd789db799e26d72a85feb86e4b2bdf6850883925373f56548fe9a",
+    "ported_sha256": "1d259d30ed3641ba99189ce6ba2e726e7f74cc7268b924f07a4bfbf07cba20dc",
+    "namespace_relocation": true,
+    "enum_values_adapter_count": 0,
+    "placement_pose_adapter": false,
+    "rice_behavior_overrides": [],
+    "methods": "whole class"
+  },
+  "property/properties/ModeProperty.java": {
+    "source_sha256": "8da0e6884bfe1cb973fcc319c092c7ad0c3639c1f45d61898d9f55ca95e9ba8f",
+    "ported_sha256": "8b07949577d5386767a208911d7a158a12ed2018eee4adf944c13382177d9213",
+    "namespace_relocation": true,
+    "enum_values_adapter_count": 0,
+    "placement_pose_adapter": false,
+    "rice_behavior_overrides": [],
+    "methods": "whole class"
+  },
+  "property/properties/PercentProperty.java": {
+    "source_sha256": "19fec8a77c9a97032b6e87a95c55d31b00f19f3076bbd90a7a247b04cb189736",
+    "ported_sha256": "2b31cae3f17459f569814fb40a38bd41d308e0b61b0b6dd51044e5afce1368aa",
+    "namespace_relocation": true,
+    "enum_values_adapter_count": 0,
+    "placement_pose_adapter": false,
+    "rice_behavior_overrides": [],
+    "methods": "whole class"
+  },
+  "event/EventTarget.java": {
+    "source_sha256": "9d4a0da009bef64c639c91a93431ecab91be50f18c7175562f4815d30b862d88",
+    "ported_sha256": "c273765d3ff19e63973a33492ace87d6f053ac90f7d4575bfc6e93d5cfe3f2e9",
+    "namespace_relocation": true,
+    "enum_values_adapter_count": 0,
+    "placement_pose_adapter": false,
+    "rice_behavior_overrides": [],
+    "methods": "whole class"
+  },
+  "event/types/EventType.java": {
+    "source_sha256": "7c5254ca320ca65f4989d03e3a378dcf892ef4be4b6ac00e19f192055765de10",
+    "ported_sha256": "94524a5e9014e4e90f0a1875b885a34a0b2c45bef79a203f47d3bc3cd169f85d",
+    "namespace_relocation": true,
+    "enum_values_adapter_count": 0,
+    "placement_pose_adapter": false,
+    "rice_behavior_overrides": [],
+    "methods": "whole class"
+  },
+  "event/types/Priority.java": {
+    "source_sha256": "9e1da38b344d811516199363e286b4e2e037b3cbd2e3b629345a32f4270bacfe",
+    "ported_sha256": "b33058cedd5a22708aa24a856b6dfcb9938f123f8dc76106e5483404837efa1a",
+    "namespace_relocation": true,
+    "enum_values_adapter_count": 0,
+    "placement_pose_adapter": false,
+    "rice_behavior_overrides": [],
+    "methods": "whole class"
+  },
+  "event/events/Event.java": {
+    "source_sha256": "3554b8a945959d2bcd5d1413b32053d5a9fb453be7cdd0eaf4ad507e69e44e06",
+    "ported_sha256": "b619af87676f809ddc58aedc9063545fb53f209fe626fab2a34f8ee1ab6f5d41",
+    "namespace_relocation": true,
+    "enum_values_adapter_count": 0,
+    "placement_pose_adapter": false,
+    "rice_behavior_overrides": [],
+    "methods": "whole class"
+  },
+  "event/events/Cancellable.java": {
+    "source_sha256": "c40b5f28224212aff365aae1e3940a76dedc6b2e0202d0765c6c58eefad6e3df",
+    "ported_sha256": "aa61b1b693518e716d1fd09e279045b8241de01351af773cf66e3646a7e793ca",
+    "namespace_relocation": true,
+    "enum_values_adapter_count": 0,
+    "placement_pose_adapter": false,
+    "rice_behavior_overrides": [],
+    "methods": "whole class"
+  },
+  "event/events/callables/EventCancellable.java": {
+    "source_sha256": "20bd2a7fdb5105014417ad94673ce122a72803cbc94d980ba41d84f5a82e5d84",
+    "ported_sha256": "af71386860572eb9f22084678cddf7b04bad47c4a2cc9b7254e92ccf8e4da2e5",
+    "namespace_relocation": true,
+    "enum_values_adapter_count": 0,
+    "placement_pose_adapter": false,
+    "rice_behavior_overrides": [],
+    "methods": "whole class"
+  },
+  "events/UpdateEvent.java": {
+    "source_sha256": "f49e6ddd713b1b465b72188890967b738b2a7e04be56d91527e83bff224d4c19",
+    "ported_sha256": "381a84b6de567f2ad27b7a2dbfef9e581f3c790e658d72bd6e5d5b1901f840ba",
+    "namespace_relocation": true,
+    "enum_values_adapter_count": 0,
+    "placement_pose_adapter": false,
+    "rice_behavior_overrides": [],
+    "methods": "whole class"
+  },
+  "events/PlayerUpdateEvent.java": {
+    "source_sha256": "61998c10fac487697b37e22d9ba0a9bd24d9f3e562c12aa05ded9fce80ad022d",
+    "ported_sha256": "cd9cc6b2aa44b6d0e13a4f260707a5e5b259d3db59f65bded56aee09c52942db",
+    "namespace_relocation": true,
+    "enum_values_adapter_count": 0,
+    "placement_pose_adapter": false,
+    "rice_behavior_overrides": [],
+    "methods": "whole class"
+  },
+  "events/LivingUpdateEvent.java": {
+    "source_sha256": "5f23b470be4ec329d6cc402be37967e4a8683321f19c0cf76ac8a45f2b436db6",
+    "ported_sha256": "d8a9f3aeb9c33fbbf31f2ddf607f8cfc1cd62ff0f0c65864bdfb49cefebad913",
+    "namespace_relocation": true,
+    "enum_values_adapter_count": 0,
+    "placement_pose_adapter": false,
+    "rice_behavior_overrides": [],
+    "methods": "whole class"
+  },
+  "events/MoveInputEvent.java": {
+    "source_sha256": "ee05597585e3380a1a5b0f4e51b425a4ac8aa8aac44338a73e077f0fa7b90977",
+    "ported_sha256": "bb56eac893f345eaaa56e13f0594d2ab2dd745477fe61c549ee2a0f9fd9f1ab1",
+    "namespace_relocation": true,
+    "enum_values_adapter_count": 0,
+    "placement_pose_adapter": false,
+    "rice_behavior_overrides": [],
+    "methods": "whole class"
+  },
+  "events/StrafeEvent.java": {
+    "source_sha256": "479b0387dc0934073efd81b2adfca98b9f6ffa7a0ae2ca9df99ff2f2d40e8408",
+    "ported_sha256": "ce44b44a779ab5c551375ebca714e483c19661ba07d03f6c4c537dd7541e4a72",
+    "namespace_relocation": true,
+    "enum_values_adapter_count": 0,
+    "placement_pose_adapter": false,
+    "rice_behavior_overrides": [],
+    "methods": "whole class"
+  },
+  "events/SafeWalkEvent.java": {
+    "source_sha256": "acecd23e8371ff8c22b3161c5ada28d7e2c4614800a269953e2eb73245d9e1be",
+    "ported_sha256": "9a44f8f8d626086137c660b0c16e436ac7cd770d1853879af8d8d29533085b4b",
+    "namespace_relocation": true,
+    "enum_values_adapter_count": 0,
+    "placement_pose_adapter": false,
+    "rice_behavior_overrides": [],
+    "methods": "whole class"
+  },
+  "events/Render2DEvent.java": {
+    "source_sha256": "8f026ef9b7129163a9f2706a246e64560b686bac62daef209ad9fa752574d6b0",
+    "ported_sha256": "f249216fa638af66f5b3877cbc580a6cbbdc6f7017e00c1e0bdb5d9af81b6a69",
+    "namespace_relocation": true,
+    "enum_values_adapter_count": 0,
+    "placement_pose_adapter": false,
+    "rice_behavior_overrides": [],
+    "methods": "whole class"
+  },
+  "events/Render3DEvent.java": {
+    "source_sha256": "8dedb64288292a6cdb89a0a6ae5d1044db040a3bbc3599f8fa5d687f3dd67b8a",
+    "ported_sha256": "23adb12bc4ef9c2fcef61fea7083dc884857a2e2ac89f781ef003a8085f60cea",
+    "namespace_relocation": true,
+    "enum_values_adapter_count": 0,
+    "placement_pose_adapter": false,
+    "rice_behavior_overrides": [],
+    "methods": "whole class"
+  },
+  "events/TickEvent.java": {
+    "source_sha256": "74bdb9665d88bad209aba21bdcbe77e55284122c3db66ef7f995b90aaf5f2318",
+    "ported_sha256": "857b880304d38aee8663917cdcf64abf5be5e17f67d8aea87303d97c259442fa",
+    "namespace_relocation": true,
+    "enum_values_adapter_count": 0,
+    "placement_pose_adapter": false,
+    "rice_behavior_overrides": [],
+    "methods": "whole class"
+  },
+  "events/LeftClickMouseEvent.java": {
+    "source_sha256": "dba80a7679802d5efeebbf2a75aef83f640200e2283ecd0d0dd484665d3d5141",
+    "ported_sha256": "f7e24d51b903be597430dbd2d6b1d59d231a05bb2613b4fe6b930f7365c66851",
+    "namespace_relocation": true,
+    "enum_values_adapter_count": 0,
+    "placement_pose_adapter": false,
+    "rice_behavior_overrides": [],
+    "methods": "whole class"
+  },
+  "events/RightClickMouseEvent.java": {
+    "source_sha256": "d95108f70f770d3cc6b79bdd1609b0539a87e20817a1fffca180c7e89cebe876",
+    "ported_sha256": "e387148cee618dc170ac802f0fa8c19bc71b7ccc4b1b690f9155ba337f42efdf",
+    "namespace_relocation": true,
+    "enum_values_adapter_count": 0,
+    "placement_pose_adapter": false,
+    "rice_behavior_overrides": [],
+    "methods": "whole class"
+  },
+  "events/HitBlockEvent.java": {
+    "source_sha256": "13da843762f5fba7e6229bf3f34d8bda64543991944993f07ea5bf25c1a16631",
+    "ported_sha256": "a4d2e58edfc4cf996f375c1a51d8c456022c39e01d76088b752df3b8ada14906",
+    "namespace_relocation": true,
+    "enum_values_adapter_count": 0,
+    "placement_pose_adapter": false,
+    "rice_behavior_overrides": [],
+    "methods": "whole class"
+  },
+  "events/SwapItemEvent.java": {
+    "source_sha256": "d727786870808b678f4a0f06bd82a4f467ec18a8097f756c5541417b5c2f42dc",
+    "ported_sha256": "8e5976fbad6319253a6e7dd34530831399bd94388a620d63d9acc464f697f94b",
+    "namespace_relocation": true,
+    "enum_values_adapter_count": 0,
+    "placement_pose_adapter": false,
+    "rice_behavior_overrides": [],
+    "methods": "whole class"
+  },
+  "util/MoveUtil.java": {
+    "source_sha256": "ca47aadc6ec489a8d5b0f1d209a7b723921ea9758aaef3e03b30f15edd18441c",
+    "ported_sha256": "ac203f90970be1d93b46a4fbf478206f0eaa21dd771e00db65349ab251c1556b",
+    "namespace_relocation": true,
+    "enum_values_adapter_count": 0,
+    "placement_pose_adapter": false,
+    "rice_behavior_overrides": [],
+    "methods": [
+      "isForwardPressed",
+      "getForwardValue",
+      "getLeftValue",
+      "getMoveYaw",
+      "adjustYaw",
+      "getDirectionYaw",
+      "getSpeed",
+      "setSpeed",
+      "getSpeedLevel"
+    ]
+  },
+  "util/PlayerUtil.java": {
+    "source_sha256": "93dce1410df8a793f71d62829281f8cc8a69d52b927cfb3654a2566016875bbe",
+    "ported_sha256": "932dc07a3f183b4b2eb996c586cac58ad59c57ae830f540723b8debe03cc5e1a",
+    "namespace_relocation": true,
+    "enum_values_adapter_count": 0,
+    "placement_pose_adapter": false,
+    "rice_behavior_overrides": [],
+    "methods": [
+      "isUsingItem",
+      "canMove",
+      "isAirBelow",
+      "isAirAbove"
+    ]
+  },
+  "util/ItemUtil.java": {
+    "source_sha256": "ac1427036291acb5e21737e5e40a884c338a2102a7c79589a64dec40a8b1b83e",
+    "ported_sha256": "24255a6c9d0d6c2d02e929330aa727c577d1a2275f9a3d7a0f24e248074faec2",
+    "namespace_relocation": true,
+    "enum_values_adapter_count": 0,
+    "placement_pose_adapter": false,
+    "rice_behavior_overrides": [],
+    "methods": [
+      "isBlock",
+      "isContainerBlock",
+      "isHoldingBlock"
+    ]
+  }
+}

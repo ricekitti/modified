@@ -1,0 +1,3 @@
+[Rice] Rice Modified Forge hooks: named
+[Rice] Forge patched net.minecraft.client.renderer.entity.RenderManager (9 hook points)
+PASS: Lunar-style additional camera setters; both axes verified; missing-axis rejection; GuiScreen remains byte-identical for Lunar mixins.

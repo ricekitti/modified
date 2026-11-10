@@ -1,0 +1,10 @@
+{
+  "version": "1.8.20",
+  "exe_sha256": "f0234056425457b993b5affee6ef333c13576cb13e9c8381fb50719751c0ff4d",
+  "native_sha256": "bd08c2a8498aa0fe7234380401686049b4a221806516341eb59d74a58ea84164",
+  "ctest": "31/31 passed",
+  "embedded_payload_matches": true,
+  "zip_sources_match": true,
+  "old_backend_classes_absent": true,
+  "live_gameplay_tested": false
+}

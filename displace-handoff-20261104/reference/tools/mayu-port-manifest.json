@@ -1,0 +1,775 @@
+{
+ "bridge": {
+  "MixinEntity.beforeSetVelocity": {
+   "kind": "cancellable",
+   "rewrites": {
+    "(Object)this -> (Object)self": 1,
+    "callback parameter dropped": 1,
+    "callbackInfo.cancel() -> cancelled = true": 1,
+    "cancel flag declared and returned": 1,
+    "return; -> return cancelled;": 0,
+    "target instance parameter added": 1,
+    "this. -> self.": 3
+   },
+   "upstream_sha256": "9090bda205a1b49523ee9f05154716a0421d82a352734e639f4671bc64ddd514"
+  },
+  "MixinEntity.modifySafeWalkFlag": {
+   "kind": "modify",
+   "rewrites": {
+    "(Object)this -> (Object)self": 1,
+    "callback parameter dropped": 0,
+    "target instance parameter added": 1
+   },
+   "upstream_sha256": "8da9cc769c5e4c8720ab6dc9104876f8280b167c700cda9677f210ea2b9d1166"
+  },
+  "MixinEntityLivingBase.modifyJumpYawRadians": {
+   "kind": "modify",
+   "rewrites": {
+    "(Object)this -> (Object)self": 1,
+    "callback parameter dropped": 0,
+    "target instance parameter added": 1
+   },
+   "upstream_sha256": "9ff8f168802cb60591de0b6496a999d10bcb06c9f264df05b9a4e2801c175b9c"
+  },
+  "MixinEntityLivingBase.redirectMoveFlying": {
+   "kind": "redirect",
+   "rewrites": {
+    "(Object)this -> (Object)self": 1,
+    "callback parameter dropped": 0,
+    "target instance parameter added": 1,
+    "this. -> self.": 3
+   },
+   "upstream_sha256": "cab4c0ce64e6eba47456a2f1a9a83bae42441661342fe18b75a5a6c00f4815cb"
+  },
+  "MixinEntityPlayerSP @Unique": [
+   "   private float spoofedYaw = Float.NaN;",
+   "   private float spoofedPitch = Float.NaN;",
+   "   private float originalYaw;",
+   "   private float originalPitch;"
+  ],
+  "MixinEntityPlayerSP.afterMovementInputUpdate": {
+   "kind": "inject",
+   "rewrites": {
+    "(Object)this -> (Object)self": 0,
+    "callback parameter dropped": 1
+   },
+   "upstream_sha256": "7b8bf628bae032720ebc91b629d7f1f8aba29f174619df2f34615617fdca31b7"
+  },
+  "MixinEntityPlayerSP.afterPlayerUpdate": {
+   "kind": "inject",
+   "rewrites": {
+    "(Object)this -> (Object)self": 0,
+    "@Unique field -> per-instance state": 4,
+    "callback parameter dropped": 1,
+    "per-instance state lookup": 1,
+    "private @Shadow write -> MayuShadows.set_lastReportedPitch": 1,
+    "private @Shadow write -> MayuShadows.set_lastReportedYaw": 1,
+    "target instance parameter added": 1,
+    "this. -> self.": 18
+   },
+   "upstream_sha256": "42b95c578754d572ba4694962519b02635d876fd3573800d39a17eb7a7644efc"
+  },
+  "MixinEntityPlayerSP.applySpoofedRotationBeforeRidingCheck": {
+   "kind": "redirect",
+   "rewrites": {
+    "(Object)this -> (Object)self": 0,
+    "@Unique field -> per-instance state": 4,
+    "callback parameter dropped": 0,
+    "per-instance state lookup": 1,
+    "target instance parameter added": 1,
+    "this. -> self.": 2
+   },
+   "upstream_sha256": "10b7ff59c9cac6061298f96a8ee23a022be80f1a5c29dcd3033efd8593872f1a"
+  },
+  "MixinEntityPlayerSP.beforeLivingUpdate": {
+   "kind": "inject",
+   "rewrites": {
+    "(Object)this -> (Object)self": 0,
+    "callback parameter dropped": 1
+   },
+   "upstream_sha256": "7ef59fac9d70dd350439f80145ddf7ea589c66ff02d3512143e39f1a968f60ec"
+  },
+  "MixinEntityPlayerSP.beforePlayerUpdate": {
+   "kind": "inject",
+   "rewrites": {
+    "(Object)this -> (Object)self": 0,
+    "@Unique field -> per-instance state": 8,
+    "callback parameter dropped": 1,
+    "per-instance state lookup": 1,
+    "private @Shadow read -> MayuShadows.get_lastReportedPitch": 1,
+    "private @Shadow read -> MayuShadows.get_lastReportedYaw": 1,
+    "target instance parameter added": 1,
+    "this. -> self.": 8
+   },
+   "upstream_sha256": "8bd27a74d5c2c1d936f9faca7269cb1fb3969c333f6e9012b47f9a62c354fedf"
+  },
+  "MixinEntityPlayerSP.beforePlayerUpdate arbitrated": {
+   "derived_from": "MixinEntityPlayerSP.beforePlayerUpdate",
+   "kind": "inject",
+   "rewrites": {
+    "(Object)this -> (Object)self": 0,
+    "@Unique field -> per-instance state": 8,
+    "RotationUpdateEvent post removed": 1,
+    "callback parameter dropped": 1,
+    "per-instance state lookup": 1,
+    "private @Shadow read -> MayuShadows.get_lastReportedPitch": 1,
+    "private @Shadow read -> MayuShadows.get_lastReportedYaw": 1,
+    "target instance parameter added": 1,
+    "this. -> self.": 8
+   }
+  },
+  "MixinEntityPlayerSP.beforeWalkingPlayerUpdate": {
+   "kind": "inject",
+   "rewrites": {
+    "(Object)this -> (Object)self": 0,
+    "callback parameter dropped": 1
+   },
+   "upstream_sha256": "5a6b1a459e047035814bfc7dd38c30b7a2800faeebd7fbda9bd08b906ef8e53b"
+  },
+  "MixinEntityRenderer @Unique": [
+   "   private MutableValue<Integer> spoofedHotbarSlot = null;",
+   "   private MutableValue<ItemStack> previousItemInUse = null;",
+   "   private MutableValue<Integer> previousItemUseCount = null;"
+  ],
+  "MixinEntityRenderer.afterUpdateCameraAndRender": {
+   "kind": "inject",
+   "rewrites": {
+    "(Object)this -> (Object)self": 0,
+    "@Unique field -> per-instance state": 9,
+    "callback parameter dropped": 1,
+    "per-instance state lookup": 1,
+    "private @Shadow read -> MayuShadows.get_mc": 3,
+    "target instance parameter added": 1
+   },
+   "upstream_sha256": "ee532cfefa4755632db27169bc96b592f5712de02c91d9b1ec45b8a97e26cdd7"
+  },
+  "MixinEntityRenderer.afterUpdateRenderer": {
+   "kind": "inject",
+   "rewrites": {
+    "(Object)this -> (Object)self": 0,
+    "@Unique field -> per-instance state": 3,
+    "callback parameter dropped": 1,
+    "per-instance state lookup": 1,
+    "private @Shadow read -> MayuShadows.get_mc": 1,
+    "target instance parameter added": 1
+   },
+   "upstream_sha256": "aa4319bb5823a539f1e2cfb8580fc3fd05b62337920c2fc6fabe774bd37bc1ad"
+  },
+  "MixinEntityRenderer.beforeUpdateCameraAndRender": {
+   "kind": "inject",
+   "rewrites": {
+    "(Object)this -> (Object)self": 0,
+    "@Unique field -> per-instance state": 3,
+    "callback parameter dropped": 1,
+    "per-instance state lookup": 1,
+    "private @Shadow read -> MayuShadows.get_mc": 8,
+    "target instance parameter added": 1
+   },
+   "upstream_sha256": "05f83e4be2e42a5d4dc3a20a011579f1801feb75ed62073c94d041e001bebe02"
+  },
+  "MixinEntityRenderer.beforeUpdateRenderer": {
+   "kind": "inject",
+   "rewrites": {
+    "(Object)this -> (Object)self": 0,
+    "@Unique field -> per-instance state": 1,
+    "callback parameter dropped": 1,
+    "per-instance state lookup": 1,
+    "private @Shadow read -> MayuShadows.get_mc": 2,
+    "target instance parameter added": 1
+   },
+   "upstream_sha256": "ead3ed5f7e8ae99eefa999e38106dad9dbe9003042331c1f860278e20792e979"
+  },
+  "MixinForgeHooksClient.afterRenderWorld": {
+   "kind": "inject",
+   "rewrites": {
+    "(Object)this -> (Object)self": 0,
+    "callback parameter dropped": 1
+   },
+   "upstream_sha256": "6e1f6af364c3b94eb3357cf5672a4e77e1fbaf3ffaf3ef6d47f026f6557139be"
+  },
+  "MixinGuiIngame.redirectCurrentHotbarItem": {
+   "kind": "redirect",
+   "rewrites": {
+    "(Object)this -> (Object)self": 0,
+    "callback parameter dropped": 0
+   },
+   "upstream_sha256": "92501cfa27fe8795b0db2a58be5d4f0f41323d091ba230d1c683c68f8f4a64bf"
+  },
+  "MixinGuiIngameForge.afterRenderTitle": {
+   "kind": "inject",
+   "rewrites": {
+    "(Object)this -> (Object)self": 0,
+    "callback parameter dropped": 1
+   },
+   "upstream_sha256": "e49910dd04c2a038d86fa9e9ae4159fca786a5479057306c232df0d6b5b5a35a"
+  },
+  "MixinKeyBinding.onIsPressed": {
+   "kind": "returnable",
+   "rewrites": {
+    "(Object)this -> (Object)self": 0,
+    "callback parameter dropped": 1,
+    "callbackInfo.getReturnValue() -> returnValue": 1,
+    "callbackInfo.setReturnValue(v) -> returnValue = v": 1,
+    "private @Shadow read -> MayuShadows.get_keyDescription": 1,
+    "return value threaded through": 1,
+    "target instance parameter added": 1
+   },
+   "upstream_sha256": "30b74975b7ef56846d395ad6bb91139ed9c939ca36d91b257ac2a21b8e757200"
+  },
+  "MixinMinecraft.afterRunGameLoop": {
+   "kind": "inject",
+   "rewrites": {
+    "(Object)this -> (Object)self": 0,
+    "callback parameter dropped": 1
+   },
+   "upstream_sha256": "e243bd702b82449a4aaf9982107ff5247d35588d5fa7ae553097d774c29f0019"
+  },
+  "MixinMinecraft.afterRunTick": {
+   "kind": "inject",
+   "rewrites": {
+    "(Object)this -> (Object)self": 0,
+    "callback parameter dropped": 1,
+    "target instance parameter added": 1,
+    "this. -> self.": 2
+   },
+   "upstream_sha256": "ce5953a21c8392c6750783344d68a47e44c38aefede275709f0b96081c89c6c0"
+  },
+  "MixinMinecraft.beforeBlockClick": {
+   "kind": "cancellable",
+   "rewrites": {
+    "(Object)this -> (Object)self": 0,
+    "callback parameter dropped": 1,
+    "callbackInfo.cancel() -> cancelled = true": 1,
+    "cancel flag declared and returned": 1,
+    "return; -> return cancelled;": 0,
+    "target instance parameter added": 1,
+    "this. -> self.": 1
+   },
+   "upstream_sha256": "a757dd6e364e9a1f075cec2165c1ba3c092f2873ee420b221adc7632310159b2"
+  },
+  "MixinMinecraft.beforeLeftClick": {
+   "kind": "cancellable",
+   "rewrites": {
+    "(Object)this -> (Object)self": 0,
+    "callback parameter dropped": 1,
+    "callbackInfo.cancel() -> cancelled = true": 1,
+    "cancel flag declared and returned": 1,
+    "private @Shadow write -> MayuShadows.set_leftClickCounter": 1,
+    "return; -> return cancelled;": 0,
+    "target instance parameter added": 1
+   },
+   "upstream_sha256": "0df39b238c7097cc635d41acc2433de7fb0a8b9c05852908804c57c4068ad5a5"
+  },
+  "MixinMinecraft.beforeLoadWorld": {
+   "kind": "inject",
+   "rewrites": {
+    "(Object)this -> (Object)self": 0,
+    "callback parameter dropped": 1
+   },
+   "upstream_sha256": "645eb5928fb86298a54725e623942543ddb2624d4b64271560c5212b3f0799a7"
+  },
+  "MixinMinecraft.beforeRightClick": {
+   "kind": "cancellable",
+   "rewrites": {
+    "(Object)this -> (Object)self": 0,
+    "callback parameter dropped": 1,
+    "callbackInfo.cancel() -> cancelled = true": 1,
+    "cancel flag declared and returned": 1,
+    "return; -> return cancelled;": 0
+   },
+   "upstream_sha256": "b5891854fa2e7eb572df7cf6ddcc265365b29f0f3f25607a8b7758457bcbf004"
+  },
+  "MixinMinecraft.beforeRunTick": {
+   "kind": "inject",
+   "rewrites": {
+    "(Object)this -> (Object)self": 0,
+    "callback parameter dropped": 1,
+    "target instance parameter added": 1,
+    "this. -> self.": 2
+   },
+   "upstream_sha256": "7b0aac43110ae57f958f2151e8d3eddd9efdd38fc4af6a41cd0a1db376fc2861"
+  },
+  "MixinMinecraft.redirectHotbarScroll": {
+   "kind": "redirect",
+   "rewrites": {
+    "(Object)this -> (Object)self": 0,
+    "callback parameter dropped": 0
+   },
+   "upstream_sha256": "5b8e1b4a44a144f65a793ab8e77f921abf04799650a211be99f638d1cdb1f683"
+  },
+  "MixinNetworkManager.onChannelRead": {
+   "kind": "cancellable",
+   "rewrites": {
+    "(Object)this -> (Object)self": 0,
+    "callback parameter dropped": 1,
+    "callbackInfo.cancel() -> cancelled = true": 2,
+    "cancel flag declared and returned": 1,
+    "return; -> return cancelled;": 0
+   },
+   "upstream_sha256": "b2cbd26447e3bb994974f3fc582ce562e5459f09f5cf81e93ffb5901c825512b"
+  },
+  "MixinNetworkManager.onSendPacket": {
+   "kind": "cancellable",
+   "rewrites": {
+    "(Object)this -> (Object)self": 0,
+    "callback parameter dropped": 1,
+    "callbackInfo.cancel() -> cancelled = true": 3,
+    "cancel flag declared and returned": 1,
+    "return; -> return cancelled;": 1
+   },
+   "upstream_sha256": "7f47dad223c6029afb06d99828bc226033fbd3a92c213403d644705df9c35b1f"
+  },
+  "MixinNetworkManager.onSendPacketWithListeners": {
+   "kind": "cancellable",
+   "rewrites": {
+    "(Object)this -> (Object)self": 0,
+    "callback parameter dropped": 1,
+    "callbackInfo.cancel() -> cancelled = true": 2,
+    "cancel flag declared and returned": 1,
+    "return; -> return cancelled;": 1
+   },
+   "upstream_sha256": "e2d26d0f5588cf801479812d02acb661182893c3e7be2ba82970d56cf6c8816d"
+  },
+  "MixinRenderManager @Unique": [
+   "   private float originalPrevRenderYawOffset;",
+   "   private float originalRenderYawOffset;",
+   "   private float originalPrevYawHead;",
+   "   private float originalYawHead;",
+   "   private float originalPrevPitch;",
+   "   private float originalPitch;"
+  ],
+  "MixinRenderManager.afterRenderEntityStatic": {
+   "kind": "inject",
+   "rewrites": {
+    "(Object)this -> (Object)self": 0,
+    "@Unique field -> per-instance state": 6,
+    "callback parameter dropped": 1,
+    "per-instance state lookup": 1,
+    "target instance parameter added": 1
+   },
+   "upstream_sha256": "0d03aeab523eae905780e20c04ea1e39fcfe2b54b0c3da6b90c7aab1dc82a550"
+  },
+  "MixinRenderManager.beforeRenderEntityStatic": {
+   "kind": "inject",
+   "rewrites": {
+    "(Object)this -> (Object)self": 0,
+    "@Unique field -> per-instance state": 6,
+    "callback parameter dropped": 1,
+    "per-instance state lookup": 1,
+    "target instance parameter added": 1
+   },
+   "upstream_sha256": "17b63def4a322a95f012997043931e68af58b48e7a81360be9248dc037ed7664"
+  }
+ },
+ "files": {
+  "BedESPModule.java": {
+   "byte_exact": true,
+   "sha256": "054a37dadd567758bc852a9ddee1287e447f95340089e7968359bdaef23afae3"
+  },
+  "BedNukerModule.java": {
+   "byte_exact": false,
+   "sha256": "5b220d164ac996661b46ca7d444b7cac02ab37f8103684635950a5b7214c925c"
+  },
+  "BeneficialPotionIds.java": {
+   "byte_exact": true,
+   "sha256": "020e4fc2d4622ba056b8b8cf788f02328380f5939f45e66966f0df92fde632ee"
+  },
+  "BlockClickEvent.java": {
+   "byte_exact": true,
+   "sha256": "80f8fc8d7b3a902a8e4e6f46a79b6b97c4bfaada7f0ae64c37c3ed6ac14f12b2"
+  },
+  "BlockPlacementTarget.java": {
+   "byte_exact": true,
+   "sha256": "48ed6e0e789f14f83673e043d5ad71e4899f33eb2012e773b9b5f44f7229480e"
+  },
+  "BlockUtils.java": {
+   "byte_exact": true,
+   "sha256": "9267d26eed7e3ccbc1ecc7619870f7c38db08fad0a7412cc630a30c0efcbd37e"
+  },
+  "BooleanSetting.java": {
+   "byte_exact": true,
+   "sha256": "c47258889097cf4b958f8d79a60b32841bb8884384797b9a0aa2b99ed7fe4882"
+  },
+  "CancellableEvent.java": {
+   "byte_exact": true,
+   "sha256": "e33c570f584fd5cc7485a52dad6a4e1c75b3e2c6261403edb4465024762c8734"
+  },
+  "ChatColor.java": {
+   "byte_exact": true,
+   "sha256": "9a898b37c053d48d4a2119db6d85221969332acd1ddd99f86530f80997b9537f"
+  },
+  "ChatUtils.java": {
+   "byte_exact": true,
+   "sha256": "7caf48b77934654afd609b648dbff943c28c16b93b97b2fa7abbdf26cdb1c100"
+  },
+  "ColorSetting.java": {
+   "byte_exact": true,
+   "sha256": "68c94dde820fa788de42542d579963e18aa08e8820703bbbeafd90dabb645071"
+  },
+  "ColorUtils.java": {
+   "byte_exact": true,
+   "sha256": "8bc6019e1b3225bdb6d27541241c3e34834c6857ee280833f4014448e7f02b31"
+  },
+  "Command.java": {
+   "byte_exact": true,
+   "sha256": "189c64053597bf9c012635786ef2eaabb40fc23d484afeb7ffe4bece3d7347c9"
+  },
+  "CommandManager.java": {
+   "byte_exact": true,
+   "sha256": "b129fd110fe45268fd73a82940eda16de872110eddb1fea8ab7966745808932d"
+  },
+  "DelayedPacket.java": {
+   "byte_exact": true,
+   "sha256": "1f9adcb0886540b4d758c6e129b05548ccf7266704930d02bf7dd00b0b1aadbb"
+  },
+  "ElapsedTimer.java": {
+   "byte_exact": true,
+   "sha256": "6fbf57060e43866a73dd8e712ed7519e7c4c04797c79c45936fc390b6544b443"
+  },
+  "EnchantmentLabel.java": {
+   "byte_exact": true,
+   "sha256": "4d821fb8c85ddbaae1900f61a38c9e855f8b8cb84d64b188ff15edf931bd20f9"
+  },
+  "EnchantmentLabels.java": {
+   "byte_exact": true,
+   "sha256": "66c94e2a0b6b8e29c5301e4a87afe5648d2671cbf8a753e48bd59f5bde6b7fd8"
+  },
+  "EnchantmentText.java": {
+   "byte_exact": true,
+   "sha256": "ecddfc8cce7703be6644e61f0b610d80429731f85b7131cb9d3fe19bf7483127"
+  },
+  "Event.java": {
+   "byte_exact": true,
+   "sha256": "7963a4403549b5ac81a0a14629c2b23f01ae234f919c2621b83303538a800a17"
+  },
+  "EventBus.java": {
+   "byte_exact": true,
+   "sha256": "f169be49f21fa84e1b0eaae05b406a95979df6195fe02300b4e16fcaf5b7ac7d"
+  },
+  "EventHandler.java": {
+   "byte_exact": true,
+   "sha256": "99e3f426e8299f7bf7dd6b5588f3d26c82e26597c73104b31bfc50c3e27938ea"
+  },
+  "EventListener.java": {
+   "byte_exact": true,
+   "sha256": "d26c9dfa769418506310a6e57395bca9e90b5ea8817df08ebfc8f2b828c52cc9"
+  },
+  "FloatSetting.java": {
+   "byte_exact": true,
+   "sha256": "93c330999d69026af11f7a862ad7d59cd7c9e66866724f7e70e139f5bb443689"
+  },
+  "HUDModule.java": {
+   "byte_exact": true,
+   "sha256": "acf9f1e3290afc3b3398dc6ccb1b0e8f9d64f41b0f62cd810c97fde3a340318d"
+  },
+  "HotbarChangeEvent.java": {
+   "byte_exact": true,
+   "sha256": "8803cd9bf22286934ac3fb66f3abbc5904767621e9b8703b6b021e9aaf0da2a8"
+  },
+  "IncomingBufferOwner.java": {
+   "byte_exact": true,
+   "sha256": "41b048303f58bbd4f63ff80407d0e3e674ff48f3ede69803c81bf4719798d7ce"
+  },
+  "IncomingPacketBuffer.java": {
+   "byte_exact": true,
+   "sha256": "ea747888097a935166d5c49b7cd0c6b8d605059dcaf2737d9dbc2670c8c461b5"
+  },
+  "InputUtils.java": {
+   "byte_exact": true,
+   "sha256": "308fdbd679f6959c6a87af1b4ce62712c6a06b3fb5a82c74cd5e0be947cedcdc"
+  },
+  "IntegerSetting.java": {
+   "byte_exact": true,
+   "sha256": "d35c9b36587efb9488c901a83b95217b66b18a63d16fbb25b408b08574ae8e80"
+  },
+  "ItemUtils.java": {
+   "byte_exact": true,
+   "sha256": "58124e5057a212b9be487232b18fc4fd5ca416915e3c501863d17e6733b9d89f"
+  },
+  "KeepSprintModule.java": {
+   "byte_exact": true,
+   "sha256": "a7451155051701f4520c29b0ca6a143bf51bd7c0d99680a3966338c75ffbb38f"
+  },
+  "LeftClickEvent.java": {
+   "byte_exact": true,
+   "sha256": "b2ea09701d5a74e48ec7d0a913e89c5de54de383bcc779b0d196c821f2311727"
+  },
+  "LivingUpdateEvent.java": {
+   "byte_exact": true,
+   "sha256": "423af0f993617dcc5b83b9af0160c80b866c149861c3b66846d97fcfad975633"
+  },
+  "MathUtils.java": {
+   "byte_exact": true,
+   "sha256": "b007a418463fe7e91301462a9113619d78679be5f6d48ad7eeb8df359a6a687d"
+  },
+  "ModeSetting.java": {
+   "byte_exact": true,
+   "sha256": "6d30fbb315b9e49adc4a9d3764c94a3a128a6d8a1065fd68b9c6150e87f2fcf5"
+  },
+  "Module.java": {
+   "byte_exact": true,
+   "sha256": "bcf87a2b51c8a45e15debf7528c224ab72457df553e85b5041f9cb9e96c25cb3"
+  },
+  "ModuleManager.java": {
+   "byte_exact": true,
+   "sha256": "def1eb9fef3230eb70892ffa8e32601b786047569bb5d99bc3ed9ebb1b1343a7"
+  },
+  "MoveFlyingEvent.java": {
+   "byte_exact": true,
+   "sha256": "11f1751d50ab90c480f56ac7e054de4344f2313f37898f7f68db26032086724e"
+  },
+  "MovementInputEvent.java": {
+   "byte_exact": true,
+   "sha256": "4318446d26050c026b88b9fc2ec387d5e4b821aefc0f4f7b950d4afc0fb4ada8"
+  },
+  "MovementUtils.java": {
+   "byte_exact": true,
+   "sha256": "43752621bb60cfa965697a98974a7df9106176ceeef66f0c73b4750cf455c7cf"
+  },
+  "MutableValue.java": {
+   "byte_exact": true,
+   "sha256": "5c8dd2282f0d41a72f9fe0c2e1dc9fa7cb14e94b849449b29b7da706c7f3d3e7"
+  },
+  "NoHitDelayModule.java": {
+   "byte_exact": true,
+   "sha256": "f90727a4034de98d403b58f555ec399ba2f9825a2bdcbcc25f1bfb7fba565913"
+  },
+  "OutgoingBufferOwner.java": {
+   "byte_exact": true,
+   "sha256": "14185cba7d9f3bde439c5208f29b382e357f2f6e289607edda11d94ee869b4cc"
+  },
+  "OutgoingPacketBuffer.java": {
+   "byte_exact": true,
+   "sha256": "4d30763adbfe4ea7534e71d6cd1821a9499364fb8aab56cfc78ac212519387ae"
+  },
+  "PacketActionTracker.java": {
+   "byte_exact": true,
+   "sha256": "65419b290dc5d27a6602c8eb37e4b1c0d0423c9209fab34aeae629d71279106a"
+  },
+  "PacketDelayManager.java": {
+   "byte_exact": true,
+   "sha256": "2c71978a4509cf0e43461f3fa963aab4abdcf6197181b214b47c0834d668f084"
+  },
+  "PacketReceiveEvent.java": {
+   "byte_exact": true,
+   "sha256": "7b18c9f4384e77d417edc22a92bb87370701966c0795ac1024e86bcb6e74d54a"
+  },
+  "PacketSendEvent.java": {
+   "byte_exact": true,
+   "sha256": "792abbea6a41bab4c361d8ba33895dbc87c205974c59dc209d1bdb1c85c0d845"
+  },
+  "PacketUtils.java": {
+   "byte_exact": true,
+   "sha256": "d47cc048118b62b8e2b5ee0c4b78fe69ea59ce1f63078be8ee28e27725d7f770"
+  },
+  "PercentSetting.java": {
+   "byte_exact": true,
+   "sha256": "68518b289905825b830c4d7aa995a61837b664a5a93fd65c233844278c7c7aa4"
+  },
+  "PlayerUtils.java": {
+   "byte_exact": true,
+   "sha256": "3eb60d4b76c258fe3713b05d679deee654c8b98e7092e9fadb2c3180577c3f96"
+  },
+  "PostPlayerUpdateEvent.java": {
+   "byte_exact": true,
+   "sha256": "98dd8636f24a54f86fb6b1707ae954893074f5ec1ad855b7469afc3192a1911d"
+  },
+  "PostTickEvent.java": {
+   "byte_exact": true,
+   "sha256": "fcf692efbc01ffdf33af8eecc2e5a1cdca6cd585bdd8b68122c9931daf99259d"
+  },
+  "PreTickEvent.java": {
+   "byte_exact": true,
+   "sha256": "115e0ce33cf33f56b284c666644ef38a23091c57a365732b3a0c04658e7ff411"
+  },
+  "PreWalkingUpdateEvent.java": {
+   "byte_exact": true,
+   "sha256": "9a890fcb1769f68b3c45caf2eb9a2c9c09fccf4378b59d3464920d99cdb4358b"
+  },
+  "RandomUtils.java": {
+   "byte_exact": true,
+   "sha256": "0bbd7dba44045bccea40f4089248b75c9c1ba65c7e4d845b65f843d2e81747de"
+  },
+  "RawPacketReceiveEvent.java": {
+   "byte_exact": true,
+   "sha256": "03176aa14701267152bcfc22ecba20934763880ee8a07f09b89bae9665b61781"
+  },
+  "RenderOverlayEvent.java": {
+   "byte_exact": true,
+   "sha256": "8011a41156c227622835001a0e63fbee0bb5a8415d8c1635d96f7af01f2f8605"
+  },
+  "RenderUtils.java": {
+   "byte_exact": true,
+   "sha256": "ce41b38b94e6dc628f1ac301c246c0462c95317106612533f62d356c06c40ac0"
+  },
+  "RenderWorldEvent.java": {
+   "byte_exact": true,
+   "sha256": "f8450f6b6d4957eec9254761a83e3079376fe7c35c156c03905b6ec744473522"
+  },
+  "RightClickEvent.java": {
+   "byte_exact": true,
+   "sha256": "d5f742999ae085ce3bee603e20c144ecb990a6b57f82293123abdb434f651502"
+  },
+  "RotationState.java": {
+   "byte_exact": true,
+   "sha256": "e3c2571fdfec06d7358b13b4e4c5723f6663dfcbde1a4631618b3a842e32fd14"
+  },
+  "RotationUpdateEvent.java": {
+   "byte_exact": true,
+   "sha256": "22a8bfd2415bf34c0de2e92a30a053bbfd38336cda490e0cb491b158e5816b1c"
+  },
+  "RotationUtils.java": {
+   "byte_exact": true,
+   "sha256": "814aef091ab8618bdd1e4948ea002aeac396745adb264f10df3379f23926dec2"
+  },
+  "SafeWalkEvent.java": {
+   "byte_exact": true,
+   "sha256": "ad5b68f43bd9429a4138bbb3760c7080fb7b210229695b9d12470187a324b253"
+  },
+  "Setting.java": {
+   "byte_exact": true,
+   "sha256": "77aaed223a22e8bb38c8b553dd86dad7ecd23335cc103f1f9cc8153e664ba4d1"
+  },
+  "SoundUtils.java": {
+   "byte_exact": true,
+   "sha256": "1ed2c63143f2570e0f1b1206dbb67dd26ce4c334c82ebd2cc53e0b7ab0491412"
+  },
+  "VelocityEvent.java": {
+   "byte_exact": true,
+   "sha256": "bad771d602d8ce95ef33ac532e0363a7a7b03ec9706627423e746fa33d768d1a"
+  },
+  "WorldLoadEvent.java": {
+   "byte_exact": true,
+   "sha256": "0372217d1cc6ae5061a32512e6a8342a47e8c4aeb54532f08d365fec734a1c54"
+  },
+  "host/MayuMixins.java": {
+   "byte_exact": false,
+   "sha256": "0665e4f48360772d33c570f7f1c1a6f0b11efb8a9b1cd391ab8131dd02b239f3"
+  },
+  "mixin/AccessorC14PacketTabComplete.java": {
+   "byte_exact": true,
+   "sha256": "e3ccaee996f2ae3d8caa026020a348593f38ca7216b9ec5984abc40ea93b07bd"
+  },
+  "mixin/AccessorEntity.java": {
+   "byte_exact": true,
+   "sha256": "b93e02ceb5377f86570f3ffefe4c9d8b92037335377c375cf9125ec3bb2224d5"
+  },
+  "mixin/AccessorEntityPlayer.java": {
+   "byte_exact": true,
+   "sha256": "50bc21dd6da38a6fb5c47ac2a17da4c382ed45aa21f47a8a1f4754f96ad01f42"
+  },
+  "mixin/AccessorEntityRenderer.java": {
+   "byte_exact": true,
+   "sha256": "0a90955f91ee60367f808b5fc675469f4946d6421a72eb5a01b6543f6138cb6c"
+  },
+  "mixin/AccessorGuiChat.java": {
+   "byte_exact": true,
+   "sha256": "9b6638787ca28c78b5bf9b11c7aeac1370de3c7bef3d0b6c7cc141c2210c772e"
+  },
+  "mixin/AccessorMinecraft.java": {
+   "byte_exact": true,
+   "sha256": "d2b3a1a238da8b44f50116f54f08fd27db984980716b4352ae5a15af3894779b"
+  },
+  "mixin/AccessorPlayerControllerMP.java": {
+   "byte_exact": true,
+   "sha256": "38054057763b08b7c5d47536d59c8f5b2c0ac4da1672ab4dfcd33376ae36fcb4"
+  },
+  "mixin/AccessorRenderManager.java": {
+   "byte_exact": true,
+   "sha256": "9805c3906b4ff2e76e6499376292992332145e6a091eb9505d8daa0926e7eaba"
+  }
+ },
+ "host_types": [
+  "InjectScaffoldView",
+  "KillAuraModule",
+  "LongJumpModule",
+  "MyauClient",
+  "ScaffoldModule",
+  "TargetStrafeModule"
+ ],
+ "reference_classes": {
+  "BedESPModule.class": "f01acd8e7c8230655003a168ae4a05a8b94031dc9e9755a39b7568dcb0ae00aa",
+  "BedNukerModule.class": "af1cb6343b887146a17a57593fb4fba95bdba6be32c2c03398be7a7f957cd3d4",
+  "BeneficialPotionIds.class": "3c0bc7638b9c214a8fe0b1476fa9aac73abf8c542ff6e99f393f19a8a256bbfa",
+  "BlockClickEvent.class": "64d71a7e9ef56636dc950c42471b7de34c1549794e994dc198b4fcc529390045",
+  "BlockPlacementTarget.class": "2a2f7d243aaefa02975b583f1531a388ce7d09904e6b75f12a2c2221dd688679",
+  "BlockUtils$1.class": "b7890c58f707ed90095dc9599ffa11734a26cab925109b1a7c5ba105520bc6ce",
+  "BlockUtils.class": "80c948397b2285b8fedfc0445e6805d326668ad603a84afd0bbe28e558c7131c",
+  "BooleanSetting.class": "c59013cfc3e21c5b19c12445becf82fcae77a69b872d2a3f38e7a5dc96d1b9a7",
+  "CancellableEvent.class": "4f80017511c150fa8a04047fbf564fa0dccb4af9e2af6ff64ce56825644045d9",
+  "ChatColor.class": "89537e18addaa267a86e3ca92e1e4b3af803a262551d52789f4ce1856c83de78",
+  "ChatUtils.class": "9336051274380145a615994df0ae6ef7674e06938ed05668ade949802cc5ccf5",
+  "ColorSetting.class": "edac9c831ad889f947f6d7102a7f678add0bf47deb23cea04495847888c02a15",
+  "ColorUtils.class": "3c13cde2d19f47adc34ec1587f61c52f00d272ad23f2f82786f2138feef8fa54",
+  "Command.class": "bd972e27c8c8cbee9b2e236163aa2861c5696b1a512c571a21312e6ba2f322a0",
+  "CommandManager.class": "e37f48754230cd0810b2b8fff147d2894940c2d9349430e0cbe9a8a5bfd3fe36",
+  "DelayedPacket.class": "0f02168fcc20f0a5291e8c2652d0d114ebf3350d2495d63edb748aeb838e67c0",
+  "ElapsedTimer.class": "a047f09d7e565e5303369bd3339a676da35df1ff1969a63d76e6e1a4476c8a14",
+  "EnchantmentLabel.class": "a1441d1e9619c0a0e8797dbb795527a09aef8808ea247c6690237d45c51fccd6",
+  "EnchantmentLabels.class": "4e355e87aae7f194db40c780677657f6a863923c27e3b1dfe53fd720ebb1f885",
+  "EnchantmentText.class": "8cee754ab9ca076e59e60e6ba9272f31cdd497a473078e297222aa5594d19728",
+  "Event.class": "1fb812dd227acdb4625077fce463ed8a6ad9b58b354403bc1dfa9929ee21f9c3",
+  "EventBus.class": "dfc78dd90f8523d8aa293e495f6bcc50ab876fe7a6b9d38163e60febe3f8d3f6",
+  "EventHandler.class": "900ee80c4fec9f3db659218882ef441266e09a7583ccd2868348c1860e3bb9d9",
+  "EventListener.class": "2f149236a36f94505c95ef534f84a93459c12b9a024502c57d30e92181d0f228",
+  "FloatSetting.class": "2b135c5c2be65cb5d38328effb920bdfaba68947771f1878da7f0bad8b5ac423",
+  "HUDModule.class": "bfd8de12d0c01a568336830877b0c2a16bf5c603f1c6489a72cf092215e8de55",
+  "HotbarChangeEvent.class": "182b2fc245780cbffec75242e045c1da37b8a323897203d3ae97ec71930c0f93",
+  "IncomingBufferOwner.class": "f10105c6d122de74f9c34080969f2b3a4fd69e229aee1f60c876d27f9a7dd9f8",
+  "IncomingPacketBuffer.class": "cc5dbc593f1241b34d0f022cb7c48e834a7f33065ff57f56cfbdad5f6426f447",
+  "InputUtils.class": "e8eceb542360c434bb5aabf923a4a33c0e2a6557fbaa00abbe8dba934e11fa6a",
+  "IntegerSetting.class": "c3187540eb9be96446dfe0000030caf7575b9a96daf5b90f02da2f31db36e6c5",
+  "ItemUtils.class": "6786c89e5eed8fcb503a1d54880582c021e01561bcc318db39cad4ff85131f3f",
+  "KeepSprintModule.class": "5b2f4f726bbea07ab87343fc27fe5bc18df2cb4da2765ada4501ddf039116c6e",
+  "LeftClickEvent.class": "5eea0243c2844e625ceb5c9bea121004e5e073ce95ee065944fc1719cb1cc9db",
+  "LivingUpdateEvent.class": "a763b182170f82ca8d86a29ca13eb199c269550d30a9728910379ed1c0e503da",
+  "MathUtils.class": "6adb1c16f56d608f5a5890f879dd1858ee5f3dab9a2a728667d60c9a076f1a6d",
+  "ModeSetting.class": "9fcd10ee95b88ed714f5ed4b11081a67ba2c51cc8a1e81c6bc9a086800665a4f",
+  "Module.class": "01eeba354191e6c9412bd324f105f3fa16d8852d39da3abbc5cec4f6dab6f226",
+  "ModuleManager.class": "cd0f2fb60e4a20948c8320c7d08708163fbba19b74d9b54cc72922d0a33d30ce",
+  "MoveFlyingEvent.class": "daeab211ad548e9a77efbf764e642afac45f3e65c9174ebce7cbeaec9afa965f",
+  "MovementInputEvent.class": "7ec05550e65863f559ff37be500a7e2b0e77161fc12a424c6b89c4c0c694300f",
+  "MovementUtils.class": "ff846288e92f5f56e52a7af77cab1cd7f471132f60bf2c48dee50be0d1024e00",
+  "MutableValue.class": "4edf515ed3191ed0207c32c0dea3ac2bf700bc621b01c1123b717a6a6e757c58",
+  "NoHitDelayModule.class": "ef5bba67de23529be706b9539afe5aba78a0596aa6cccdae61334ea7e6d39724",
+  "OutgoingBufferOwner.class": "51b5730d940177d2d14b5271e62db4caa2104b479aa08af81ad17335c94a3b6d",
+  "OutgoingPacketBuffer.class": "5eaa8025f20544815eec79cf9d5caa6971ead3630461264e688a62b7f0743a5d",
+  "PacketActionTracker.class": "8a45a961680d101b88e3f9fafffe827c8410c3eb6c349f37fe611d6e4164a13e",
+  "PacketDelayManager.class": "597494a2339ab1fbd9cec203d3f703a3b9fa82937fbe29efda73d4f7c0f37024",
+  "PacketReceiveEvent.class": "0457ba99068207e6ad2653650a2ef52cb9a93b6c52305564e341fc48dffc859f",
+  "PacketSendEvent.class": "609eb5aae345589181b46dd3dcd1846562d46e5c298c98939a082dbc48ef9d85",
+  "PacketUtils.class": "c5377d36934b8069479eca7d5916d86fac7c87ab39a05551016b798add580e1b",
+  "PercentSetting.class": "c517c442a659519329f932044e2f3b3d966e7979337319889e2dd04793c3ca1f",
+  "PlayerUtils.class": "6f5f477d31b969d8bb76f8b3a0f3a59274068aaaa5da6ed7646a6329f3a0a601",
+  "PostPlayerUpdateEvent.class": "34ebc60accf60ff7ab16fabb2f55e32cc80b0486f439ff3aa69e81d15d610574",
+  "PostTickEvent.class": "cde6285c9ba0ed2c4a869cd6021378e19f2b26ef62fe7e0170cb701a6903e50b",
+  "PreTickEvent.class": "0a7a25019d2906131aba595d529c03d65c17dec3b7b5ca440c371b674337813c",
+  "PreWalkingUpdateEvent.class": "adfa541ec1b963701d3ab94cb1e06a9a622011f900bb502ad6c068043b18c973",
+  "RandomUtils.class": "36e23bd8708e983e86870bb11a3d5eabbeab5666bd28da3aa4c6270566bd988b",
+  "RawPacketReceiveEvent.class": "6c83b6c26eb5478fdbcc4af9b2c55d5ae604a252752c3c868ed3a1c3bc20434f",
+  "RenderOverlayEvent.class": "8739902e22f9ecd982df74987302a29548a4ba28aa70c206ce6d96da90ea0346",
+  "RenderUtils.class": "f3afc7d1792c4b9f2b16f481074df3c7984d0ec38b2fdd7e811c757a781eb86d",
+  "RenderWorldEvent.class": "3c9a60fbbff811819c6aec7887980f5efd1853f4f667bd623052c38f88ff1f38",
+  "RightClickEvent.class": "9220a326dc11136af0e90a5b3b3a4162fb4efdbe72bc77cb079bd6d03ff41d58",
+  "RotationState.class": "43b96d932f61e5b96411b1610c5715dc96bc5173175d3470660b8db49b18ce96",
+  "RotationUpdateEvent.class": "465ca119342a21874a90f1047f7c6684f58db2aca2fbdb6ccc43b25bfe4c4f76",
+  "RotationUtils.class": "ea6f8ff98aaa993b39a4ec59690ae2814432f4b181180359a0664c408143c29b",
+  "SafeWalkEvent.class": "7d8d0584ce042090d8dc78b236a977369cee47123240af26245ee0b300b79a0f",
+  "Setting.class": "b61508941dd7e0a427c6b7b37dddb21813e1884a47c4d93ecfebe26216b04561",
+  "SoundUtils.class": "6acbb40b8709f54e74fcbaf9a1201e7b919a594491a41371edd959d72a077f54",
+  "VelocityEvent.class": "fe4be041ec2415598054491da5d6cf4162e6d609cedc67005161d4d846508cbc",
+  "WorldLoadEvent.class": "30b64324b09e2ef9cbc58d36ae062edc862a3747f6515f699ad3a8543c770b63",
+  "mixin/AccessorC14PacketTabComplete.class": "51eb262bb4104acf98d63106c3329cb1031c103c9c50ec37feaa0c8b73cfc269",
+  "mixin/AccessorEntity.class": "1c917a2ce35f34c54841705c574db251b03faecc641afa5a1501f9cce3d2dc52",
+  "mixin/AccessorEntityPlayer.class": "0099d428713d8cf5d9442bcae40d2a25ad4086201cde453db3b935f3122a7034",
+  "mixin/AccessorEntityRenderer.class": "3b3ee9750f91070557c860f9aab63f4294d4d7f42ecb764c9e3f77606859edea",
+  "mixin/AccessorGuiChat.class": "da26b2dac37e827007328b6a2ea979fea239f9ea4c6d0333f3bd6fb2998101e8",
+  "mixin/AccessorMinecraft.class": "5a736521a959255ade2e8bce9906b8fc6743133525f72c6b02e96686c9ce6fb5",
+  "mixin/AccessorPlayerControllerMP.class": "5205bf578ad1f38a5cd1c335299d530c40b3f96dbbb1070ae1212380c91f4720",
+  "mixin/AccessorRenderManager.class": "44677a2d441a19e72ce13c62d28837540e1d26cd330476e00cc1d3f744f23257"
+ },
+ "source_adaptations": {
+  "BedNukerModule.java": "Rice NUKER PATCH route planner and server-confirmed break state"
+ },
+ "upstream": "Downloads/meow/meow/src/main/java/myau (Myau 1.0.0, MCP stable_22 sources)"
+}

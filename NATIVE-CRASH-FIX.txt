@@ -1,0 +1,13 @@
+Native crash fix — 2026-10-30
+Evidence: latest Lunar crash reports hs_err_pid19844.log and hs_err_pid38132.log, JNI GetFloatField with null player.
+Original regular DLL stack: get_entity_rotation+0x2e -> block_in_enable_remember_facing+0x43 -> apply_module_toggles -> hook_update_display.
+Regular module activation is deferred until a world and player exist.
+Both editions guard Block In activation and disconnect cleanup against missing context/player/settings.
+Automated tests: regular 7/7; modified 16/16.
+Packaged DLL extraction and SHA256 match: passed.
+Latest Soju auth rebuild retained.
+Live Minecraft replay requires restarting the game and injecting this new build.
+Executable SHA256: B3EE4771602881BCC995FB7041C7D1FC90F09A6B29218BBB39057C7FFD332B59
+Payload SHA256: 173AACC26B673008168062E1E53CF228E4D2612528E1B23D3000C59725CE8FD1
+Aliases updated: rice-loader.exe, rice-loader-auth-remade.exe
+Aliases locked by an existing process: 

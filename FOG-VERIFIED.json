@@ -1,0 +1,15 @@
+{
+  "Release": "C:\\Users\\ethan\\Documents\\rice slinky new\\modified\\rice-loader-fog.exe",
+  "SHA256": "D9C2FD89F3D827314C0FA6DA2424DBB92B708541594CC22B60F433163CB091A4",
+  "ClientSHA256": "27FDAF7EC47FB56B6678B58DA7ADCA70D55D433E1B27EF3346DC880B4844ABF0",
+  "TestsPassed": 18,
+  "EmbeddedClientMatches": true,
+  "FogSourceSHA256": "04CF2AE4A8ECF3FC518A32E63B6A53B3773671D59660CB0FD7EA9E8ECDBBC5DA",
+  "FogHookSites": 5,
+  "NamingFormats": [
+    "named",
+    "srg",
+    "official"
+  ],
+  "GameplayVerified": false
+}

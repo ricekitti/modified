@@ -1,0 +1,31 @@
+{
+  "version": "1.8.22.0",
+  "feature": "Knockback Displace aligned to regular Rice Slinky v2.14 (guards + angle clamp; no Legit Void)",
+  "exe_sha256": "d8e86055803ccab6bf8f37383facd4753ea0ad831f5ccb9724a385fb5eab9ca7",
+  "native_sha256": "68ab66fc1d1a847e7f0be93b3322668b6a36d7bf03ea60dbc953d6dde701787f",
+  "embedded_payload_matches": true,
+  "embedded_match_evidence": "--check-runtime decoded embedded DLL SHA-256 (68ab66fc...) equals the freshly built build/slinky.dll",
+  "base_build": "v1.8.21 bedplates-customize; this build = v1.8.21 + v2.14 Displace alignment",
+  "ctest": { "passed": 31, "failed": 0 },
+  "mappings": ["named", "srg", "official"],
+  "reference": "uploaded displace-v214-source.zip (displace.KnockbackDisplace + RavenBsVoidScanner + WeaponRules + OutboundHold)",
+  "changes": {
+    "edited": ["modified/displace-handoff-20261104/displace/KnockbackDisplaceModule.java"],
+    "added_guards": ["!player.isRiding()", "!player.isSpectator()", "minecraft.getRenderViewEntity() == player"],
+    "added_clamp": "angle clamped to [45,180] (Math.max(45, Math.min(180, angle)))",
+    "legit_void": "not present in the native build (forge-only; dropped as requested)",
+    "scanner": "RavenBsVoidScanner unchanged - already behaviourally identical to v2.14",
+    "scope": "EXE/native only; forge untouched"
+  },
+  "native_equivalence_notes": {
+    "require_no_kb": "uses native 'reducing' flag = the native client's reconstruction of v2.14 reducesRecoil",
+    "rotation": "native RotationService = the native equivalent of v2.14's temporary-yaw walking-update plumbing"
+  },
+  "rebuilt": true,
+  "live_gameplay_tested": false,
+  "releases_preserved": true,
+  "updated_copies": ["modified\\rice-loader.exe", "modified\\slinky.dll"],
+  "not_updated": {
+    "slinky-modified.exe": "root copy was file-locked (in use) at package time; refresh when not running"
+  }
+}

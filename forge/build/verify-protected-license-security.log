@@ -1,0 +1,1 @@
+PASS: signed authentication, tamper/wrong-key/unsigned/replay/future/owner/rejected-license denial, session checks, fail-closed activation/revocation.

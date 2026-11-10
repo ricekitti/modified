@@ -1,0 +1,215 @@
+{
+ "files": {
+  "xyz/daikirai/client/Chat.java": "afeba87e825ecf0df36fc802dba1fffbb1741cf568653cc9f5188e5949f7eca0",
+  "xyz/daikirai/client/Overlay.java": "4a28746fe80ce7ce687f249b7db2208f839aa5f175ad5dc5b6a8cca64e78ab8c",
+  "xyz/daikirai/gui/HudEditor.java": "6b076a081205057287268b77aeed321ab20d3f6acac399e1b08783dbf12e388e",
+  "xyz/daikirai/gui/InfoHudEditor.java": "5bae20e8147ceb23f8a15a9b3c1bd20f5644a1a8ce9b6448943c3a5e1b85c8d3",
+  "xyz/daikirai/gui/TargetHudEditor.java": "af0f1881a0d1f29ca45f679a391ad2b4a6e538f8e02702bb91dba18c8f315a2b",
+  "xyz/daikirai/module/combat/KillAuraModule.java": "164c8cbfb70c5370d9a3935fbd6c412d0952d15c3205b0f80d089a233de7dd3a",
+  "xyz/daikirai/module/render/TargetHudModule.java": "aaa5bcb02a5bedbd4d062e008ccaeabfb0fb918829e201c04a3553d3e2bdfe5c",
+  "xyz/daikirai/module/setting/SliderSetting.java": "f935d59383f6416cd3b7efb44079a303ba4ef44070c8843aeffe8e8b457947fb",
+  "xyz/daikirai/util/Animation.java": "4e5057552d143bb5438f31bdf085c21e5d8444509e7038908816717625663a5e",
+  "xyz/daikirai/util/Blur.java": "83a69f977b2ad2ffa02b8eb51e449de8d560a97be5ff025dfdac63cb3984afe7",
+  "xyz/daikirai/util/EspShaders.java": "ae2dcb6edfa1ee4380f193f7af595a9d0418e055f893f5bf1f50970659994d08",
+  "xyz/daikirai/util/GlowShader.java": "214b89f213441bf9b2589324fe25d83c85c528060b4e8257adfed15440cd8d1b",
+  "xyz/daikirai/util/Render3D.java": "e726d493364b8c83d8ce8d38b0f1976bcdbe451d65ff2509a6eb6ab906b8d568",
+  "xyz/daikirai/util/RenderUtils.java": "5d6912ab84e345047f4dbc00878662e16c972ed1897865a4f9bc5020df07c3e7",
+  "xyz/daikirai/util/Shader.java": "3d23c49fc881a3c5a39e20b775021ad588cf641c49e11edbadecbf3b1d691861",
+  "xyz/daikirai/util/ShaderSources.java": "188dc97441a83297e69481f7b5e33e45e3f44be8e0c62d92eba56b5cdd087643",
+  "xyz/daikirai/util/Strings.java": "f02edf67b80b8365635324466291499583f388cae0b145bb75e81e1bc39e9d59",
+  "xyz/daikirai/util/Theme.java": "afcf8e7dcd949913dd5a12d251b3a93b8697acd836165f13b893532579383f43"
+ },
+ "host": {
+  "xyz/daikirai/module/setting/SliderSetting.java :: public static String formatNumber(double d) {": "207d57841f126bb5289892491da49f495f8144e6362289fb9cfc8588e5f032f5"
+ },
+ "imported": {
+  "EspShaders.java": "whole file",
+  "GlowShader.java": "whole file",
+  "Render3D.java :: public static void entityBox(Entity entity, int n, int n2, float f) {": "member",
+  "Render3D.java :: public static void filledBox(AxisAlignedBB a, float r, float g, float b, float alpha) {": "member",
+  "RenderUtils.java :: public static int rainbow(long speed, long... offset) {": "member",
+  "RenderUtils.java :: public static void quad(double x, double y, double w, double h) {": "member",
+  "RenderUtils.java :: public static void resetColor() {": "member",
+  "RenderUtils.java :: public static void screenQuad() {": "member",
+  "Shader.java": "whole file",
+  "ShaderSources.java": "whole file"
+ },
+ "killaura": {
+  "onRenderTickTargetHud": "53415652a9cccbcea3f648e27b811b4fbeaf12fe41ed2b4bcb8e70256d9f6489",
+  "rewrites": [
+   {
+    "count": 1,
+    "new": "        OpenB4TargetHudHost.Module targetHud = OpenB4TargetHudHost.ModuleManager.enabled(\"TargetHUD\");\n",
+    "old": "        Module targetHud = ModuleManager.enabled(\"TargetHUD\");\n",
+    "reason": "OpenB4 module lookup -> TargetHUD host stand-in (non-null while the Rice TargetHUD module is enabled)"
+   },
+   {
+    "count": 3,
+    "new": "OpenB4TargetHudBackend.",
+    "old": "TargetHudModule.",
+    "reason": "class rename"
+   },
+   {
+    "count": 1,
+    "new": "OpenB4TargetHudBackend.Overlay.canRender()",
+    "old": "Overlay.canRender()",
+    "reason": "the verbatim OpenB4 Overlay.canRender (Rice's KillAura host Overlay has no canRender)"
+   }
+  ]
+ },
+ "members": {
+  "xyz/daikirai/client/Chat.java :: private static final Minecraft mc = Minecraft.getMinecraft();": "dca7badaa548a6c08f1d22cd52739dd2b55b0cbf6dc7267fceac997a58255eef",
+  "xyz/daikirai/client/Chat.java :: public static boolean inWorld() {": "7c3b3137413cd0458c7e581611dfefb40efb94d4eeac2586b495c20094d791d5",
+  "xyz/daikirai/client/Overlay.java :: private static final Minecraft mc = Minecraft.getMinecraft();": "dca7badaa548a6c08f1d22cd52739dd2b55b0cbf6dc7267fceac997a58255eef",
+  "xyz/daikirai/client/Overlay.java :: public static boolean canRender() {": "34cfc020b12862e1c516872e72ec901728c7748b0efc8cfb7ec7e6d625a5c9b5",
+  "xyz/daikirai/gui/HudEditor.java :: public class HudEditor extends GuiScreen {": "a6d0c6d3345efff9444bb5e8a8dd8cbc6bdc394f105da2c2de819f2325a475b4",
+  "xyz/daikirai/gui/InfoHudEditor.java :: public static void rainbowText(String s, char newline, int x, int y, long speed, long lineOffset, boolean shadow, FontRenderer fr) {": "7af583c76e06b32bb3581dcf234c611ec4bc1db8db52458419b7d59b6eaa8d79",
+  "xyz/daikirai/gui/TargetHudEditor.java :: public class TargetHudEditor extends HudEditor {": "69400ec831512b826dc7bceadeaf0bd83f0baf04c0c8995b125b0a0d7de44b96",
+  "xyz/daikirai/util/Animation.java :: public class Animation {": "712a76bb701615a561342e30807c03a7aed4bc42c3cfbeb8e8c0a08a7c85151f",
+  "xyz/daikirai/util/Blur.java :: public class Blur {": "5db5caffc8cf9192c81cb69b24ebe4368612b5e3bc346240ee530fa672a89fc6",
+  "xyz/daikirai/util/RenderUtils.java :: private static final Minecraft mc = Minecraft.getMinecraft();": "dca7badaa548a6c08f1d22cd52739dd2b55b0cbf6dc7267fceac997a58255eef",
+  "xyz/daikirai/util/RenderUtils.java :: public static final double[] SIN_0_90 = new double[31], COS_0_90 = new double[31];": "f3a3b2e5d16c591c0e1bfe5409c0653b92381ec501b5f068bf355f5becca11ee",
+  "xyz/daikirai/util/RenderUtils.java :: public static final double[] SIN_90_180 = new double[31], COS_90_180 = new double[31];": "d531b515ddfac9a07d72f0dfa2cf2fc6631122781b5a45db15c681df594e19b5",
+  "xyz/daikirai/util/RenderUtils.java :: public static int blend(Color color, Color color2, double d) {": "09ffde904553ba297e0058b2fce8074888f937911df6aa91bc6291761552d6d9",
+  "xyz/daikirai/util/RenderUtils.java :: public static int blendInt(int n, int n2, double d) {": "f4ab2381ee6bcdcc8d5c04f716393212ca9767431f95cc0f3bc0d41e449f577c",
+  "xyz/daikirai/util/RenderUtils.java :: public static int clampAlpha(int n) {": "241cd47f6366db0a3951febfef48f25427fd28afd10d23bb6cb4cb80915d2a77",
+  "xyz/daikirai/util/RenderUtils.java :: public static int rainbow(long speed, long... offset) {": "d48ed13358d55468b2f011b6135e8dcf264f9b6c7706ce67f9da7b88bc03b879",
+  "xyz/daikirai/util/RenderUtils.java :: public static int scaledWidth, scaledWidthD, scaledHeight, scaledHeightD, scaleFactor = 1;": "c54801c5466c049f3a7e98061c53e17698756a3224332655996394bfcf4d01fe",
+  "xyz/daikirai/util/RenderUtils.java :: public static int withAlpha(int rgb, int alpha) {": "8a9b71d623e4a38bf6b5dc8d0693a76c82616de1ccbefe2867903bd60f16431b",
+  "xyz/daikirai/util/RenderUtils.java :: public static void quad(double x, double y, double w, double h) {": "5da32b2ce14e89edb4554545d1b501acd917f6987604307e47c6ce2e5c254135",
+  "xyz/daikirai/util/RenderUtils.java :: public static void resetColor() {": "12bfda42d31f26b1f25642e4d97b5770b712e65edcaceaeb95c42ee529a24d19",
+  "xyz/daikirai/util/RenderUtils.java :: public static void roundedRect(float x, float y, float x2, float y2, float r, int color) {": "43d3371c83469aa935250b01dc7c19d38501ece5271993e0e3c6c9d34e3b788f",
+  "xyz/daikirai/util/RenderUtils.java :: public static void roundedRectBorder(float f, float f2, float f3, float f4, float f5, int n, int n2, int n3) {": "229863ae0688d433f5e91c0bee2ffb3596dda19937259a5db17f3ef9d16f7150",
+  "xyz/daikirai/util/RenderUtils.java :: public static void roundedRectGradient(float f, float f2, float f3, float f4, float f5, int n, int n2, int n3, int n4) {": "d0ec35b6aa6c10f94bbc00589360f6fccea04f0c048772fbcfa264a6a345d8c9",
+  "xyz/daikirai/util/RenderUtils.java :: public static void screenQuad() {": "dd4bff765980530cebc9f77906a0a59ce3f3f3c05bce2883649065b34fc7fea7",
+  "xyz/daikirai/util/RenderUtils.java :: public static void setColor(int n) {": "55ca270a9e5c550ec3ff3cc8dc250e94bf8f1f33c15674912f0eda2ef163f254",
+  "xyz/daikirai/util/RenderUtils.java :: public static void updateResolution() {": "f3e2bc3192f173d8cb0cdc7bba3b3c0e5bf24b00222d26de8f2795b46d00f2c9",
+  "xyz/daikirai/util/RenderUtils.java :: static {": "5b7384adb5cfe04c80980b3f931f5e7657127569e574018c0d4c2dbee35892d9",
+  "xyz/daikirai/util/Strings.java :: private static final Minecraft mc = Minecraft.getMinecraft();": "dca7badaa548a6c08f1d22cd52739dd2b55b0cbf6dc7267fceac997a58255eef",
+  "xyz/daikirai/util/Strings.java :: public static String health(double d, double d2) {": "138ba1836d4fbedbdd3aed2f650f75e96f4cd4b317b043d25d99b915b7564d05",
+  "xyz/daikirai/util/Strings.java :: public static String healthDifference(float f, boolean heart) {": "ebd8e813d2872f6fb81e372ea76defc3f63675b6eb8efc5ce8bf87cec4d2b542",
+  "xyz/daikirai/util/Strings.java :: public static double round(double d, int n) {": "1ece24b20cc22650bba2ad2bc54293a125cc8e28f3f17921030bc7fc1f90b8f1",
+  "xyz/daikirai/util/Strings.java :: public static final String RED = \"§c\", GOLD = \"§6\", YELLOW = \"§e\", GREEN = \"§a\", DARK_GREEN = \"§2\";": "7b445013e7105a592e410150f6cb2eabd1484338d9bf7aae66d28d37bb64330b",
+  "xyz/daikirai/util/Strings.java :: public static final char HEART = '❤';": "e942928180fc5040da643ed1ecbb129895587f0b33d3859575c2c7b8b8100550",
+  "xyz/daikirai/util/Strings.java :: public static final char SECTION = '§';": "08376ec2aa8f0e9412a3c730f8c8310b78e601363f82ad9fe7d49121dde2f65a",
+  "xyz/daikirai/util/Strings.java :: public static float health(EntityLivingBase e) {": "c79436d0304ab431f3b226bef323d5a7dfaed99cb5590373a44a53785e0cb3dc",
+  "xyz/daikirai/util/Strings.java :: public static int healthColor(double d) {": "c40bae70a09771c781fdf4ff29d0263bc6d0de37f398944261c37305f39b79d1",
+  "xyz/daikirai/util/Strings.java :: public static void heart(StringBuilder sb) {": "62df5a5f7c5ab9d9829d5b0484c74d7007aa1e1bc09add186de2a4e4a042cda1",
+  "xyz/daikirai/util/Theme.java :: public enum Theme {": "67200c6484df6cfb824084ef447366d141f795edee777d7c51f2abca77c5806c"
+ },
+ "rewrites": [
+  {
+   "count": 1,
+   "new": "public final class OpenB4TargetHudBackend extends Module {\n",
+   "old": "public class TargetHudModule extends Module {\n",
+   "reason": "standalone backend over the OpenB4 Module stand-in; Rice lifecycle lives in module/impl/TargetHudModule",
+   "scope": "module"
+  },
+  {
+   "count": 1,
+   "new": "public OpenB4TargetHudBackend(int key) {",
+   "old": "public TargetHudModule(int key) {",
+   "reason": "class rename (constructor)",
+   "scope": "module"
+  },
+  {
+   "count": 4,
+   "new": "Animation",
+   "old": "xyz.daikirai.util.Animation",
+   "reason": "fully-qualified OpenB4 Animation -> the verbatim nested Animation",
+   "scope": "module"
+  },
+  {
+   "count": 1,
+   "new": "@SubscribeEvent",
+   "old": "@net.minecraftforge.fml.common.eventhandler.SubscribeEvent",
+   "reason": "Forge annotation -> host stand-in (Rice dispatches the render-world event itself)",
+   "scope": "module"
+  },
+  {
+   "count": 1,
+   "new": "RenderWorldLastEvent",
+   "old": "net.minecraftforge.client.event.RenderWorldLastEvent",
+   "reason": "Forge event -> host stand-in",
+   "scope": "module"
+  },
+  {
+   "count": 1,
+   "new": "BacktrackModule.ghost",
+   "old": "xyz.daikirai.module.network.BacktrackModule.ghost",
+   "reason": "OpenB4 Backtrack's ghost entity -> host stand-in (Rice has no OpenB4 Backtrack ghost)",
+   "scope": "module"
+  },
+  {
+   "count": 2,
+   "new": "OpenB4KillAuraBackend.",
+   "old": "xyz.daikirai.module.combat.KillAuraModule.",
+   "reason": "OpenB4 KillAura is Rice's OpenB4KillAuraBackend (same static target)",
+   "scope": "module"
+  },
+  {
+   "count": 1,
+   "new": "Render3D.entityBox",
+   "old": "xyz.daikirai.util.Render3D.entityBox",
+   "reason": "fully-qualified OpenB4 Render3D -> Rice's verbatim import in this package",
+   "scope": "module"
+  },
+  {
+   "count": 1,
+   "new": "public static class Animation {",
+   "old": "public class Animation {",
+   "reason": "nested",
+   "scope": "Animation"
+  },
+  {
+   "count": 1,
+   "new": "public static class Blur {",
+   "old": "public class Blur {",
+   "reason": "nested",
+   "scope": "Blur"
+  },
+  {
+   "count": 1,
+   "new": "public static class HudEditor extends GuiScreen {",
+   "old": "public class HudEditor extends GuiScreen {",
+   "reason": "nested",
+   "scope": "HudEditor"
+  },
+  {
+   "count": 1,
+   "new": "Profiles.markModified();",
+   "old": "xyz.daikirai.client.Profiles.markModified();",
+   "reason": "OpenB4 profile store -> host stand-in that writes the position into Rice's hidden settings",
+   "scope": "HudEditor"
+  },
+  {
+   "count": 1,
+   "new": "            OpenB4TargetHudHost.handleInput(this);\n",
+   "old": "            this.handleInput();\n",
+   "reason": "Rice's deobfuscated GuiScreen.handleInput() lacks the 'throws IOException' declaration, so the verbatim catch (IOException) would not compile; the host method calls it and declares the exception",
+   "scope": "HudEditor"
+  },
+  {
+   "count": 1,
+   "new": "public static class TargetHudEditor extends HudEditor {",
+   "old": "public class TargetHudEditor extends HudEditor {",
+   "reason": "nested",
+   "scope": "TargetHudEditor"
+  },
+  {
+   "count": 14,
+   "new": "OpenB4TargetHudBackend.",
+   "old": "TargetHudModule.",
+   "reason": "class rename",
+   "scope": "TargetHudEditor"
+  },
+  {
+   "count": 3,
+   "new": "OpenB4KillAuraBackend.",
+   "old": "xyz.daikirai.module.combat.KillAuraModule.",
+   "reason": "OpenB4 KillAura is Rice's OpenB4KillAuraBackend",
+   "scope": "TargetHudEditor"
+  }
+ ],
+ "source": "OpenB4-u20 (local download, read-only)"
+}

@@ -1,0 +1,11 @@
+[
+  {
+    "modid": "ricemodified",
+    "name": "Rice Modified",
+    "description": "Experimental standalone Java Forge port of Rice Modified. Right Shift opens the menu.",
+    "version": "0.2.1-forge",
+    "mcversion": "1.8.9",
+    "authorList": ["Rice"],
+    "clientSideOnly": true
+  }
+]

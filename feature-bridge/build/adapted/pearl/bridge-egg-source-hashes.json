@@ -1,0 +1,6 @@
+{
+  "bridge_egg": "7d33d5cdb76185f15d3340c72d9114f4a65fe9bdf40b1dbe4332d298da2bf25f",
+  "trajectory_source": "C:\\Users\\ethan\\Documents\\ChatGPT\\dfdfdf\\valen-module-src\\src\\main\\java\\valen\\module\\impl\\render\\Trajectories.java",
+  "trajectory_sha256": "f483990da1e143bf0b2f62601a618ca85b754fe9a35a0748549d34edb23488f8",
+  "adaptation": "VoidProximity replaced by recovered PearlRescue footprint support semantics; props/update holders reconstructed from constants and reads"
+}

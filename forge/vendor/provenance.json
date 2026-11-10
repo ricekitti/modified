@@ -1,0 +1,5 @@
+{
+  "framework_origin": "../feature-bridge/vendor/rice-framework.jar",
+  "framework_sha256": "3583abaa0b5429b4279e23e847ac333c7d2aac590f4ec2bee1451951b29ab7ea",
+  "source_reference": "Snapshot of existing Slinky-source/java; reference only, not a proof that every precompiled framework class matches these sources."
+}

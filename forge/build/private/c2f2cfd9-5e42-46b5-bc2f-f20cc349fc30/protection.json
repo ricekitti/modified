@@ -1,0 +1,14 @@
+{
+  "tool": "supplied ZKM-compatible JAR",
+  "tool_sha256": "1771679cc4517e519a479c1dc9cd4e5118d8afd40ca455c652350d3c9450ce40",
+  "changed_classes": 1253,
+  "flow": "normal",
+  "string_encryption": "enhanced",
+  "reflection_exclusions": "conservative; runtime ABI names preserved",
+  "private_mappings_distributed": false,
+  "flow_coverage_limited_by_tool": true,
+  "renamed_classes": 1197,
+  "package_count_before": 69,
+  "package_count_after": 14,
+  "collapsed_package": "rc2f2cfd95e42"
+}

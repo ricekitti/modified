@@ -1,0 +1,19 @@
+{
+  "com\\snowify\\module\\utility\\anticheat\\Anticheat$1.class": "d9707edfdc8cc6112d6d05c4b7782cbb35106d7f2c8731e8eeb9b0cca85ac7ee",
+  "com\\snowify\\module\\utility\\anticheat\\Anticheat$2.class": "50c831658cba644e2fbfeba37f275fef79a5c2d4f4fbe619d077cf641e2d3963",
+  "com\\snowify\\module\\utility\\anticheat\\Anticheat$Cheater.class": "436ae7aac412724d4de68b59a17be5ae5ee6a3dcc21e0d415c6e70a16a0da76a",
+  "com\\snowify\\module\\utility\\anticheat\\Anticheat$PlayerData.class": "7c4044cd739e099e9c1f8e5e3b0598ebf2a51ee4ee17435da07c6b986c74baf6",
+  "com\\snowify\\module\\utility\\anticheat\\Anticheat.class": "e43602b0211277ba7e7661983d34e4d2cd99f0cff59071ca97fe62423ddb70e9",
+  "com\\snowify\\module\\utility\\anticheat\\BreakCheck$1.class": "7a6b4d634b0b8c73bc6ac9bcb376705fd756281780816c441fe731c7f2c51c01",
+  "com\\snowify\\module\\utility\\anticheat\\BreakCheck$Dig.class": "789badad1a0725b378a514349ffcdcbc2978be3a60273a2f95e5f6b74ae76903",
+  "com\\snowify\\module\\utility\\anticheat\\BreakCheck$Flagger.class": "a9828925eff464dc2183f93dd5da53c20a979baf79cbb4a49391c0ae6f1d95f6",
+  "com\\snowify\\module\\utility\\anticheat\\BreakCheck$Seen.class": "ea08e1c5db838dce59c002ec1b82bd2b8621b2bd7f597d2d70ead615970ea1e6",
+  "com\\snowify\\module\\utility\\anticheat\\BreakCheck.class": "092d25da5858f1ecad781eb3570551246c13e4fe905242c25271ffa9dcf15249",
+  "com\\snowify\\module\\utility\\anticheat\\CommandBlacklist.class": "82f380c99eb67cf9221743664514ff951fd431f60aa985e9bf876af5d2f12bd2",
+  "com\\snowify\\module\\combat\\ignorefatigue\\IgnoreFatigue$1.class": "b3d2dda67eece6b2d006f3ffd954e3585f2007759c97380925ea97d878aa408c",
+  "com\\snowify\\module\\combat\\ignorefatigue\\IgnoreFatigue$2.class": "36a8bca7ce3be7b5e94b42e9044f61c96a2e84c66c6d025f2b59ece7952a2a6a",
+  "com\\snowify\\module\\combat\\ignorefatigue\\IgnoreFatigue$3.class": "0c647419fdd5138dd7844c7c93a0762039cc78ed6da051ca4538bf038703731e",
+  "com\\snowify\\module\\combat\\ignorefatigue\\IgnoreFatigue.class": "72a3d3ee269ae46a93a4981e13f8719f920facc7beb1a6e4c162c4e27d86d227",
+  "com\\snowify\\module\\combat\\ignorefatigue\\MiningAccess.class": "136a4fc00f2c5b5d3a4df16a059272aa7cf59017469e6b5adcbf8d7eca7f5eae",
+  "com\\snowify\\module\\player\\fastmine\\FastMine.class": "cdf2ffb2e9b4586bbb1848b9d298bdce0f07eddca636031356278e13a1da372c"
+}

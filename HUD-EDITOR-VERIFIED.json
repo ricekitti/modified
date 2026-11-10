@@ -1,0 +1,14 @@
+{
+  "Release": "C:\\Users\\ethan\\Documents\\rice slinky new\\modified\\rice-loader-hud-editor.exe",
+  "SHA256": "7A35CA94B9BE697828B76AEC89F610D4208015368796567EDF52DC1654C12147",
+  "ClientSHA256": "DBB39BBEBA8672910D3D4A4A35FF21DC8622BC4DFC268AD9351EA1441F843D87",
+  "TestsPassed": 19,
+  "EmbeddedClientMatches": true,
+  "EditableHudElements": [
+    "Module list",
+    "Notifications"
+  ],
+  "Theme": "Current GUI accent",
+  "Positions": "Normalized GUI settings",
+  "LiveGameplayVerified": false
+}

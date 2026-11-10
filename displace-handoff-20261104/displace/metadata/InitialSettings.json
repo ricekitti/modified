@@ -1,0 +1,60 @@
+[
+  {
+    "Knockback Displace": {
+      "direction": {
+        "value": "Left",
+        "basis": "imported_saved_configuration_observation",
+        "source": "MetadataCatalog.json: Knockback Displace.direction.saved_observation",
+        "factory_default_proved": false
+      },
+      "use_last_strafe": {
+        "value": false,
+        "basis": "imported_saved_configuration_observation",
+        "source": "MetadataCatalog.json: Knockback Displace.use_last_strafe.saved_observation",
+        "factory_default_proved": false
+      },
+      "angle": {
+        "value": 90.0,
+        "basis": "imported_saved_configuration_observation",
+        "source": "MetadataCatalog.json: Knockback Displace.angle.saved_observation",
+        "factory_default_proved": false
+      },
+      "cooldown": {
+        "value": 5.0,
+        "basis": "imported_saved_configuration_observation",
+        "source": "MetadataCatalog.json: Knockback Displace.cooldown.saved_observation",
+        "factory_default_proved": false
+      },
+      "hide_rotation": {
+        "value": false,
+        "basis": "imported_saved_configuration_observation",
+        "source": "MetadataCatalog.json: Knockback Displace.hide_rotation.saved_observation",
+        "factory_default_proved": false
+      },
+      "require_no_kb": {
+        "value": false,
+        "basis": "imported_saved_configuration_observation",
+        "source": "MetadataCatalog.json: Knockback Displace.require_no_kb.saved_observation",
+        "factory_default_proved": false
+      },
+      "require_weapon": {
+        "value": false,
+        "basis": "imported_saved_configuration_observation",
+        "source": "MetadataCatalog.json: Knockback Displace.require_weapon.saved_observation",
+        "factory_default_proved": false
+      },
+      "require_kb_enchant": {
+        "value": false,
+        "basis": "imported_saved_configuration_observation",
+        "source": "MetadataCatalog.json: Knockback Displace.require_kb_enchant.saved_observation",
+        "factory_default_proved": false
+      },
+      "require_facing_away": {
+        "value": false,
+        "basis": "imported_saved_configuration_observation",
+        "source": "MetadataCatalog.json: Knockback Displace.require_facing_away.saved_observation",
+        "factory_default_proved": false
+      }
+    }
+  }
+]

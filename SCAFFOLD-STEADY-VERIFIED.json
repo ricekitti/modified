@@ -1,0 +1,69 @@
+{
+  "verified_at_utc": "2026-11-03T22:49:47.676461+00:00",
+  "change": "Continuous camera-relative input correction replaces eight-way movement snapping. Analog tower yaw and percentage/sneak speed are preserved.",
+  "namespaces": [
+    "named",
+    "srg",
+    "official"
+  ],
+  "direction_cases_per_namespace": 1000,
+  "speed_sneak_rotation_cases_per_namespace": 640,
+  "alternating_boundary_ticks_per_namespace": 200,
+  "regression_tests_passed": 22,
+  "source_manifest": {
+    "repository": "https://github.com/ricekitti/Mayu-src-latest",
+    "commit": "7026f1748845db7593c607c5f936c79f7dc27183",
+    "source_sha256": {
+      "mixin/MixinGuiIngame": "f56d07e290a0e431bca35d82e1f90e80ebd8dedab16df86b5f17488a16d875b3",
+      "BlockUtils": "3b11739a429dc1dfadd57e24f165afbafab9820c96bb3b62057220b61c0ef205",
+      "RandomUtils": "a676aa75453c7d0383992549cba9d60a50e8c29be5905e5be0bfb1df6771ac18",
+      "PacketUtils": "cd69da1c7030724f48114889a5ff477394926800fed7009a7e980247205e3855",
+      "BooleanSetting": "e9e3990b75ff066a2c5887d1239b8ecc724ff11a97ce721fc18921ba06183bdf",
+      "PercentSetting": "6198d4d4dcc91fe071fcc2dcdaeb3f31ffd6472bb1f857ee06b48a3f0e6bbe56",
+      "ModeSetting": "6a96d4fc3d52bc8cff7e580927333bf1e955c03d9c01548eafa7f1a3ea0dca6d",
+      "Setting": "85ea32130a4ad3c9dc815109d3d2432c164b9a84ad7febb7bd181c6757c1d13c",
+      "RotationUpdateEvent": "99b17ba6f6023046ca2f0b955c32e9d0aff0d61b1ae60647af7a62051e0d9895",
+      "RotationState": "da408ee87110c70276a4212a5cd79ad3f6a66c163d16d626e7129adf4a57530b",
+      "MoveFlyingEvent": "aacb0e9cc09b81eecbf7300062007fe047b099f35e8d76c65e439dce75ac5b77",
+      "MovementInputEvent": "59a253bb0c70a3d0785cc65919048c753b5f55c537da6b22b253ff063d878180",
+      "LivingUpdateEvent": "659cc376d28d62aeb7ec501c7e4009771ea6973aa25dde98180b00943bd00cd6",
+      "SafeWalkEvent": "c6ac5d1366ca029799dfe401d361cd76c5ca1d876127005e934562644ca1758c",
+      "RenderOverlayEvent": "c8b2d849c92f9ae32ce7e85a8ebe13d66d169346c37e8c0120eedba356e8e757",
+      "LeftClickEvent": "73eb2107e83da34d32287c5d824f443173b9abee35be4c0f8cb137aaa017e4ad",
+      "RightClickEvent": "cab96a0e7c4bc84da61815765f8dc84485f5d252371076cdd37b62548236e587",
+      "BlockClickEvent": "3f45b9a609c0c39813ade77b52ade53d286fddad87b0d609df9ffdb3e4cd300c",
+      "HotbarChangeEvent": "34e4d92aadbaef03d663dd106c094fb41740dbb085fe6b8ee2783261ca24480b",
+      "Event": "a74e75e38ab868080ff8d1ed4eba7c384a2952f7463f115db75eae1ce0fa9d8f",
+      "CancellableEvent": "133f3a25501d1df49d8b420ca54c57a30abf85ac64b25307f32021c22b88fa33",
+      "BlockPlacementTarget": "09e6838bdd197386a72e0dd842e5867c85694b8fc7c8387208a7a568bfe72bd1",
+      "MovementUtils": "c3d1a90f88b86caafb2a07f1cbaa2b7809216598cec21f7a6731e41d2afe4766",
+      "PlayerUtils": "ea89efc4ef833a6a085f6c7fee00c73d7fce9254682f94076d10bc44bcbcc23c",
+      "RotationUtils": "e53767a1c75a527b2da1f27bdf43081398b0328761e21bd3334de768220f2045",
+      "ItemUtils": "cb7d5c08ecf50b72790d05b4cc64b6b36ea53a7fb4c4d57dbb6b787ec83fe7be",
+      "ScaffoldModule": "8a370cfc41cbc3d217700816a7bdd8d97f31002c3a4f5cf6c373f34b524d06bb"
+    },
+    "unchanged_scaffold_methods": 35,
+    "adaptations": [
+      "package relocation",
+      "event annotations dispatched by adapter",
+      "Scaffold-only helper method closure",
+      "native cross-module and HUD compatibility",
+      "Mixin vector accessor replaced with vanilla vector formula",
+      "private EnumFacing.VALUES replaced with public values()",
+      "continuous movement correction and analog movement yaw for requested sway reduction"
+    ]
+  },
+  "saved_key_auto_login_retained": true,
+  "camera_and_third_person_checks_passed": true,
+  "native_sha256": "f57e06768c3aea25903a4b14cb29977472493de3946259e0211312962036ffed",
+  "extracted_native_matches": true,
+  "live_gameplay_tested": false,
+  "outputs": {
+    "modified\\rice-loader-steady-scaffold.exe": "d762462fca9469c8a9fc10a5554f332d0ac72fc3d938c28343e86a68cd281d06",
+    "modified\\rice-loader.exe": "d762462fca9469c8a9fc10a5554f332d0ac72fc3d938c28343e86a68cd281d06",
+    "slinky-modified.exe": "d762462fca9469c8a9fc10a5554f332d0ac72fc3d938c28343e86a68cd281d06",
+    "modified\\rice-loader-remember-key.exe": "d762462fca9469c8a9fc10a5554f332d0ac72fc3d938c28343e86a68cd281d06"
+  },
+  "locked_outputs_preserved": [],
+  "regular_payload_unchanged": true
+}

@@ -1,0 +1,6 @@
+[0/2] Re-checking globbed directories...
+[1/6] Generating source_features_payload.obj
+[2/6] Generating data_rdata.obj
+[3/6] Building CXX object CMakeFiles\slinky.dir\src\engine\jni\classfile_hooks.cpp.obj
+[4/6] Building CXX object CMakeFiles\slinky.dir\src\engine\jni\hook_installer.cpp.obj
+[5/6] Linking CXX shared library slinky.dll

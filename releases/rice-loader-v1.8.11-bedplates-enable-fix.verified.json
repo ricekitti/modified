@@ -1,0 +1,30 @@
+{
+  "version": "1.8.11.0",
+  "exe_sha256": "790c13df775294fb39390809cf082db3aec175aef702ce6c1179ca0e899d55a9",
+  "native_sha256": "09a48da176c461d4be0c9af76032c216c6c6c9dbc8461aa321b018e772b948b0",
+  "embedded_payload_matches": true,
+  "root_cause": "LWJGL 2 rejects a four-float glGetFloat buffer; Bedplates catches the exception and queues its own disable",
+  "fix": "Allocate 16 floats for the current-color render-state query",
+  "old_failure_reproduced": true,
+  "bedplates_checks_per_mapping": 39,
+  "mappings": [
+    "named",
+    "srg",
+    "official"
+  ],
+  "ctest": {
+    "passed": 32,
+    "failed": 0
+  },
+  "production_fix_scoped_to_bedplates": true,
+  "other_feature_sources_match_v1810": true,
+  "bedplates_defaults_and_ui_unchanged": true,
+  "source_sha256": "cf9eea110b0cf1a0a2ff961dab3c20e9bc42dc9f4bb5a251dd81de0a58dd82cf",
+  "live_gameplay_retested": false,
+  "updated_copies": [
+    "modified\\rice-loader.exe",
+    "slinky-modified.exe",
+    "modified\\slinky.dll"
+  ],
+  "locked_copies": []
+}

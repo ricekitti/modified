@@ -1,0 +1,6 @@
+Steady Scaffold movement: 640 speed/sneak/rotation cases and 200 alternating-yaw ticks passed
+Mayu native movement: 1000 camera/rotation/WASD cases passed, including reversed placement yaw
+Source features: ready (Knockback Displace + Bow Aimbot + Fog + Shaders + Scaffold)
+Mayu Scaffold: native registration, settings, real placement, movement yaw, input routing, menu/disable cleanup passed
+Source features: ready (Knockback Displace + Bow Aimbot + Fog + Shaders + Scaffold)
+Original supplied Java modules: startup, complete settings, real attack yaw/restore, bow prediction, native event/rotation handoff, and cleanup passed

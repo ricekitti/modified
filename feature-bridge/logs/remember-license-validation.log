@@ -1,0 +1,13 @@
+Test project C:/Users/ethan/Documents/rice slinky new/modified/provided-injector/rice-launcher/build
+    Start  1: LicensePrompt
+1/4 Test  #1: LicensePrompt ....................   Passed    0.02 sec
+    Start  5: KeyAuthTransport
+2/4 Test  #5: KeyAuthTransport .................   Passed    0.01 sec
+    Start  6: KeyAuthClient
+3/4 Test  #6: KeyAuthClient ....................   Passed    0.02 sec
+    Start 21: LauncherRegression
+4/4 Test #21: LauncherRegression ...............   Passed    0.16 sec
+
+100% tests passed, 0 tests failed out of 4
+
+Total Test time (real) =   0.21 sec

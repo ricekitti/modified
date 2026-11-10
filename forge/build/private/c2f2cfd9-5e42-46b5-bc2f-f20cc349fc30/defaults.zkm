@@ -1,0 +1,3 @@
+exclude *.* values() and *.* valueOf(java.lang.String) and
+ *.* readObject(java.io.ObjectInputStream) and *.* writeObject(java.io.ObjectOutputStream) and
+ *.* readResolve() and *.* writeReplace();

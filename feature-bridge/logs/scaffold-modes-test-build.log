@@ -1,0 +1,8 @@
+[0/1] Re-running CMake...
+-- Configuring done (0.6s)
+-- Generating done (0.1s)
+-- Build files have been written to: C:/Users/ethan/Documents/rice slinky new/modified/provided-injector/rice-launcher/build
+[1/5] Building CXX object CMakeFiles\ScaffoldPlacementTest.dir\tests\ScaffoldPlacementTest.cpp.obj
+[2/5] Building CXX object CMakeFiles\ScaffoldModesTest.dir\tests\ScaffoldModesTest.cpp.obj
+[3/5] Linking CXX executable ScaffoldPlacementTest.exe
+[4/5] Linking CXX executable ScaffoldModesTest.exe

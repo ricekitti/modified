@@ -1,0 +1,38 @@
+public final class SlinkyHooks19 {
+public static native void getMouseOver(Object p0,float p1);
+public static native boolean isDisplayActivePreRender();
+public static native void updateDisplay();
+public static native void postWorldClear_1_7(int p0);
+public static native void postWorldClear_1_8(int p0);
+public static native void clickMouse(Object p0);
+public static native void rightClickMouse(Object p0);
+public static native void orientCamera(Object p0,float p1);
+public static native void updateActiveRenderInfo(Object p0,boolean p1);
+public static native void setRenderX(Object p0,float p1);
+public static native void setRenderY(Object p0,float p1);
+public static native void updateEntities(Object p0);
+public static native boolean canRenderName(Object p0,Object p1);
+public static native void renderPlayer(Object p0,Object p1,double p2,double p3,double p4,float p5,float p6);
+public static native void unloadChunk(Object p0,int p1,int p2);
+public static native boolean setBlock_1_7(Object p0,int p1,int p2,int p3,Object p4,int p5,int p6);
+public static native boolean setBlock_1_8(Object p0,Object p1,Object p2,int p3);
+public static native void invalidateChunk(Object p0,int p1,int p2,int p3,int p4,int p5,int p6);
+public static native boolean shouldClipLedge(Object p0);
+public static native void moveFlying(Object p0,float p1,float p2,float p3);
+public static native void sendPacket_1_7(Object p0,Object p1,Object p2);
+public static native void sendPacket_1_8(Object p0,Object p1);
+public static native void updateController(Object p0);
+public static native void setupFog(Object p0,int p1,float p2);
+public static native void walkingPlayer(Object p0);
+public static native void movementInput(Object p0);
+public static native void scaffoldMove(Object p0,double p1,double p2,double p3);
+public static native void scaffoldJump(Object p0);
+public static native boolean mayuLoaded(Object p0,Object p1);
+public static native void mayuLiving(Object p0);
+public static native void mayuScroll(Object p0,int p1);
+public static native void mayuSelect(Object p0,int p1);
+public static native void mayuBlockClick(Object p0,boolean p1);
+public static native void mayuGuiUpdate(Object p0);
+public static native void scaffoldOverlay(Object p0,float p1);
+public static native void scaffoldHand(Object p0,float p1,int p2);
+}

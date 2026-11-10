@@ -1,0 +1,11 @@
+{
+  "Release": "C:\\Users\\ethan\\Documents\\rice slinky new\\modified\\rice-loader-hud-live-preview.exe",
+  "SHA256": "2D18B7AEFFA165B6837699D85DACEF041B65949485F7087D0693144CD4183411",
+  "ClientSHA256": "52C89ADDF89AC995818959751595D6F9FC89F4D0335A484B1354259A80C27E51",
+  "TestsPassed": 19,
+  "EmbeddedClientMatches": true,
+  "Preview": "Original gameplay HUD render callbacks",
+  "DynamicBounds": true,
+  "LiveCachePreservation": true,
+  "LiveGameplayVerified": false
+}

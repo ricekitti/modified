@@ -1,0 +1,45 @@
+{
+  "repository": "ricekitti/rise-open",
+  "commit": "c08acf7223ce9a6cde453cf86f97d77d92c742ba",
+  "branch_count": 1,
+  "workflow_run_count": 0,
+  "artifact_history_paths_checked": [
+    "artifacts/client-original.jar",
+    "artifacts/client-restored.jar",
+    "artifacts/client-deobfuscated-final.jar",
+    "dist/RisePortable.exe"
+  ],
+  "artifact_history_results": "No commits returned for each checked path.",
+  "raw_source_review": [
+    {
+      "path": "sources/raw/hackclient/rise/tn.java",
+      "local_file": "rise-source/raw/tn.java",
+      "git_blob_sha": "e862121918e3b4632b82397a7f771855eb986791",
+      "empty_branch_markers": 4,
+      "failed_method_placeholders": 9
+    },
+    {
+      "path": "sources/raw/hackclient/rise/vk.java",
+      "local_file": "rise-source/raw/vk.java",
+      "git_blob_sha": "c577d4638afff2c0bdc680d21b85ecc801f7d9df",
+      "empty_branch_markers": 4,
+      "failed_method_placeholders": 0
+    },
+    {
+      "path": "sources/raw/hackclient/rise/wa.java",
+      "local_file": "rise-source/raw/wa.java",
+      "git_blob_sha": "a8875e20240edfcbad2aae7122a812421ae1eaa5",
+      "empty_branch_markers": 21,
+      "failed_method_placeholders": 0
+    },
+    {
+      "path": "sources/raw/hackclient/rise/vo.java",
+      "local_file": "rise-source/raw/vo.java",
+      "git_blob_sha": "274d3d94a4c938e09da022a2ad32800bee6d10c1",
+      "empty_branch_markers": 1,
+      "failed_method_placeholders": 0
+    }
+  ],
+  "conclusion": "Raw source retains failed methods and suspicious empty branches. It does not resolve original-behavior gaps. Known unported handler/dependency work also remains; this audit does not mark the full port complete.",
+  "runtime_changes_in_this_audit": false
+}

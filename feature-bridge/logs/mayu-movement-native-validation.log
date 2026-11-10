@@ -1,0 +1,49 @@
+Test project C:/Users/ethan/Documents/rice slinky new/modified/provided-injector/rice-launcher/build
+      Start 16: SourceFeaturesJvm
+      Start 17: SourceFeaturesJvm_srg
+      Start 18: SourceFeaturesJvm_official
+ 1/22 Test #18: SourceFeaturesJvm_official .......   Passed    2.89 sec
+      Start 22: NativePayloadRoundtrip
+ 2/22 Test #17: SourceFeaturesJvm_srg ............   Passed    3.02 sec
+      Start 10: HeavyGlowTwoTextureUnits
+ 3/22 Test #16: SourceFeaturesJvm ................   Passed    3.21 sec
+      Start  9: HeavyGlowGpu
+ 4/22 Test #22: NativePayloadRoundtrip ...........   Passed    0.51 sec
+      Start 11: HeavyGlowUnsupportedFallback
+ 5/22 Test #10: HeavyGlowTwoTextureUnits .........   Passed    0.44 sec
+      Start  1: LicensePrompt
+ 6/22 Test  #1: LicensePrompt ....................   Passed    0.02 sec
+      Start  2: GuiBranding
+ 7/22 Test  #2: GuiBranding ......................   Passed    0.02 sec
+      Start 21: LauncherRegression
+ 8/22 Test  #9: HeavyGlowGpu .....................   Passed    0.45 sec
+      Start  8: HudEditor
+ 9/22 Test  #8: HudEditor ........................   Passed    0.01 sec
+      Start  6: KeyAuthClient
+10/22 Test  #6: KeyAuthClient ....................   Passed    0.01 sec
+      Start  3: PlayerEspCompatibility
+11/22 Test #21: LauncherRegression ...............   Passed    0.19 sec
+      Start  4: BlockInLifecycle
+12/22 Test  #3: PlayerEspCompatibility ...........   Passed    0.02 sec
+      Start  5: KeyAuthTransport
+13/22 Test  #4: BlockInLifecycle .................   Passed    0.02 sec
+      Start  7: InjectionNotice
+14/22 Test  #5: KeyAuthTransport .................   Passed    0.02 sec
+      Start 12: FireballPearlNative
+15/22 Test  #7: InjectionNotice ..................   Passed    0.02 sec
+      Start 14: AntiFireballCore
+16/22 Test #12: FireballPearlNative ..............   Passed    0.02 sec
+      Start 15: AntiFireballNative
+17/22 Test #14: AntiFireballCore .................   Passed    0.02 sec
+      Start 19: ModuleStartup
+18/22 Test #15: AntiFireballNative ...............   Passed    0.01 sec
+      Start 13: GuiStartup
+19/22 Test #19: ModuleStartup ....................   Passed    0.01 sec
+      Start 20: StasisNative
+20/22 Test #13: GuiStartup .......................   Passed    0.01 sec
+21/22 Test #20: StasisNative .....................   Passed    0.01 sec
+22/22 Test #11: HeavyGlowUnsupportedFallback .....   Passed    0.41 sec
+
+100% tests passed, 0 tests failed out of 22
+
+Total Test time (real) =   3.83 sec

@@ -1,0 +1,560 @@
+Start testing: Nov 07 19:18 Central Standard Time
+----------------------------------------------------------
+1/31 Testing: LicensePrompt
+1/31 Test: LicensePrompt
+Command: "C:/Users/ethan/Documents/rice slinky new/modified/provided-injector/rice-launcher/build/LicensePromptTest.exe"
+Directory: C:/Users/ethan/Documents/rice slinky new/modified/provided-injector/rice-launcher/build
+"LicensePrompt" start time: Nov 07 19:18 Central Standard Time
+Output:
+----------------------------------------------------------
+Automatic saved-key login, relaunch, entry, normalization, rejection/replacement, persistence, and cancellation passed
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"LicensePrompt" end time: Nov 07 19:18 Central Standard Time
+"LicensePrompt" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/31 Testing: GuiBranding
+2/31 Test: GuiBranding
+Command: "C:/Users/ethan/Documents/rice slinky new/modified/provided-injector/rice-launcher/build/GuiBrandingTest.exe"
+Directory: C:/Users/ethan/Documents/rice slinky new/modified/provided-injector/rice-launcher/build
+"GuiBranding" start time: Nov 07 19:18 Central Standard Time
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"GuiBranding" end time: Nov 07 19:18 Central Standard Time
+"GuiBranding" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/31 Testing: PlayerEspCompatibility
+3/31 Test: PlayerEspCompatibility
+Command: "C:/Users/ethan/Documents/rice slinky new/modified/provided-injector/rice-launcher/build/PlayerEspCompatibilityTest.exe"
+Directory: C:/Users/ethan/Documents/rice slinky new/modified/provided-injector/rice-launcher/build
+"PlayerEspCompatibility" start time: Nov 07 19:18 Central Standard Time
+Output:
+----------------------------------------------------------
+OG ESP delegation, Heavy Glow, fallback setting restoration, and UI separation passed
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"PlayerEspCompatibility" end time: Nov 07 19:18 Central Standard Time
+"PlayerEspCompatibility" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/31 Testing: BlockInLifecycle
+4/31 Test: BlockInLifecycle
+Command: "C:/Users/ethan/Documents/rice slinky new/modified/provided-injector/rice-launcher/build/BlockInLifecycleTest.exe"
+Directory: C:/Users/ethan/Documents/rice slinky new/modified/provided-injector/rice-launcher/build
+"BlockInLifecycle" start time: Nov 07 19:18 Central Standard Time
+Output:
+----------------------------------------------------------
+Block In menu/partial join activation, facing, disconnect cleanup, and key restoration passed
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"BlockInLifecycle" end time: Nov 07 19:18 Central Standard Time
+"BlockInLifecycle" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/31 Testing: KeyAuthTransport
+5/31 Test: KeyAuthTransport
+Command: "C:/Users/ethan/Documents/rice slinky new/modified/provided-injector/rice-launcher/build/KeyAuthTransportTest.exe"
+Directory: C:/Users/ethan/Documents/rice slinky new/modified/provided-injector/rice-launcher/build
+"KeyAuthTransport" start time: Nov 07 19:18 Central Standard Time
+Output:
+----------------------------------------------------------
+WinINet POST, certificate rejection, redirects, errors, limits, partial reads, and cleanup passed
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"KeyAuthTransport" end time: Nov 07 19:18 Central Standard Time
+"KeyAuthTransport" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/31 Testing: KeyAuthClient
+6/31 Test: KeyAuthClient
+Command: "C:/Users/ethan/Documents/rice slinky new/modified/provided-injector/rice-launcher/build/KeyAuthClientTest.exe"
+Directory: C:/Users/ethan/Documents/rice slinky new/modified/provided-injector/rice-launcher/build
+"KeyAuthClient" start time: Nov 07 19:18 Central Standard Time
+Output:
+----------------------------------------------------------
+Soju identity, license/HWID flow, strict JSON, owner validation, and fail-closed authentication passed
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"KeyAuthClient" end time: Nov 07 19:18 Central Standard Time
+"KeyAuthClient" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/31 Testing: InjectionNotice
+7/31 Test: InjectionNotice
+Command: "C:/Users/ethan/Documents/rice slinky new/modified/provided-injector/rice-launcher/build/InjectionNoticeTest.exe"
+Directory: C:/Users/ethan/Documents/rice slinky new/modified/provided-injector/rice-launcher/build
+"InjectionNotice" start time: Nov 07 19:18 Central Standard Time
+Output:
+----------------------------------------------------------
+Menu startup, success gating, renderer readiness, configured GUI key, fade, and one-time display passed
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"InjectionNotice" end time: Nov 07 19:18 Central Standard Time
+"InjectionNotice" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/31 Testing: HudEditor
+8/31 Test: HudEditor
+Command: "C:/Users/ethan/Documents/rice slinky new/modified/provided-injector/rice-launcher/build/HudEditorTest.exe"
+Directory: C:/Users/ethan/Documents/rice slinky new/modified/provided-injector/rice-launcher/build
+"HudEditor" start time: Nov 07 19:18 Central Standard Time
+Output:
+----------------------------------------------------------
+HUD footer/theme, scaled input, drag/clamping, normalized layouts, renderer handoff, save/reset/Esc, profile registration, and state restoration passed
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"HudEditor" end time: Nov 07 19:18 Central Standard Time
+"HudEditor" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/31 Testing: HeavyGlowGpu
+9/31 Test: HeavyGlowGpu
+Command: "C:/Users/ethan/Documents/rice slinky new/modified/provided-injector/rice-launcher/build/HeavyGlowGpuTest.exe"
+Directory: C:/Users/ethan/Documents/rice slinky new/modified/provided-injector/rice-launcher/build
+"HeavyGlowGpu" start time: Nov 07 19:18 Central Standard Time
+Output:
+----------------------------------------------------------
+OpenGL: 4.6.0 NVIDIA 616.56; NVIDIA GeForce RTX 3060/PCIe/SSE2
+Byte-identical shaders, GPU halo, interior mask, resize/state restoration, native filtering, exceptions, and cleanup passed
+<end of output>
+Test time =   0.32 sec
+----------------------------------------------------------
+Test Passed.
+"HeavyGlowGpu" end time: Nov 07 19:18 Central Standard Time
+"HeavyGlowGpu" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/31 Testing: HeavyGlowTwoTextureUnits
+10/31 Test: HeavyGlowTwoTextureUnits
+Command: "C:/Users/ethan/Documents/rice slinky new/modified/provided-injector/rice-launcher/build/HeavyGlowGpuTest.exe" "--two-units"
+Directory: C:/Users/ethan/Documents/rice slinky new/modified/provided-injector/rice-launcher/build
+"HeavyGlowTwoTextureUnits" start time: Nov 07 19:18 Central Standard Time
+Output:
+----------------------------------------------------------
+OpenGL: 4.6.0 NVIDIA 616.56; NVIDIA GeForce RTX 3060/PCIe/SSE2
+Byte-identical shaders, GPU halo, interior mask, resize/state restoration, native filtering, exceptions, and cleanup passed
+<end of output>
+Test time =   0.29 sec
+----------------------------------------------------------
+Test Passed.
+"HeavyGlowTwoTextureUnits" end time: Nov 07 19:18 Central Standard Time
+"HeavyGlowTwoTextureUnits" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/31 Testing: HeavyGlowUnsupportedFallback
+11/31 Test: HeavyGlowUnsupportedFallback
+Command: "C:/Users/ethan/Documents/rice slinky new/modified/provided-injector/rice-launcher/build/HeavyGlowGpuTest.exe" "--no-shaders"
+Directory: C:/Users/ethan/Documents/rice slinky new/modified/provided-injector/rice-launcher/build
+"HeavyGlowUnsupportedFallback" start time: Nov 07 19:18 Central Standard Time
+Output:
+----------------------------------------------------------
+Unsupported GPU fallback signal passed
+<end of output>
+Test time =   0.29 sec
+----------------------------------------------------------
+Test Passed.
+"HeavyGlowUnsupportedFallback" end time: Nov 07 19:18 Central Standard Time
+"HeavyGlowUnsupportedFallback" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/31 Testing: FireballPearlNative
+12/31 Test: FireballPearlNative
+Command: "C:/Users/ethan/Documents/rice slinky new/modified/provided-injector/rice-launcher/build/FireballPearlNativeTest.exe"
+Directory: C:/Users/ethan/Documents/rice slinky new/modified/provided-injector/rice-launcher/build
+"FireballPearlNative" start time: Nov 07 19:18 Central Standard Time
+Output:
+----------------------------------------------------------
+Fireball Pearl sequence, packet ABI/order, rotations, consumption, cancellation, world change, and cleanup passed
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"FireballPearlNative" end time: Nov 07 19:18 Central Standard Time
+"FireballPearlNative" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/31 Testing: GuiStartup
+13/31 Test: GuiStartup
+Command: "C:/Users/ethan/Documents/rice slinky new/modified/provided-injector/rice-launcher/build/GuiStartupTest.exe"
+Directory: C:/Users/ethan/Documents/rice slinky new/modified/provided-injector/rice-launcher/build
+"GuiStartup" start time: Nov 07 19:18 Central Standard Time
+Output:
+----------------------------------------------------------
+GUI stays closed on startup/join; helper startup and GUI flags preserved
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"GuiStartup" end time: Nov 07 19:18 Central Standard Time
+"GuiStartup" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/31 Testing: AntiFireballCore
+14/31 Test: AntiFireballCore
+Command: "C:/Users/ethan/Documents/rice slinky new/modified/provided-injector/rice-launcher/build/AntiFireballCoreTest.exe"
+Directory: C:/Users/ethan/Documents/rice slinky new/modified/provided-injector/rice-launcher/build
+"AntiFireballCore" start time: Nov 07 19:18 Central Standard Time
+Output:
+----------------------------------------------------------
+AntiFireball range, aim, FOV, mouse steps, movement, and action rules passed
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"AntiFireballCore" end time: Nov 07 19:18 Central Standard Time
+"AntiFireballCore" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/31 Testing: AntiFireballNative
+15/31 Test: AntiFireballNative
+Command: "C:/Users/ethan/Documents/rice slinky new/modified/provided-injector/rice-launcher/build/AntiFireballNativeTest.exe"
+Directory: C:/Users/ethan/Documents/rice slinky new/modified/provided-injector/rice-launcher/build
+"AntiFireballNative" start time: Nov 07 19:18 Central Standard Time
+Output:
+----------------------------------------------------------
+AntiFireball native settings, tracking, packets, rotations, swing, movement, rendering, and cleanup passed
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"AntiFireballNative" end time: Nov 07 19:18 Central Standard Time
+"AntiFireballNative" time elapsed: 00:00:00
+----------------------------------------------------------
+
+16/31 Testing: SourceFeaturesJvm
+16/31 Test: SourceFeaturesJvm
+Command: "C:/Users/ethan/Documents/rice slinky new/modified/provided-injector/rice-launcher/build/SourceFeaturesJvmTest.exe" "C:/Users/ethan/Documents/rice slinky new/modified/provided-injector/rice-launcher/../../feature-bridge/build/test-classpath.txt"
+Directory: C:/Users/ethan/Documents/rice slinky new/modified/provided-injector/rice-launcher/build
+"SourceFeaturesJvm" start time: Nov 07 19:18 Central Standard Time
+Output:
+----------------------------------------------------------
+Nov 07, 2026 7:18:49 PM io.netty.util.internal.PlatformDependent <clinit>
+INFO: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+Auto Pearl: 28 recovered solver, trajectory, mapped physics, item-use, timer and lifecycle checks passed
+Fireball Pearl Clutch: 13 physics, staged packets, tick gating and cleanup checks passed
+Bridge Egg: 36 support, prediction, packet, suspension and lifecycle checks passed
+Quick Buy helpers: 21 preset, editor, shop matching and serialization checks passed; automatic purchases remain blocked
+Above void walking integration: supported-ground rejection, empty-void launch, packet aim and camera/slot restoration passed
+Supplied Scaffold movement: 1040 discrete direction/sneak cases passed
+Source features: ready (supplied manual Displace + Bow Aimbot + Fog + Shaders + Scaffold + Fireball Boost)
+Supplied manual Displace: directions, jitter, cooldown gates, Timer Range, rotation restore, attack replay, packet mode and GUI cleanup passed
+Supplied Scaffold: native registration, settings, real placement, movement yaw, input routing, menu/disable cleanup passed
+Source features: ready (supplied manual Displace + Bow Aimbot + Fog + Shaders + Scaffold + Fireball Boost)
+Original supplied Java modules: supplied manual Displace replacement, complete settings, bow prediction, native event/rotation handoff, and cleanup passed
+<end of output>
+Test time =   2.13 sec
+----------------------------------------------------------
+Test Passed.
+"SourceFeaturesJvm" end time: Nov 07 19:18 Central Standard Time
+"SourceFeaturesJvm" time elapsed: 00:00:02
+----------------------------------------------------------
+
+17/31 Testing: SourceFeaturesJvm_srg
+17/31 Test: SourceFeaturesJvm_srg
+Command: "C:/Users/ethan/Documents/rice slinky new/modified/provided-injector/rice-launcher/build/SourceFeaturesJvmTest.exe" "C:/Users/ethan/Documents/rice slinky new/modified/provided-injector/rice-launcher/../../feature-bridge/build/test-classpath-srg.txt" "C:/Users/ethan/Documents/rice slinky new/modified/provided-injector/rice-launcher/../../feature-bridge/build/test-mappings-srg.txt"
+Directory: C:/Users/ethan/Documents/rice slinky new/modified/provided-injector/rice-launcher/build
+"SourceFeaturesJvm_srg" start time: Nov 07 19:18 Central Standard Time
+Output:
+----------------------------------------------------------
+Nov 07, 2026 7:18:51 PM io.netty.util.internal.PlatformDependent <clinit>
+INFO: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+Auto Pearl: 28 recovered solver, trajectory, mapped physics, item-use, timer and lifecycle checks passed
+Fireball Pearl Clutch: 13 physics, staged packets, tick gating and cleanup checks passed
+Bridge Egg: 36 support, prediction, packet, suspension and lifecycle checks passed
+Quick Buy helpers: 21 preset, editor, shop matching and serialization checks passed; automatic purchases remain blocked
+Above void walking integration: supported-ground rejection, empty-void launch, packet aim and camera/slot restoration passed
+Supplied Scaffold movement: 1040 discrete direction/sneak cases passed
+Source features: ready (supplied manual Displace + Bow Aimbot + Fog + Shaders + Scaffold + Fireball Boost)
+Supplied manual Displace: directions, jitter, cooldown gates, Timer Range, rotation restore, attack replay, packet mode and GUI cleanup passed
+Supplied Scaffold: native registration, settings, real placement, movement yaw, input routing, menu/disable cleanup passed
+Source features: ready (supplied manual Displace + Bow Aimbot + Fog + Shaders + Scaffold + Fireball Boost)
+Original supplied Java modules: supplied manual Displace replacement, complete settings, bow prediction, native event/rotation handoff, and cleanup passed
+<end of output>
+Test time =   2.02 sec
+----------------------------------------------------------
+Test Passed.
+"SourceFeaturesJvm_srg" end time: Nov 07 19:18 Central Standard Time
+"SourceFeaturesJvm_srg" time elapsed: 00:00:02
+----------------------------------------------------------
+
+18/31 Testing: SourceFeaturesJvm_official
+18/31 Test: SourceFeaturesJvm_official
+Command: "C:/Users/ethan/Documents/rice slinky new/modified/provided-injector/rice-launcher/build/SourceFeaturesJvmTest.exe" "C:/Users/ethan/Documents/rice slinky new/modified/provided-injector/rice-launcher/../../feature-bridge/build/test-classpath-official.txt" "C:/Users/ethan/Documents/rice slinky new/modified/provided-injector/rice-launcher/../../feature-bridge/build/test-mappings-official.txt"
+Directory: C:/Users/ethan/Documents/rice slinky new/modified/provided-injector/rice-launcher/build
+"SourceFeaturesJvm_official" start time: Nov 07 19:18 Central Standard Time
+Output:
+----------------------------------------------------------
+Nov 07, 2026 7:18:53 PM io.netty.util.internal.PlatformDependent <clinit>
+INFO: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+Auto Pearl: 28 recovered solver, trajectory, mapped physics, item-use, timer and lifecycle checks passed
+Fireball Pearl Clutch: 13 physics, staged packets, tick gating and cleanup checks passed
+Bridge Egg: 36 support, prediction, packet, suspension and lifecycle checks passed
+Quick Buy helpers: 21 preset, editor, shop matching and serialization checks passed; automatic purchases remain blocked
+Above void walking integration: supported-ground rejection, empty-void launch, packet aim and camera/slot restoration passed
+Supplied Scaffold movement: 1040 discrete direction/sneak cases passed
+Source features: ready (supplied manual Displace + Bow Aimbot + Fog + Shaders + Scaffold + Fireball Boost)
+Supplied manual Displace: directions, jitter, cooldown gates, Timer Range, rotation restore, attack replay, packet mode and GUI cleanup passed
+Supplied Scaffold: native registration, settings, real placement, movement yaw, input routing, menu/disable cleanup passed
+Source features: ready (supplied manual Displace + Bow Aimbot + Fog + Shaders + Scaffold + Fireball Boost)
+Original supplied Java modules: supplied manual Displace replacement, complete settings, bow prediction, native event/rotation handoff, and cleanup passed
+<end of output>
+Test time =   1.95 sec
+----------------------------------------------------------
+Test Passed.
+"SourceFeaturesJvm_official" end time: Nov 07 19:18 Central Standard Time
+"SourceFeaturesJvm_official" time elapsed: 00:00:01
+----------------------------------------------------------
+
+19/31 Testing: Bedplates_named
+19/31 Test: Bedplates_named
+Command: "C:/Program Files/Eclipse Adoptium/jdk-21.0.12.101-hotspot/bin/java.exe" "-Xverify:all" "-cp" "C:\Users\ethan\Documents\rice slinky new\modified\feature-bridge\build\fixture;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\build\minecraft-1.8.9-named.jar;C:\Users\ethan\Documents\rice slinky new\modified\feature-bridge\build\features-named.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\authlib-1.5.21.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\codecjorbis-20101023.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\codecwav-20101023.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\commons-codec-1.9.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\commons-compress-1.8.1.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\commons-io-2.4.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\commons-lang3-3.3.2.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\commons-logging-1.1.3.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\gson-2.2.4.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\guava-17.0.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\httpclient-4.3.3.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\httpcore-4.3.2.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\icu4j-core-mojang-51.2.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\jinput-2.0.5.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\jna-3.4.0.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\jopt-simple-4.6.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\jutils-1.0.0.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\libraryjavasound-20101123.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\librarylwjglopenal-20100824.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\log4j-api-2.0-beta9.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\log4j-core-2.0-beta9.jar;C:\Users\ethan\Documents\rice slinky new\modified\feature-bridge\build\lwjgl-test.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\lwjgl_util-2.9.4-nightly-20150209.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\netty-1.8.8.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\netty-all-4.0.23.Final.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\oshi-core-1.1.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\platform-3.4.0.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\realms-1.7.59.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\soundsystem-20120107.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\twitch-6.5.jar" "BedplatesTest"
+Directory: C:/Users/ethan/Documents/rice slinky new/modified/provided-injector/rice-launcher/build
+"Bedplates_named" start time: Nov 07 19:18 Central Standard Time
+Output:
+----------------------------------------------------------
+Picked up JAVA_TOOL_OPTIONS: 
+Picked up _JAVA_OPTIONS: 
+Nov 07, 2026 7:18:55 PM io.netty.util.internal.PlatformDependent <clinit>
+INFO: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+Bedplates: 41 defense, pairing, display, projection, loaded-chunk, customize and lifecycle checks passed
+<end of output>
+Test time =   1.98 sec
+----------------------------------------------------------
+Test Passed.
+"Bedplates_named" end time: Nov 07 19:18 Central Standard Time
+"Bedplates_named" time elapsed: 00:00:01
+----------------------------------------------------------
+
+20/31 Testing: RiceAnticheat_named
+20/31 Test: RiceAnticheat_named
+Command: "C:/Program Files/Eclipse Adoptium/jdk-21.0.12.101-hotspot/bin/java.exe" "-Xverify:all" "-cp" "C:\Users\ethan\Documents\rice slinky new\modified\feature-bridge\build\fixture;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\build\minecraft-1.8.9-named.jar;C:\Users\ethan\Documents\rice slinky new\modified\feature-bridge\build\features-named.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\authlib-1.5.21.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\codecjorbis-20101023.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\codecwav-20101023.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\commons-codec-1.9.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\commons-compress-1.8.1.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\commons-io-2.4.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\commons-lang3-3.3.2.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\commons-logging-1.1.3.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\gson-2.2.4.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\guava-17.0.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\httpclient-4.3.3.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\httpcore-4.3.2.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\icu4j-core-mojang-51.2.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\jinput-2.0.5.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\jna-3.4.0.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\jopt-simple-4.6.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\jutils-1.0.0.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\libraryjavasound-20101123.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\librarylwjglopenal-20100824.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\log4j-api-2.0-beta9.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\log4j-core-2.0-beta9.jar;C:\Users\ethan\Documents\rice slinky new\modified\feature-bridge\build\lwjgl-test.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\lwjgl_util-2.9.4-nightly-20150209.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\netty-1.8.8.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\netty-all-4.0.23.Final.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\oshi-core-1.1.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\platform-3.4.0.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\realms-1.7.59.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\soundsystem-20120107.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\twitch-6.5.jar" "RiceAnticheatTest"
+Directory: C:/Users/ethan/Documents/rice slinky new/modified/provided-injector/rice-launcher/build
+"RiceAnticheat_named" start time: Nov 07 19:18 Central Standard Time
+Output:
+----------------------------------------------------------
+Picked up JAVA_TOOL_OPTIONS: 
+Picked up _JAVA_OPTIONS: 
+Nov 07, 2026 7:18:57 PM io.netty.util.internal.PlatformDependent <clinit>
+INFO: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+RiceSlinky Anticheat/Fatigue: 46 detector, blacklist, branding, motion, mining and scoped fatigue checks passed
+<end of output>
+Test time =   1.97 sec
+----------------------------------------------------------
+Test Passed.
+"RiceAnticheat_named" end time: Nov 07 19:18 Central Standard Time
+"RiceAnticheat_named" time elapsed: 00:00:01
+----------------------------------------------------------
+
+21/31 Testing: Bedplates_srg
+21/31 Test: Bedplates_srg
+Command: "C:/Program Files/Eclipse Adoptium/jdk-21.0.12.101-hotspot/bin/java.exe" "-Xverify:all" "-cp" "C:\Users\ethan\Documents\rice slinky new\modified\feature-bridge\build\fixture-srg.jar;C:\Users\ethan\Documents\rice slinky new\modified\feature-bridge\build\minecraft-srg.jar;C:\Users\ethan\Documents\rice slinky new\modified\feature-bridge\build\features-srg.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\authlib-1.5.21.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\codecjorbis-20101023.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\codecwav-20101023.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\commons-codec-1.9.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\commons-compress-1.8.1.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\commons-io-2.4.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\commons-lang3-3.3.2.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\commons-logging-1.1.3.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\gson-2.2.4.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\guava-17.0.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\httpclient-4.3.3.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\httpcore-4.3.2.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\icu4j-core-mojang-51.2.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\jinput-2.0.5.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\jna-3.4.0.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\jopt-simple-4.6.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\jutils-1.0.0.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\libraryjavasound-20101123.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\librarylwjglopenal-20100824.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\log4j-api-2.0-beta9.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\log4j-core-2.0-beta9.jar;C:\Users\ethan\Documents\rice slinky new\modified\feature-bridge\build\lwjgl-test.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\lwjgl_util-2.9.4-nightly-20150209.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\netty-1.8.8.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\netty-all-4.0.23.Final.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\oshi-core-1.1.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\platform-3.4.0.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\realms-1.7.59.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\soundsystem-20120107.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\twitch-6.5.jar" "BedplatesTest"
+Directory: C:/Users/ethan/Documents/rice slinky new/modified/provided-injector/rice-launcher/build
+"Bedplates_srg" start time: Nov 07 19:18 Central Standard Time
+Output:
+----------------------------------------------------------
+Picked up JAVA_TOOL_OPTIONS: 
+Picked up _JAVA_OPTIONS: 
+Nov 07, 2026 7:18:59 PM io.netty.util.internal.PlatformDependent <clinit>
+INFO: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+Bedplates: 41 defense, pairing, display, projection, loaded-chunk, customize and lifecycle checks passed
+<end of output>
+Test time =   1.72 sec
+----------------------------------------------------------
+Test Passed.
+"Bedplates_srg" end time: Nov 07 19:18 Central Standard Time
+"Bedplates_srg" time elapsed: 00:00:01
+----------------------------------------------------------
+
+22/31 Testing: RiceAnticheat_srg
+22/31 Test: RiceAnticheat_srg
+Command: "C:/Program Files/Eclipse Adoptium/jdk-21.0.12.101-hotspot/bin/java.exe" "-Xverify:all" "-cp" "C:\Users\ethan\Documents\rice slinky new\modified\feature-bridge\build\fixture-srg.jar;C:\Users\ethan\Documents\rice slinky new\modified\feature-bridge\build\minecraft-srg.jar;C:\Users\ethan\Documents\rice slinky new\modified\feature-bridge\build\features-srg.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\authlib-1.5.21.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\codecjorbis-20101023.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\codecwav-20101023.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\commons-codec-1.9.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\commons-compress-1.8.1.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\commons-io-2.4.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\commons-lang3-3.3.2.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\commons-logging-1.1.3.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\gson-2.2.4.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\guava-17.0.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\httpclient-4.3.3.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\httpcore-4.3.2.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\icu4j-core-mojang-51.2.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\jinput-2.0.5.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\jna-3.4.0.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\jopt-simple-4.6.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\jutils-1.0.0.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\libraryjavasound-20101123.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\librarylwjglopenal-20100824.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\log4j-api-2.0-beta9.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\log4j-core-2.0-beta9.jar;C:\Users\ethan\Documents\rice slinky new\modified\feature-bridge\build\lwjgl-test.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\lwjgl_util-2.9.4-nightly-20150209.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\netty-1.8.8.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\netty-all-4.0.23.Final.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\oshi-core-1.1.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\platform-3.4.0.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\realms-1.7.59.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\soundsystem-20120107.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\twitch-6.5.jar" "RiceAnticheatTest"
+Directory: C:/Users/ethan/Documents/rice slinky new/modified/provided-injector/rice-launcher/build
+"RiceAnticheat_srg" start time: Nov 07 19:18 Central Standard Time
+Output:
+----------------------------------------------------------
+Picked up JAVA_TOOL_OPTIONS: 
+Picked up _JAVA_OPTIONS: 
+Nov 07, 2026 7:19:01 PM io.netty.util.internal.PlatformDependent <clinit>
+INFO: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+RiceSlinky Anticheat/Fatigue: 46 detector, blacklist, branding, motion, mining and scoped fatigue checks passed
+<end of output>
+Test time =   1.81 sec
+----------------------------------------------------------
+Test Passed.
+"RiceAnticheat_srg" end time: Nov 07 19:19 Central Standard Time
+"RiceAnticheat_srg" time elapsed: 00:00:01
+----------------------------------------------------------
+
+23/31 Testing: Bedplates_official
+23/31 Test: Bedplates_official
+Command: "C:/Program Files/Eclipse Adoptium/jdk-21.0.12.101-hotspot/bin/java.exe" "-Xverify:all" "-cp" "C:\Users\ethan\Documents\rice slinky new\modified\feature-bridge\build\fixture-official.jar;C:\Users\ethan\Documents\rice slinky new\modified\feature-bridge\build\minecraft-official-test.jar;C:\Users\ethan\Documents\rice slinky new\modified\feature-bridge\build\features-official.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\authlib-1.5.21.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\codecjorbis-20101023.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\codecwav-20101023.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\commons-codec-1.9.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\commons-compress-1.8.1.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\commons-io-2.4.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\commons-lang3-3.3.2.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\commons-logging-1.1.3.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\gson-2.2.4.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\guava-17.0.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\httpclient-4.3.3.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\httpcore-4.3.2.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\icu4j-core-mojang-51.2.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\jinput-2.0.5.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\jna-3.4.0.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\jopt-simple-4.6.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\jutils-1.0.0.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\libraryjavasound-20101123.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\librarylwjglopenal-20100824.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\log4j-api-2.0-beta9.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\log4j-core-2.0-beta9.jar;C:\Users\ethan\Documents\rice slinky new\modified\feature-bridge\build\lwjgl-test.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\lwjgl_util-2.9.4-nightly-20150209.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\netty-1.8.8.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\netty-all-4.0.23.Final.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\oshi-core-1.1.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\platform-3.4.0.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\realms-1.7.59.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\soundsystem-20120107.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\twitch-6.5.jar" "BedplatesTest"
+Directory: C:/Users/ethan/Documents/rice slinky new/modified/provided-injector/rice-launcher/build
+"Bedplates_official" start time: Nov 07 19:19 Central Standard Time
+Output:
+----------------------------------------------------------
+Picked up JAVA_TOOL_OPTIONS: 
+Picked up _JAVA_OPTIONS: 
+Nov 07, 2026 7:19:02 PM io.netty.util.internal.PlatformDependent <clinit>
+INFO: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+Bedplates: 41 defense, pairing, display, projection, loaded-chunk, customize and lifecycle checks passed
+<end of output>
+Test time =   1.66 sec
+----------------------------------------------------------
+Test Passed.
+"Bedplates_official" end time: Nov 07 19:19 Central Standard Time
+"Bedplates_official" time elapsed: 00:00:01
+----------------------------------------------------------
+
+24/31 Testing: RiceAnticheat_official
+24/31 Test: RiceAnticheat_official
+Command: "C:/Program Files/Eclipse Adoptium/jdk-21.0.12.101-hotspot/bin/java.exe" "-Xverify:all" "-cp" "C:\Users\ethan\Documents\rice slinky new\modified\feature-bridge\build\fixture-official.jar;C:\Users\ethan\Documents\rice slinky new\modified\feature-bridge\build\minecraft-official-test.jar;C:\Users\ethan\Documents\rice slinky new\modified\feature-bridge\build\features-official.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\authlib-1.5.21.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\codecjorbis-20101023.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\codecwav-20101023.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\commons-codec-1.9.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\commons-compress-1.8.1.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\commons-io-2.4.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\commons-lang3-3.3.2.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\commons-logging-1.1.3.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\gson-2.2.4.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\guava-17.0.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\httpclient-4.3.3.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\httpcore-4.3.2.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\icu4j-core-mojang-51.2.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\jinput-2.0.5.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\jna-3.4.0.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\jopt-simple-4.6.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\jutils-1.0.0.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\libraryjavasound-20101123.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\librarylwjglopenal-20100824.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\log4j-api-2.0-beta9.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\log4j-core-2.0-beta9.jar;C:\Users\ethan\Documents\rice slinky new\modified\feature-bridge\build\lwjgl-test.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\lwjgl_util-2.9.4-nightly-20150209.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\netty-1.8.8.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\netty-all-4.0.23.Final.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\oshi-core-1.1.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\platform-3.4.0.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\realms-1.7.59.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\soundsystem-20120107.jar;C:\Users\ethan\Documents\ricerakak slionky\Slinky-cross-platform-source\Slinky-source\deps\libraries\twitch-6.5.jar" "RiceAnticheatTest"
+Directory: C:/Users/ethan/Documents/rice slinky new/modified/provided-injector/rice-launcher/build
+"RiceAnticheat_official" start time: Nov 07 19:19 Central Standard Time
+Output:
+----------------------------------------------------------
+Picked up JAVA_TOOL_OPTIONS: 
+Picked up _JAVA_OPTIONS: 
+Nov 07, 2026 7:19:04 PM io.netty.util.internal.PlatformDependent <clinit>
+INFO: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+RiceSlinky Anticheat/Fatigue: 46 detector, blacklist, branding, motion, mining and scoped fatigue checks passed
+<end of output>
+Test time =   1.86 sec
+----------------------------------------------------------
+Test Passed.
+"RiceAnticheat_official" end time: Nov 07 19:19 Central Standard Time
+"RiceAnticheat_official" time elapsed: 00:00:01
+----------------------------------------------------------
+
+25/31 Testing: ModuleStartup
+25/31 Test: ModuleStartup
+Command: "C:/Users/ethan/Documents/rice slinky new/modified/provided-injector/rice-launcher/build/ModuleStartupTest.exe"
+Directory: C:/Users/ethan/Documents/rice slinky new/modified/provided-injector/rice-launcher/build
+"ModuleStartup" start time: Nov 07 19:19 Central Standard Time
+Output:
+----------------------------------------------------------
+PASS: main-menu enables deferred, join initializes once, disconnect still disables and cleans up.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"ModuleStartup" end time: Nov 07 19:19 Central Standard Time
+"ModuleStartup" time elapsed: 00:00:00
+----------------------------------------------------------
+
+26/31 Testing: StasisNative
+26/31 Test: StasisNative
+Command: "C:/Users/ethan/Documents/rice slinky new/modified/provided-injector/rice-launcher/build/StasisNativeTest.exe"
+Directory: C:/Users/ethan/Documents/rice slinky new/modified/provided-injector/rice-launcher/build
+"StasisNative" start time: Nov 07 19:19 Central Standard Time
+Output:
+----------------------------------------------------------
+PASS: Stasis registration, 45/1 cycle, input freeze, packet exceptions, disable/landing/world-change/unload restoration.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"StasisNative" end time: Nov 07 19:19 Central Standard Time
+"StasisNative" time elapsed: 00:00:00
+----------------------------------------------------------
+
+27/31 Testing: LauncherRegression
+27/31 Test: LauncherRegression
+Command: "C:/Users/ethan/Documents/rice slinky new/modified/provided-injector/rice-launcher/build/LauncherRegressionTest.exe"
+Directory: C:/Users/ethan/Documents/rice slinky new/modified/provided-injector/rice-launcher/build
+"LauncherRegression" start time: Nov 07 19:19 Central Standard Time
+Output:
+----------------------------------------------------------
+Launcher regression checks passed
+<end of output>
+Test time =   0.14 sec
+----------------------------------------------------------
+Test Passed.
+"LauncherRegression" end time: Nov 07 19:19 Central Standard Time
+"LauncherRegression" time elapsed: 00:00:00
+----------------------------------------------------------
+
+28/31 Testing: NativePayloadRoundtrip
+28/31 Test: NativePayloadRoundtrip
+Command: "C:/Users/ethan/Documents/rice slinky new/modified/provided-injector/rice-launcher/build/NativePayloadCheck.exe" "C:/Users/ethan/Documents/rice slinky new/modified/provided-injector/rice-launcher/src/bundled/RiceNative.dll" "C:/Users/ethan/Documents/rice slinky new/modified/provided-injector/rice-launcher/build/RiceNative.lzms"
+Directory: C:/Users/ethan/Documents/rice slinky new/modified/provided-injector/rice-launcher/build
+"NativePayloadRoundtrip" start time: Nov 07 19:19 Central Standard Time
+Output:
+----------------------------------------------------------
+PASS: native LZMS decoder byte-exact roundtrip, legacy raw support, null/truncated/corrupt stream rejection
+<end of output>
+Test time =   0.36 sec
+----------------------------------------------------------
+Test Passed.
+"NativePayloadRoundtrip" end time: Nov 07 19:19 Central Standard Time
+"NativePayloadRoundtrip" time elapsed: 00:00:00
+----------------------------------------------------------
+
+29/31 Testing: ScaffoldWalkOff
+29/31 Test: ScaffoldWalkOff
+Command: "C:/Users/ethan/Documents/rice slinky new/modified/provided-injector/rice-launcher/build/ScaffoldWalkOffTest.exe"
+Directory: C:/Users/ethan/Documents/rice slinky new/modified/provided-injector/rice-launcher/build
+"ScaffoldWalkOff" start time: Nov 07 19:19 Central Standard Time
+Output:
+----------------------------------------------------------
+Scaffold walk-off: 16 edge, falling-height and support checks passed
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"ScaffoldWalkOff" end time: Nov 07 19:19 Central Standard Time
+"ScaffoldWalkOff" time elapsed: 00:00:00
+----------------------------------------------------------
+
+30/31 Testing: ScaffoldModes
+30/31 Test: ScaffoldModes
+Command: "C:/Users/ethan/Documents/rice slinky new/modified/provided-injector/rice-launcher/build/ScaffoldModesTest.exe"
+Directory: C:/Users/ethan/Documents/rice slinky new/modified/provided-injector/rice-launcher/build
+"ScaffoldModes" start time: Nov 07 19:19 Central Standard Time
+Output:
+----------------------------------------------------------
+Scaffold modes: 242 preset, height, Space, right-click and lifecycle checks passed
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"ScaffoldModes" end time: Nov 07 19:19 Central Standard Time
+"ScaffoldModes" time elapsed: 00:00:00
+----------------------------------------------------------
+
+31/31 Testing: ScaffoldPlacement
+31/31 Test: ScaffoldPlacement
+Command: "C:/Users/ethan/Documents/rice slinky new/modified/provided-injector/rice-launcher/build/ScaffoldPlacementTest.exe"
+Directory: C:/Users/ethan/Documents/rice slinky new/modified/provided-injector/rice-launcher/build
+"ScaffoldPlacement" start time: Nov 07 19:19 Central Standard Time
+Output:
+----------------------------------------------------------
+Scaffold placement ownership: 219 Fast Place pause/resume and click-isolation checks passed
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"ScaffoldPlacement" end time: Nov 07 19:19 Central Standard Time
+"ScaffoldPlacement" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Nov 07 19:19 Central Standard Time

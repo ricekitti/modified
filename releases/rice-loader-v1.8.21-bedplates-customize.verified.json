@@ -1,0 +1,31 @@
+{
+  "version": "1.8.21.0",
+  "feature": "Bedplates customize editor (Rise-style drag-to-lift, scroll-to-scale)",
+  "exe_sha256": "68fdd7fda8b60456f285df71355c3b1aebfcfbdc99e7a2471fc26a93d686b7c2",
+  "native_sha256": "c3d234d4ca579b725ea5178ddd8a86c319310adc4dd3d6396eabe084da03544f",
+  "embedded_payload_matches": true,
+  "embedded_match_evidence": "--check-runtime decoded embedded DLL SHA-256 equals the freshly built build/slinky.dll",
+  "base_build": "v1.8.20 displace-source-replacement (verbatim 2026-11-04 handoff displace); this build = v1.8.20 + customize editor",
+  "ctest": { "passed": 31, "failed": 0 },
+  "bedplates_java_checks_per_mapping": 41,
+  "mappings": ["named", "srg", "official"],
+  "changes": {
+    "new_java": ["modified/feature-bridge/java/bedplates/BedplatesCustomize.java"],
+    "edited_java": ["modified/feature-bridge/java/bedplates/Bedplates.java"],
+    "edited_native": ["modified/slinkyreadablesource/slinkyreadablesource/src/logic/visual/bedplates_adapter.inc"],
+    "edited_tests": ["modified/feature-bridge/tests/BedplatesTest.java", "modified/provided-injector/rice-launcher/tests/SourceFeaturesJvmTest.cpp"],
+    "new_setting": "Customize Key (keybind, default None) -> opens the editor",
+    "persistence": "<gameDir>/config/rice-bedplates.properties (scale, offset)"
+  },
+  "bedplates_self_disable_fix_retained": true,
+  "displace_unchanged_from_v1820": true,
+  "rebuilt": true,
+  "live_gameplay_tested": false,
+  "live_editor_render_tested": false,
+  "releases_preserved": true,
+  "updated_copies": [
+    "slinky-modified.exe",
+    "modified\\rice-loader.exe",
+    "modified\\slinky.dll"
+  ]
+}

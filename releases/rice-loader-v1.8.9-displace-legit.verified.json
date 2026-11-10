@@ -1,0 +1,53 @@
+{
+  "version": "1.8.9.0",
+  "exe_sha256": "12bba337c78fc1b1aadbf9a5cde881428cac93edce841c808ca88ebadc565450",
+  "native_sha256": "0a5dfa054d505320c24173e21907fc96488f677cc0ce0399762da162071984cd",
+  "embedded_payload_matches": true,
+  "ctest": {
+    "passed": 29,
+    "failed": 0
+  },
+  "legit_default": false,
+  "visible_only_in_void": true,
+  "candidate_policy": "Only current yaw +/- configured Angle, capped at 90 degrees; score both with the existing void path rules; skip when neither is valid",
+  "off_behavior": "Calls the unchanged original six-argument scanner; no side-only filtering or rotation correction",
+  "native_tests": [
+    "left and right exact candidates",
+    "rear-only path rejected",
+    "angle 180 limited to 90",
+    "existing native aim drift removed only when Legit is active",
+    "off scanner and activation match unrestricted behavior",
+    "default and native GUI visibility"
+  ],
+  "mappings": [
+    "named",
+    "srg",
+    "official"
+  ],
+  "clutch_unchanged": {
+    "modified\\slinkyreadablesource\\slinkyreadablesource\\src\\modules\\block\\clutch.cpp": "48867354689315975cbf2c4661951f04dd2c90ff2138d9527b8548d53c27f882",
+    "modified\\slinkyreadablesource\\slinkyreadablesource\\src\\logic\\block\\clutch.cpp": "a1bbebaab017e17ceb6160aa8d83f6c32163306dbc80cb927caa33feb79e0bfa",
+    "modified\\slinkyreadablesource\\slinkyreadablesource\\original\\slinky-main\\src\\modules\\block\\clutch.cpp": "e57c138eecc8c608d11657dcefb1fbf78cffdfb8de1a43a9e626bfe03a220660",
+    "modified\\slinkyreadablesource\\slinkyreadablesource\\original\\slinky-main\\src\\logic\\block\\clutch.cpp": "5126f400f565eda83258d06ff0ae8b93137893592b02774c8b2f07332080e6c2"
+  },
+  "scaffold_unchanged_sha256": "87da075d43d4c157d8a4131addc2156ddf0e5aa4cddffff9801090e4f280a594",
+  "bedplates_sources_unchanged": true,
+  "original_handoff_unchanged": {
+    "displace/KnockbackDisplaceModule.java": "e7410ba675008691418f8af3ae615f71cf38225027f9855c8dc0769ae9331d72",
+    "displace/RavenBsVoidScanner.java": "8f1ef6e88eff49be9fdb9a41a04ac8e276f5a508c2ea7f67a43c975d938d43e6"
+  },
+  "source_sha256": {
+    "modified\\feature-bridge\\prepare_displace_legit.py": "bb3932da7cc39e1581c8cd9f51b9da0a087e1e89e556e9fce96eeec17e7f0711",
+    "modified\\feature-bridge\\build\\adapted\\KnockbackDisplaceModule.java": "182069b78f30217c5d7a7631adac70366130041ee53ddad9b0e2f26f46063395",
+    "modified\\feature-bridge\\build\\adapted\\RavenBsVoidScanner.java": "5f950ee6f29777a2e22949196606c659700440f65dc818d3410dc67063cfc62b",
+    "modified\\slinkyreadablesource\\slinkyreadablesource\\src\\logic\\combat\\source_features.cpp": "893961f0e7357546b56c0c7b9edb4eb17779eaa3ca6391bfc95a24f8b35e3cd5"
+  },
+  "live_gameplay_tested": false,
+  "updated_copies": [
+    "modified\\rice-loader.exe",
+    "modified\\slinky.dll"
+  ],
+  "locked_copies": [
+    "slinky-modified.exe"
+  ]
+}

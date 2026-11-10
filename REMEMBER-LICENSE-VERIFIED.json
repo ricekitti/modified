@@ -1,0 +1,18 @@
+{
+  "verified_at_utc": "2026-11-03T22:41:38.637363+00:00",
+  "saved_key_authenticates_without_input": true,
+  "prompt_on_missing_malformed_or_rejected_key": true,
+  "saved_key_location": "%LOCALAPPDATA%/RiceSlinky/license.dat",
+  "loader": "modified\\rice-loader-remember-key.exe",
+  "loader_sha256": "930a239eba4e88838a1241985742cd0aa2d9ada198e6a6233aee80f26c870a32",
+  "native_sha256": "da5e87d9f74fc2b4b5307704716eb0d6470b068cd9647e204e5a625851c9296e",
+  "native_payload_unchanged": true,
+  "extraction_matches_correct_variant": true,
+  "auth_launcher_tests_passed": 4,
+  "updated_outputs": [
+    "modified\\rice-loader-remember-key.exe",
+    "modified\\rice-loader.exe",
+    "slinky-modified.exe"
+  ],
+  "locked_outputs_preserved": []
+}

@@ -1,0 +1,132 @@
+[
+  {
+    "Path": "README.txt",
+    "SHA256": "FBF5DB85E98AF646BE054A1F0F63A0356F89A770AF6A2B444CB8107049BFB744",
+    "Bytes": 350
+  },
+  {
+    "Path": "java/src/main/java/dev/rice/client/combat/RavenBsVoidScanner.java",
+    "SHA256": "8F1EF6E88EFF49BE9FDB9A41A04AC8E276F5A508C2EA7F67A43C975D938D43E6",
+    "Bytes": 18887
+  },
+  {
+    "Path": "java/src/main/java/dev/rice/client/combat/openb4/B4AuraHost.java",
+    "SHA256": "2ADBA03AC0E9F3E8BEA68DECA6B164DB1C7A9E437A33911A38750A93104D3AA9",
+    "Bytes": 35923
+  },
+  {
+    "Path": "java/src/main/java/dev/rice/client/combat/ravenbs/RavenBsDisplaceBackend.java",
+    "SHA256": "E09034303805609CDA4583B17FD0EBBB612DE83AD86405E89F6FC40D89A41EA3",
+    "Bytes": 81944
+  },
+  {
+    "Path": "java/src/main/java/dev/rice/client/combat/ravenbs/RavenBsKillAuraBackend.java",
+    "SHA256": "9EDD11A3B5877A27F037731D347BBC8E75F2DFE55A364E9C25FB7DDBFEA26D7E",
+    "Bytes": 24371
+  },
+  {
+    "Path": "java/src/main/java/dev/rice/client/combat/ravenbs/RavenBsRotations.java",
+    "SHA256": "0144EDB39D150A6CC53572590E820679A1D6149BB49E588FD19BD185E3C257F7",
+    "Bytes": 34350
+  },
+  {
+    "Path": "java/src/main/java/dev/rice/module/impl/BowAimbotModule.java",
+    "SHA256": "E26A06A9D51671F6A31BCF84FA252E712E112682A8922728BF915CB41C5FCD7A",
+    "Bytes": 48269
+  },
+  {
+    "Path": "java/src/main/java/dev/rice/module/impl/KillAuraDisplaceModule.java",
+    "SHA256": "F3149F027F3675E8F74776AB0B87D7706D738CF49D8510843294638711FD1E3E",
+    "Bytes": 12527
+  },
+  {
+    "Path": "java/src/main/java/dev/rice/module/impl/KnockbackDisplaceModule.java",
+    "SHA256": "E7410BA675008691418F8AF3AE615F71CF38225027F9855C8DC0769AE9331D72",
+    "Bytes": 10201
+  },
+  {
+    "Path": "java/src/main/java/dev/rice/module/impl/WeaponsModule.java",
+    "SHA256": "4CD1EC3B2E1C98A72D7F688ABDEC98920BE2D38065F4F389C39F851130840D87",
+    "Bytes": 7186
+  },
+  {
+    "Path": "java/src/main/java/dev/rice/module/impl/bowaimbot/AimResult.java",
+    "SHA256": "A6CE9A2E89C447BBFC90F9FC3F0F8C15B7B498EC334DBB92EAB9C4758491B398",
+    "Bytes": 1496
+  },
+  {
+    "Path": "java/src/main/java/dev/rice/module/impl/bowaimbot/AimResult$0.java",
+    "SHA256": "1A064635688AD03843A1622848328EB8CD4DD325163C9E9EE19E836B4EB867FC",
+    "Bytes": 375
+  },
+  {
+    "Path": "java/src/main/java/dev/rice/module/impl/bowaimbot/AimSolver.java",
+    "SHA256": "DFFC5211323C5266A9C8B1BED2905EF6256D9AEF2D6343EDB0BF8B3CC7AE4A2B",
+    "Bytes": 10820
+  },
+  {
+    "Path": "java/src/main/java/dev/rice/module/impl/bowaimbot/AimSolver$1.java",
+    "SHA256": "DD2B2D99FB334CAF858B446D204BED41A8CB7FCC55A606C3262BE78893DFF311",
+    "Bytes": 847
+  },
+  {
+    "Path": "java/src/main/java/dev/rice/module/impl/bowaimbot/AimSolver$2.java",
+    "SHA256": "6F7269ECEC715F24DBC51D17EC2E78538CD75E7B3915612FAFFD5EC5F98DAD2E",
+    "Bytes": 633
+  },
+  {
+    "Path": "java/src/main/java/dev/rice/module/impl/bowaimbot/AimSolver$3.java",
+    "SHA256": "04DF12F52347A2FBD6FC7B766EB96CB12636E32CA130B9EEB3D0367C09986AB3",
+    "Bytes": 505
+  },
+  {
+    "Path": "java/src/main/java/dev/rice/module/impl/bowaimbot/EntityPositionTracker.java",
+    "SHA256": "E05203A1A08C17E8F19C433A79482A25E50C2CF30FD1DCA424607A7079BD964F",
+    "Bytes": 5705
+  },
+  {
+    "Path": "java/src/main/java/dev/rice/module/impl/bowaimbot/EntityPositionTracker$0.java",
+    "SHA256": "B31B5D611FB2F5B7758FB41C99AA5D13D2DD8F64B82940C0DC1E0C5DA87387BA",
+    "Bytes": 668
+  },
+  {
+    "Path": "java/src/main/java/dev/rice/module/impl/bowaimbot/EntityPositionTracker$1.java",
+    "SHA256": "A952484859CE8047666D2221492C6B5F78C7DC28D476231DBEC2CD50A7649AC3",
+    "Bytes": 352
+  },
+  {
+    "Path": "java/src/main/java/dev/rice/module/impl/bowaimbot/MotionPredictor.java",
+    "SHA256": "451A7489956F8B01AEF3E41FD62F41760F16CD74CD56B6419CDC3C7A5684D8B8",
+    "Bytes": 33864
+  },
+  {
+    "Path": "java/src/main/java/dev/rice/module/impl/bowaimbot/MotionPredictor$1.java",
+    "SHA256": "A94A5CC3B95B5F502726588CF829F0F5D9DEA43EB06458ED744C74C262368A00",
+    "Bytes": 204
+  },
+  {
+    "Path": "java/src/main/java/dev/rice/module/impl/bowaimbot/MotionPredictor$2.java",
+    "SHA256": "A7E7C322259B6ACC0D3654A7F907FCF720F77E218B38667E51B8F6F0B3ADC731",
+    "Bytes": 784
+  },
+  {
+    "Path": "java/src/main/java/dev/rice/module/impl/bowaimbot/MotionPredictor$3.java",
+    "SHA256": "ED1B5FC00070B1F256395211013061CE7921861587278FD4A21DE3CA7EA4B62D",
+    "Bytes": 443
+  },
+  {
+    "Path": "java/src/main/java/dev/rice/module/impl/bowaimbot/MotionPredictor$4.java",
+    "SHA256": "991543111485484F92067CE2963114D7273861F97BC8D8A99D95F6A0FBBCF894",
+    "Bytes": 1416
+  },
+  {
+    "Path": "java/src/main/java/dev/rice/module/impl/bowaimbot/ProjectileMotion.java",
+    "SHA256": "638703416E8F12ECF291BD734C8B04EF64A869DBA4DDB6EDEFAD9D441182A54D",
+    "Bytes": 1583
+  },
+  {
+    "Path": "java/src/main/java/dev/rice/module/impl/bowaimbot/TargetPrediction.java",
+    "SHA256": "C003DB6F484353CB484A1C90216DCDE03E587BBD3BF9C5600EC6B21792022F99",
+    "Bytes": 1137
+  }
+]

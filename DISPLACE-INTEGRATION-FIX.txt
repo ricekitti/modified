@@ -1,0 +1,20 @@
+Displace integration and aiming fix — 2026-10-31
+Edition: modified
+Location: Combat > Knockback Displace > Mode: Slinky / Static / Dynamic.
+The original module descriptor and key binding are retained; there is no separate Displace module entry.
+Slinky mode delegates to the original callbacks and settings. Static and Dynamic use the imported behavior.
+Existing Slinky settings remain registered. New settings use mayu_ prefixes and displace_mode.
+Standalone Displace profile entries are no longer used; enable Knockback Displace and select the desired mode.
+Physical keys are considered alongside logical KeyBinding state so helpers cannot accidentally suppress manual input.
+Valid crosshair targets take precedence, followed by Aim Assist target, then nearest eligible player.
+Final rotation override accounts for the live view and queued Aim Assist/mouse deltas after event arbitration.
+Mode changes clear packet holds, arrow/world references, and old native displacement state.
+Dynamic retains the reference void-path requirement and stops when no unobstructed void path exists. Static provides fixed-angle displacement.
+The existing movement/knockback and item activation conditions still apply.
+Latest menu notification, Soju auth, glow, and crash fixes retained.
+Verification: all 16 modified-build automated tests passed, including new aiming/targeting/mode-switch cases.
+Embedded DLL extracted and compared with modified slinky.dll by SHA256: passed.
+Live Minecraft combat behavior still requires a game restart and user retry.
+Executable SHA256: 87CED289792CD2F9E10DA77B89F0312623B4E983C3ED7468C3AD2B5B71002BCC
+DLL SHA256: 7504EBE8F2DC2D2C3A1F4910B516232F4868AA719F2A5D9D4C4BCE481F690A4D
+Main rice-loader.exe updated: True

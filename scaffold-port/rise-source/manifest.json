@@ -1,0 +1,149 @@
+{
+  "repository": "ricekitti/rise-open",
+  "commit": "c08acf7223ce9a6cde453cf86f97d77d92c742ba",
+  "version_status": "Repository is the requested 6.9.7 reference. C:/classdump/out provenance remains unverified.",
+  "source_files": [
+    {
+      "path": "sources/deobfuscated/rise/module/impl/player/Scaffold.java",
+      "git_blob_sha": "ff8592ba0ac37d942ce041d02d86d9b89525427b",
+      "size": 182540
+    },
+    {
+      "path": "sources/deobfuscated/rise/module/impl/player/scaffold/VaMode.java",
+      "git_blob_sha": "351f1a06a34bc023de12492138b5e8bc4bc13777",
+      "size": 691
+    },
+    {
+      "path": "sources/deobfuscated/rise/module/impl/player/scaffold/VbMode.java",
+      "git_blob_sha": "0bab6a8cbf7fd8f1580007ca523917e28f42137e",
+      "size": 1856
+    },
+    {
+      "path": "sources/deobfuscated/rise/module/impl/player/scaffold/VcMode.java",
+      "git_blob_sha": "a3fceb47dcd614b9b09e3215c701faea2186a40d",
+      "size": 1283
+    },
+    {
+      "path": "sources/deobfuscated/rise/module/impl/player/scaffold/VdMode.java",
+      "git_blob_sha": "8ba5040736f90350f859500a5e75af21114ccf59",
+      "size": 2482
+    },
+    {
+      "path": "sources/deobfuscated/rise/module/impl/player/scaffold/VeMode.java",
+      "git_blob_sha": "ae6889d52149b88f1bc8ad1fefeb4cc55b907415",
+      "size": 488
+    },
+    {
+      "path": "sources/deobfuscated/rise/module/impl/player/scaffold/VfMode.java",
+      "git_blob_sha": "1f2befcd819d5d5db4e1e729f934477f13eeeb06",
+      "size": 548
+    },
+    {
+      "path": "sources/deobfuscated/rise/module/impl/player/scaffold/VgMode.java",
+      "git_blob_sha": "79b438c1e3f717ff971c744f792e22f96b2add7c",
+      "size": 704
+    },
+    {
+      "path": "sources/deobfuscated/rise/module/impl/player/scaffold/VhMode.java",
+      "git_blob_sha": "3712e5d7ee637001d113cef748a1bd850fcb7e9c",
+      "size": 976
+    },
+    {
+      "path": "sources/deobfuscated/rise/module/impl/player/scaffold/ViMode.java",
+      "git_blob_sha": "51f9711f8e25eebaad84ab54c6d9addb9a9ae1bb",
+      "size": 1417
+    },
+    {
+      "path": "sources/deobfuscated/rise/module/impl/player/scaffold/VjMode.java",
+      "git_blob_sha": "2689b2b78e3ac8ec38ddd0d0b3a6c2d92d42f8a4",
+      "size": 2086
+    },
+    {
+      "path": "sources/deobfuscated/rise/module/impl/player/scaffold/VkMode.java",
+      "git_blob_sha": "439cc167b11109cf5706bee49c6a86999ce45950",
+      "size": 11198
+    },
+    {
+      "path": "sources/deobfuscated/rise/module/impl/player/scaffold/VlMode.java",
+      "git_blob_sha": "0a8bb22439373131fe2108a91a68eed3ded88c29",
+      "size": 2267
+    },
+    {
+      "path": "sources/deobfuscated/rise/module/impl/player/scaffold/VmMode.java",
+      "git_blob_sha": "e8df6c12642760f0e11acd8657d7aec574d5d6e3",
+      "size": 3500
+    },
+    {
+      "path": "sources/deobfuscated/rise/module/impl/player/scaffold/VnMode.java",
+      "git_blob_sha": "ec32e128c8272edea374cb24bb587785b172f39a",
+      "size": 1292
+    },
+    {
+      "path": "sources/deobfuscated/rise/module/impl/player/scaffold/VpMode.java",
+      "git_blob_sha": "15835a460d68512ea10e40e3d5ab4cac61f8c13d",
+      "size": 677
+    },
+    {
+      "path": "sources/deobfuscated/rise/module/impl/player/scaffold/VqMode.java",
+      "git_blob_sha": "f87659e192be71894716b2d6c431adbb989035cb",
+      "size": 1899
+    },
+    {
+      "path": "sources/deobfuscated/rise/module/impl/player/scaffold/VrMode.java",
+      "git_blob_sha": "903cc6d8d13c427a9c3d56f0ee80c5b7c50aad30",
+      "size": 611
+    },
+    {
+      "path": "sources/deobfuscated/rise/module/impl/player/scaffold/VsMode.java",
+      "git_blob_sha": "1bb2b6ba4508a3b35790bf695c55b8b561ed8bae",
+      "size": 958
+    },
+    {
+      "path": "sources/deobfuscated/rise/module/impl/player/scaffold/VtMode.java",
+      "git_blob_sha": "9238df1122300059d01da054e8ba07de1320b2aa",
+      "size": 729
+    },
+    {
+      "path": "sources/deobfuscated/rise/module/impl/player/scaffold/VuMode.java",
+      "git_blob_sha": "d689abfa782cf1fec3754afab037490f9c7baa1b",
+      "size": 1203
+    },
+    {
+      "path": "sources/deobfuscated/rise/module/impl/player/scaffold/VvMode.java",
+      "git_blob_sha": "83adcf1dbe1e33358332ec702a96696c97086756",
+      "size": 1164
+    },
+    {
+      "path": "sources/deobfuscated/rise/module/impl/player/scaffold/VwMode.java",
+      "git_blob_sha": "a0eef89d44de75305786788adb25ec0f319f75e8",
+      "size": 872
+    },
+    {
+      "path": "sources/deobfuscated/rise/module/impl/player/scaffold/VxMode.java",
+      "git_blob_sha": "5b08a09fc5a8618d831820ce868a6a6ff1cb20dc",
+      "size": 594
+    },
+    {
+      "path": "sources/deobfuscated/rise/module/impl/player/scaffold/VyMode.java",
+      "git_blob_sha": "89d72d33238120ebc92dc58842470aea2590d8ed",
+      "size": 1166
+    },
+    {
+      "path": "sources/deobfuscated/rise/module/impl/player/scaffold/VzMode.java",
+      "git_blob_sha": "18efa72889d2f2b1c6fd5f3454a63082cd78600a",
+      "size": 1190
+    },
+    {
+      "path": "sources/deobfuscated/rise/module/impl/player/scaffold/WaMode.java",
+      "git_blob_sha": "b3513c9cef37b9afa87c9411444265ee6022343e",
+      "size": 18692
+    }
+  ],
+  "missing_build_artifacts": [
+    "artifacts/client-original.jar",
+    "artifacts/client-restored.jar",
+    "artifacts/client-core.jar"
+  ],
+  "repository_tree_truncated": false,
+  "release_count": 0
+}

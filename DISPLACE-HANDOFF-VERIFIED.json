@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-04",
+  "implementation": "Supplied manual KnockbackDisplaceModule; native descriptor callbacks replaced",
+  "source_archive": "C:/Users/ethan/Documents/ricerakak slionky/exports/Displace-implementation-handoff-2026-11-04.zip",
+  "archive_sha256": "231657c688ef548ee7cb0a57fd9c6def9322f143de3b64b58c1ac012f87c05a5",
+  "source_hashes": {
+    "displace\\KnockbackDisplaceModule.java": "e7410ba675008691418f8af3ae615f71cf38225027f9855c8dc0769ae9331d72",
+    "displace\\RavenBsVoidScanner.java": "8f1ef6e88eff49be9fdb9a41a04ac8e276f5a508c2ea7f67a43c975d938d43e6",
+    "reference\\java\\src\\main\\java\\myau\\RotationState.java": "e3c2571fdfec06d7358b13b4e4c5723f6663dfcbde1a4631618b3a842e32fd14"
+  },
+  "executable_sha256": "1670579ce8243a83d836165fd2bde3ddc72edc6b7d14ef45e391fee75b0b04d3",
+  "dll_sha256": "5679f4553ffd895114b888dae5de7d64784fe04eebd50829d111c1ec7b4e3622",
+  "embedded_payload_matches": true,
+  "bytecode": {
+    "named": "Java 8 (major 52)",
+    "srg": "Java 8 (major 52)",
+    "official": "Java 8 (major 52)"
+  },
+  "ctest": "23/23 passed, including native JVM integration under named, SRG and official mappings",
+  "scaffold_regression": "17 assertions passed under each of three mappings",
+  "live_game_tested": false,
+  "backup": "C:\\Users\\ethan\\Documents\\rice slinky new\\.build-tools\\displace-handoff-backup-20261104",
+  "outputs": [
+    "C:\\Users\\ethan\\Documents\\rice slinky new\\slinky-modified.exe",
+    "C:\\Users\\ethan\\Documents\\rice slinky new\\modified\\rice-loader.exe",
+    "C:\\Users\\ethan\\Documents\\rice slinky new\\modified\\rice-loader-displace-handoff.exe",
+    "C:\\Users\\ethan\\Documents\\rice slinky new\\modified\\slinky.dll"
+  ]
+}

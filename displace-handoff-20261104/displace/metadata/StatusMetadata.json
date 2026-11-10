@@ -1,0 +1,31 @@
+[
+  {
+    "module": "Knockback Displace",
+    "callback": "0x4ab00",
+    "formats": [
+      {
+        "rva": "0x1567a7",
+        "value": "%.0f°"
+      }
+    ],
+    "settings": [
+      "angle"
+    ],
+    "multipliers": [],
+    "instructions": [
+      "4ab00 push rbp",
+      "4ab01 sub rsp, 0x20",
+      "4ab05 lea rbp, [rsp + 0x20]",
+      "4ab0a movss xmm0, dword ptr [rip + 0x2ab4c6]",
+      "4ab12 cvtss2sd xmm3, xmm0",
+      "4ab16 lea r8, [rip + 0x10bc8a]",
+      "4ab1d mov edx, 0x20",
+      "4ab22 movq r9, xmm3",
+      "4ab27 call 0xab710",
+      "4ab2c nop ",
+      "4ab2d add rsp, 0x20",
+      "4ab31 pop rbp",
+      "4ab32 ret "
+    ]
+  }
+]

@@ -1,0 +1,991 @@
+warning: [options] source value 8 is obsolete and will be removed in a future release
+warning: [options] target value 8 is obsolete and will be removed in a future release
+warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+Note: C:\Users\ethan\Documents\rice slinky new\modified\slinkyreadablesource\slinkyreadablesource\references\displace-bow-20261031\java\src\main\java\dev\rice\module\impl\bowaimbot\AimSolver.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+3 warnings
+warning: [options] source value 8 is obsolete and will be removed in a future release
+warning: [options] target value 8 is obsolete and will be removed in a future release
+warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+3 warnings
+warning: [options] source value 8 is obsolete and will be removed in a future release
+warning: [options] target value 8 is obsolete and will be removed in a future release
+warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+3 warnings
+warning: [options] source value 8 is obsolete and will be removed in a future release
+warning: [options] target value 8 is obsolete and will be removed in a future release
+warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+3 warnings
+Fog hook contract: net/minecraft/client/renderer/EntityRenderer.renderWorldPass, 5 setupFog calls; 34 JNI declarations
+Scaffold motion hook contract: net/minecraft/client/entity/EntityPlayerSP, one wrapper and all four field-read sites verified
+Scaffold movement hook contract: net/minecraft/entity/EntityLivingBase, all three vanilla movement branches verified
+Scaffold jump hook contract: net/minecraft/entity/EntityLivingBase, vanilla jump call and native signature verified
+Statically transformed 1223 class files into C:\Users\ethan\Documents\rice slinky new\modified\feature-bridge\build\features-srg.jar
+Statically transformed 1223 class files into C:\Users\ethan\Documents\rice slinky new\modified\feature-bridge\build\features-official.jar
+Scaffold inventory hook contract: net/minecraft/entity/player/InventoryPlayer, three shadow held-item reads verified
+Scaffold controller hook contract: net/minecraft/client/multiplayer/PlayerControllerMP, slot sync and eligible-placement sites verified
+warning: [options] source value 8 is obsolete and will be removed in a future release
+warning: [options] target value 8 is obsolete and will be removed in a future release
+warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+3 warnings
+wrote headless Keyboard/Mouse stand-ins to C:\Users\ethan\Documents\rice slinky new\modified\feature-bridge\build\fixture
+Statically transformed 38 class files into C:\Users\ethan\Documents\rice slinky new\modified\feature-bridge\build\fixture-srg.jar
+Fog hook contract: net/minecraft/client/renderer/EntityRenderer.func_175068_a, 5 setupFog calls; 34 JNI declarations
+Scaffold controller hook contract: net/minecraft/client/multiplayer/PlayerControllerMP, slot sync and eligible-placement sites verified
+Scaffold inventory hook contract: net/minecraft/entity/player/InventoryPlayer, three shadow held-item reads verified
+Scaffold movement hook contract: net/minecraft/entity/EntityLivingBase, all three vanilla movement branches verified
+Scaffold jump hook contract: net/minecraft/entity/EntityLivingBase, vanilla jump call and native signature verified
+Scaffold motion hook contract: net/minecraft/client/entity/EntityPlayerSP, one wrapper and all four field-read sites verified
+Statically transformed 38 class files into C:\Users\ethan\Documents\rice slinky new\modified\feature-bridge\build\fixture-official.jar
+Fog hook contract: bfk.a, 5 setupFog calls; 34 JNI declarations
+Scaffold controller hook contract: bda, slot sync and eligible-placement sites verified
+Scaffold inventory hook contract: wm, three shadow held-item reads verified
+Scaffold movement hook contract: pr, all three vanilla movement branches verified
+Scaffold jump hook contract: pr, vanilla jump call and native signature verified
+Scaffold motion hook contract: bew, one wrapper and all four field-read sites verified
+ok   Normal tower sets source vertical velocity before motion
+ok   Normal tower placement packet triggers downward motion
+ok   Unrelated placement leaves vertical motion unchanged
+ok   Disabled tower does not mutate motion
+ok   MMC tower packet resets sprint and vertical motion
+ok   Strafe return does not execute head handler twice
+ok   Disabled sprint runs on strafe head
+ok   Bypass sprint runs before motion
+ok   Legit sprint stops when server yaw faces backward
+ok   Legit sprint preserves sprint within yaw threshold
+ok   Vanilla tower uses nearby solid block predicate
+ok   Vanilla tower leaves velocity alone without nearby blocks
+ok   Verus tower uses source float velocity
+ok   Normal downwards reads physical sneak
+ok   Downwards offset does not accumulate between ticks
+ok   Up Side Down overrides downward offset in source order
+ok   Releasing sneak resets downward offset
+ok   Expand chooses first air probe and source integer offset
+ok   Expand clears while stationary
+ok   Watchdog Jump Vi premotion ground strafe
+ok   Watchdog Jump Vi grounded diagonal friction and motion reset
+ok   Watchdog Jump Vi air friction
+ok   Watchdog Jump Vi airborne potion strafe
+ok   Watchdog Jump Vi high ascent preserves friction
+ok   Prediction 1.8 tower tick-four motion adjustment
+ok   Prediction 1.8 tower tick-five motion adjustment
+ok   Prediction 1.8 tower preserves moving-player vertical motion
+ok   Native bridge returns Strafe friction to native hook
+ok   Matrix tower spoofs packet ground without changing client ground or losing position precision
+ok   Air Jump ignores odd ticks
+ok   Air Jump even tick uses independent packet-ground state
+ok   Vulcan tower offsets packet X while preserving client position and applying its explicit client-ground write
+ok   PostMotion receives the outgoing double-precision motion frame
+ok   Input phase removes vanilla sneak slowdown when source disables sneak
+ok   Input phase applies configured sneak multiplier once
+ok   Unchanged input preserves exact vanilla floats
+ok   Input hook ignores a different input owner
+ok   Telly arms jump during actual movement-input phase
+ok   Watchdog Telly respects sampled ground-tick delay
+ok   Watchdog Telly jumps when input-phase ground delay expires
+ok   Vulcan Sprint uses allowed distance and source low jump
+ok   Vulcan Sprint starts its source sneak packet cycle
+ok   Vulcan Sprint stops low-jump boost after ten ticks without placement
+ok   Vulcan Sprint placement restarts its boost window
+ok   Leaving Vulcan restores its owned server sneak state beyond cycle tick one
+ok   Vulcan cleanup does not overwrite another module's newer sneak action
+ok   Vulcan speed potion scales allowed distance
+ok   Ignore Speed Effect controls Vulcan distance calculation
+ok   Vulcan slowness uses source distance override
+ok   Vulcan web distance bypasses sprint and potion modifiers
+ok   Watchdog Prediction enable sends three source use packets and snaps camera yaw to movement heading
+ok   Watchdog Prediction publishes its own quantized server rotation with movement correction
+ok   Watchdog Prediction rewrites outgoing look pitch from 90 to 94
+ok   Watchdog Prediction rewrites combined position/look packets within source tolerance
+ok   Watchdog Prediction preserves unrelated packet pitch
+ok   Watchdog Prediction input holds sneak and freezes forward during startup
+ok   Watchdog Prediction startup hold expires on incoming packet after ten ticks
+ok   First server block change re-arms Watchdog Prediction hold
+ok   Repeated server block position does not extend prediction hold
+ok   Leaving prediction restores its unchanged camera snap
+ok   Prediction cleanup preserves a subsequent camera change
+ok   Matrix Sprint reduces diagonal horizontal motion by source multiplier
+ok   Matrix Sprint preserves source boundary-aligned motion
+ok   Matrix Sprint retains the source physical-sneak exception
+ok   Sneak scheduler samples its range and placement interval
+ok   Scheduled sneak holds key during active interval
+ok   Use-item sentinel packet does not count as a block
+ok   Block placement packet advances sneak interval
+ok   World unload clears owned sneak and timing state
+ok   Unload releases owned sprint key
+ALL SCAFFOLD BEHAVIOR CHECKS PASSED
+ok   mode dropdown = 6 options (got 6)
+ok   rotation_mode dropdown = 2 options (got 2)
+ok   ray_cast dropdown = 3 options (got 3)
+ok   sprint dropdown = 10 options (got 10)
+ok   tower dropdown = 12 options (got 12)
+ok   same_y dropdown = 3 options (got 3)
+ok   downwards dropdown = 4 options (got 4)
+ok   yaw_offset dropdown = 3 options (got 3)
+ok   sprint index 5 & 8 both 'Watchdog Jump' with distinct stable ids
+   census: choice=8 bool=21 number=4 range=8 total=41
+ok   8 mode dropdowns
+ok   8 range settings (BoundsNumberValue), both endpoints preserved
+ok   20 parent booleans plus Watchdog Jump child setting
+ok   3 parent number settings plus Vulcan Sprint child speed
+ok   39 parent settings plus two submode child settings
+ok   Safe Walk defaults ON
+ok   Keep-Y bypass defaults ON
+ok   Movement Correction defaults OFF
+ok   Timer defaults 1.0
+ok   Rotation Speed range 5..10 in 0..10
+ok   Ignore Speed Effect present (Rise field agt)
+ok   Watchdog Telly Jump Delay is a range (Rise field age)
+ok   labels expands ranges: 49 rows == 49
+ok   every RangeSetting emits _lo and _hi endpoint rows
+ok   specification() resolves all 49 native rows
+ok   Vulcan child speed hidden outside its submode
+ok   Vulcan child speed visible in its submode
+ok   Watchdog Jump child defaults off and hidden
+ok   Watchdog Jump child visible only in its own submode
+ok   visibility resolves every expanded range row, including last settings
+ok   all Scaffold ranges use source integer steps
+ok   dependent controls hidden by default
+ok   independent parent controls reveal their children
+ok   rotation boost nested condition
+ok   sync value layout matches native row count (49)
+ok   configure() identity round-trip did not throw
+ok   range write-back: place_delay -> (1.0,3.0)
+ok   listens()+onEvent route all wired native phases 2/3/5/13/14/16/17/18/21/22/26
+ok   does not over-subscribe to unrelated event types
+ok   statusText identifies the experimental candidate
+
+ALL PHASE-1 CHECKS PASSED
+ok   Fresh stacks use current-count threshold and reject non-full torch blocks
+ok   Server slot selection leaves visible currentItem unchanged
+ok   Held-item accessors see the server-selected stack without changing the hotbar index
+ok   Actual controller sync sends selected-slot packet
+ok   Slot claim does not affect a different inventory
+ok   Releasing claim syncs the real visible slot
+ok   Aged smaller stack wins by source hotbar order rather than largest count
+ok   Previous-count snapshot is distinct from current count
+ok   Eligible attempts decrement the source previous-count gate
+ok   Placement uses the shadow slot's actual stack
+ok   Vanilla placement runs the original can-place predicate once and consumes the selected stack
+ok   Slot synchronization precedes placement packet
+ok   Controller can-place hook resets history and decrements snapshot before use
+ok   Eligible failed use still counts as a source placement attempt
+ok   History ticks once per player tick
+ok   History snapshot stays unchanged for nineteen ticks after attempt
+ok   Twentieth tick refreshes the snapshot from current stack count
+ok   Rejected can-place predicate does not send or consume history
+ok   Cleanup restores the user's latest visible selection
+ok   Cleanup does not overwrite another module's newer server-slot change
+ok   No eligible block stack returns no slot
+ok   Source glass exception is eligible
+ok   Opening a menu releases the shadow slot
+ok   World unload clears stack identity history
+ALL SCAFFOLD SLOT CHECKS PASSED
+ok   Packet-order guard starts clear with Scaffold disabled
+ok   Global early packet observer blocks placement after entity use
+ok   Inbound packets do not reset outbound ordering history
+ok   Every outbound movement packet subclass resets the source guard
+ok   Placement and use-item packets do not imitate the parent's attack/inventory guard flags
+ok   Opening inventory marks the source inventory packet guard
+ok   Other client-status actions leave the inventory flag clear
+ok   Closing a window blocks until the next movement packet
+ok   Click-window packets participate in source inventory ordering
+ok   Unobserved timing history remains unknown instead of inventing a recent placement
+ok   Global packet timing works while Scaffold is disabled
+ok   Use-item sentinel does not reset placement timing
+ok   Outbound packet does not imitate an inbound correction
+ok   Correction timing advances with actual entity ticks
+ok   Other entity velocity does not reset local timing
+ok   Significant local velocity resets both source counters
+ok   Small velocity preserves significant-velocity age
+ok   Verus downward placement uses recent placement and physical sneak
+ok   Fractional Y resets Verus full-block delay
+ok   Verus downward offset resumes after fifteen integer-Y ticks
+ok   Verus gate expires after twenty ticks without placement
+ok   Verus downward strafe disables sprint while physical sneak is held
+ok   Watchdog downward waits for six integer-Y passes
+ok   Watchdog downward preserves source first-press modulo-three exception
+ok   Watchdog downward uses the consumed-key state on subsequent passes
+ok   Watchdog downward overrides the earlier upward offset in source order
+ok   Watchdog downward rejects non-axis-aligned yaw
+ok   Watchdog Sprint uses nominal source speed and owns the sprint key
+ok   Watchdog Sprint retains source signed correction penalty
+ok   Watchdog Sprint potion threshold uses source correction-speed branch
+ok   Watchdog Sprint air drag follows source additive motion
+ok   Watchdog Sprint held jump suppresses additive drag
+ok   Leaving Watchdog Sprint releases its key claim
+ok   World unload removes timing history
+ALL SCAFFOLD TIMING CHECKS PASSED
+ok   Right-click-only Telly uses the source Normal fallback while use is released
+ok   Held use key activates Telly without changing the selected mode
+ok   Right-click-only source handler cancels non-strict manual clicks
+ok   Strict raycast retains manual right-click dispatch
+ok   Disable On Flag selects source Normal fallback one tick after correction
+ok   Repeated callbacks cannot rearm or consume the ten-placement flag counter
+ok   Use-item packets do not consume flag recovery placements
+ok   Flag fallback lasts through nine eligible block-placement packets
+ok   Tenth eligible placement restores selected Telly behavior
+ok   Turning flag response off clears its recovery state
+ok   Delayed Telly jump uses movement heading and source pitch window
+ok   Telly ascent requests source movement correction
+ok   Block Diagonal Ascend excludes the diagonal held-jump ascent branch
+ok   Disabling Block Diagonal Ascend allows the diagonal ascent branch
+ok   Airborne rotation boost uses its own range once and consumes the pending boost
+ok   Held-jump-only boost retains pending state and uses normal rotation speed when released
+ok   Forced Telly raycast follows source no-movement predicate
+ok   Disabling forced raycast restores the still-owned original setting
+ok   Telly cleanup preserves a newer external raycast choice
+ok   Telly visual pose changes model pitch and head/body yaw only inside the renderer scope
+ok   Telly model head and body share the source visual yaw
+ok   Visual cleanup restores owned fields and preserves a newer body-yaw writer
+ok   Telly visual pose never affects another player
+ok   First-person view leaves camera pitch untouched
+ok   Disabling Visual Back Rotations clears its model pose
+ok   New Watchdog Rotations preserves the source block-centre side vector and twelve-degree target step
+ok   New Watchdog Rotations applies the slow-movement thirty-degree server offset
+ok   Held jump switches the new rotation branch to its ten-degree server offset
+ok   Sideways input excludes the new rotation override in source order
+ok   Nonzero yaw offset adds the source one-key diagonal speed adjustment
+ok   Movement correction suppresses the separate diagonal speed adjustment
+ok   Watchdog Jump retains its independent movement behavior with a yaw offset
+ok   Scaffold timer applies an explicit non-default speed
+ok   Scaffold timer cleanup restores its owned baseline
+ok   Scaffold timer leaves an existing foreign speed untouched
+ok   A newer timer writer makes Scaffold yield until its claim is released
+ok   Timer cleanup preserves a newer external timer change
+ok   World unload releases Scaffold timer state
+ok   Real PreMotion dispatch applies configured timer only with a complete placement target
+ok   Opening a screen releases the active timer claim
+ok   Missing placement geometry does not claim the timer
+ALL SCAFFOLD TELLY CHECKS PASSED
+ok   HUD uses claimed server item and totals every hotbar ItemBlock, including non-full blocks, excluding main inventory
+ok   HUD selection does not move the visible hotbar slot
+ok   Render setting suppresses the slot panel
+ok   An open screen hides the active HUD selection
+ok   A changed shadow item uses item-only display and its own count
+ok   Source HUD hides a matching visible non-block item
+ok   Panel starts at source 1.1 scale with measured width, centered ninety pixels above the bottom
+ok   Nine-hundred-millisecond expo animation reaches the source half-time fade
+ok   Visible panel settles at full opacity and unit scale
+ok   Changing block count updates the label without restarting the entrance animation
+ok   Fade-out retains the last item, count and measured geometry
+ok   Completed fade-out releases the retained ItemStack
+ok   A backwards clock restarts panel animation predictably
+ok   Invalid render time clears retained display state
+ok   Non-block source panel reserves only the item icon width
+ok   Actual HUD painter draws the claimed item and Amount/count text
+ok   Painter restores item depth, both matrices, GL attributes and the existing cache scope
+ok   Painter preserves an original projection-matrix mode
+ok   Projection-mode entry leaves both matrix stacks balanced
+ok   Painter preserves the original item-render exception
+ok   Failed item rendering still restores the entire render scope
+ok   Turning Render off releases the previous item immediately
+ok   World unload releases the panel and its shadow-slot ownership
+ok   Enabling Scaffold in the native menu defers sprint startup packets and camera claims
+ALL SCAFFOLD HUD CHECKS PASSED
+ok   Safe Walk reduces positive X in source 0.05 steps and preserves vertical movement
+ok   Edge request is consumed by one moveEntity call
+ok   Clipping probes preserve client position, bounding box identity and another movement owner's velocity
+ok   Negative X clipping preserves the source symmetric decrement rule
+ok   Z support is checked independently before the combined diagonal probe
+ok   Combined diagonal edge probe reduces both axes when each separate axis has support
+ok   Source edge flag applies in air independently of vanilla grounded-sneak clipping
+ok   Supported horizontal movement is unchanged
+ok   Unsupported sub-step movement clamps both signs to zero
+ok   Other entities neither receive nor consume the local edge request
+ok   A solid block two below prevents a new source request
+ok   Held sneak leaves vanilla input to own edge behavior
+ok   No-clip movement remains independent of edge protection
+ok   Invalid movement cannot enter an unbounded clipping loop
+ok   Watchdog downward placement explicitly releases the parent edge request
+ok   Turning Safe Walk off releases its pending request
+ok   Menu pause releases the request before the next movement
+ok   World unload releases Safe Walk ownership
+ok   Disabled Scaffold cannot change movement
+ALL SCAFFOLD SAFE WALK CHECKS PASSED
+ok   Vk enables its own state independently of Vi and tower
+ok   Vk axis scaling and vo packet-height offset use independent source predicates
+ok   Vk requests the parent extra placement pass
+ok   Vk diagonal scaling differs from axis scaling
+ok   Vk speed-potion tier 0 uses its source multiplier
+ok   Vk speed-potion tier 1 uses its source multiplier
+ok   A recent correction suppresses Vk ground acceleration
+ok   vo cancels jumps at modulo one after three grounded ticks
+ok   vo allows the adjacent tick's jump
+ok   Vk airborne Auto Jump drag follows the child setting's known level predicate
+ok   Default child value keeps the source level predicate true
+ok   Vk observes block-change packets in its own counters
+ok   Vk explicit disable replays one source ground packet on an axis tick
+ok   Vk diagonal disable replays two packets and clears its state
+ok   Failed cleanup packet still releases helper and parent state
+ok   Wa stage zero uses the source double-precision launch
+ok   Wa stage one uses its independent ascent velocity
+ok   Wa stage two aligns to the next block and resets its stage
+ok   Wa input scales moving forward input by five
+ok   Wa skips the modulo-three settled-ground tick
+ok   Wa side-key strafe uses its own speed
+ok   Wa minimum strafe speed observes the correction-age gate
+ok   Wa ice packets leave the upward-placement counter unchanged
+ok   Held jump arms Wa's deferred bind action
+ok   Wa consumes one deferred disable request in its source velocity window
+ok   Stationary Wa takes its first collision-tested alignment step
+ok   Wa rotation is scoped for packets and leaves camera yaw untouched
+ok   Wa alignment supplies its separate placement offset
+ok   Wa alignment rejects a bounding volume occupied by a block
+ok   Switching tower modes clears pending bind and alignment state
+ok   Disable clears both helpers and packet rotation ownership
+ALL SCAFFOLD WATCHDOG CHECKS PASSED
+ok   Enable seeds the source backward target with the chosen yaw offset
+ok   Normal sprint does not inherit Watchdog parent rotations
+ok   Watchdog early ground ticks use the parent ten-degree rotation request
+ok   Parent requests keep the visible camera separate
+ok   Recent correction stops horizontal movement in the parent ground gate
+ok   Settled Watchdog uses its two-degree source request
+ok   Settled Watchdog applies the parent's horizontal multiplier
+ok   Later left/back predicate wins over the earlier left-key rotation
+ok   Diagonal forward/right predicate retains the last source rotation request
+ok   Stationary held jump overrides earlier parent rotation branches
+ok   Watchdog potion plus sneak applies its independent parent slowdown
+ok   Input blocking preserves the original input for rotation heading
+ok   Input blocking lasts for the second requested pass
+ok   Input resumes after the requested block count
+ok   Pause forces owned sneak even when Sneak is disabled
+ok   Pause expires and the source scheduler releases sneak
+ok   Long pause suppresses placement before controller or packet work
+ok   Three-tick pause retains the source placement threshold
+ok   Real parent placement loop reaches the controller with eligible blocks and geometry
+ok   Settled grounded support resynchronizes start height while moving
+ok   Early Watchdog rotation survives when Grim suppresses final rotation application
+ok   Disable releases pause and blocked-input state
+ALL SCAFFOLD PARENT CHECKS PASSED
+ok   Normal tower sets source vertical velocity before motion
+ok   Normal tower placement packet triggers downward motion
+ok   Unrelated placement leaves vertical motion unchanged
+ok   Disabled tower does not mutate motion
+ok   MMC tower packet resets sprint and vertical motion
+ok   Strafe return does not execute head handler twice
+ok   Disabled sprint runs on strafe head
+ok   Bypass sprint runs before motion
+ok   Legit sprint stops when server yaw faces backward
+ok   Legit sprint preserves sprint within yaw threshold
+ok   Vanilla tower uses nearby solid block predicate
+ok   Vanilla tower leaves velocity alone without nearby blocks
+ok   Verus tower uses source float velocity
+ok   Normal downwards reads physical sneak
+ok   Downwards offset does not accumulate between ticks
+ok   Up Side Down overrides downward offset in source order
+ok   Releasing sneak resets downward offset
+ok   Expand chooses first air probe and source integer offset
+ok   Expand clears while stationary
+ok   Watchdog Jump Vi premotion ground strafe
+ok   Watchdog Jump Vi grounded diagonal friction and motion reset
+ok   Watchdog Jump Vi air friction
+ok   Watchdog Jump Vi airborne potion strafe
+ok   Watchdog Jump Vi high ascent preserves friction
+ok   Prediction 1.8 tower tick-four motion adjustment
+ok   Prediction 1.8 tower tick-five motion adjustment
+ok   Prediction 1.8 tower preserves moving-player vertical motion
+ok   Native bridge returns Strafe friction to native hook
+ok   Matrix tower spoofs packet ground without changing client ground or losing position precision
+ok   Air Jump ignores odd ticks
+ok   Air Jump even tick uses independent packet-ground state
+ok   Vulcan tower offsets packet X while preserving client position and applying its explicit client-ground write
+ok   PostMotion receives the outgoing double-precision motion frame
+ok   Input phase removes vanilla sneak slowdown when source disables sneak
+ok   Input phase applies configured sneak multiplier once
+ok   Unchanged input preserves exact vanilla floats
+ok   Input hook ignores a different input owner
+ok   Telly arms jump during actual movement-input phase
+ok   Watchdog Telly respects sampled ground-tick delay
+ok   Watchdog Telly jumps when input-phase ground delay expires
+ok   Vulcan Sprint uses allowed distance and source low jump
+ok   Vulcan Sprint starts its source sneak packet cycle
+ok   Vulcan Sprint stops low-jump boost after ten ticks without placement
+ok   Vulcan Sprint placement restarts its boost window
+ok   Leaving Vulcan restores its owned server sneak state beyond cycle tick one
+ok   Vulcan cleanup does not overwrite another module's newer sneak action
+ok   Vulcan speed potion scales allowed distance
+ok   Ignore Speed Effect controls Vulcan distance calculation
+ok   Vulcan slowness uses source distance override
+ok   Vulcan web distance bypasses sprint and potion modifiers
+ok   Watchdog Prediction enable sends three source use packets and snaps camera yaw to movement heading
+ok   Watchdog Prediction publishes its own quantized server rotation with movement correction
+ok   Watchdog Prediction rewrites outgoing look pitch from 90 to 94
+ok   Watchdog Prediction rewrites combined position/look packets within source tolerance
+ok   Watchdog Prediction preserves unrelated packet pitch
+ok   Watchdog Prediction input holds sneak and freezes forward during startup
+ok   Watchdog Prediction startup hold expires on incoming packet after ten ticks
+ok   First server block change re-arms Watchdog Prediction hold
+ok   Repeated server block position does not extend prediction hold
+ok   Leaving prediction restores its unchanged camera snap
+ok   Prediction cleanup preserves a subsequent camera change
+ok   Matrix Sprint reduces diagonal horizontal motion by source multiplier
+ok   Matrix Sprint preserves source boundary-aligned motion
+ok   Matrix Sprint retains the source physical-sneak exception
+ok   Sneak scheduler samples its range and placement interval
+ok   Scheduled sneak holds key during active interval
+ok   Use-item sentinel packet does not count as a block
+ok   Block placement packet advances sneak interval
+ok   World unload clears owned sneak and timing state
+ok   Unload releases owned sprint key
+ALL SCAFFOLD BEHAVIOR CHECKS PASSED
+ok   mode dropdown = 6 options (got 6)
+ok   rotation_mode dropdown = 2 options (got 2)
+ok   ray_cast dropdown = 3 options (got 3)
+ok   sprint dropdown = 10 options (got 10)
+ok   tower dropdown = 12 options (got 12)
+ok   same_y dropdown = 3 options (got 3)
+ok   downwards dropdown = 4 options (got 4)
+ok   yaw_offset dropdown = 3 options (got 3)
+ok   sprint index 5 & 8 both 'Watchdog Jump' with distinct stable ids
+   census: choice=8 bool=21 number=4 range=8 total=41
+ok   8 mode dropdowns
+ok   8 range settings (BoundsNumberValue), both endpoints preserved
+ok   20 parent booleans plus Watchdog Jump child setting
+ok   3 parent number settings plus Vulcan Sprint child speed
+ok   39 parent settings plus two submode child settings
+ok   Safe Walk defaults ON
+ok   Keep-Y bypass defaults ON
+ok   Movement Correction defaults OFF
+ok   Timer defaults 1.0
+ok   Rotation Speed range 5..10 in 0..10
+ok   Ignore Speed Effect present (Rise field agt)
+ok   Watchdog Telly Jump Delay is a range (Rise field age)
+ok   labels expands ranges: 49 rows == 49
+ok   every RangeSetting emits _lo and _hi endpoint rows
+ok   specification() resolves all 49 native rows
+ok   Vulcan child speed hidden outside its submode
+ok   Vulcan child speed visible in its submode
+ok   Watchdog Jump child defaults off and hidden
+ok   Watchdog Jump child visible only in its own submode
+ok   visibility resolves every expanded range row, including last settings
+ok   all Scaffold ranges use source integer steps
+ok   dependent controls hidden by default
+ok   independent parent controls reveal their children
+ok   rotation boost nested condition
+ok   sync value layout matches native row count (49)
+ok   configure() identity round-trip did not throw
+ok   range write-back: place_delay -> (1.0,3.0)
+ok   listens()+onEvent route all wired native phases 2/3/5/13/14/16/17/18/21/22/26
+ok   does not over-subscribe to unrelated event types
+ok   statusText identifies the experimental candidate
+
+ALL PHASE-1 CHECKS PASSED
+ok   Fresh stacks use current-count threshold and reject non-full torch blocks
+ok   Server slot selection leaves visible currentItem unchanged
+ok   Held-item accessors see the server-selected stack without changing the hotbar index
+ok   Actual controller sync sends selected-slot packet
+ok   Slot claim does not affect a different inventory
+ok   Releasing claim syncs the real visible slot
+ok   Aged smaller stack wins by source hotbar order rather than largest count
+ok   Previous-count snapshot is distinct from current count
+ok   Eligible attempts decrement the source previous-count gate
+ok   Placement uses the shadow slot's actual stack
+ok   Vanilla placement runs the original can-place predicate once and consumes the selected stack
+ok   Slot synchronization precedes placement packet
+ok   Controller can-place hook resets history and decrements snapshot before use
+ok   Eligible failed use still counts as a source placement attempt
+ok   History ticks once per player tick
+ok   History snapshot stays unchanged for nineteen ticks after attempt
+ok   Twentieth tick refreshes the snapshot from current stack count
+ok   Rejected can-place predicate does not send or consume history
+ok   Cleanup restores the user's latest visible selection
+ok   Cleanup does not overwrite another module's newer server-slot change
+ok   No eligible block stack returns no slot
+ok   Source glass exception is eligible
+ok   Opening a menu releases the shadow slot
+ok   World unload clears stack identity history
+ALL SCAFFOLD SLOT CHECKS PASSED
+ok   Packet-order guard starts clear with Scaffold disabled
+ok   Global early packet observer blocks placement after entity use
+ok   Inbound packets do not reset outbound ordering history
+ok   Every outbound movement packet subclass resets the source guard
+ok   Placement and use-item packets do not imitate the parent's attack/inventory guard flags
+ok   Opening inventory marks the source inventory packet guard
+ok   Other client-status actions leave the inventory flag clear
+ok   Closing a window blocks until the next movement packet
+ok   Click-window packets participate in source inventory ordering
+ok   Unobserved timing history remains unknown instead of inventing a recent placement
+ok   Global packet timing works while Scaffold is disabled
+ok   Use-item sentinel does not reset placement timing
+ok   Outbound packet does not imitate an inbound correction
+ok   Correction timing advances with actual entity ticks
+ok   Other entity velocity does not reset local timing
+ok   Significant local velocity resets both source counters
+ok   Small velocity preserves significant-velocity age
+ok   Verus downward placement uses recent placement and physical sneak
+ok   Fractional Y resets Verus full-block delay
+ok   Verus downward offset resumes after fifteen integer-Y ticks
+ok   Verus gate expires after twenty ticks without placement
+ok   Verus downward strafe disables sprint while physical sneak is held
+ok   Watchdog downward waits for six integer-Y passes
+ok   Watchdog downward preserves source first-press modulo-three exception
+ok   Watchdog downward uses the consumed-key state on subsequent passes
+ok   Watchdog downward overrides the earlier upward offset in source order
+ok   Watchdog downward rejects non-axis-aligned yaw
+ok   Watchdog Sprint uses nominal source speed and owns the sprint key
+ok   Watchdog Sprint retains source signed correction penalty
+ok   Watchdog Sprint potion threshold uses source correction-speed branch
+ok   Watchdog Sprint air drag follows source additive motion
+ok   Watchdog Sprint held jump suppresses additive drag
+ok   Leaving Watchdog Sprint releases its key claim
+ok   World unload removes timing history
+ALL SCAFFOLD TIMING CHECKS PASSED
+ok   Right-click-only Telly uses the source Normal fallback while use is released
+ok   Held use key activates Telly without changing the selected mode
+ok   Right-click-only source handler cancels non-strict manual clicks
+ok   Strict raycast retains manual right-click dispatch
+ok   Disable On Flag selects source Normal fallback one tick after correction
+ok   Repeated callbacks cannot rearm or consume the ten-placement flag counter
+ok   Use-item packets do not consume flag recovery placements
+ok   Flag fallback lasts through nine eligible block-placement packets
+ok   Tenth eligible placement restores selected Telly behavior
+ok   Turning flag response off clears its recovery state
+ok   Delayed Telly jump uses movement heading and source pitch window
+ok   Telly ascent requests source movement correction
+ok   Block Diagonal Ascend excludes the diagonal held-jump ascent branch
+ok   Disabling Block Diagonal Ascend allows the diagonal ascent branch
+ok   Airborne rotation boost uses its own range once and consumes the pending boost
+ok   Held-jump-only boost retains pending state and uses normal rotation speed when released
+ok   Forced Telly raycast follows source no-movement predicate
+ok   Disabling forced raycast restores the still-owned original setting
+ok   Telly cleanup preserves a newer external raycast choice
+ok   Telly visual pose changes model pitch and head/body yaw only inside the renderer scope
+ok   Telly model head and body share the source visual yaw
+ok   Visual cleanup restores owned fields and preserves a newer body-yaw writer
+ok   Telly visual pose never affects another player
+ok   First-person view leaves camera pitch untouched
+ok   Disabling Visual Back Rotations clears its model pose
+ok   New Watchdog Rotations preserves the source block-centre side vector and twelve-degree target step
+ok   New Watchdog Rotations applies the slow-movement thirty-degree server offset
+ok   Held jump switches the new rotation branch to its ten-degree server offset
+ok   Sideways input excludes the new rotation override in source order
+ok   Nonzero yaw offset adds the source one-key diagonal speed adjustment
+ok   Movement correction suppresses the separate diagonal speed adjustment
+ok   Watchdog Jump retains its independent movement behavior with a yaw offset
+ok   Scaffold timer applies an explicit non-default speed
+ok   Scaffold timer cleanup restores its owned baseline
+ok   Scaffold timer leaves an existing foreign speed untouched
+ok   A newer timer writer makes Scaffold yield until its claim is released
+ok   Timer cleanup preserves a newer external timer change
+ok   World unload releases Scaffold timer state
+ok   Real PreMotion dispatch applies configured timer only with a complete placement target
+ok   Opening a screen releases the active timer claim
+ok   Missing placement geometry does not claim the timer
+ALL SCAFFOLD TELLY CHECKS PASSED
+ok   HUD uses claimed server item and totals every hotbar ItemBlock, including non-full blocks, excluding main inventory
+ok   HUD selection does not move the visible hotbar slot
+ok   Render setting suppresses the slot panel
+ok   An open screen hides the active HUD selection
+ok   A changed shadow item uses item-only display and its own count
+ok   Source HUD hides a matching visible non-block item
+ok   Panel starts at source 1.1 scale with measured width, centered ninety pixels above the bottom
+ok   Nine-hundred-millisecond expo animation reaches the source half-time fade
+ok   Visible panel settles at full opacity and unit scale
+ok   Changing block count updates the label without restarting the entrance animation
+ok   Fade-out retains the last item, count and measured geometry
+ok   Completed fade-out releases the retained ItemStack
+ok   A backwards clock restarts panel animation predictably
+ok   Invalid render time clears retained display state
+ok   Non-block source panel reserves only the item icon width
+ok   Actual HUD painter draws the claimed item and Amount/count text
+ok   Painter restores item depth, both matrices, GL attributes and the existing cache scope
+ok   Painter preserves an original projection-matrix mode
+ok   Projection-mode entry leaves both matrix stacks balanced
+ok   Painter preserves the original item-render exception
+ok   Failed item rendering still restores the entire render scope
+ok   Turning Render off releases the previous item immediately
+ok   World unload releases the panel and its shadow-slot ownership
+ok   Enabling Scaffold in the native menu defers sprint startup packets and camera claims
+ALL SCAFFOLD HUD CHECKS PASSED
+ok   Safe Walk reduces positive X in source 0.05 steps and preserves vertical movement
+ok   Edge request is consumed by one moveEntity call
+ok   Clipping probes preserve client position, bounding box identity and another movement owner's velocity
+ok   Negative X clipping preserves the source symmetric decrement rule
+ok   Z support is checked independently before the combined diagonal probe
+ok   Combined diagonal edge probe reduces both axes when each separate axis has support
+ok   Source edge flag applies in air independently of vanilla grounded-sneak clipping
+ok   Supported horizontal movement is unchanged
+ok   Unsupported sub-step movement clamps both signs to zero
+ok   Other entities neither receive nor consume the local edge request
+ok   A solid block two below prevents a new source request
+ok   Held sneak leaves vanilla input to own edge behavior
+ok   No-clip movement remains independent of edge protection
+ok   Invalid movement cannot enter an unbounded clipping loop
+ok   Watchdog downward placement explicitly releases the parent edge request
+ok   Turning Safe Walk off releases its pending request
+ok   Menu pause releases the request before the next movement
+ok   World unload releases Safe Walk ownership
+ok   Disabled Scaffold cannot change movement
+ALL SCAFFOLD SAFE WALK CHECKS PASSED
+ok   Vk enables its own state independently of Vi and tower
+ok   Vk axis scaling and vo packet-height offset use independent source predicates
+ok   Vk requests the parent extra placement pass
+ok   Vk diagonal scaling differs from axis scaling
+ok   Vk speed-potion tier 0 uses its source multiplier
+ok   Vk speed-potion tier 1 uses its source multiplier
+ok   A recent correction suppresses Vk ground acceleration
+ok   vo cancels jumps at modulo one after three grounded ticks
+ok   vo allows the adjacent tick's jump
+ok   Vk airborne Auto Jump drag follows the child setting's known level predicate
+ok   Default child value keeps the source level predicate true
+ok   Vk observes block-change packets in its own counters
+ok   Vk explicit disable replays one source ground packet on an axis tick
+ok   Vk diagonal disable replays two packets and clears its state
+ok   Failed cleanup packet still releases helper and parent state
+ok   Wa stage zero uses the source double-precision launch
+ok   Wa stage one uses its independent ascent velocity
+ok   Wa stage two aligns to the next block and resets its stage
+ok   Wa input scales moving forward input by five
+ok   Wa skips the modulo-three settled-ground tick
+ok   Wa side-key strafe uses its own speed
+ok   Wa minimum strafe speed observes the correction-age gate
+ok   Wa ice packets leave the upward-placement counter unchanged
+ok   Held jump arms Wa's deferred bind action
+ok   Wa consumes one deferred disable request in its source velocity window
+ok   Stationary Wa takes its first collision-tested alignment step
+ok   Wa rotation is scoped for packets and leaves camera yaw untouched
+ok   Wa alignment supplies its separate placement offset
+ok   Wa alignment rejects a bounding volume occupied by a block
+ok   Switching tower modes clears pending bind and alignment state
+ok   Disable clears both helpers and packet rotation ownership
+ALL SCAFFOLD WATCHDOG CHECKS PASSED
+ok   Enable seeds the source backward target with the chosen yaw offset
+ok   Normal sprint does not inherit Watchdog parent rotations
+ok   Watchdog early ground ticks use the parent ten-degree rotation request
+ok   Parent requests keep the visible camera separate
+ok   Recent correction stops horizontal movement in the parent ground gate
+ok   Settled Watchdog uses its two-degree source request
+ok   Settled Watchdog applies the parent's horizontal multiplier
+ok   Later left/back predicate wins over the earlier left-key rotation
+ok   Diagonal forward/right predicate retains the last source rotation request
+ok   Stationary held jump overrides earlier parent rotation branches
+ok   Watchdog potion plus sneak applies its independent parent slowdown
+ok   Input blocking preserves the original input for rotation heading
+ok   Input blocking lasts for the second requested pass
+ok   Input resumes after the requested block count
+ok   Pause forces owned sneak even when Sneak is disabled
+ok   Pause expires and the source scheduler releases sneak
+ok   Long pause suppresses placement before controller or packet work
+ok   Three-tick pause retains the source placement threshold
+ok   Real parent placement loop reaches the controller with eligible blocks and geometry
+ok   Settled grounded support resynchronizes start height while moving
+ok   Early Watchdog rotation survives when Grim suppresses final rotation application
+ok   Disable releases pause and blocked-input state
+ALL SCAFFOLD PARENT CHECKS PASSED
+ok   Normal tower sets source vertical velocity before motion
+ok   Normal tower placement packet triggers downward motion
+ok   Unrelated placement leaves vertical motion unchanged
+ok   Disabled tower does not mutate motion
+ok   MMC tower packet resets sprint and vertical motion
+ok   Strafe return does not execute head handler twice
+ok   Disabled sprint runs on strafe head
+ok   Bypass sprint runs before motion
+ok   Legit sprint stops when server yaw faces backward
+ok   Legit sprint preserves sprint within yaw threshold
+ok   Vanilla tower uses nearby solid block predicate
+ok   Vanilla tower leaves velocity alone without nearby blocks
+ok   Verus tower uses source float velocity
+ok   Normal downwards reads physical sneak
+ok   Downwards offset does not accumulate between ticks
+ok   Up Side Down overrides downward offset in source order
+ok   Releasing sneak resets downward offset
+ok   Expand chooses first air probe and source integer offset
+ok   Expand clears while stationary
+ok   Watchdog Jump Vi premotion ground strafe
+ok   Watchdog Jump Vi grounded diagonal friction and motion reset
+ok   Watchdog Jump Vi air friction
+ok   Watchdog Jump Vi airborne potion strafe
+ok   Watchdog Jump Vi high ascent preserves friction
+ok   Prediction 1.8 tower tick-four motion adjustment
+ok   Prediction 1.8 tower tick-five motion adjustment
+ok   Prediction 1.8 tower preserves moving-player vertical motion
+ok   Native bridge returns Strafe friction to native hook
+ok   Matrix tower spoofs packet ground without changing client ground or losing position precision
+ok   Air Jump ignores odd ticks
+ok   Air Jump even tick uses independent packet-ground state
+ok   Vulcan tower offsets packet X while preserving client position and applying its explicit client-ground write
+ok   PostMotion receives the outgoing double-precision motion frame
+ok   Input phase removes vanilla sneak slowdown when source disables sneak
+ok   Input phase applies configured sneak multiplier once
+ok   Unchanged input preserves exact vanilla floats
+ok   Input hook ignores a different input owner
+ok   Telly arms jump during actual movement-input phase
+ok   Watchdog Telly respects sampled ground-tick delay
+ok   Watchdog Telly jumps when input-phase ground delay expires
+ok   Vulcan Sprint uses allowed distance and source low jump
+ok   Vulcan Sprint starts its source sneak packet cycle
+ok   Vulcan Sprint stops low-jump boost after ten ticks without placement
+ok   Vulcan Sprint placement restarts its boost window
+ok   Leaving Vulcan restores its owned server sneak state beyond cycle tick one
+ok   Vulcan cleanup does not overwrite another module's newer sneak action
+ok   Vulcan speed potion scales allowed distance
+ok   Ignore Speed Effect controls Vulcan distance calculation
+ok   Vulcan slowness uses source distance override
+ok   Vulcan web distance bypasses sprint and potion modifiers
+ok   Watchdog Prediction enable sends three source use packets and snaps camera yaw to movement heading
+ok   Watchdog Prediction publishes its own quantized server rotation with movement correction
+ok   Watchdog Prediction rewrites outgoing look pitch from 90 to 94
+ok   Watchdog Prediction rewrites combined position/look packets within source tolerance
+ok   Watchdog Prediction preserves unrelated packet pitch
+ok   Watchdog Prediction input holds sneak and freezes forward during startup
+ok   Watchdog Prediction startup hold expires on incoming packet after ten ticks
+ok   First server block change re-arms Watchdog Prediction hold
+ok   Repeated server block position does not extend prediction hold
+ok   Leaving prediction restores its unchanged camera snap
+ok   Prediction cleanup preserves a subsequent camera change
+ok   Matrix Sprint reduces diagonal horizontal motion by source multiplier
+ok   Matrix Sprint preserves source boundary-aligned motion
+ok   Matrix Sprint retains the source physical-sneak exception
+ok   Sneak scheduler samples its range and placement interval
+ok   Scheduled sneak holds key during active interval
+ok   Use-item sentinel packet does not count as a block
+ok   Block placement packet advances sneak interval
+ok   World unload clears owned sneak and timing state
+ok   Unload releases owned sprint key
+ALL SCAFFOLD BEHAVIOR CHECKS PASSED
+ok   mode dropdown = 6 options (got 6)
+ok   rotation_mode dropdown = 2 options (got 2)
+ok   ray_cast dropdown = 3 options (got 3)
+ok   sprint dropdown = 10 options (got 10)
+ok   tower dropdown = 12 options (got 12)
+ok   same_y dropdown = 3 options (got 3)
+ok   downwards dropdown = 4 options (got 4)
+ok   yaw_offset dropdown = 3 options (got 3)
+ok   sprint index 5 & 8 both 'Watchdog Jump' with distinct stable ids
+   census: choice=8 bool=21 number=4 range=8 total=41
+ok   8 mode dropdowns
+ok   8 range settings (BoundsNumberValue), both endpoints preserved
+ok   20 parent booleans plus Watchdog Jump child setting
+ok   3 parent number settings plus Vulcan Sprint child speed
+ok   39 parent settings plus two submode child settings
+ok   Safe Walk defaults ON
+ok   Keep-Y bypass defaults ON
+ok   Movement Correction defaults OFF
+ok   Timer defaults 1.0
+ok   Rotation Speed range 5..10 in 0..10
+ok   Ignore Speed Effect present (Rise field agt)
+ok   Watchdog Telly Jump Delay is a range (Rise field age)
+ok   labels expands ranges: 49 rows == 49
+ok   every RangeSetting emits _lo and _hi endpoint rows
+ok   specification() resolves all 49 native rows
+ok   Vulcan child speed hidden outside its submode
+ok   Vulcan child speed visible in its submode
+ok   Watchdog Jump child defaults off and hidden
+ok   Watchdog Jump child visible only in its own submode
+ok   visibility resolves every expanded range row, including last settings
+ok   all Scaffold ranges use source integer steps
+ok   dependent controls hidden by default
+ok   independent parent controls reveal their children
+ok   rotation boost nested condition
+ok   sync value layout matches native row count (49)
+ok   configure() identity round-trip did not throw
+ok   range write-back: place_delay -> (1.0,3.0)
+ok   listens()+onEvent route all wired native phases 2/3/5/13/14/16/17/18/21/22/26
+ok   does not over-subscribe to unrelated event types
+ok   statusText identifies the experimental candidate
+
+ALL PHASE-1 CHECKS PASSED
+ok   Fresh stacks use current-count threshold and reject non-full torch blocks
+ok   Server slot selection leaves visible currentItem unchanged
+ok   Held-item accessors see the server-selected stack without changing the hotbar index
+ok   Actual controller sync sends selected-slot packet
+ok   Slot claim does not affect a different inventory
+ok   Releasing claim syncs the real visible slot
+ok   Aged smaller stack wins by source hotbar order rather than largest count
+ok   Previous-count snapshot is distinct from current count
+ok   Eligible attempts decrement the source previous-count gate
+ok   Placement uses the shadow slot's actual stack
+ok   Vanilla placement runs the original can-place predicate once and consumes the selected stack
+ok   Slot synchronization precedes placement packet
+ok   Controller can-place hook resets history and decrements snapshot before use
+ok   Eligible failed use still counts as a source placement attempt
+ok   History ticks once per player tick
+ok   History snapshot stays unchanged for nineteen ticks after attempt
+ok   Twentieth tick refreshes the snapshot from current stack count
+ok   Rejected can-place predicate does not send or consume history
+ok   Cleanup restores the user's latest visible selection
+ok   Cleanup does not overwrite another module's newer server-slot change
+ok   No eligible block stack returns no slot
+ok   Source glass exception is eligible
+ok   Opening a menu releases the shadow slot
+ok   World unload clears stack identity history
+ALL SCAFFOLD SLOT CHECKS PASSED
+ok   Packet-order guard starts clear with Scaffold disabled
+ok   Global early packet observer blocks placement after entity use
+ok   Inbound packets do not reset outbound ordering history
+ok   Every outbound movement packet subclass resets the source guard
+ok   Placement and use-item packets do not imitate the parent's attack/inventory guard flags
+ok   Opening inventory marks the source inventory packet guard
+ok   Other client-status actions leave the inventory flag clear
+ok   Closing a window blocks until the next movement packet
+ok   Click-window packets participate in source inventory ordering
+ok   Unobserved timing history remains unknown instead of inventing a recent placement
+ok   Global packet timing works while Scaffold is disabled
+ok   Use-item sentinel does not reset placement timing
+ok   Outbound packet does not imitate an inbound correction
+ok   Correction timing advances with actual entity ticks
+ok   Other entity velocity does not reset local timing
+ok   Significant local velocity resets both source counters
+ok   Small velocity preserves significant-velocity age
+ok   Verus downward placement uses recent placement and physical sneak
+ok   Fractional Y resets Verus full-block delay
+ok   Verus downward offset resumes after fifteen integer-Y ticks
+ok   Verus gate expires after twenty ticks without placement
+ok   Verus downward strafe disables sprint while physical sneak is held
+ok   Watchdog downward waits for six integer-Y passes
+ok   Watchdog downward preserves source first-press modulo-three exception
+ok   Watchdog downward uses the consumed-key state on subsequent passes
+ok   Watchdog downward overrides the earlier upward offset in source order
+ok   Watchdog downward rejects non-axis-aligned yaw
+ok   Watchdog Sprint uses nominal source speed and owns the sprint key
+ok   Watchdog Sprint retains source signed correction penalty
+ok   Watchdog Sprint potion threshold uses source correction-speed branch
+ok   Watchdog Sprint air drag follows source additive motion
+ok   Watchdog Sprint held jump suppresses additive drag
+ok   Leaving Watchdog Sprint releases its key claim
+ok   World unload removes timing history
+ALL SCAFFOLD TIMING CHECKS PASSED
+ok   Right-click-only Telly uses the source Normal fallback while use is released
+ok   Held use key activates Telly without changing the selected mode
+ok   Right-click-only source handler cancels non-strict manual clicks
+ok   Strict raycast retains manual right-click dispatch
+ok   Disable On Flag selects source Normal fallback one tick after correction
+ok   Repeated callbacks cannot rearm or consume the ten-placement flag counter
+ok   Use-item packets do not consume flag recovery placements
+ok   Flag fallback lasts through nine eligible block-placement packets
+ok   Tenth eligible placement restores selected Telly behavior
+ok   Turning flag response off clears its recovery state
+ok   Delayed Telly jump uses movement heading and source pitch window
+ok   Telly ascent requests source movement correction
+ok   Block Diagonal Ascend excludes the diagonal held-jump ascent branch
+ok   Disabling Block Diagonal Ascend allows the diagonal ascent branch
+ok   Airborne rotation boost uses its own range once and consumes the pending boost
+ok   Held-jump-only boost retains pending state and uses normal rotation speed when released
+ok   Forced Telly raycast follows source no-movement predicate
+ok   Disabling forced raycast restores the still-owned original setting
+ok   Telly cleanup preserves a newer external raycast choice
+ok   Telly visual pose changes model pitch and head/body yaw only inside the renderer scope
+ok   Telly model head and body share the source visual yaw
+ok   Visual cleanup restores owned fields and preserves a newer body-yaw writer
+ok   Telly visual pose never affects another player
+ok   First-person view leaves camera pitch untouched
+ok   Disabling Visual Back Rotations clears its model pose
+ok   New Watchdog Rotations preserves the source block-centre side vector and twelve-degree target step
+ok   New Watchdog Rotations applies the slow-movement thirty-degree server offset
+ok   Held jump switches the new rotation branch to its ten-degree server offset
+ok   Sideways input excludes the new rotation override in source order
+ok   Nonzero yaw offset adds the source one-key diagonal speed adjustment
+ok   Movement correction suppresses the separate diagonal speed adjustment
+ok   Watchdog Jump retains its independent movement behavior with a yaw offset
+ok   Scaffold timer applies an explicit non-default speed
+ok   Scaffold timer cleanup restores its owned baseline
+ok   Scaffold timer leaves an existing foreign speed untouched
+ok   A newer timer writer makes Scaffold yield until its claim is released
+ok   Timer cleanup preserves a newer external timer change
+ok   World unload releases Scaffold timer state
+ok   Real PreMotion dispatch applies configured timer only with a complete placement target
+ok   Opening a screen releases the active timer claim
+ok   Missing placement geometry does not claim the timer
+ALL SCAFFOLD TELLY CHECKS PASSED
+ok   HUD uses claimed server item and totals every hotbar ItemBlock, including non-full blocks, excluding main inventory
+ok   HUD selection does not move the visible hotbar slot
+ok   Render setting suppresses the slot panel
+ok   An open screen hides the active HUD selection
+ok   A changed shadow item uses item-only display and its own count
+ok   Source HUD hides a matching visible non-block item
+ok   Panel starts at source 1.1 scale with measured width, centered ninety pixels above the bottom
+ok   Nine-hundred-millisecond expo animation reaches the source half-time fade
+ok   Visible panel settles at full opacity and unit scale
+ok   Changing block count updates the label without restarting the entrance animation
+ok   Fade-out retains the last item, count and measured geometry
+ok   Completed fade-out releases the retained ItemStack
+ok   A backwards clock restarts panel animation predictably
+ok   Invalid render time clears retained display state
+ok   Non-block source panel reserves only the item icon width
+ok   Actual HUD painter draws the claimed item and Amount/count text
+ok   Painter restores item depth, both matrices, GL attributes and the existing cache scope
+ok   Painter preserves an original projection-matrix mode
+ok   Projection-mode entry leaves both matrix stacks balanced
+ok   Painter preserves the original item-render exception
+ok   Failed item rendering still restores the entire render scope
+ok   Turning Render off releases the previous item immediately
+ok   World unload releases the panel and its shadow-slot ownership
+ok   Enabling Scaffold in the native menu defers sprint startup packets and camera claims
+ALL SCAFFOLD HUD CHECKS PASSED
+ok   Safe Walk reduces positive X in source 0.05 steps and preserves vertical movement
+ok   Edge request is consumed by one moveEntity call
+ok   Clipping probes preserve client position, bounding box identity and another movement owner's velocity
+ok   Negative X clipping preserves the source symmetric decrement rule
+ok   Z support is checked independently before the combined diagonal probe
+ok   Combined diagonal edge probe reduces both axes when each separate axis has support
+ok   Source edge flag applies in air independently of vanilla grounded-sneak clipping
+ok   Supported horizontal movement is unchanged
+ok   Unsupported sub-step movement clamps both signs to zero
+ok   Other entities neither receive nor consume the local edge request
+ok   A solid block two below prevents a new source request
+ok   Held sneak leaves vanilla input to own edge behavior
+ok   No-clip movement remains independent of edge protection
+ok   Invalid movement cannot enter an unbounded clipping loop
+ok   Watchdog downward placement explicitly releases the parent edge request
+ok   Turning Safe Walk off releases its pending request
+ok   Menu pause releases the request before the next movement
+ok   World unload releases Safe Walk ownership
+ok   Disabled Scaffold cannot change movement
+ALL SCAFFOLD SAFE WALK CHECKS PASSED
+ok   Vk enables its own state independently of Vi and tower
+ok   Vk axis scaling and vo packet-height offset use independent source predicates
+ok   Vk requests the parent extra placement pass
+ok   Vk diagonal scaling differs from axis scaling
+ok   Vk speed-potion tier 0 uses its source multiplier
+ok   Vk speed-potion tier 1 uses its source multiplier
+ok   A recent correction suppresses Vk ground acceleration
+ok   vo cancels jumps at modulo one after three grounded ticks
+ok   vo allows the adjacent tick's jump
+ok   Vk airborne Auto Jump drag follows the child setting's known level predicate
+ok   Default child value keeps the source level predicate true
+ok   Vk observes block-change packets in its own counters
+ok   Vk explicit disable replays one source ground packet on an axis tick
+ok   Vk diagonal disable replays two packets and clears its state
+ok   Failed cleanup packet still releases helper and parent state
+ok   Wa stage zero uses the source double-precision launch
+ok   Wa stage one uses its independent ascent velocity
+ok   Wa stage two aligns to the next block and resets its stage
+ok   Wa input scales moving forward input by five
+ok   Wa skips the modulo-three settled-ground tick
+ok   Wa side-key strafe uses its own speed
+ok   Wa minimum strafe speed observes the correction-age gate
+ok   Wa ice packets leave the upward-placement counter unchanged
+ok   Held jump arms Wa's deferred bind action
+ok   Wa consumes one deferred disable request in its source velocity window
+ok   Stationary Wa takes its first collision-tested alignment step
+ok   Wa rotation is scoped for packets and leaves camera yaw untouched
+ok   Wa alignment supplies its separate placement offset
+ok   Wa alignment rejects a bounding volume occupied by a block
+ok   Switching tower modes clears pending bind and alignment state
+ok   Disable clears both helpers and packet rotation ownership
+ALL SCAFFOLD WATCHDOG CHECKS PASSED
+ok   Enable seeds the source backward target with the chosen yaw offset
+ok   Normal sprint does not inherit Watchdog parent rotations
+ok   Watchdog early ground ticks use the parent ten-degree rotation request
+ok   Parent requests keep the visible camera separate
+ok   Recent correction stops horizontal movement in the parent ground gate
+ok   Settled Watchdog uses its two-degree source request
+ok   Settled Watchdog applies the parent's horizontal multiplier
+ok   Later left/back predicate wins over the earlier left-key rotation
+ok   Diagonal forward/right predicate retains the last source rotation request
+ok   Stationary held jump overrides earlier parent rotation branches
+ok   Watchdog potion plus sneak applies its independent parent slowdown
+ok   Input blocking preserves the original input for rotation heading
+ok   Input blocking lasts for the second requested pass
+ok   Input resumes after the requested block count
+ok   Pause forces owned sneak even when Sneak is disabled
+ok   Pause expires and the source scheduler releases sneak
+ok   Long pause suppresses placement before controller or packet work
+ok   Three-tick pause retains the source placement threshold
+ok   Real parent placement loop reaches the controller with eligible blocks and geometry
+ok   Settled grounded support resynchronizes start height while moving
+ok   Early Watchdog rotation survives when Grim suppresses final rotation application
+ok   Disable releases pause and blocked-input state
+ALL SCAFFOLD PARENT CHECKS PASSED
+Built original supplied module classes for named, SRG, and official mappings.

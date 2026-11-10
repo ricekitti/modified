@@ -1,0 +1,57 @@
+{
+  "stage": "S2 - baseline build chain reproduction",
+  "verified_at_utc": "2026-11-05",
+  "verdict": "REPRODUCIBLE on this machine. Native DLL and loader EXE both relink content-identically; only PE timestamp fields differ.",
+  "toolchain": {
+    "jdk": "Eclipse Temurin 21.0.12.1 (C:/Program Files/Eclipse Adoptium/jdk-21.0.12.101-hotspot)",
+    "python": "3.14.8 (python/python3/py on PATH)",
+    "cmake": "C:/Program Files/Microsoft Visual Studio/18/Professional/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe",
+    "ninja": "C:/Program Files/Microsoft Visual Studio/18/Professional/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe",
+    "native_compiler": "bundled clang-cl / lld-link 23.1.4 (.build-tools/clang+llvm-23.1.4-x86_64-pc-windows-msvc/bin) - cross-compile, no Windows SDK needed",
+    "loader_compiler": "MSVC link.exe + Windows SDK rc/mt via vcvars64 (C:/Program Files/Microsoft Visual Studio/18/Professional/VC/Auxiliary/Build/vcvars64.bat)",
+    "java_tool_options_note": "JAVA_TOOL_OPTIONS attaches C:/classdump/classdump-agent.jar globally; it MUST be unset for build.py/javac, which build.py already pops."
+  },
+  "native_dll": {
+    "source_dir": "modified/slinkyreadablesource/slinkyreadablesource",
+    "build_dir": "modified/slinkyreadablesource/slinkyreadablesource/build (Ninja, pre-configured)",
+    "build_command": "cmake --build <build_dir>  (relinked 'slinky.dll' only; .obj up to date)",
+    "canonical_sha256": "09a48da176c461d4be0c9af76032c216c6c6c9dbc8461aa321b018e772b948b0",
+    "canonical_sources_matched": [
+      "modified/slinkyreadablesource/slinkyreadablesource/build/slinky.dll",
+      "modified/slinky.dll",
+      ".build-tools/bedplates-enable-v1.8.11-runtime-check/RiceNative.dll",
+      "v1.8.11 verified.json native_sha256"
+    ],
+    "rebuilt_sha256": "f8398792fdf178c04a569568065c8bc7c39975efb9982070ec67d2d9be0fbcc7",
+    "size_bytes": 28941312,
+    "differing_bytes": 2,
+    "differing_offsets_hex": ["0x80", "0x81"],
+    "differing_fields": "PE COFF TimeDateStamp low word (e_lfanew=0x78, +8 = 0x80). All code and embedded payload JARs byte-identical.",
+    "restored_to_canonical": true
+  },
+  "loader_exe": {
+    "source_dir": "modified/provided-injector/rice-launcher",
+    "build_dir": "modified/provided-injector/rice-launcher/build (Ninja, pre-configured)",
+    "target": "rice-loader.exe (CMake target rice_slinky)",
+    "build_command": "vcvars64 && cmake --build <build_dir> --target rice-loader.exe",
+    "canonical_v1_8_11_sha256": "790c13df775294fb39390809cf082db3aec175aef702ce6c1179ca0e899d55a9",
+    "canonical_sources_matched": [
+      "modified/provided-injector/rice-launcher/build/rice-loader.exe",
+      "modified/rice-loader.exe",
+      "slinky-modified.exe",
+      "v1.8.11 verified.json exe_sha256"
+    ],
+    "rebuilt_sha256": "12727a4160972c36bb21a87bb9b0a72804e1547fe2db8eab906943efe44aa784",
+    "differing_bytes": 4,
+    "differing_offsets_hex": ["0x118", "0x119", "0x5F0A4", "0x5F0A5"],
+    "differing_fields": "PE link timestamp + embedded debug/repro timestamp (2 bytes each). All code/data byte-identical.",
+    "restored_to_canonical": true
+  },
+  "tree_state_after": "PRISTINE - build/slinky.dll back to 09a48da1..., loader back to 790c13df...; modified/slinky.dll, modified/rice-loader.exe, slinky-modified.exe and modified/releases/* never modified.",
+  "not_yet_exercised_this_session": [
+    "feature-bridge/build.py full Java payload compile + fixture/hook tests (Stage 3+ when module code exists)",
+    "full launcher CTest suite + --check-runtime",
+    "RiceNative.lzms recompression from a freshly built DLL"
+  ],
+  "implication_for_v1_8_12": "A new release rebuilds the DLL (new link timestamp is expected and fine), records that built DLL as the v1.8.12 runtime-check reference, recompresses it into RiceNative.lzms, relinks the loader with version resources bumped to 1.8.12.0, runs CTest, and copies outputs to modified/releases + modified/rice-loader.exe + slinky-modified.exe + modified/slinky.dll while preserving all prior EXEs."
+}

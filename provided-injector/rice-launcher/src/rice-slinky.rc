@@ -1,0 +1,43 @@
+#include <windows.h>
+#include "resource.h"
+
+// Application manifest (asInvoker: attach/injection run as the same user as the game).
+CREATEPROCESS_MANIFEST_RESOURCE_ID RT_MANIFEST "app.manifest"
+
+#ifndef RICE_NATIVE_RESOURCE_FILE
+#define RICE_NATIVE_RESOURCE_FILE "bundled\\RiceNative.dll"
+#endif
+IDR_RICE_SLINKY_NATIVE RCDATA RICE_NATIVE_RESOURCE_FILE
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,8,22,0
+ PRODUCTVERSION 1,8,22,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "CompanyName",      "Rice"
+            VALUE "FileDescription",  "Rice Slinky loader"
+            VALUE "FileVersion",      "1.8.22.0"
+            VALUE "InternalName",     "rice-slinky"
+            VALUE "OriginalFilename", "rice-loader.exe"
+            VALUE "ProductName",      "Rice Slinky"
+            VALUE "ProductVersion",   "1.8.22.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+

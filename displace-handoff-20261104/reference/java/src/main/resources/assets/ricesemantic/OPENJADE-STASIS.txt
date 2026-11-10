@@ -1,0 +1,10 @@
+Stasis implementation adapted from Tewxx/OpenJade:
+https://github.com/Tewxx/OpenJade/tree/af7f296a9b3e8a69fe562a072afec8d2d5870224/JadeClient
+
+Upstream files: jade/client/module/movement/Stasis.java,
+StasisInputLock.java and StasisPlaceTarget.java; placement checks from
+jade/client/common/PlaceUtils.java, packet replay from PacketUtils.java.
+
+Rice adapters use its event bus, settings, direct network sends, and main-thread
+packet handling. World changes discard queued packets; disabling Hypixel Mode
+releases queued packets. The previous Pulse/Raven Stasis implementation is removed.

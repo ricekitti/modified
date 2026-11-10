@@ -1,0 +1,18 @@
+{
+  "Release": "C:\\Users\\ethan\\Documents\\rice slinky new\\modified\\rice-loader-source-displace-bow.exe",
+  "SHA256": "11ADEDAC09B5765402902B572039FF1E6FFB20C9365762632BC33B77A62DE529",
+  "ClientSHA256": "CDE310619870CD354351E6F7D9FC88E4DF40DE4B37E5AB64B2674E615D859912",
+  "TestsPassed": 18,
+  "JavaMappings": [
+    "named",
+    "srg",
+    "official"
+  ],
+  "RegisteredSourceModules": [
+    "Knockback Displace",
+    "Bow Aimbot"
+  ],
+  "SourceManifest": "feature-bridge/build/manifest.json",
+  "RuntimeExtractionMatched": true,
+  "GameplayVerified": false
+}

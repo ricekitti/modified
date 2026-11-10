@@ -1,0 +1,9 @@
+ninja: Entering directory `C:\Users\ethan\Documents\rice slinky new\modified\scaffold-port\..\provided-injector\rice-launcher\build'
+[1/7] Building CXX object CMakeFiles\HudEditorTest.dir\tests\HudEditorTest.cpp.obj
+[2/7] Linking CXX executable HudEditorTest.exe
+[3/7] Building CXX object CMakeFiles\SourceFeaturesJvmTest.dir\tests\SourceFeaturesJvmTest.cpp.obj
+[4/7] Linking CXX executable SourceFeaturesJvmTest.exe
+[5/7] Generating RiceNative.lzms
+Native resource: 29,048,320 -> 3,929,886 bytes
+[6/7] Building RC object CMakeFiles\rice_slinky.dir\src\rice-slinky.rc.res
+[7/7] Linking CXX executable rice-loader.exe

@@ -1,0 +1,2664 @@
+{
+ "commit": "af7f296a9b3e8a69fe562a072afec8d2d5870224",
+ "files": {
+  "jade.client.command.ClipboardUtils": {
+   "accessor_casts": 0,
+   "member_sha256": {
+    "generateRequestId": "8f8068ac60fe4ee65c4395e1a91f96ed1a9f5dea34c5b051d3b1bca863dd374e"
+   },
+   "members": [
+    "generateRequestId"
+   ],
+   "mode": "members",
+   "rewrites": [],
+   "sha256": "cdb2ccfd3e305ec6732864528cc35243d6ce5e2078dc2b98e9e28c59f527397c",
+   "shell": false,
+   "stubs": {}
+  },
+  "jade.client.command.TimeTokenGenerator": {
+   "accessor_casts": 0,
+   "member_sha256": {
+    "HXFm": "5e6f924ffb5a9c7498e38229c790a34305457bbd1f4e7c4e1ee8a1960c405f4c"
+   },
+   "members": [
+    "HXFm"
+   ],
+   "mode": "members",
+   "rewrites": [],
+   "sha256": "5030ead8164f0a705321dda0882fd38816f6254ca32ac15fbfa589659aefdd5a",
+   "shell": false,
+   "stubs": {}
+  },
+  "jade.client.common.AQKBeof5": {
+   "accessor_casts": 0,
+   "member_sha256": {
+    "readStreamText": "746b7694acb62a75419ae5b9373f2bd52cab73dc5bacfe1054fecfa4d20aa054"
+   },
+   "members": [
+    "readStreamText"
+   ],
+   "mode": "members",
+   "rewrites": [],
+   "sha256": "8a592c480262dcc6dc5c166a748b46b81a1ec02cdfc948b8e352c77223188b8c",
+   "shell": false,
+   "stubs": {}
+  },
+  "jade.client.common.AimPoint": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "3e426633760cb18a35a1be7a7a281e22978415b4631d9d0ecfb6c88b42cbc411"
+  },
+  "jade.client.common.AngleUtils": {
+   "accessor_casts": 0,
+   "member_sha256": {
+    "HItqhqB": "9f7272f93eb203a34e5f4458ea046d8773390da93724c40c5e419da81c01bc47",
+    "clampPitch": "f5e0b75ea16f85195a8bd15543931da899c32cb826a87dac29c6a60ced9e58c1",
+    "computeRotations": "9e75a677aec2fef6506082476c3049af1213f0d810fb446110eabc2d5ef765a6",
+    "computeRotationsSafe": "adcb19c612ba91d6d378a30a7a2b29d336571b1da3cf39423405f881178d5ae2",
+    "getLookVector": "dcb1525a76e7e25742bff690c7637ba34767e246f800dce7343aedcf588c91c9",
+    "interpolateRotation": "e88ba7fdc270e7a83cd5b21c367f446aa9a4f099baec095a83cac07788ba9210",
+    "quantizeAngle": "3c23cbc85827a6f851d6ec877a28894e36c9baec85e5d6b7b701f0ecda384314"
+   },
+   "members": [
+    "HItqhqB",
+    "clampPitch",
+    "computeRotations",
+    "computeRotationsSafe",
+    "getLookVector",
+    "interpolateRotation",
+    "quantizeAngle"
+   ],
+   "mode": "members",
+   "rewrites": [],
+   "sha256": "d335965860004f5c64b92b4610b962e4bae1fe3e16ccac21c3bff1a6e68994c7",
+   "shell": false,
+   "stubs": {}
+  },
+  "jade.client.common.ArgbColorUtils": {
+   "accessor_casts": 0,
+   "member_sha256": {
+    "CWWp": "fb4036d5829782d6aab1e8097df3adb42ec6e2f72ae890eb900fa13262dd5359",
+    "SDtD": "09d8bda8efd61d5576aa28ab5b8a9cc30ab966ee9045dc75aa3175cbaa40a292",
+    "getAlpha": "4633dd917bbc77505e9176729da0e282d79eb36e4d940e1c79c6e10e84c92081",
+    "getBlue": "e480120c70a633d732b14f63a882c998346c0844f4f020984f69bae40b82ec8f",
+    "toRgbaArray": "347de483b8cb35cd3c7535464ea667fbc0fa2480a82f75f08379ec44778ec3cc",
+    "xzId": "e1d0865da70ed46def92455ea2728b5bc2aee856ba91137cce0887a644f0e203"
+   },
+   "members": [
+    "CWWp",
+    "SDtD",
+    "getAlpha",
+    "getBlue",
+    "toRgbaArray",
+    "xzId"
+   ],
+   "mode": "members",
+   "rewrites": [],
+   "sha256": "e889ab39f19f209c4477ab29430bef8bab6bd94f941290f7cd71fac8c2f88764",
+   "shell": false,
+   "stubs": {}
+  },
+  "jade.client.common.AttackHelper": {
+   "accessor_casts": 0,
+   "member_sha256": {
+    "findCanRiderInteractMethod": "5b7f06686b314df72c9ecbf986ce5713ba8c93fa8174745df476f74324735549",
+    "invokeCanRiderInteract": "5deba5637d7e5565ffc474f90fb984811fa9b4b1c3d2244e3719a156f5e1d7c1",
+    "method": "da9fe93d58964e002d9f678756a7bf35ffd5c98404dc29ba092e8c0207be17f6"
+   },
+   "members": [
+    "findCanRiderInteractMethod",
+    "invokeCanRiderInteract",
+    "method"
+   ],
+   "mode": "members",
+   "rewrites": [],
+   "sha256": "1afa27c616da7508aec39a2515d083ef093f0861c12a94a96f6094e5baf93021",
+   "shell": false,
+   "stubs": {}
+  },
+  "jade.client.common.BlockBoundsUtils": {
+   "accessor_casts": 0,
+   "member_sha256": {
+    "getBlockStateSafe": "fe7352759722076bb67ab6d56f220944071079e604b476a234da160a3305559f",
+    "getFullCubeBounds": "be05f4057332025064589d45426dbd9dec8a03d78bb425c11b292a175be8830b",
+    "sBdmu": "ebb5ea6f9ad030fd1cde008f3dcb50364f3d5087aad58aec770d36fdb5066f07"
+   },
+   "members": [
+    "getBlockStateSafe",
+    "getFullCubeBounds",
+    "sBdmu"
+   ],
+   "mode": "members",
+   "rewrites": [],
+   "sha256": "6b2b39a96a47d2cf2b6f52305d9a0fc83f343da3016776042c47cd116722b7ed",
+   "shell": false,
+   "stubs": {}
+  },
+  "jade.client.common.BlockTypes": {
+   "accessor_casts": 0,
+   "member_sha256": {
+    "DSLVc": "b5c9880d37ff5b21133eb83d8fe792e850fde0d3e80fb29d803ef9dbfcde8f4a",
+    "INTERACTIVE_BLOCK_TYPES": "0e5937dc8a070da86748e679960d6e943f56dc41c48ebcbe4fa39965953fa9aa",
+    "hczi": "9cb9511c7da766a389cc60253d821f27e7c4edb5814b2e8195f5f5db6daba55c"
+   },
+   "members": [
+    "DSLVc",
+    "INTERACTIVE_BLOCK_TYPES",
+    "hczi"
+   ],
+   "mode": "members",
+   "rewrites": [],
+   "sha256": "c0f425369ef7e181864be811a5cc689ac6a6a3639f33ec716c5297e4fda473e6",
+   "shell": false,
+   "stubs": {}
+  },
+  "jade.client.common.BlockUtils": {
+   "accessor_casts": 0,
+   "member_sha256": {
+    "canPlaceItemOnSide": "10c7b67bce0ba56273d13d90caf7014b0f30213353dab7a365660961fc20d2de",
+    "getSelectedBounds": "1d6ffa14111c14bb65e89aa7d5302e3df5be0bbd445a9264305e1469c129b7a2",
+    "iepjdt": "f8e632891690f1b9df3d7db1ca33babced2c898cffd309221623d014e2bd3071",
+    "isInteractiveBlock": "916f564f0476f7a966811ce65b10a64a07a16ad83f0390ca8b0beeaf92e6c266",
+    "isReplaceableAt": "7449938679553e0ea389105373b137bc75bea74ae309df0bfb9ee3c208532a0b"
+   },
+   "members": [
+    "canPlaceItemOnSide",
+    "getSelectedBounds",
+    "iepjdt",
+    "isInteractiveBlock",
+    "isReplaceableAt"
+   ],
+   "mode": "members",
+   "rewrites": [],
+   "sha256": "49dea2ab7bbe529b2c2719a36ee75a8d254a98ac0c8dbca4e104cd0c8f2e23a8",
+   "shell": false,
+   "stubs": {}
+  },
+  "jade.client.common.ChatSender": {
+   "accessor_casts": 0,
+   "member_sha256": {
+    "ChatSender": "d65cf85e5584c9f39a3dd625c98d404d3ac3ebc45f4bd7b6ade90f2097408b2f",
+    "HARd": "76c0d556b984b232ab8f903f576760ea80092c419048908489e4ea9b69088b6e",
+    "Mmb4": "9167adcee1b515b25df5113234fb766ff61ded7bbd882962638c628d7031642c",
+    "daPdo": "af1b11bfbd37be6c794a3ce073dba8ae17e50164a341fd818c705a590acdf9c2",
+    "deliverMessage": "8364fed5a5526e202ae5b3a135b77dcf8d31e3121656f984ca96813e19fd265f",
+    "formatGradientTitle": "a4789d8dc6304f4ed0bbe5ffd0f028c82cfa0bfe19b793d2a37b615926105480",
+    "fzvR": "951e4f3dfa63736794b71c3d08bad663eb8cccec0814161742ad4527faa8f19e",
+    "getGradientColors": "1514fa1a3289648d1cdcb94f5a0496a6d127be396bbe4934f0f6e403584855f2",
+    "sendDebugMessage": "e4414d6dc1061339974b402b1cb9f6747849a2b116213a87e7826f09512391d0"
+   },
+   "members": [
+    "ChatSender",
+    "HARd",
+    "Mmb4",
+    "daPdo",
+    "deliverMessage",
+    "formatGradientTitle",
+    "fzvR",
+    "getGradientColors",
+    "sendDebugMessage"
+   ],
+   "mode": "members",
+   "rewrites": [],
+   "sha256": "189c1268c931c7a573513544b83fa2f06b437e447a36bbbc9495b5657a74965e",
+   "shell": false,
+   "stubs": {}
+  },
+  "jade.client.common.ChatUtils": {
+   "accessor_casts": 0,
+   "member_sha256": {
+    "FLOW_OPEN_PATTERN": "a1b4e7c29175db4cea3995bbdf9ada717d9cd2813f2e8bbcd22accd48c4e909c",
+    "FLOW_TAG_PATTERN": "1c9a204bbd957ce0544e675eaebbc4888f37ca6c28e4214dd56df5277fc9b8d1",
+    "applyFlowGradient": "1aed4fbc7b79b29e88d44b47862a06a4384f12a60d00fd0292b2db4e99ebdeea",
+    "flowTextCache": "1fb895ccdc9e207537cd513c56f46011148e1cb221b8d3029f1b8bb650561dda",
+    "hasFlowTag": "e14051857d57bd48519a2eb5a8352711a7f50ce84c027f61f524fcaa91fb1708",
+    "kWr1": "abb4e3c0b4ea277d069fa9547f92835cb067a701a120f75ea1e79a74588df56b",
+    "mfX4": "cc10203c32129e98c9edc33493032917be71ce8156de15b0d6add9fe6a41d398",
+    "normalizeHexColor": "79a2f64bfa31aaf515a62864b9ebac51a4300c735baef793a197a87d190cfb38",
+    "resolveFlowText": "818f48ab9be0f2b8a9b7878f3d8e6ed11c061bfbb350e981e23df6f5af53adc8",
+    "translateAmpersandCodes": "94e9ec099f7726eb2a471bc5989570a9a36ed779febb7190726b7ff23bee70af"
+   },
+   "members": [
+    "FLOW_OPEN_PATTERN",
+    "FLOW_TAG_PATTERN",
+    "applyFlowGradient",
+    "flowTextCache",
+    "hasFlowTag",
+    "kWr1",
+    "mfX4",
+    "normalizeHexColor",
+    "resolveFlowText",
+    "translateAmpersandCodes"
+   ],
+   "mode": "members",
+   "rewrites": [],
+   "sha256": "57a725b420938692331f5a37f53b6e46be1e8a92f398b285842edbb73627e228",
+   "shell": false,
+   "stubs": {}
+  },
+  "jade.client.common.ClientUtils": {
+   "accessor_casts": 1,
+   "member_sha256": {
+    "AIowEv": "81d4f87fae053688ee6cf0d0e2bbe6e8cf7a0377dcabe4e65dcd65ae6aed889d",
+    "AOAtn": "93373308a01c71e5075809830ab37ef10593465d6b9a94030a6cc31ba3ff3049",
+    "RANDOM": "b84ee686f1165a16d51f76963a81cad86c9ddc51df776663964d124badf111e9",
+    "YVVZ": "75b0c23b8eb999fe9054ce4345bf7e37fe8fe05ba1e284676e38207804cd8d19",
+    "canRiderInteract": "943bfc1ad1e6830a34c6347aae3c0ec6192f1006b2c6df192c5b94f530a55a22",
+    "eqyXnoq": "7aa3969afd5b51803600215fe6c65c7a507fbf94283060018e2f2628dd696f4e",
+    "friends": "f47a0e9611e953a3a18dbac1092fcc22086e1908b970492b6e86fe3f56e0121b",
+    "getBedWarsBoardType": "674d4d84e51f0d1e601178feeda012344e06a75dfc042d3a6c2bb4d926594c2d",
+    "initialNestedUpdateDepth": "1f29a6bbed597cb3ff23b46df0c74757d21e9303925ce58284147eaf09842539",
+    "isFriend": "83a1aaa3d601b1974529e5e21803f8012aaa56d2a2eb8a59a9799dda4c758ad7",
+    "isFriendName": "e6d8d44ee25f6630049240e72801ad244da9462aeb12163e8e26038241b44d70",
+    "isInNestedUpdate": "8922be317abd7aa04cb9a05d06e862ea05bac6e4cfb916efbc20e09b84995f1f",
+    "isInWorld": "d1dc2db6fe71ac2ed5bfaad752dcd8c13775c9c2d381eaf1b70efd2a11c6a14c",
+    "isJumpKeyDown": "0928421566e60845210bb740b389002a27272f410c26fd693e5d54a4212cd455",
+    "isOnHypixel": "7feea32717360657218bf0f1420ffd07e2c0ccf6d18299a2d7874acf16771a77",
+    "isPassableBlock": "792aebac0ab63168ae623d7fce9479cc0c3ad5fe26b8cc70fecb51c1ac67e2ba",
+    "isTeammate": "c47373af4303c8c83a009cebeb7af2533e64c541e8188cd10b50e935612f5533",
+    "mdeQ": "69796a5e25ee401fcd9ebbc6ffe4c917753138711841a555efa8c0f9767ff076",
+    "randomDouble": "cd15b4bdeeaca5a9984852158060693bdf87e9619c5b3ff44a988ca1d499db82",
+    "readStreamText": "5fb3a1a4eb681f6f749ff0ca58549271cc138137632e48bd67eb14d957bd42d1",
+    "sendColoredMessage": "1023df57125982b052c180b088c0d1414ac0fca4eab234fa674033ebc94804d4",
+    "sendDebugMessage": "4c2b8ac4784b39af8932db0335c4e079614b980d194e02d9a53c89c4160f9994",
+    "sendJadeMessage": "be68ad4e4fd73b63beaea42371d5e3cfa5d71af2cb1f401d9ef0b99fc144e6cd",
+    "threadLocal": "7ec68f0078a113c4f475876541990a7dc1c9e7783c83e8d32f76a6b38ac6bf8e",
+    "vAxywR": "4dee8b26f1c8949ccb438f69cce3e0a00f7da2c0b8684eec3b1ede27fc018159",
+    "xusXfhC": "5bbd868cfca7f7106bc01d126349b7cc7fd80cb39aa6acfec83c29ccbaacdb79",
+    "zaUnpz": "ecb97e45584d962a72bf7a5d96818fb51d0323a33572ffde8470e038cade5c97"
+   },
+   "members": [
+    "AIowEv",
+    "AOAtn",
+    "RANDOM",
+    "YVVZ",
+    "canRiderInteract",
+    "eqyXnoq",
+    "friends",
+    "getBedWarsBoardType",
+    "initialNestedUpdateDepth",
+    "isFriend",
+    "isFriendName",
+    "isInNestedUpdate",
+    "isInWorld",
+    "isJumpKeyDown",
+    "isOnHypixel",
+    "isPassableBlock",
+    "isTeammate",
+    "mdeQ",
+    "randomDouble",
+    "readStreamText",
+    "sendColoredMessage",
+    "sendDebugMessage",
+    "sendJadeMessage",
+    "threadLocal",
+    "vAxywR",
+    "xusXfhC",
+    "zaUnpz"
+   ],
+   "mode": "members",
+   "rewrites": [],
+   "sha256": "efa6be25ed677eea355d11a3e9710b0524ac401d9b99987b9c7ac1992bd2d142",
+   "shell": false,
+   "stubs": {}
+  },
+  "jade.client.common.ClosestHitSelector": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "640300cc4d865743fc5884974e748e7324bd6803addc0095ad348051b1e7833b"
+  },
+  "jade.client.common.ComponentTextMetrics": {
+   "accessor_casts": 0,
+   "member_sha256": {
+    "height": "703aa28c19dc345679d292b1e2f247c5c3827e7a84d0a1b3777d541ba73d6e9e",
+    "top": "5deec7266cf08a610c9c695713d288acce2a973d33ceb5c8e712ccaaf0eacf60"
+   },
+   "members": [
+    "height",
+    "top"
+   ],
+   "mode": "members",
+   "rewrites": [],
+   "sha256": "10533fb3791d87f5b30f78b1bfe9a651fb78c0e76e8172def0ba7d9ed0c728b8",
+   "shell": false,
+   "stubs": {}
+  },
+  "jade.client.common.ConditionalChatFormatter": {
+   "accessor_casts": 0,
+   "member_sha256": {
+    "emitFormattedMessage": "4212f51f8762f322ee916a02aabce0de4f25c5837135dc090eb49b69c4b10374"
+   },
+   "members": [
+    "emitFormattedMessage"
+   ],
+   "mode": "members",
+   "rewrites": [],
+   "sha256": "f4c81bcdd4a730b942d934686a29ca56c9e3b6411220acfb46577d148c5a05f7",
+   "shell": false,
+   "stubs": {}
+  },
+  "jade.client.common.DangerousModules": {
+   "accessor_casts": 0,
+   "member_sha256": {
+    "CTWLqFe": "75ffef2f166440adb457ab71eb60058ac39d0653d400672650baca567a282bdb",
+    "DangerousModules": "f26e4a20c912589c32eabf896470fbe7d672a64309e1ed99aea884fd84b1787a",
+    "VIA": "0ee97188914078eed10cda01d2c2a20524608ca4eceb12d18c11043a4b40ad45",
+    "ZLqGjyW": "3c0327c8817137b68c174c55535388455391a4eace51b3bdb8a21e11dbfb15ee",
+    "acknowledgedIds": "5d03be2762163c815711eb429c329289a7c26060a1d9b84952b267ddeb37a9d8",
+    "acknowledgementsLoaded": "9f89595f88d184469e5c3a9c8f99b7d536884445d22c40b96aabf0a3b0ef29a7",
+    "afX": "4ce4a2e6eb772de643101dcbc1816a776fc202925c9d8c028a11a61244f613ae",
+    "checkLoadedModules": "88c46734c8c0ecd12e10995d1470de74e6fbd11808c5cbeebb4c968c1d00cc92",
+    "containsId": "aecd9f198d7ff1668fc86cdc21781eadd377dca7007b02087d53318680f4141e",
+    "findActiveDanger": "3cd855a14e1d23a8e9d15371c1937803fad07bfe3ebefb02cc3eeb0ca38cc5b9",
+    "findUnconditionalDanger": "f1c6cdc3b6fd378498d730d494c98bdf5740c1bf6c94573d49763f7ee3eedf47",
+    "getAcknowledgementsFile": "e29b0677769df57be8c2397d16751d715b55d2c3fa513fa242efe7cbdf7d1991",
+    "hNg": "a65a2d3a07adeeef671080b1c04169080b8515011e20282a8be1fd8a7738bbee",
+    "isConditionActive": "302f29a549f053a786a6d311828bcd94d72ced9033f1a0ee4d6c3bf8b4bcb79d",
+    "isIdMissing": "e41d5af3d6f90be4556b0c434f022ef04c43d738f1fdf88a8ee128fcc847f868",
+    "isMissingEntry": "787a1ff387e4ecce967c59d257a575363ebb11c5bb33dc7a95a163ee035d27c0",
+    "lastRegistryJson": "5aa00d1607a6d1344ff6ec5c1c33f956e402f910ec4b5b22c914cfc60a7c62bf",
+    "loadAcknowledgements": "949e17d508e08a9301251c34270f30279958edb2ddbd236bedf08b7ca3188b84",
+    "loadFromJson": "ad22e95baa52002021c618c7d02bd9b34fcade48c811bc1e1a8670bcf3fa9b30",
+    "markPendingDanger": "561fe2ef1c4f73df87afcbcc33a7dfda44d0523efee1a3de1c392e4b3cc28fa0",
+    "normalizeName": "5685985583116aad18c42ac54322677642e84732b502e398503220fac903c28d",
+    "pendingModules": "7394e3aa6a357f2720b82e027641b16cf6d55caf14a5e87a5b2558ec407fb29f",
+    "refreshRegistry": "90e33e014f9f76bb1dc83a3f13fc5d85ffe09f9be32c9738dcb6cd43dffa917c",
+    "warnPendingDanger": "3ba208c349e23c757041f2a2a898037a727193774d72d4708b1a9cd72b023368"
+   },
+   "members": [
+    "CTWLqFe",
+    "DangerousModules",
+    "VIA",
+    "ZLqGjyW",
+    "acknowledgedIds",
+    "acknowledgementsLoaded",
+    "afX",
+    "checkLoadedModules",
+    "containsId",
+    "findActiveDanger",
+    "findUnconditionalDanger",
+    "getAcknowledgementsFile",
+    "hNg",
+    "isConditionActive",
+    "isIdMissing",
+    "isMissingEntry",
+    "lastRegistryJson",
+    "loadAcknowledgements",
+    "loadFromJson",
+    "markPendingDanger",
+    "normalizeName",
+    "pendingModules",
+    "refreshRegistry",
+    "warnPendingDanger"
+   ],
+   "mode": "members",
+   "rewrites": [],
+   "sha256": "da24395d4c3357c35bab2b3316f1d4483bf82983de180acfbe3b4948255a738e",
+   "shell": false,
+   "stubs": {}
+  },
+  "jade.client.common.Destroyable": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "0dd2d77c7443b980d20195b920ac4f68456a19dce3d661899d6dd5465a3abc0e"
+  },
+  "jade.client.common.EntityReachTracer": {
+   "accessor_casts": 0,
+   "member_sha256": {
+    "getHitVector": "fb2b05b697f35d0125275bac5648f62d5922de0fec305ddc09780f17e2b28470",
+    "traceHitVector": "55dde89bf6299c2a58b565673ee3d8a30df8124c2dc7a36427fbe6214e997c96"
+   },
+   "members": [
+    "getHitVector",
+    "traceHitVector"
+   ],
+   "mode": "members",
+   "rewrites": [],
+   "sha256": "c3fc4a006bd55afdfe15789d3672d1e6db7de27c7f6fbcf20c50895d26133c3b",
+   "shell": false,
+   "stubs": {}
+  },
+  "jade.client.common.EntityRotationOverride": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "014dc7969a5bc305ec9d563d3008245a0427203bbe38228358b1737ee92fb163"
+  },
+  "jade.client.common.EventBus": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [
+    "decompiler artefact: the raw Class key and raw EnumMap factory make javac erase the call's return type; type-only casts restore the declared generic types, identical after erasure"
+   ],
+   "sha256": "8633a0eb98c13fbb940d6ed427e7009f12b2e8844a79953ed2a6e616c967377a"
+  },
+  "jade.client.common.EventBus$0": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "0df03bffe22a0f79ebb5e222d108e629cdaf7a0755ab3621c4a10c01c8901d8d"
+  },
+  "jade.client.common.EventPhase": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "47ba4bca9118e366e1be0eb0dd114ef3a9783cfaa9be712be53737a844c5bbb9"
+  },
+  "jade.client.common.EventPriority": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "3c6298c53a0a7c4f59e1b72455e06dc53f29afcc117ef8959eee088cba4322c8"
+  },
+  "jade.client.common.ExternalChatOverlay": {
+   "accessor_casts": 0,
+   "member_sha256": {
+    "WBGA": "87ead213559b1f02c724cf84fb49011f56ddca24c931209277ad3cacc87b58f2",
+    "XTQhR": "0114547cae4acd46105ffe4a2a02e24232b7b3010d0b2d88c4ada8ea5bdd97a4"
+   },
+   "members": [
+    "WBGA",
+    "XTQhR"
+   ],
+   "mode": "members",
+   "rewrites": [],
+   "sha256": "266982cc00abbd6ba45b53ea2d795ad6ffd52038dada507a4af2ee838d0f4e26",
+   "shell": false,
+   "stubs": {}
+  },
+  "jade.client.common.ExternalChatOverlay$2": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "5bc6bd1745d6c7981bb945de3d00a88dc2fdda69af117663b54693010448ef47"
+  },
+  "jade.client.common.FIdTNZFlk0": {
+   "accessor_casts": 0,
+   "member_sha256": {
+    "niSo8": "0595adcc239b7d4bae129937af1d7c6ddc8a955ebdcd258849a271a477d57ec6"
+   },
+   "members": [
+    "niSo8"
+   ],
+   "mode": "members",
+   "rewrites": [],
+   "sha256": "df06b00d3e1d41a30aed72cbf8b510586fdeffdad7dacb1cfe77947cb2e9f4cc",
+   "shell": false,
+   "stubs": {}
+  },
+  "jade.client.common.FontHeightProvider": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "f9925390fd79c0262145b381b3e14e85310751f12860eb6ecb96acd21dee528a"
+  },
+  "jade.client.common.FontManager": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "42cc937b6819edeb37622fb840cdb0ae9b773747f6e246d0285a2ab95fce86fa"
+  },
+  "jade.client.common.FontManager$7": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "1ae77f48704aa3ec0ea1ae836cc5367527af498f60e3a35e6e4c3647d5349654"
+  },
+  "jade.client.common.FontManager$8": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "1965e6058577ac851717516921e94affeddccd4ace154063e8bc5a488e37950b"
+  },
+  "jade.client.common.FontMetricsProvider": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "93b86105a696778b98f73af614214fc90a95dc3bf5442a85a7925e1db37f68f2"
+  },
+  "jade.client.common.FontRendererBase": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "819283194cc4e2b02c1bd6cc0c399128e1083eb98ba3502ac4170136cc8b79ef"
+  },
+  "jade.client.common.FontWidthProvider": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "f5690bb425c7815a32e46e29eadc98afcb43a077ce5ebd7100bd323e9218f435"
+  },
+  "jade.client.common.GameStateUtils": {
+   "accessor_casts": 0,
+   "member_sha256": {
+    "isInGameWithFocus": "f01dc0088f36864087dd668f44322e8128e7a1f2720a951daf7c053ae6e6a26b",
+    "isInWorld": "3ca0e9b8f0f3c15473d67fad5087e9ab5be23e179eeb1c691a0796459a8119b3",
+    "isOnHypixel": "ef43cb855ccbd0c4f2e896ec550ed854d987ebdfd7483f2be2ce4e93cc3a30d6",
+    "yrvB": "dc818c3d1ea948080d071aed76db70aa7b93a74a01133f8e15ea0ce19e615f26"
+   },
+   "members": [
+    "isInGameWithFocus",
+    "isInWorld",
+    "isOnHypixel",
+    "yrvB"
+   ],
+   "mode": "members",
+   "rewrites": [],
+   "sha256": "11e4ba0b52cfb14ef968fe3a546d1db46215319e9595fbf562f9f7be3baef765",
+   "shell": false,
+   "stubs": {}
+  },
+  "jade.client.common.GlyphCache": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "74ba450703d6e547b91694e79a93ee1c8343214831f24d1f693dadbd92157f91"
+  },
+  "jade.client.common.GlyphMetrics": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "06bb6ae076589c7f090d1e81e6697cd3d4f6ad28d4ca53b6700b4d181110c5e0"
+  },
+  "jade.client.common.GlyphRasterizer": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "f56322258fd15b3494c56256419cb9e784c54dfad7a4c1e6325821cd4efdbadc"
+  },
+  "jade.client.common.GlyphRenderer": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "7b0a74e7ccb777e10ca4684ae853bf806e86e6ffd043de7a6c061ec5f8d8f936"
+  },
+  "jade.client.common.HitVecUtils": {
+   "accessor_casts": 0,
+   "member_sha256": {
+    "GDwcL": "b690f96a9e99e8456ccb637a3195994441ff6b17bb434f04585729e1925dbaae",
+    "clampToBox": "592817d1343cd914de2f5de65398dddd68907e07130a4b13fee905bb923e17f0",
+    "clampValue": "b307b57af1c389c90404b11a8806192a6743a613b319ba6026118d37924b29d1",
+    "countTrue": "d4281897f89d0e24aa027f6c34cc62b6ee888484695427d7ed5ee76e13352ad1",
+    "fejS": "eec941227649c6fbb8006e02e9ed3ebd72b1ef760a31311412baccbe525ee319",
+    "getAimPointOnEntity": "14c3acfd537045cbac8899645fe6715d7c1f1d50a62ac891fa2066a41733f088",
+    "getVisibleFaceSamples": "3c853e61aa6e24e89c9fc688b13f14b73a1fdb9e68b17b93f9dacf8eec1540b0",
+    "lerpValue": "22fc1f3d5c166153b2116b8205d8377ff439e7ec21d892b9c114a21c090d728d",
+    "sBno468": "62eed55c206270a01eed69b02a08210d267aa158aeeb33086cc9b547991071af",
+    "toUnitFraction": "10e5ab9748b0b48648de441cf2953b2a9674a77837c6fd43c4680be8d185424a",
+    "toVec3ForAxis": "4ce94bf700bad48dfcd9ff717ba25c282b2ab905bed7bfbf9a25568b53b3dc96"
+   },
+   "members": [
+    "GDwcL",
+    "clampToBox",
+    "clampValue",
+    "countTrue",
+    "fejS",
+    "getAimPointOnEntity",
+    "getVisibleFaceSamples",
+    "lerpValue",
+    "sBno468",
+    "toUnitFraction",
+    "toVec3ForAxis"
+   ],
+   "mode": "members",
+   "rewrites": [],
+   "sha256": "82967e2e14a66d031008916bf9615f870f86cedf9e370a4ca3cd97838552b336",
+   "shell": false,
+   "stubs": {}
+  },
+  "jade.client.common.HitVecUtils$1": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "0f01ef8ecd609fa36c2ff948562c248887d735353fa90aaaad2029b5951c0eed"
+  },
+  "jade.client.common.HttpConnectionUtils": {
+   "accessor_casts": 0,
+   "member_sha256": {
+    "fetchText": "0a85b3586f20ee855871622081becbb3c00825ca46d0c4eb5a52266a46d3828b",
+    "readResponse": "7dd5c97274a71235eb4ff67d11be9c6a0b64fbf1b9d6c8c0483192b51ef90f71"
+   },
+   "members": [
+    "fetchText",
+    "readResponse"
+   ],
+   "mode": "members",
+   "rewrites": [],
+   "sha256": "7f241e0b89526c028ca4ded9c9026c640fe1d5be9452c04dae4dc12bb3defaaf",
+   "shell": false,
+   "stubs": {}
+  },
+  "jade.client.common.HttpUtils": {
+   "accessor_casts": 0,
+   "member_sha256": {
+    "httpRequestWithTimeouts": "c29897405da771fc59bb36b4f1e87b33f31fa3f8fe05fbe12232a924e9b5c0e6"
+   },
+   "members": [
+    "httpRequestWithTimeouts"
+   ],
+   "mode": "members",
+   "rewrites": [],
+   "sha256": "04da5397557a1f18fc54eb123f2612f8275d22471e3098dc558205ff2b157fbd",
+   "shell": false,
+   "stubs": {}
+  },
+  "jade.client.common.IFont": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "1de511ac5ef0b01813bc75c7bcda45e578c14acce903151db423fd310f2e1bad"
+  },
+  "jade.client.common.IFont$0": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "831b56c6e578e78934ecdfc75195940c48e30ed2ed19d4eef873ea481227bf75"
+  },
+  "jade.client.common.IGlyphStringDrawer": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "7bbd286ae61ddf6576f668798ce0cf5da66c18d667483c0b4f91c2d56d76c7c5"
+  },
+  "jade.client.common.IMinecraft": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "21f6fc9912f9234944cf3d30074b57b55439c58cfd8eff8181afb7d416125921"
+  },
+  "jade.client.common.ItemNames": {
+   "accessor_casts": 0,
+   "member_sha256": {
+    "formatSkyblockName": "95083ca50128c4c2cd2d09c73b8b737fecbb22bec95d120b5295eb629c8e2fa7",
+    "getCleanDisplayName": "4b2d7ab9fe6f632be85af6c24c1a3356e24fd738875e5b076e5458c8219c99e6",
+    "getSkyblockId": "f4db1430853509203884f637182b8a11df15d253ff90d0b6e6b57be98283f1a9",
+    "matchesToolName": "e7f979b49f9c046a9a0f59a6b06f340f3b055442db81cbd3103026d8a657de84",
+    "tooltipContains": "b5e63fb39448af4f762f467f58403f046fa2315fcba492eb2121920915b6da60"
+   },
+   "members": [
+    "formatSkyblockName",
+    "getCleanDisplayName",
+    "getSkyblockId",
+    "matchesToolName",
+    "tooltipContains"
+   ],
+   "mode": "members",
+   "rewrites": [],
+   "sha256": "f238de1343ef46144abf7dc163d19081677eae345aa9301bccb7ca5b02343c68",
+   "shell": false,
+   "stubs": {}
+  },
+  "jade.client.common.LineHeightFont": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "3305c7fd345859a98313091d544493623ff1a8c15abc63a559d30ec47f755201"
+  },
+  "jade.client.common.MiddleClickFriend": {
+   "accessor_casts": 0,
+   "member_sha256": {
+    "isScrollKeyPressed": "53f70050736836cfc6d9ee3b9cfa39578630cba42ea47c6c0b49eddf6a58dcf4",
+    "scrollState": "9e014a2dd275e3a16c5b1d50a7174e49418ff59acdb105fca6414616b49ff899"
+   },
+   "members": [
+    "isScrollKeyPressed",
+    "scrollState"
+   ],
+   "mode": "members",
+   "rewrites": [],
+   "sha256": "88dea5010800f65dc36e916cd8955fc2012350cb986dbad56e785de1c49d4abe",
+   "shell": false,
+   "stubs": {}
+  },
+  "jade.client.common.MouseScrollState": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "91f398765b7448cb23e3b1f7f9f301d052ca62f4ed89fd37c6dddcbc6aca7a26"
+  },
+  "jade.client.common.MovementFix": {
+   "accessor_casts": 0,
+   "member_sha256": {
+    "fixMovementInput": "8889c4613b3312660dbcdb2c771e011b560a68aab22106d5911636ef1713cb95",
+    "getMovementYaw": "7d0396725f91d9ea1249df954a0c0f84d55bf3676db48fe0dbde3b9ccb5137fd",
+    "wrapDegrees": "d6f3a8cf349cd7505c6a39643813e4832f30ab9ae467ad5a63e659395be1f047"
+   },
+   "members": [
+    "fixMovementInput",
+    "getMovementYaw",
+    "wrapDegrees"
+   ],
+   "mode": "members",
+   "rewrites": [],
+   "sha256": "4d2957c745922fe98382651af827690c00b1ef97b8cca519d94c88ee40982024",
+   "shell": false,
+   "stubs": {}
+  },
+  "jade.client.common.OOPXSd": {
+   "accessor_casts": 0,
+   "member_sha256": {
+    "resolve": "f240e20ece9cd4fdd0ef6f34166f631e8739f68e7aebe04a4ca06f82be6bfb21"
+   },
+   "members": [
+    "resolve"
+   ],
+   "mode": "members",
+   "rewrites": [],
+   "sha256": "36821c49902b0003a6ca8d2dd4ce86139a1d8197912ca14678cd596772a58cfd",
+   "shell": false,
+   "stubs": {}
+  },
+  "jade.client.common.OneWayFlag": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "ec54f0254e3d437028e30aef5b178af366c5600c823078e8438f376bceb118ac"
+  },
+  "jade.client.common.OpsecStore": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [
+    "JsonArray.add(String) exists only in Jade's shaded Gson 2.4+; Minecraft 1.8.9 ships Gson 2.2.4, where add(new JsonPrimitive(s)) produces the identical JSON"
+   ],
+   "sha256": "e1eaf0965f6f6599ff6ab47d965aa54ea2629e6518c48c311b9d1cc9deea6a15"
+  },
+  "jade.client.common.OpsecStore$0": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "0f41cb975fd7a9aaedc335560a414965c78c23596c12103a88a99c72fdd5b9ef"
+  },
+  "jade.client.common.PacketDirection": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "f2cd93e9f8cf7d4891d199620c44293ff4a5b10d2dca9e38d7610dfccf1bf5eb"
+  },
+  "jade.client.common.PacketDispatcher": {
+   "accessor_casts": 0,
+   "member_sha256": {
+    "dispatchPacket": "41051efcc55cc80c4f5622e22d727db9f732cf165cce6a59da5e80aecaae4d1e",
+    "handleInboundPacket": "417943c0e49855cae17bf436a9a40dc1bcd83024c3dd4474d1bdb84026fe8b85"
+   },
+   "members": [
+    "dispatchPacket",
+    "handleInboundPacket"
+   ],
+   "mode": "members",
+   "rewrites": [],
+   "sha256": "dbc849f6dced7d007bf3cdf8e545967af2facc9ad0c226249a19e7d4289d4a7c",
+   "shell": false,
+   "stubs": {}
+  },
+  "jade.client.common.PacketExclusions": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "aa8c775ea46f8aeb1c57886e0d501842e5c09afc208255a8b3dc0ac793c5ce1e"
+  },
+  "jade.client.common.PacketHandlerBinding": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "c9f04213be10b84c64d3517c38ead4b35099bd0e09bad2d701029af961bc04a9"
+  },
+  "jade.client.common.PacketListenerRegistration": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "59f70392ea859e2194f1eb9cc132b5a02887649308033976a2c6969b61ac4505"
+  },
+  "jade.client.common.PacketReleaseGate": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "30cfc6eb9624a872370021cff66298d2000db63b7cdfc42f5f0f1b3eb3dda399"
+  },
+  "jade.client.common.PacketUtils": {
+   "accessor_casts": 0,
+   "member_sha256": {
+    "NQazztK": "bb2d7697f8a5777fe6b3b76a9c87de3f846d410a88a620e7d76e885001902b0d",
+    "consumeSilentlySent": "a96f16217034a013668ef5adcb8224dc039c5ecd25c2d311209af0868b03d5d7",
+    "isOutboundPacket": "0e6fd3e13cc3da9cd00e7c594aa983ee8cf2c8b355c2ac9e6b25e5fceccdd2be",
+    "packetExclusions": "78af6dd0bf2b40ee6685905c48b411d14a067774451da1d2a915b5ea69d7e232",
+    "sendSilently": "9036f7c604f182ece96f57c7dbe39f412267d88d86514635ff7d5d65e0cb6f28"
+   },
+   "members": [
+    "NQazztK",
+    "consumeSilentlySent",
+    "isOutboundPacket",
+    "packetExclusions",
+    "sendSilently"
+   ],
+   "mode": "members",
+   "rewrites": [],
+   "sha256": "195056f7f63883ef8f29eed1daf65eaea5ee11f7cc7d8262724084c694a6176a",
+   "shell": false,
+   "stubs": {}
+  },
+  "jade.client.common.PassableBlocks": {
+   "accessor_casts": 0,
+   "member_sha256": {
+    "isPassable": "2cfa6bccc8b0d79df2ba3f742732b0e21304294344a710d0f3e3062cbd434a28",
+    "isPassableClass": "dcfe766d4c0c0dd9d96fb806bac3211bb1c78ca47e6467982c1ae1077ed793d2",
+    "tqC": "33be873f36cd77d9ccb21d4d54d2ce58b0c544d7575fee2f3a7d7fc758a01da0"
+   },
+   "members": [
+    "isPassable",
+    "isPassableClass",
+    "tqC"
+   ],
+   "mode": "members",
+   "rewrites": [],
+   "sha256": "a02e6e5891037873bd5bb82642b154963b826998966502e59e49ab1bc664d79c",
+   "shell": false,
+   "stubs": {}
+  },
+  "jade.client.common.PbIqtfxn": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "a76899703daa1bf12e8b71259ea29035a177dae26325cdf5d8a0051cdcb33eed"
+  },
+  "jade.client.common.PlaceUtils": {
+   "accessor_casts": 0,
+   "member_sha256": {
+    "canPlaceItemOnSide": "14dd7538708fc54ffd207268e76c81b6f609d74c4bd4772783db1ed74b5e3732",
+    "isBlockReplaceable": "f7e690c5868e6673e67396d5f9b6b51fae91dc4cfa80fbe609611d5efb4e8980"
+   },
+   "members": [
+    "canPlaceItemOnSide",
+    "isBlockReplaceable"
+   ],
+   "mode": "members",
+   "rewrites": [],
+   "sha256": "1cc76930bf5b16e415cad9fd937adbad81d53fc95c4c610ea45a1b4324a7c119",
+   "shell": false,
+   "stubs": {}
+  },
+  "jade.client.common.PlainAndShadowFont": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "6f9450a856b5d9d341f8aaaec3a3ccadf367ff820e7013db05a7f180fade84fd"
+  },
+  "jade.client.common.PlayerApi": {
+   "accessor_casts": 0,
+   "member_sha256": {
+    "lookupProfileByName": "eec951c78ba5d54fd01b3ea03c624cd1cbe2b27f186e35ea73b8045df5abf4c1",
+    "parseJsonObject": "a122264c6f72e0cad9ecba2ed90f4530d5d7323e5fd163fd221addf9576a224d",
+    "parseProfile": "641dcc0ce94961ca810dfe27c6119f40a78b0e6fcfa53207802dbad29f8edfbf",
+    "parseUndashedUuid": "e3a7f4f727143d914107ae4fb6904dd1466391d90366a6be4e8ffcdf3667a407"
+   },
+   "members": [
+    "lookupProfileByName",
+    "parseJsonObject",
+    "parseProfile",
+    "parseUndashedUuid"
+   ],
+   "mode": "members",
+   "rewrites": [],
+   "sha256": "719bf491b79818f14ea499fa004e03472a4c84e012b7b53e62927bd0f076e549",
+   "shell": false,
+   "stubs": {}
+  },
+  "jade.client.common.PlayerApi$2": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "ec56a073d64e92287eb3e2689b7b28ec77ac6eb133ce61da0a4269e453f7f568"
+  },
+  "jade.client.common.QuickBuyLayout": {
+   "accessor_casts": 0,
+   "member_sha256": {
+    "AFIIiUl": "596df7829beade3819390cb46e25aa23624ebbc8643d3a7449ed0f9f550674c6",
+    "XouT": "5f1e7ae85dba8c49e1f4583d51f62984aaca9f69ce505790b9f8068054acdefc",
+    "ahnDbkE": "147256511358ee37fbd3d7c853869e75fe90b12600bf66aaea870f62f6aff47b",
+    "buildLayout": "7421c1f82660d09ee7b8bcf06d1dcf9b6fbf83cf28ae7cab1071294a8a2b0183",
+    "getItemAt": "22b74c00623c38fd0e5f52658df0e00d62cc71a038b4a19a444d79e9b2d9edec",
+    "indexOfItem": "3cfffc09dcfad9dda2c285bbbf0c6b3ae2b7944664297cb3b207b80e9c74ac42",
+    "isDerangement": "991f07fcea8b1065c61d77183bffd8abe7cddae6a6329b8b9d57d76bf2ed20a0",
+    "isValidLayout": "545dddf8fc05d5a5b81926514eec86a001c75a9764496a07557467ae22e10649",
+    "normalizeItemName": "4522c20b6839e416cbd1beb2566a22e41a19195203afa390f7df9b1c2d9a81d7",
+    "selectAllowedItem": "059947a5b1c092580e129b2e1e0ef6e1f7f4144b48adf1f14b50bae1e5a352d7",
+    "shuffleLayout": "98cf6cff28e8428ea3cc078310db959987180267dcd688b092a9d6aeedbc6550",
+    "ywZww": "23ffa8a05b8a1152946fa3052930aa2e9f64ca8acb1160c03dad1c3c68f77b0b"
+   },
+   "members": [
+    "AFIIiUl",
+    "XouT",
+    "ahnDbkE",
+    "buildLayout",
+    "getItemAt",
+    "indexOfItem",
+    "isDerangement",
+    "isValidLayout",
+    "normalizeItemName",
+    "selectAllowedItem",
+    "shuffleLayout",
+    "ywZww"
+   ],
+   "mode": "members",
+   "rewrites": [],
+   "sha256": "6a044f9d22775ac365816a98ad805f56083f50b3b08568b17c0a374347c2349d",
+   "shell": false,
+   "stubs": {}
+  },
+  "jade.client.common.RasterizedGlyph": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "be8be5dd2388b275ec8aef5d6952a696d2ded34c6682de40f7d705a87a8e4f69"
+  },
+  "jade.client.common.RayTracer": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "53b42479a48d1c034d30a1d937c15e2ad90dea380963b7f51a8340fda8a1a8a8"
+  },
+  "jade.client.common.RaytraceUtils": {
+   "accessor_casts": 0,
+   "member_sha256": {
+    "KmB": "74bb34261f1c34d8847df8e5ef702f9676a9c73745d12e78d797d92efc734e81",
+    "canSeeEntity": "bef64dcee5fe7172681122f26581394570f874875df6578527ed56f7b3576508",
+    "intersectsEntityAlongRay": "bcd87d4807162509d5747bae31d994a3876df3d8c148c31cc01305779704bda8",
+    "isLineOfSightBlockedByEntity": "5dc1f338828604ab421d934a861a081f644f7e58439d9ab6524d2a4f4bee38ed"
+   },
+   "members": [
+    "KmB",
+    "canSeeEntity",
+    "intersectsEntityAlongRay",
+    "isLineOfSightBlockedByEntity"
+   ],
+   "mode": "members",
+   "rewrites": [],
+   "sha256": "364739d166d61a6d9173b98ff26a3a5db2130ffdc172151250d80ca57ea88a68",
+   "shell": false,
+   "stubs": {}
+  },
+  "jade.client.common.RaytraceUtils$1": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "266e25e9c7b361e9f2f2fa335a33629e20ded931edc4df0984a575681d571856"
+  },
+  "jade.client.common.RectUtils": {
+   "accessor_casts": 0,
+   "member_sha256": {
+    "expandRect": "bad33e6bca580ded0a3c3909944dbc99188bf5e9848de4349d8ec979a6f1eb41",
+    "expandRectByPadding": "81f531a7d58bda6260d75ae453739a9049f63ce6e1e04a98e34a318e2c5e4103",
+    "toScaledPosition": "3a799297c44cc6f1587cc8851792e5ca22d43d8be2033c40310bc8f21640db63"
+   },
+   "members": [
+    "expandRect",
+    "expandRectByPadding",
+    "toScaledPosition"
+   ],
+   "mode": "members",
+   "rewrites": [],
+   "sha256": "1d87a207f590d47758809548cdb8e6243a9dd5316845a2be9024e14578068226",
+   "shell": false,
+   "stubs": {}
+  },
+  "jade.client.common.RenderUtils": {
+   "accessor_casts": 0,
+   "member_sha256": {
+    "GIWbDs": "4518c8f022ac9c6702bb4c986ba16a0801d292c6417276d8c66c040e07ba90ff",
+    "QvSfy6": "10cbaae8a8b83be4482ca443a18309e4263e75e30b98a6f8a66547068a255302",
+    "XNRNki": "355369c9642a5a9b1a79e3c4528a98c0a46f9d8fd79697c8ad8c17f10fd58f2d",
+    "applyAlphaState": "ef5957997698caf6cfc078242d40d4da29afb9ea89e560399ca49f61750e6665",
+    "applyDepthState": "e3ba4c1dd847ddaef14be2a431fcf27db2e79a7126e53c3723253eae22db9ce3",
+    "applyLightingState": "96a7dab5477ffcc7e5af5b544278d1ebe2fe1a133c202d08354894d566ec7834",
+    "cIv778": "5958c26ba29d69c200636a1f39154e075f507f9b7a49a40c6f356e40a0de51d6",
+    "jgivP": "475b1b83ca59fe741c1e6642a55798c140e4c543a891657c51eb9ffb5b057778",
+    "jxyoE": "deb0f15dc8f57fdd22585228e96383eafcf901da37e9ff84c9ca86050d79410a",
+    "lTbf": "9c517004ec46993785c5b8192d6167d7def5f9ed43dc870c43beaaada860bea1",
+    "lht": "be963c3e8aae27f756222edf01f465716f400619056c3401ee7660f7fedafd8f",
+    "rebindActiveTexture": "990a7f8af4ba503be85bf952e0336c5cc29a01218d55350425c9755c8952ea82",
+    "resetGlPipelineState": "e0e1c7d82ae235e011671349402a1696301cb36d353ff11bbd981c83f2a6806b",
+    "resetLightmapState": "adb6b67a67a7a91ba877925dcb0fc0228054d1bc1abb6e3937360e3e8ed5f9a7",
+    "resetTextureUnitState": "4d534d03c0c31ff43e1fa4ce280f8b4da607cd47453749428e38d756f9e6bf12",
+    "restoreLightmapState": "9db6d91dd6a29f028193f5dd25dc5dcb9336b416ca293faa184ecbcccfdb3bd0",
+    "setAlphaThreshold": "2b49b5c7018ca5d57717898e1f471207d12b8eb28f49be5cf1d5c28c3db91d9d",
+    "uyB6": "a235904664fd09d0831f6cc9bd8bf3ec07dd6064a474c4f089d34f696301148b"
+   },
+   "members": [
+    "GIWbDs",
+    "QvSfy6",
+    "XNRNki",
+    "applyAlphaState",
+    "applyDepthState",
+    "applyLightingState",
+    "cIv778",
+    "jgivP",
+    "jxyoE",
+    "lTbf",
+    "lht",
+    "rebindActiveTexture",
+    "resetGlPipelineState",
+    "resetLightmapState",
+    "resetTextureUnitState",
+    "restoreLightmapState",
+    "setAlphaThreshold",
+    "uyB6"
+   ],
+   "mode": "members",
+   "rewrites": [],
+   "sha256": "9a60e49115e0b7a6f7886616440d7b871a80cfc1ca445b29ac6dc5831f44be0c",
+   "shell": false,
+   "stubs": {}
+  },
+  "jade.client.common.RenderUtils$1": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "b92492d877d0f5db0f70375d03ce4bf2ea0cb30f435c0ab9e0e13e3630d00b46"
+  },
+  "jade.client.common.RotationHandler": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "093580368beabebf21dfd62808956af8b4ca4dacf979ab905a4a73a106b727ff"
+  },
+  "jade.client.common.RotationInterpolator": {
+   "accessor_casts": 0,
+   "member_sha256": {
+    "stepRotation": "cf62623e2f38582a723d0be8c3fcb1e00db3e7fc027ed4eef4430a51adcc35c8",
+    "tfpXj": "1bbfc062ef318dc6e22dd172bd5cb6bc53ec1b0dedefd0a728e86c40485ad6bf"
+   },
+   "members": [
+    "stepRotation",
+    "tfpXj"
+   ],
+   "mode": "members",
+   "rewrites": [],
+   "sha256": "7e4e8097978cf9d2ac0c8c6830a75aa3f2816cee808af8eee26eb2b2419aa3a2",
+   "shell": false,
+   "stubs": {}
+  },
+  "jade.client.common.RotationQuantizer": {
+   "accessor_casts": 0,
+   "member_sha256": {
+    "quantizeRotation": "88d9801b0d217f5d54ee7c0e84e0ca81521749ab8db8caa7e783ddfed636d891"
+   },
+   "members": [
+    "quantizeRotation"
+   ],
+   "mode": "members",
+   "rewrites": [],
+   "sha256": "9085a1486587a3896e3721b7d2a3293603574ab2d4ca856ea32edddaf1206ea2",
+   "shell": false,
+   "stubs": {}
+  },
+  "jade.client.common.RotationTargets": {
+   "accessor_casts": 0,
+   "member_sha256": {
+    "JIWq": "6ce07d2085d7f34b21da4be759193b8ea04084e18b6311f82d3d2d5aa15c26f9",
+    "anglesToCoordinates": "303169be3c8e603f8d278d8b27097fd74c91a12f2751f82dd2d2169e1ee8aef1",
+    "anglesToEntityAimPoint": "d170918b174486d18723960b8b3d48b64c70249f7c1cb5aa9ac5f836b5e42561",
+    "lccPbxo": "8e57ffd2d04ee25631b8fdd8c294224a413e97df91aa483b451d97061f905431"
+   },
+   "members": [
+    "JIWq",
+    "anglesToCoordinates",
+    "anglesToEntityAimPoint",
+    "lccPbxo"
+   ],
+   "mode": "members",
+   "rewrites": [],
+   "sha256": "b504cb357ff217556748c1a4e758e62ecf4d91625055feab0c681ac0c2d879b4",
+   "shell": false,
+   "stubs": {}
+  },
+  "jade.client.common.RotationUtils": {
+   "accessor_casts": 0,
+   "member_sha256": {
+    "IuZ": "5ca3be044a0cd58e94b4ea5eb4a6a55a039f9829257f39e84b491d084ef4fe29",
+    "NSsr": "53d4041e0f289bedb5485328ebf83af55bbff3c6855da4f1490fb7227756b226",
+    "QweciK": "04996008ad0281d73b9820e56ca060812cb3b90fdeedd7c5bd31709d24355de7",
+    "anglesToCoordinatesWithPitchOffset": "176567279ccafbf59bb669ed98ce45ebb17241b18e9cfeb1efabca13a17bb40a",
+    "anglesToEntity": "0dc9b169a27aab9ace3529a00fd102e1d6b5c8c7846394e5a439233171cc2326",
+    "anglesToEntityRayTracedFull": "a26fe1ac13eecb1c4799be8e9476de5c253e45329e85988cff6581e45f270dc8",
+    "applyRenderedYaw": "f232da77ebe3b69c2fa56726278d7dd04effcf7d4547faa18ed718bb2d1adb4d",
+    "createEntityIgnoreFilter": "7b2fb09c8c7e68d83d0ba6672d3b886594c9f2f0eb0c6c848c776b78af93e8d9",
+    "getEntityHitVec": "ca674f146cbc4c06ab44454d376f2b613cec68f9e72f0c5ed96624be021636c9",
+    "getLookVector": "172232b9f936ddc0adc5cefadf355476f2a6bf08d56a1e8e90b106c9bc22abf8",
+    "gib": "aa6a1270dce502434d1b5a1ba143385f3a07312430151002882dee4fc80dc490",
+    "hasHitOffset": "adbb5e22204e5f4bf75e9428d23f70266708f6e00ada941f2610f7fa508eb661",
+    "hasPendingRotationOverride": "e5d9fecfaece9ea7d24914deb95c2ea56db3385043182939b155eb589a2bfdf8",
+    "lastSentRotation": "4d88a4d767ccc36f056cc92f3954d2fe4957fadf6c2ff3c79c44016c7a14bca1",
+    "outgoingYaw": "e758ca0385101e0f701331e5dadd49a772287b67e097f8993a60825d19f7b448",
+    "pN0": "911ea46aed5864aa22f9563dbb8b973ffde5748e5c7d982c2c97815d68914773",
+    "previousPitch": "927311227b5c4037e7a985af9adba4064cb936e24649aaee759231693826a98f",
+    "rayTracer": "e2a17ef7685e5cadf47b327d44c5033be7411b6e1e720968cca39227cd6178a5",
+    "smoothAnglesRandomized": "ae75c46797254d6e2bad7e85eea9dc97b3a25a412d9560de9a712de59bfa22f4",
+    "traceBlockHit": "2e168f5837b6835b1db0fcc65ed877228a611ede7d2199bb221d184bf3839d90",
+    "traceBlockThroughUncollidable": "fb7d9e8f390ab4ff32b61e73485a4498afe023a51f9170a3f5f47f630c367fca"
+   },
+   "members": [
+    "IuZ",
+    "NSsr",
+    "QweciK",
+    "anglesToCoordinatesWithPitchOffset",
+    "anglesToEntity",
+    "anglesToEntityRayTracedFull",
+    "applyRenderedYaw",
+    "createEntityIgnoreFilter",
+    "getEntityHitVec",
+    "getLookVector",
+    "gib",
+    "hasHitOffset",
+    "hasPendingRotationOverride",
+    "lastSentRotation",
+    "outgoingYaw",
+    "pN0",
+    "previousPitch",
+    "rayTracer",
+    "smoothAnglesRandomized",
+    "traceBlockHit",
+    "traceBlockThroughUncollidable"
+   ],
+   "mode": "members",
+   "rewrites": [],
+   "sha256": "49c718b3e5bfeaeaef79dde61311c35a21cf4b2805fa9785c59b58b92ee79d71",
+   "shell": false,
+   "stubs": {}
+  },
+  "jade.client.common.RoundedRect": {
+   "accessor_casts": 0,
+   "member_sha256": {
+    "ABgU": "db45593ebd2feb54e115e853d3d5a041eaae0f33af5c109486e0a0ecf1b158bd",
+    "drawRoundedOutline": "a9a3208760fa6afb3125ba0e4a2457f835b0e5bbe9f9af54073b6118574cf523",
+    "drawRoundedRect": "c59d97e583a5fab3ae13e74842dcac9a27f76c8caf2200f16008c8abba074fd2",
+    "outlineShader": "d701482d11c37c8e139fb4736b9f22541913ed92e7b91ca7c20b45365f93a64e"
+   },
+   "members": [
+    "ABgU",
+    "drawRoundedOutline",
+    "drawRoundedRect",
+    "outlineShader"
+   ],
+   "mode": "members",
+   "rewrites": [],
+   "sha256": "3f44d46e1a8eb3bff3c84e86767f5d2ebe579848a34f0d6c73a57177d24fbf51",
+   "shell": false,
+   "stubs": {}
+  },
+  "jade.client.common.RoundedShader": {
+   "accessor_casts": 0,
+   "member_sha256": {
+    "Fzsi8": "98f451c4f482e36493d1851c7cf909f4536f0c7aef37e60c4c84eac13064f67e",
+    "applyRectUniforms": "7049bd72cc8f8718e57b842975a0c36addbf4f28dca1557473c190c24923df6c",
+    "beginBlendPass": "be249930da0d0303fe563207273ad8c2999695783ced871de8209d10dcd43639",
+    "drawRoundedOutline": "c33e34b274076d3a7c57ba4b276fde66432351f211e74281b190026efe8b1510",
+    "endShaderPass": "6784668363dc24111d0b0b6af3a9ae0cde1ef76431387d03e252ac0f42bf119e",
+    "restoreGlState": "28360041c92ea63a5df2c18643c1ab78b066a9f21949e5ae59ff79b62d27bcf9",
+    "setUniformColor": "0aabb1fcdf4ee94157d794ae8028837aeffd3745586477c3beb7a8f7e5d4fef8",
+    "yJdrG": "3fc62f83cf9527f5ec2c4f2e0049682d11cfaf9372cdc3a3d19e162cc3ba53ab"
+   },
+   "members": [
+    "Fzsi8",
+    "applyRectUniforms",
+    "beginBlendPass",
+    "drawRoundedOutline",
+    "endShaderPass",
+    "restoreGlState",
+    "setUniformColor",
+    "yJdrG"
+   ],
+   "mode": "members",
+   "rewrites": [],
+   "sha256": "64c6ebddc95f682ce042b85cfeb0abb622602c8109a0c029e39ad3b6532ef23a",
+   "shell": false,
+   "stubs": {}
+  },
+  "jade.client.common.ScoreboardUtils": {
+   "accessor_casts": 0,
+   "member_sha256": {
+    "ATIk": "666365ffeaa7ec00a8479d85706777139bd7f93f1ca790f2a088a735be919e85",
+    "IwugSbg": "683ecbedb46a2d38d2c066291ea3f00f1d1109d2d0b2319a3c571c80736b1cac",
+    "dj854": "74181e8943180af25bce389a07aa7dbabf5cf2743da0013297442ff7b4ef9a03",
+    "getBedWarsBoardType": "4d03906be14dd4e607678220284e7ee9bc0d42b23c1836b43d2de6ae3e5e2800",
+    "getSidebarObjective": "c23e76eedf6cfe4ce1156ff146269d087a881d334b9215ee00b0ced07028d6dc"
+   },
+   "members": [
+    "ATIk",
+    "IwugSbg",
+    "dj854",
+    "getBedWarsBoardType",
+    "getSidebarObjective"
+   ],
+   "mode": "members",
+   "rewrites": [],
+   "sha256": "2a5ef01a37f08287ec99f78ac697a87318d11cc55572f96ed938c68adc23a954",
+   "shell": false,
+   "stubs": {}
+  },
+  "jade.client.common.SettingRowLayout": {
+   "accessor_casts": 0,
+   "member_sha256": {
+    "QYl2": "27d5e9e2170ba6b0f16425f1f542df5fae19629f67bb69d7fcaa15d4106f3d96"
+   },
+   "members": [
+    "QYl2"
+   ],
+   "mode": "members",
+   "rewrites": [],
+   "sha256": "2072d2f4d8c8ece8c737c08396040a08272ccb8069767ee2293c7ba50200f76e",
+   "shell": false,
+   "stubs": {}
+  },
+  "jade.client.common.StringDrawer": {
+   "accessor_casts": 0,
+   "member_sha256": {
+    "plain": "2d87a9ef71ee2dedc4042b7ae4ee56d162640e26134603ef89fe9827c7f419f6",
+    "shadow": "9337125d3cf5c4c19f0a13eed9a3fc6e9d46f3a04ace03b328214c15f650278c"
+   },
+   "members": [
+    "plain",
+    "shadow"
+   ],
+   "mode": "members",
+   "rewrites": [],
+   "sha256": "6f2dad4c23ae2d7345ecc9b01b7ccf6db3dfac3768473c32d8db81b0a0dea117",
+   "shell": false,
+   "stubs": {}
+  },
+  "jade.client.common.Subscribe": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "a53a66dc732115c178286d6462c78514202d064e70c91b42b86bc6cc207cbf22"
+  },
+  "jade.client.common.TextBottomOffsetProvider": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "d9a8226927223c5ddf866ab2d6a0edff715ab336891040e3c90cdb3c82330631"
+  },
+  "jade.client.common.TextRenderer": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "f7fb2fc0ee6a1ce2c99d5be009bce030d3dda2383343726a13341929eed32ad2"
+  },
+  "jade.client.common.TextTopOffsetProvider": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "88234c6584074d6eeb906b18be3a1342dde4728e081635019e2f01ba211f3c1f"
+  },
+  "jade.client.common.TextUtils": {
+   "accessor_casts": 0,
+   "member_sha256": {
+    "QJdK": "e3db759d8632490e094bd98a8249c1dc88570b39256de9bc83272ab341718a85",
+    "randomDoubleInRange": "d0523aa3d1554908c6bb023f85f27c1a85814976bac0ed90f05dea6fee088bba",
+    "withAlpha": "f56d78042ea083739edab63c72f95f1f43776128583335300eab1482d7550750"
+   },
+   "members": [
+    "QJdK",
+    "randomDoubleInRange",
+    "withAlpha"
+   ],
+   "mode": "members",
+   "rewrites": [],
+   "sha256": "4f1379801587a1b8f38edbe024d8d80485b5f6a5d482ebb7dece832805bad5fb",
+   "shell": false,
+   "stubs": {}
+  },
+  "jade.client.common.TextureUploader": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "129c01a056822d850c76b750a94203b6784e6d7c608e204a5b316fed237b7b46"
+  },
+  "jade.client.common.ToolNames": {
+   "accessor_casts": 0,
+   "member_sha256": {
+    "AXE_TIERS": "ed0eb2eebd4329cfa21b2871c4c32fe31cb106cca5c13f0d9032a380312d8005",
+    "IsbZ": "883b563f49886f9f0119babfa288ffa1d3e855c4413f878949ee23e02b305fd4",
+    "matchesNameVariant": "73d0c6766c68b770149a227c7ddf016c489ed4b4241feb28c3e3d4a6b6d891e4",
+    "matchesTieredToolName": "81bfbd37b0ebab75fb85e0a20da9fcc8bc26f4f676c624155c3e2ec95fb57da5",
+    "matchesToolName": "4710bd6087acc0f0b364f5f7185bb3cbc4b898cb5d031702acf7548edadc1926",
+    "normalizeItemName": "573ee068b022caeb8e42ad964f8ed89ca2062012957451978a9d90890ccfcbe3"
+   },
+   "members": [
+    "AXE_TIERS",
+    "IsbZ",
+    "matchesNameVariant",
+    "matchesTieredToolName",
+    "matchesToolName",
+    "normalizeItemName"
+   ],
+   "mode": "members",
+   "rewrites": [],
+   "sha256": "44800504e879fa5631212047375c1a1c21a90ff77b61f0ff7c34cf134abab452",
+   "shell": false,
+   "stubs": {}
+  },
+  "jade.client.common.TrueTypeFont": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "fbb554f482443ca8b851a81a713e9dbc7c24546a43670b7fc7b97f62171ffeed"
+  },
+  "jade.client.common.Wlo914": {
+   "accessor_casts": 0,
+   "member_sha256": {
+    "GKjTw": "a50c25ead8ab39649ed79606827edbe488df0969fb89a338206a6e99a03b6853"
+   },
+   "members": [
+    "GKjTw"
+   ],
+   "mode": "members",
+   "rewrites": [],
+   "sha256": "6ea4c11bd434f03a2f4b679bbfc585438dd47c2af6e794605ec17dc3de6fc6a4",
+   "shell": false,
+   "stubs": {}
+  },
+  "jade.client.common.WorldUtils": {
+   "accessor_casts": 0,
+   "member_sha256": {
+    "getBlock": "0a8cea6524731a93530274bd632d4982d7f0555e27a40fbe051b3d9be6f386e6",
+    "getBlockState": "19a905b7bb451362018e6ab281630329435d6eadbc2a81ed00d91f3847353d8c",
+    "getSelectionBounds": "e83877862f07377698d593a76ef49116416c52a3b2f92bb1510dbe74ed9ecc11"
+   },
+   "members": [
+    "getBlock",
+    "getBlockState",
+    "getSelectionBounds"
+   ],
+   "mode": "members",
+   "rewrites": [],
+   "sha256": "7eac268c6e2d8ec98508943ab444a9a712124c86b0868a6a55945952f9c879d5",
+   "shell": false,
+   "stubs": {}
+  },
+  "jade.client.common.pGYEwTJtYO": {
+   "accessor_casts": 0,
+   "member_sha256": {
+    "artifact": "3342bda8bdd5fc0cc8249ce669690b779a19e7f99583c7144d8f7e825b257332",
+    "malformedPrefix": "8a84e6a5a628e1e633377aef454efc1186da8285a701dfa95331f077ae353265",
+    "minecraftColor": "65b44ec63c3f81bd2c5fb098a6d31366134b3636b4bec42a9136b00aa8c3cb57",
+    "opaqueAlpha": "4124e3829ad1ca8901df0d9209a9c464cbce9fd3a044d98b23e7b9beae3369c0",
+    "shadow": "20974ada5ef9bf88c694008a3cb0bd474995c2edde4e4db524838163fe78c9c4",
+    "withAlpha": "b5ab1acc9c636c8a2d51ce102c27ff0a0da6dd9c4647fc9d9157f5e59b2aa94c"
+   },
+   "members": [
+    "artifact",
+    "malformedPrefix",
+    "minecraftColor",
+    "opaqueAlpha",
+    "shadow",
+    "withAlpha"
+   ],
+   "mode": "members",
+   "rewrites": [],
+   "sha256": "3051e180157a29dd82c24fd09ad856914233069c5b35aadb3f289853d6ab6204",
+   "shell": false,
+   "stubs": {}
+  },
+  "jade.client.common.xoHFmOLKl": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "d4dd2e8fcd66cfe5773b9003443b512b8bc3989adbe090e9b585dec3b2f6b9b8"
+  },
+  "jade.client.core.DelayedPacketEntry": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "b22078066f2e54cab9e47a256f2f5b4f968abd9e84f59e5a560e33eea2c620d8"
+  },
+  "jade.client.core.HandledPacketTracker": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "b17df0867a94b7344f16a05ebebe2cc37fec4aa3ab6339a5bc1599eb0b77a208"
+  },
+  "jade.client.core.PacketQueue": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "863e59bec9c750b7b97bbd5633d7126f8adfcc324063f633f644239981eb070d"
+  },
+  "jade.client.core.PacketQueueEntry": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "e2f29d5cf8e041f11f0f798e68eb5b688d683c286cda64bb8dfafaf55174ab4f"
+  },
+  "jade.client.core.PacketQueueManager": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "136b52bc4caaf5851f0bc198088c737cb7f51a4bb3996058ac75b4c0c362be76"
+  },
+  "jade.client.core.QueuedPacketDispatcher": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "929f1732157cd8c30d15961e694f5902c22f9f179360c25eaa645fcecb4485c2"
+  },
+  "jade.client.core.SentPacketTracker": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "a03055c5d416ca2d4cdf83a076b8d0ac3491118f441a5d993cd90d1983690696"
+  },
+  "jade.client.core.TaskSwitchEntry": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "eeef486546022b751942d44934d74916676eed85ce8c41fe450c28d577cb5d64"
+  },
+  "jade.client.event.ChangeCurrentItemEvent": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "4c8593bb18838e0c2d3fc0d24c718d26c4c6b75da26af8114978e202c85954f0"
+  },
+  "jade.client.event.ClickMouseEvent": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "138e7f54caa62f23ba214e68d36f6088c934b5d9b276f31f1f72e449144d7322"
+  },
+  "jade.client.event.Event": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "559f41630526b0a3fbf7c10ba261698e662eec96032e42f3619b4b6aeb91f7d4"
+  },
+  "jade.client.event.GameLoopEvent": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "d51ccbbf7382867ed3687f6131b5c7af965e7d16a71aeacf62a4cf4d8d2edeea"
+  },
+  "jade.client.event.JumpData": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "b6084f8be63b2fc6b4dc54a748c06aa9209ae3bb267a0d9a39e172572e2280b6"
+  },
+  "jade.client.event.JumpEvent": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "56e3e798f00bf0d686cfc2254bf1ac6110f283a6a29acaba1afaf53396d14a88"
+  },
+  "jade.client.event.LeftClickEvent": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "f6932210fdb2134444a7882b76072a713febf697c2d292b1d8a7211d3381adbb"
+  },
+  "jade.client.event.MouseEvent": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "9836ab1be5c9af7dc35532f66f05d57a60382483b5b3b8254e6ca51410b0fd55"
+  },
+  "jade.client.event.MoveFlyingEvent": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "eb22a760c89aa6cc3188d925b78f711a79a927c90f10c6d7c49c0a1700ced7be"
+  },
+  "jade.client.event.MoveFlyingState": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "1889f89496bd7ef9bb6b156cd7deb80c9d64248f1b034e4bbd38267f263795bc"
+  },
+  "jade.client.event.MoveInputEvent": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "cfe41064329163f98b53945ccd704d37eb092b90acac28423c62cd30c10b634a"
+  },
+  "jade.client.event.MoveInputState": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "f22bfcf3df6bccc1a0991a8a40e2b17ebe57eb85f57dc7ca041ceadbcb29d718"
+  },
+  "jade.client.event.MoveStateUpdateEvent": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "3e24faf6206aa0bbb10b369f58c6afc617cf384bd4a1e0a4f4d3e19822247ccc"
+  },
+  "jade.client.event.PacketEvent": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "7b0968520843f8b38408fe9e195c91d8f209f0ead031df80e5e26292e984e177"
+  },
+  "jade.client.event.PacketReceiveEvent": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "d36a1936e608ef94cc620afd8064b48f14a492d4a6f421231fb6b3e836fdea88"
+  },
+  "jade.client.event.PacketSendEvent": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "0be8a542f4f657f595aaf8af7af8695be9441a16e2d323e33d280a1247f147b3"
+  },
+  "jade.client.event.PlayerMotionState": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "03fc9f3da97a55e337911afa7a146aa67eaf0ceb65c7e6f813c8427356e27d5e"
+  },
+  "jade.client.event.PostWalkingUpdateEvent": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "cfa05b5bb3e98dd3bdb5ba83dbd913e4de0656bdfcdb51c0c53f88cf925c1aaf"
+  },
+  "jade.client.event.PreUpdateEvent": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "a45913b62d01dc1250f218cd51b34c2b8acaab541a4bd2d17c07b1a7babb49c7"
+  },
+  "jade.client.event.RenderLivingEvent": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "2627530bcd95ac7c608a4d722cd5a56fe168c2022f487e318e4fa680a56ab07a"
+  },
+  "jade.client.event.RenderLivingPostEvent": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "e440901e0b90e79cf8400653eeba19d65510e2ff2693bcf868ba94627252836a"
+  },
+  "jade.client.event.RenderLivingPreEvent": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "6c687bba038fec1d30deef3ce7a187b7de86b0a19bf8f748adc6722ec1c215da"
+  },
+  "jade.client.event.RenderTickEvent": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "aee877c083a5726877e0e88e5eab7cb1d81a747f7e3f00ecef9b873a66c4cf2c"
+  },
+  "jade.client.event.RenderWorldLastEvent": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "e4449663faa15cfdbf005f378143b27e3eb3f6dbbac588036251a703840b4d94"
+  },
+  "jade.client.event.RightClickDelayEvent": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "a88d735c25dcbf19733db7818982b720bacd52606fc8cd84e3a0714c341152ca"
+  },
+  "jade.client.event.RightClickEvent": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "22874fc42eac6fc4a5d5549a124629c2a7ff4a50aefe505fe113323b6c5793bf"
+  },
+  "jade.client.event.RotationEvent": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "5db8b79e4161f8c85a88689e8d4ced126c6c59e39ee4f24f7210f06e3dd64d0a"
+  },
+  "jade.client.event.RotationOverrideFlags": {
+   "accessor_casts": 0,
+   "member_sha256": {
+    "markPitchOverride": "5bef7d4ec15fe6537fdba4d6c2d7016f7bf40b351e1e295d5eaa9fb2f401efcd",
+    "markYawOverride": "3724237a073bbd7a02588dc6ff0c13626c762864135600d783fc3c8a94a49ec6"
+   },
+   "members": [
+    "markPitchOverride",
+    "markYawOverride"
+   ],
+   "mode": "members",
+   "rewrites": [],
+   "sha256": "a515106a7cc38d4fd70f42eae480d37598d70ee8f60345ade4336e8f93a53af8",
+   "shell": false,
+   "stubs": {}
+  },
+  "jade.client.event.SetCurrentItemEvent": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "58b830dd1d2ca7f9ecbd7f3a2a1f1a19ec89f1969fd59e90ad26b5d778deab01"
+  },
+  "jade.client.event.SilentPacketSendEvent": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "920d6288d17f0a1cd5efe4c2a71e0637df731a86dc4af0efbd808dbad0cc8b69"
+  },
+  "jade.client.event.SliderChangeEvent": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "6e8caddc65930f3fb3867454134ca517885c2c11bf93a4e7aa395a76b640713c"
+  },
+  "jade.client.event.TickEndEvent": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "3fc31925267e36657d2157f1d5c765e93a73e0ce2d1abe26f5c001ae77d75dee"
+  },
+  "jade.client.event.TickEvent": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "892fa5026a1ed1fb53c4473ff31fb3db0650e32b9fc9d475297976e8fc04b1f8"
+  },
+  "jade.client.event.TickStartEvent": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "5e2aa38560d116c805907df04224f98723f3cbb8cc13701cccc38e6dc615465c"
+  },
+  "jade.client.event.UpdateWalkingPlayerEvent": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "25db45a7bb70b37ff285e8aacd00983941c3df1aa682422f80741a71ea961c35"
+  },
+  "jade.client.gui.ItemPreviewScreen": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "0e3bc4e354b697d96c78df46dbe9b86f59a22e056d6b402c80c41816e24af3d3"
+  },
+  "jade.client.gui.ItemPreviewScreen$0": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "e75796ba40cb4a029794b5ae57a85bd75fbfe15d75db72dcf0555b1c7ca20347"
+  },
+  "jade.client.gui.LaLy043": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "640a3e53f56513d55581ca0015c1a25b94d1c3e967e6816248202276e3f440cb"
+  },
+  "jade.client.gui.LarpMappingScreen": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "79b4f95ee46c9ff8fcbff230c0eca5e31bc0aa7da637611b2038b8b12faed825"
+  },
+  "jade.client.gui.LarpScreen": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "b0985a8350f7006ffc7e679436b8c77db1dda8c9e3213dccbf0551a496d4e09b"
+  },
+  "jade.client.gui.LarpScreen$1": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "118acb81c4e2c5c94b8dfb81f9f4bd636dbc222f81a09f3d89d694b888ab5be2"
+  },
+  "jade.client.gui.LarpScreen$2": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "e1f5d59289eed57cbe214da2087aa2e35369139361ecd8923e6cf1838038f23b"
+  },
+  "jade.client.gui.QuickBuyCopyScreen": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "6a78eeb2680f0cd869c2ebd1b98365f0cb27e342efaf6d20e70a5e3ff5a72174"
+  },
+  "jade.client.gui.QuickBuyCopyScreen$1": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "53b7e71f1088d921f7d42121949b58ed448f4cc951d3f02bee6f8610db94e21a"
+  },
+  "jade.client.gui.QuickBuyCopyScreen$2": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "7e71cbb3e9d734957a36c097dc874d06d00d474f5e7b139ff428f4db639cde63"
+  },
+  "jade.client.gui.QuickBuyCopyScreen$3": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "c0c3dc87682eca0954047411183824eba0d5ef540514eef1ad48c5483f10e904"
+  },
+  "jade.client.gui.QuickBuyItems": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "f2899825823377ef41ca88d736bfe62e3b321f8269c4586f114e00c00c62bdba"
+  },
+  "jade.client.gui.QuickBuyLayoutComposer": {
+   "accessor_casts": 0,
+   "member_sha256": {
+    "composeLayoutWithReplacements": "6774a15b192c0dfe81cd42cc9eb786e55669871b0f7bb57624d761d4d4d36176",
+    "computeDifference": "739e96629963a25392d70b54a2885ca341d10318a63709e87a78100a139ec73e",
+    "findExtraItems": "da35388275b59807e5004cfe00de47dab7ef0f0c67bd171a3282d13563f1faa9",
+    "findMissingItems": "58633c6bd48d2093ad8285a407f1da8d7632f39758ced0fb427b0f16db5c893e"
+   },
+   "members": [
+    "composeLayoutWithReplacements",
+    "computeDifference",
+    "findExtraItems",
+    "findMissingItems"
+   ],
+   "mode": "members",
+   "rewrites": [],
+   "sha256": "01e71262d45b43043d09f80194cbfbb2bbb0d7d0acb00a2568bdbccfedc1112e",
+   "shell": false,
+   "stubs": {}
+  },
+  "jade.client.gui.ScrolledTextLayout": {
+   "accessor_casts": 0,
+   "member_sha256": {
+    "ImA6": "7c71d5bd21dc04303ef9a7c496694df1d81b41861d45c44efc9619bd7203b3a5",
+    "buildVisibleText": "7666f762241b7a5ead44419a68579e456c3954c2168775c5ce86ab3a59ce98ee",
+    "clamp": "39a6f063039ef487a6d42d920d4ee3a1814516de0bdf0cc035cb03eeb3f0cdaa",
+    "computeVisibleRange": "337483060b220f1c4baa0fd82508100b1f09101b20edf9013308c581ee487009",
+    "isPointInRect": "6a1c76d822673b2fbee74a57faf4b38268dd58e4209d956b0f3f296099c71d78"
+   },
+   "members": [
+    "ImA6",
+    "buildVisibleText",
+    "clamp",
+    "computeVisibleRange",
+    "isPointInRect"
+   ],
+   "mode": "members",
+   "rewrites": [],
+   "sha256": "bfb5c649d9f8847ffad385fea6d065c1f295ae5b0a62d2e96d828ea179e8c857",
+   "shell": false,
+   "stubs": {}
+  },
+  "jade.client.gui.ScrolledTextLayout$1": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "67a2d4f143ebf0c217ea0b147319a5addd166504eb1295c3c45ad112c893ea80"
+  },
+  "jade.client.gui.ScrolledTextLayout$2": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "cdd7ff92e1422d684b4b00adf17f158b15eb2de4e8a7136d325a7386b738b4d7"
+  },
+  "jade.client.gui.TextField": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "370b40d3e5032c6885d89189ff1d64ef5c93f6c328d893221d6633b14bdfc519"
+  },
+  "jade.client.gui.TextField$1": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "249a32bd9001607bace0966a7105e1fc481084e2efbb1be75804aff567898eb9"
+  },
+  "jade.client.gui.TextFieldAccess": {
+   "accessor_casts": 0,
+   "member_sha256": {
+    "HCioa": "5eb1bee56fd10b5b83be07ae15a5cfcb9d5735417905f6007bd2b7f6abbe2911",
+    "SlqyFo": "cdde1484c7c2b71c2304aa07e37ebfae44085c535e278fa9f7577aaf87cd8c74",
+    "enabledColorField": "434d067d9d2d9a9e785990cf197df6151fcd205b0d5ddd0e87ff61ecfbd5c6c6",
+    "getCursorPosition": "bcbe8e031843aa2371947447d54267b42ca39b69ab2c0209a07c4ab8fd924160",
+    "getSelectionEnd": "c7391f7a003c19946084eab57c13902388d29789f60850357401d5fed42aa6e1",
+    "getTextColor": "6a3b9f15c14c8fe7e6af837d7bb8e2fbabbc7505045c64a2358db23f12a96de2",
+    "isEnabledField": "a7b3abacc3e732492455ff932e6ec642516aba99ef582e7b8066423271fa719f",
+    "lFnhUr": "7a3ffe9eaba86e3049b4cddeaf61290b6eb78d08803c9c4dcda1ada40e89f8b4",
+    "lineScrollOffsetField": "d2bbce9c2bd55b8b52d1d8bb8cb4740092aaee592014de15f0409be5bfc36881",
+    "qZn0": "ea7704ebc52253adc4493f882e1f455f2c8186fd255f2ee23acb0bde0eeaef7c",
+    "readBoolean": "f6f54eec16b40a2d4d7db4b1fc1e6045dac66c3833bbaeaa445f3402fcf8f8a9",
+    "readInt": "bfb12406f1b65b9d9e3f4c9206e7308083847c29ce5a64b1c9abe63f9b07f7f3",
+    "resolveMappedField": "1c1ff8f456540882327cde5a3a3a2a17127b9f4f80e9d5bad21e10a374d8fbcf"
+   },
+   "members": [
+    "HCioa",
+    "SlqyFo",
+    "enabledColorField",
+    "getCursorPosition",
+    "getSelectionEnd",
+    "getTextColor",
+    "isEnabledField",
+    "lFnhUr",
+    "lineScrollOffsetField",
+    "qZn0",
+    "readBoolean",
+    "readInt",
+    "resolveMappedField"
+   ],
+   "mode": "members",
+   "rewrites": [],
+   "sha256": "cd990553d74991123d9aa943f0b4cd38f639b86b6c2b9169a2d801d0faf9928f",
+   "shell": false,
+   "stubs": {}
+  },
+  "jade.client.module.Category": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "f843072005414e926bb99da35343843b10215bc3e652c03e2e665489ab51ee7b"
+  },
+  "jade.client.module.Keybind": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "5cc4a5bc65168a14112aab1cf5ef2b7ca4bc68e62490a80b539da05947eb7c1b"
+  },
+  "jade.client.module.Module": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "413efb73ed84e962accc2ad0572b29d38f681dcfa8fd8e899c24304689c47285"
+  },
+  "jade.client.module.Module$2": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "8807a07afaac6001ed672614544bfdc82311661c04890b75f7d4e898997fc6a3"
+  },
+  "jade.client.module.ModuleInfo": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "625c35a751637ee47dcf6b6ba7ed58b2e903a2aa6abd8ab41626f15b75f3b8ce"
+  },
+  "jade.client.module.ModuleState": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "3e8d8ea399ed29e453336cf94312477fc44be69f777d65a9c4d6bdda443cb984"
+  },
+  "jade.client.module.client.Rendering": {
+   "accessor_casts": 0,
+   "member_sha256": {
+    "isExternalOutput": "3cc4f3e050678bfa3e841c4010d3d72ed79ed77f533870069072e4ba025ad827",
+    "output": "33e014cf2d5c5b6025e6be8ed7d3c06e4dd619a196a9658ea7fdcbf2500b53be"
+   },
+   "members": [
+    "isExternalOutput",
+    "output"
+   ],
+   "mode": "members",
+   "rewrites": [],
+   "sha256": "384d15e0236b5bc0cdd2f0f7dc114c9f20afe879c7db0b4d9b5e3cbb883c1caf",
+   "shell": true,
+   "stubs": {}
+  },
+  "jade.client.module.minigames.Opsec": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "d3e5e97a296173a08542ece7224ca645e1552ab395d0dcd3891c5d9b20c8f920"
+  },
+  "jade.client.module.minigames.Opsec$2": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "4a0ea404225d9f9e765ce61e4567ba6cd03a8489cfa2c2cd80ed574f360735f0"
+  },
+  "jade.client.module.minigames.Opsec$3": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "1877afc60213666539046fc8033faed5452d989e753b17b2d133c0085b7858de"
+  },
+  "jade.client.module.minigames.Opsec$4": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "99ef4d95fe97f01835af4604f70f635e25283f25920d156badeeb58ba2e637c2"
+  },
+  "jade.client.module.minigames.opsec.QuickBuyCatalogue": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "0222d249e903ebd5f6e546838af47fa083a69fcc33b124267113844d48ca5ab7"
+  },
+  "jade.client.module.minigames.opsec.QuickBuyEditCooldown": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "c97e528e841708d8663c56fe4204adb3110dd1d86616d1ac2900fe4b2c254891"
+  },
+  "jade.client.module.minigames.opsec.QuickBuyGridUtils": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "1dc0edff08ad70820108984b30b55e4561d47512ab1b392e45203e9ea19e1cc1"
+  },
+  "jade.client.module.minigames.opsec.QuickBuyRecoveryPlanner": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "d7c3583e53cbf4c6a63e29824f10435dbc3882a42b666737e3fdc5b94de9eeda"
+  },
+  "jade.client.module.minigames.opsec.QuickBuyRecoveryPlanner$0": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "23be7a9aa9dc89a2707f853aa1e84d28ed265f7a9dc73364e935671d25e12ea1"
+  },
+  "jade.client.module.minigames.opsec.QuickBuySetup": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "864a80e057b7b2407924c21b7f0a35bf74c45b47e418423fb2fa372554cf7120"
+  },
+  "jade.client.module.minigames.opsec.QuickBuySetup$1": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "6b20ae6715ccfad6ff0937c68ca97df0babf90fa2ebe6ac51adfacfe2e62bec4"
+  },
+  "jade.client.module.minigames.opsec.QuickBuySlotReader": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "cc5b356acb9755b8febf0f2e05e01ea43881b3d024e13632071232fb61da9c20"
+  },
+  "jade.client.module.minigames.opsec.WDHhrTSdi": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "468ebd9ff80ab04409ab5becb44672cad17f91a202ba2b4acb5c3468567942f7"
+  },
+  "jade.client.module.minigames.opsec.oeqxjyc2": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "0c9724e8c09389b34c892fb431b8e72ef10d6afe87e82400b63efb31511967a7"
+  },
+  "jade.client.module.render.Arraylist": {
+   "accessor_casts": 0,
+   "member_sha256": {
+    "AOGM": "25b980bca6b3272eaed4098e8090edfaa3be6996178fb8b0a21ccffa2fbbd35a",
+    "YUzc": "9db1032e833dc7e85393b7aa9785a12b5bf25467acad7383ffd9b2c3f089a50a",
+    "getGradientColors": "a1fa7eddcbfedaca991bdc3de6b863a337ce7cc470982246e31214c30ff99885",
+    "sampleMultiColorGradient": "f979b0df1d5afd85d1a3f9f847b9fbd61a09136c28a7b5cd6286f6cc4a6a9fd8",
+    "setGradientColors": "72857d3be487ee880993cbb40c3f0a020bb989ab5236f2bb0e7974b02264b157",
+    "waveSpeed": "de68bec5a3c22e6544be70f20b3632259d1c0fde7443b24f827674f483aa0e90",
+    "xQec0": "efda56eb30f47feef533838cb60b2bfc7f008216d8e4bd26d44a9426227f977e"
+   },
+   "members": [
+    "AOGM",
+    "YUzc",
+    "getGradientColors",
+    "sampleMultiColorGradient",
+    "setGradientColors",
+    "waveSpeed",
+    "xQec0"
+   ],
+   "mode": "members",
+   "rewrites": [],
+   "sha256": "d9bda576366d5f5d86a556717ce0afbbc2cb252a2d45b3f3a89711d5c0d5b422",
+   "shell": true,
+   "stubs": {}
+  },
+  "jade.client.module.render.arraylist.ColorTheme": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "ec96c72162df4444386e729af6108ba772db2f9e6dcebfe242ef3ee127e95189"
+  },
+  "jade.client.module.render.arraylist.GradientColors": {
+   "accessor_casts": 0,
+   "member_sha256": {
+    "ZZZb": "22b7fa5c47847e3a8514c402296c4be5ff7bd0e3015a6e89147e01be11320ee1",
+    "blend": "059482140dc580f747652962cba422e8174446fe32e33e503b001744277adb8e",
+    "waveFraction": "f60ca26bf477d636a9a4574dad120edacbcf01a331e7a8d7951372caf6a0ad39"
+   },
+   "members": [
+    "ZZZb",
+    "blend",
+    "waveFraction"
+   ],
+   "mode": "members",
+   "rewrites": [],
+   "sha256": "15f994db3027f025b2bb1f0a46cf96c502b3443fb5a8631831bc349a4cd999ca",
+   "shell": false,
+   "stubs": {}
+  },
+  "jade.client.module.render.esp.ShaderUniforms": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "783222c006578cfd38124b6039ea834ce9b0d2802849833dd7db7796a1c1f819"
+  },
+  "jade.client.module.render.nametags.FormattingState": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "c658c711fcd2e39e857d49b26fdb27dfad3a296a16c4cf21d0e2e47873a667fe"
+  },
+  "jade.client.module.render.nametags.GlyphStringDrawer": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "c32c6c83f98e9f12b6b941e56da8bb70c4bcfc7ba30c3a2ee5fe01e23e91f40b"
+  },
+  "jade.client.module.render.nametags.MinecraftFont": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "f78b6abb4764ea50754c55f3142492c45644a21c60dfd7541258a8ef441325a2"
+  },
+  "jade.client.module.render.nametags.ScaledFontMetrics": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "afbd423cd15927a619d8ca4f8e7eec5428da722c85ceeffcd25d0219379494f6"
+  },
+  "jade.client.module.render.nametags.ScaledStringRenderer": {
+   "accessor_casts": 0,
+   "member_sha256": {
+    "draw": "267edafd08b5b863fd560826859076295972a8c913a1a7028ed30efdf07d4ae0"
+   },
+   "members": [
+    "draw"
+   ],
+   "mode": "members",
+   "rewrites": [],
+   "sha256": "316e6b1c3e2a27339aeac3509026b6e189c8ae043454d61a84a3ae27246d421e",
+   "shell": false,
+   "stubs": {}
+  },
+  "jade.client.module.render.shared.ScreenQuad": {
+   "accessor_casts": 0,
+   "member_sha256": {
+    "addVertex": "d5462df563ed9e8336fa4ca3b98966cbf9463ce5b33ec0b38f200bc9b9cb49ec",
+    "drawFullScreenQuad": "5d2fa3ec94d930088d16d47343b726edffd3db255f1dc8d2f5d795515f171bdb",
+    "drawQuad": "a8c170ae302214418d7773a99ccbe76ef0b8d69cfbe22a6af35aee71b8680984",
+    "drawTexturedQuad": "948d47a239d593086e56b7d3bc2e113e93e2aca24c97edea7db68e4b0a690c08"
+   },
+   "members": [
+    "addVertex",
+    "drawFullScreenQuad",
+    "drawQuad",
+    "drawTexturedQuad"
+   ],
+   "mode": "members",
+   "rewrites": [],
+   "sha256": "781effc6a99d93df687be17b0f8455dbf85a822ebb86f75c05a44ef2d451ecf3",
+   "shell": false,
+   "stubs": {}
+  },
+  "jade.client.module.render.shared.ShaderLoader": {
+   "accessor_casts": 0,
+   "member_sha256": {
+    "attachShaders": "eac6aa4b31c295ff9394354bb012e0a8a054cce26c6918f4112ba88ae98bbc43",
+    "compileShader": "9626beb00da27a49af324e71332d5b32179fc7b5ebd3ae0b456d8538e2602124"
+   },
+   "members": [
+    "attachShaders",
+    "compileShader"
+   ],
+   "mode": "members",
+   "rewrites": [],
+   "sha256": "49c8eb311140dc5277431c2751199bb9b43bfbbace22868ef2e493423f8ef0b7",
+   "shell": false,
+   "stubs": {}
+  },
+  "jade.client.module.render.shared.ShaderProgram": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "12b34be91e1dac90e4a0b448a3caa82af5afed582792957b4f607fd5ebe17f42"
+  },
+  "jade.client.module.render.shared.ShaderRegistry": {
+   "accessor_casts": 0,
+   "member_sha256": {
+    "<clinit>": "d4910de6a84c3a5b6bc756fa1e20563fb83b5fca3511ec20dcf98f591abf6c69",
+    "ITAJb": "198bf6d0923e45b74f102f6bcce802e6e4fb577aa037ba1c7a27619d02125c01",
+    "IjM": "e44129ba522eeea2c31202ccdd600c668d780eaea4401f9df1cb6affe11762a0",
+    "openShaderStream": "600cecc34f6dd63c3a42593cda2029027382b2c24306d5125f958fd6b90b3c1c"
+   },
+   "members": [
+    "<clinit>",
+    "ITAJb",
+    "IjM",
+    "openShaderStream"
+   ],
+   "mode": "members",
+   "rewrites": [],
+   "sha256": "0e162da56d8402aa85d627311aeafbf2cc8a6459c71a856b4ce87b8a9296e637",
+   "shell": false,
+   "stubs": {}
+  },
+  "jade.client.setting.BooleanSetting": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "ffe989afcbc1b5799080a99d3020be15d67245cad00404f0fcd2c8f8a87153d1"
+  },
+  "jade.client.setting.ColorSetting": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "99b8a93595733f41a759b9fc901a69e311e84c15c6c11b552b3472937933542a"
+  },
+  "jade.client.setting.DescriptionSetting": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "a9d8738d574e1941a7cb58b856e09b9dfe6c2270e9a0adf20c24b3015bf78456"
+  },
+  "jade.client.setting.FontSetting": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "95b1451646ee5c6ac842cf4de1e1dfe4a2cbfcfc6dc02ab8707789650f318560"
+  },
+  "jade.client.setting.GroupSetting": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "e37270448685f89f3a52904ddd4d86f9d26ea892f5c4b42e223d72e3cb8062d8"
+  },
+  "jade.client.setting.JsonConfigHelper": {
+   "accessor_casts": 0,
+   "member_sha256": {
+    "MCzK": "80ff637a67f81bb342805408c88ef4ec675a48f391aeca15c85fbff0d5567ea2",
+    "mZr0": "00317272acccf5996036cccb6705c0410c4aef61bb99b10db9a8c8b89d3aafdc"
+   },
+   "members": [
+    "MCzK",
+    "mZr0"
+   ],
+   "mode": "members",
+   "rewrites": [],
+   "sha256": "dfba0eb3a0b45a875902aa6f1541ffab2fa9905f95e295f6725d9d1d6aa1ded4",
+   "shell": false,
+   "stubs": {}
+  },
+  "jade.client.setting.LabelSetting": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "5b485b918c66edd20935c8173f8c97b1c0ecd84b92a88a3dee62aad16faac7cd"
+  },
+  "jade.client.setting.MultiSelectSetting": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "c4281b6e7e9cae5d457912bd603bc1655283e7150cc727ce7c28dd13ac9b67d4"
+  },
+  "jade.client.setting.Setting": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "b3b09e39e5ca348d58140ae443979580120f927377b12eee507ca03d22ce5ac3"
+  },
+  "jade.client.setting.SliderBounds": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "e70a81729988c0b1b4bf90edc9ed1aaa03d9c82f0d22997028e11f685b813893"
+  },
+  "jade.client.setting.SliderSetting": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "d80b88ec0f8042dd0dc2edf00404a8996d69048821543819dc185e2802996c3d"
+  },
+  "jade.deps.loader107.AdditiveMixConstantCipherTwo": {
+   "accessor_casts": 0,
+   "member_sha256": {
+    "computeMix": "eae0b1be1089365c90f48a590a63cc667ff1e2058682832067da65d525cc61ac",
+    "decodeLong": "26e3df187338c4a46cfc250f56115798cf9f163217a74dcebe9bd0e5c39fbed2"
+   },
+   "members": [
+    "computeMix",
+    "decodeLong"
+   ],
+   "mode": "members",
+   "rewrites": [],
+   "sha256": "3ad2e375928f9650870e9a470575f1bb6ef0d05880ef4fa183ff540521320fd8",
+   "shell": false,
+   "stubs": {}
+  },
+  "jade.deps.loader107.HypixelPlayerStats": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "ca43b810356b27ed89e68e1c47256961cbfc6a71fa3b6aae9819a55b2abad423"
+  },
+  "jade.deps.loader107.HypixelPlayerStats$0": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "92a89300c7f317813aef5fbbcc2877fccc62dc82735c60b38677f6d94e5acc45"
+  },
+  "jade.deps.loader107.PendingChatQueue": {
+   "accessor_casts": 0,
+   "member_sha256": {
+    "QUEUE_LOCK": "f5e3e1074b82aa33d501715b7a9edd0e34b67740f750844c723426a81e3034a5",
+    "enqueueMessage": "7d33a3cf5809a3b24c33eb50552d80c938fd656c4ed35d780f6fe441ac1181d5"
+   },
+   "members": [
+    "QUEUE_LOCK",
+    "enqueueMessage"
+   ],
+   "mode": "members",
+   "rewrites": [],
+   "sha256": "9a135af9b6614519dae21877380ba09c89c8c855a6d576678eb8cfc470df76b7",
+   "shell": false,
+   "stubs": {}
+  },
+  "jade.deps.loader107.StatsLookupService": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "141e1f7de50345387f536b3ff1fcf89f9e1dd42ac4faa6aef4947476b4497a7d"
+  },
+  "jade.deps.loader107.StatsLookupService$1": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "80042f5eaf489095ffd4363cd78256000f85811de1b9d6416f15e32a281003dd"
+  },
+  "jade.deps.loader107.StatsLookupService$2": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "533fd7ad3a25964cadc05995dd82ce30ee867ba66b767018474b3a9973943ab2"
+  },
+  "jade.deps.loader107.StatsLookupService$3": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "56b2794d45a38933def6d3e8929f01a2831e829da3071505df7ab0dcf658ae99"
+  },
+  "jade.deps.loader107.StatsLookupService$4": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "f50075985b67fc1bf425b03cd706d00bcb1e31fe7c74e511bae4b1d2bdf4215a"
+  },
+  "jade.deps.loader107.StatsLookupService$5": {
+   "accessor_casts": 0,
+   "mode": "whole",
+   "rewrites": [],
+   "sha256": "629e84514f29fede31addf65929604c4b743297055de9fd0bd83499f2be4fb11"
+  },
+  "net.jade.dev.agent.transformer.JadeAgentHooks": {
+   "accessor_casts": 0,
+   "member_sha256": {
+    "CONTAINER_DRAW_SLOT": "29065992761e0c55e4d7472fdde29125f91f8b6251fc656c2cf79b40444f3613",
+    "JadeAgentHooks": "812b917070f9d8a74ae37b6709acaf628ecfcf500a9bf131621a163ef68c76c9",
+    "LOGGED_FAILURES": "59dc888b4e8e643139ceb1f13b1628483923fbdf21f8b45dfeaf9fe0057e32fc",
+    "ensureJadeStarted": "a4ceca2c282259171baaafc90f74575e31fcf836dbb4decc36fccfb8043e89ef",
+    "findField": "5a04780a0edfbd4f4e4bb74ed9811ab45aeb8b0d71f954eadae120cc980c4dee",
+    "findMethod": "25a29626c0f477535bea4f8ee41287d88cc890526a942e7b21d91d0df1575564",
+    "getBooleanField": "b0c1379ee1df957e32c4181cae88aaf0d05a981dfeb9c4ce112a0bc68cdc0b63",
+    "getDoubleField": "665fa3ec31630f519bbdd75e996721a9f109159f2ba1bb67acce85b1e9224c73",
+    "getField": "60addb6b68d8095723300f8dde944686b55227c371d629a904b99dab573ee72c",
+    "getFloatField": "235f8d17dbcaf4baf8fb1602b1931e202053c46bfb250ca6e4a8e5aab874aabb",
+    "getIntField": "3b445b4dd43a524f8073e279de3b17ff87ac9069d6da06614351a2b4eaf8661a",
+    "handleLocalChatMessage": "216ea7caabc7259e8d82cbec596d4f99532c78cb68890bd7d4c71be223ab61c9",
+    "invokeAny": "cbfc603a4cc4dcc1886212009b43c5f873ad1f0719b06cace28a7e8d596445c0",
+    "invokeBoolean": "887221ed62109cc37ff8d90b908d6495a7acb79e4117fdb8c19ddec9955ac103",
+    "invokeMethod": "8414ef5ef3e10bf1212fe4cffead19c24f2b5e469b63f3ad8017eeb2edf48687",
+    "invokeStatic": "172b03169b9116c20ae9cb317967c4270836e83cc988296b5b25834209fb3aee",
+    "log": "5ce636926ba26c6e679cc7ee90901ba1cd188e5a6d6765e44d024c1234656354",
+    "minecraft": "1f394eb1f06dc6b3e71279982c03a467e852725de029954670bd27a6d5db866b",
+    "minecraftPlayer": "534d6ce893be936d692cbba361206095719744fcd236c20f439a2244031cf947",
+    "mixinEventBridgeActive": "c280a2a0dd8dcb64f66ff755a2439d3b0f949d283d315eeba7f3580ab58c8aa8",
+    "onChangeCurrentItem": "6b6b41123fc15e2714d36b9cb28f7eabbdf4d936a18b92d4bcf5149fb5bdc206",
+    "onClickMouse": "126193076f1ec856c8fc54ce02f3f4dd6849a3a3b780517169cdd3877e261238",
+    "onContainerClick": "5319dea170ae8b59b4fc59eec9d41893551766b264e3ecf5bb509d379ffb7f97",
+    "onContainerDisplayedStack": "33e3d798be984ceb55b0205c20b84c9ebae648a77a07313091ef4aa8b58b1123",
+    "onContainerDrawScreen": "773270fb12e2c26152e36de62ca23c91e6cef8820c7cdd67bb148e0c0cc5e57e",
+    "onContainerDrawSlotBegin": "109a4243854877817cf5655e834517c63bd6519ad86e33e97cc69a0c043b1472",
+    "onContainerDrawSlotEnd": "12982188d107c5dd8654afeb7b4f4145049b36475c60a6e6bec48ec2e9b722db",
+    "onContainerManualInput": "43db5458b66924ebd8b2940a8d19ce3e863d549af9a5519fa4de409a67bc7ae0",
+    "onContainerTooltipStack": "b535161ab20d350a24782942bbaef836d51488882a3af66982ba5d78580a57ee",
+    "onLivingJump": "3c033a66fb542a79ffd632fc570b816093892624a7c0c392abcd9ce82417d803",
+    "onMoveFlying": "c3424e74e2871db41b3096c7c6500bec01b752d5a3aa0ca3c5edbd930b17ebf8",
+    "onNetworkReceive": "39e01ed96f8dd76d734868b28c9eb27334b3e45c615616fd1c01c41e35de6053",
+    "onNetworkSend": "02e2b8fd40c8a14fb9a28d618809391e11da2a956216162aaf2f0dd70f42c3ac",
+    "onPlayerUpdateHead": "7a59c89d9a2e0d3d5fc4998dc532510960bb4a0aeca9d786a59f878ed4c56224",
+    "onRenderWorldLast": "68ca044056e949e3d9bf154f5df22982acc8c99fe918b186eef7f7b9515479eb",
+    "onRightClickMouse": "a59932412c5406e42a5b104941d25108a5a6cf918710d92b417d3ca4cac76489",
+    "onRunGameLoopStart": "8bdc3a67623dfba16316590a56012d8c019820a32e7c4966a04ecf66f5109ba0",
+    "onRunTickEnd": "a755cebc0fa3030f2c3eec7d6f21fb9845bf200d75c3e74c1a4f2f42e0d9e2e4",
+    "onRunTickStart": "11984d009fd3ba1154862ff5a7098872cf5c90fba2b6c243df6744245c2592e7",
+    "onSetCurrentItem": "12de0c1c01e937be8d2df0f34a75bf54de05b0570e3a8a28938928dfd541001f",
+    "onUpdatePlayerMoveState": "b388222e7ac419d23c9a2ba2996a7f2aa384bb059797458dace140ee843687d3",
+    "onUpdateWalkingPlayer": "70e29a98981d8227b9949576523b89687ad36b14d44c7ffb2ba4dcd0751988c5",
+    "prePlayerInteractPostedThisTick": "7c4d83d4b98ecc3308ab2e8265ff0cef2ba832dcaa626de8a5b83f035c8a5d6b",
+    "resolveHoveredContainerSlot": "056a79c78449369171cd032255c68068a3069630098f3327ceefa5ed55167188",
+    "setBooleanField": "3f6d227490b61f0cad608b680cfb4731e09dfce79e242d6885429495eb07c610",
+    "setDoubleField": "e72ce12d77d8fb29061a697276b73aab162530f479d6cdbab56fef5fd248f6db",
+    "setFloatField": "5aa218a6293a29d6e3d49915dba380d8554383147c8234ee863becbecb2e994d",
+    "setIntField": "48044e4cca7043081a6e43b068fc2113ac932ef5f5db369058c5fd39bd0f0536",
+    "startupAttempted": "2e37d4ae5ed013fc0ccd5cd0f6f8be3e0144d76815e2a893c25e73604e9a9a30"
+   },
+   "members": [
+    "CONTAINER_DRAW_SLOT",
+    "JadeAgentHooks",
+    "LOGGED_FAILURES",
+    "ensureJadeStarted",
+    "findField",
+    "findMethod",
+    "getBooleanField",
+    "getDoubleField",
+    "getField",
+    "getFloatField",
+    "getIntField",
+    "handleLocalChatMessage",
+    "invokeAny",
+    "invokeBoolean",
+    "invokeMethod",
+    "invokeStatic",
+    "log",
+    "minecraft",
+    "minecraftPlayer",
+    "mixinEventBridgeActive",
+    "onChangeCurrentItem",
+    "onClickMouse",
+    "onContainerClick",
+    "onContainerDisplayedStack",
+    "onContainerDrawScreen",
+    "onContainerDrawSlotBegin",
+    "onContainerDrawSlotEnd",
+    "onContainerManualInput",
+    "onContainerTooltipStack",
+    "onLivingJump",
+    "onMoveFlying",
+    "onNetworkReceive",
+    "onNetworkSend",
+    "onPlayerUpdateHead",
+    "onRenderWorldLast",
+    "onRightClickMouse",
+    "onRunGameLoopStart",
+    "onRunTickEnd",
+    "onRunTickStart",
+    "onSetCurrentItem",
+    "onUpdatePlayerMoveState",
+    "onUpdateWalkingPlayer",
+    "prePlayerInteractPostedThisTick",
+    "resolveHoveredContainerSlot",
+    "setBooleanField",
+    "setDoubleField",
+    "setFloatField",
+    "setIntField",
+    "startupAttempted"
+   ],
+   "mode": "members",
+   "rewrites": [],
+   "sha256": "416ff9ac5e20650148e7f187baef94295a4ced1e19871288eb75edae5701f987",
+   "shell": false,
+   "stubs": {
+    "handleLocalChatMessage": "Only reachable when InjectionAgent.isBadlionRuntime() is true (Badlion chat routing to Jade IRC); the Rice host defines it false, so the IRC/Discord bus is never shipped."
+   }
+  }
+ },
+ "generated": [
+  "dev/rice/jade/agent/JadeAgentHooks.java",
+  "dev/rice/jade/client/command/ClipboardUtils.java",
+  "dev/rice/jade/client/command/TimeTokenGenerator.java",
+  "dev/rice/jade/client/common/AQKBeof5.java",
+  "dev/rice/jade/client/common/AimPoint.java",
+  "dev/rice/jade/client/common/AngleUtils.java",
+  "dev/rice/jade/client/common/ArgbColorUtils.java",
+  "dev/rice/jade/client/common/AttackHelper.java",
+  "dev/rice/jade/client/common/BlockBoundsUtils.java",
+  "dev/rice/jade/client/common/BlockTypes.java",
+  "dev/rice/jade/client/common/BlockUtils.java",
+  "dev/rice/jade/client/common/ChatSender.java",
+  "dev/rice/jade/client/common/ChatUtils.java",
+  "dev/rice/jade/client/common/ClientUtils.java",
+  "dev/rice/jade/client/common/ClosestHitSelector.java",
+  "dev/rice/jade/client/common/ComponentTextMetrics.java",
+  "dev/rice/jade/client/common/ConditionalChatFormatter.java",
+  "dev/rice/jade/client/common/DangerousModules.java",
+  "dev/rice/jade/client/common/Destroyable.java",
+  "dev/rice/jade/client/common/EntityReachTracer.java",
+  "dev/rice/jade/client/common/EntityRotationOverride.java",
+  "dev/rice/jade/client/common/EventBus$0.java",
+  "dev/rice/jade/client/common/EventBus.java",
+  "dev/rice/jade/client/common/EventPhase.java",
+  "dev/rice/jade/client/common/EventPriority.java",
+  "dev/rice/jade/client/common/ExternalChatOverlay$2.java",
+  "dev/rice/jade/client/common/ExternalChatOverlay.java",
+  "dev/rice/jade/client/common/FIdTNZFlk0.java",
+  "dev/rice/jade/client/common/FontHeightProvider.java",
+  "dev/rice/jade/client/common/FontManager$7.java",
+  "dev/rice/jade/client/common/FontManager$8.java",
+  "dev/rice/jade/client/common/FontManager.java",
+  "dev/rice/jade/client/common/FontMetricsProvider.java",
+  "dev/rice/jade/client/common/FontRendererBase.java",
+  "dev/rice/jade/client/common/FontWidthProvider.java",
+  "dev/rice/jade/client/common/GameStateUtils.java",
+  "dev/rice/jade/client/common/GlyphCache.java",
+  "dev/rice/jade/client/common/GlyphMetrics.java",
+  "dev/rice/jade/client/common/GlyphRasterizer.java",
+  "dev/rice/jade/client/common/GlyphRenderer.java",
+  "dev/rice/jade/client/common/HitVecUtils$1.java",
+  "dev/rice/jade/client/common/HitVecUtils.java",
+  "dev/rice/jade/client/common/HttpConnectionUtils.java",
+  "dev/rice/jade/client/common/HttpUtils.java",
+  "dev/rice/jade/client/common/IFont$0.java",
+  "dev/rice/jade/client/common/IFont.java",
+  "dev/rice/jade/client/common/IGlyphStringDrawer.java",
+  "dev/rice/jade/client/common/IMinecraft.java",
+  "dev/rice/jade/client/common/ItemNames.java",
+  "dev/rice/jade/client/common/LineHeightFont.java",
+  "dev/rice/jade/client/common/MiddleClickFriend.java",
+  "dev/rice/jade/client/common/MouseScrollState.java",
+  "dev/rice/jade/client/common/MovementFix.java",
+  "dev/rice/jade/client/common/OOPXSd.java",
+  "dev/rice/jade/client/common/OneWayFlag.java",
+  "dev/rice/jade/client/common/OpsecStore$0.java",
+  "dev/rice/jade/client/common/OpsecStore.java",
+  "dev/rice/jade/client/common/PacketDirection.java",
+  "dev/rice/jade/client/common/PacketDispatcher.java",
+  "dev/rice/jade/client/common/PacketExclusions.java",
+  "dev/rice/jade/client/common/PacketHandlerBinding.java",
+  "dev/rice/jade/client/common/PacketListenerRegistration.java",
+  "dev/rice/jade/client/common/PacketReleaseGate.java",
+  "dev/rice/jade/client/common/PacketUtils.java",
+  "dev/rice/jade/client/common/PassableBlocks.java",
+  "dev/rice/jade/client/common/PbIqtfxn.java",
+  "dev/rice/jade/client/common/PlaceUtils.java",
+  "dev/rice/jade/client/common/PlainAndShadowFont.java",
+  "dev/rice/jade/client/common/PlayerApi$2.java",
+  "dev/rice/jade/client/common/PlayerApi.java",
+  "dev/rice/jade/client/common/QuickBuyLayout.java",
+  "dev/rice/jade/client/common/RasterizedGlyph.java",
+  "dev/rice/jade/client/common/RayTracer.java",
+  "dev/rice/jade/client/common/RaytraceUtils$1.java",
+  "dev/rice/jade/client/common/RaytraceUtils.java",
+  "dev/rice/jade/client/common/RectUtils.java",
+  "dev/rice/jade/client/common/RenderUtils$1.java",
+  "dev/rice/jade/client/common/RenderUtils.java",
+  "dev/rice/jade/client/common/RotationHandler.java",
+  "dev/rice/jade/client/common/RotationInterpolator.java",
+  "dev/rice/jade/client/common/RotationQuantizer.java",
+  "dev/rice/jade/client/common/RotationTargets.java",
+  "dev/rice/jade/client/common/RotationUtils.java",
+  "dev/rice/jade/client/common/RoundedRect.java",
+  "dev/rice/jade/client/common/RoundedShader.java",
+  "dev/rice/jade/client/common/ScoreboardUtils.java",
+  "dev/rice/jade/client/common/SettingRowLayout.java",
+  "dev/rice/jade/client/common/StringDrawer.java",
+  "dev/rice/jade/client/common/Subscribe.java",
+  "dev/rice/jade/client/common/TextBottomOffsetProvider.java",
+  "dev/rice/jade/client/common/TextRenderer.java",
+  "dev/rice/jade/client/common/TextTopOffsetProvider.java",
+  "dev/rice/jade/client/common/TextUtils.java",
+  "dev/rice/jade/client/common/TextureUploader.java",
+  "dev/rice/jade/client/common/ToolNames.java",
+  "dev/rice/jade/client/common/TrueTypeFont.java",
+  "dev/rice/jade/client/common/Wlo914.java",
+  "dev/rice/jade/client/common/WorldUtils.java",
+  "dev/rice/jade/client/common/pGYEwTJtYO.java",
+  "dev/rice/jade/client/common/xoHFmOLKl.java",
+  "dev/rice/jade/client/core/DelayedPacketEntry.java",
+  "dev/rice/jade/client/core/HandledPacketTracker.java",
+  "dev/rice/jade/client/core/PacketQueue.java",
+  "dev/rice/jade/client/core/PacketQueueEntry.java",
+  "dev/rice/jade/client/core/PacketQueueManager.java",
+  "dev/rice/jade/client/core/QueuedPacketDispatcher.java",
+  "dev/rice/jade/client/core/SentPacketTracker.java",
+  "dev/rice/jade/client/core/TaskSwitchEntry.java",
+  "dev/rice/jade/client/event/ChangeCurrentItemEvent.java",
+  "dev/rice/jade/client/event/ClickMouseEvent.java",
+  "dev/rice/jade/client/event/Event.java",
+  "dev/rice/jade/client/event/GameLoopEvent.java",
+  "dev/rice/jade/client/event/JumpData.java",
+  "dev/rice/jade/client/event/JumpEvent.java",
+  "dev/rice/jade/client/event/LeftClickEvent.java",
+  "dev/rice/jade/client/event/MouseEvent.java",
+  "dev/rice/jade/client/event/MoveFlyingEvent.java",
+  "dev/rice/jade/client/event/MoveFlyingState.java",
+  "dev/rice/jade/client/event/MoveInputEvent.java",
+  "dev/rice/jade/client/event/MoveInputState.java",
+  "dev/rice/jade/client/event/MoveStateUpdateEvent.java",
+  "dev/rice/jade/client/event/PacketEvent.java",
+  "dev/rice/jade/client/event/PacketReceiveEvent.java",
+  "dev/rice/jade/client/event/PacketSendEvent.java",
+  "dev/rice/jade/client/event/PlayerMotionState.java",
+  "dev/rice/jade/client/event/PostWalkingUpdateEvent.java",
+  "dev/rice/jade/client/event/PreUpdateEvent.java",
+  "dev/rice/jade/client/event/RenderLivingEvent.java",
+  "dev/rice/jade/client/event/RenderLivingPostEvent.java",
+  "dev/rice/jade/client/event/RenderLivingPreEvent.java",
+  "dev/rice/jade/client/event/RenderTickEvent.java",
+  "dev/rice/jade/client/event/RenderWorldLastEvent.java",
+  "dev/rice/jade/client/event/RightClickDelayEvent.java",
+  "dev/rice/jade/client/event/RightClickEvent.java",
+  "dev/rice/jade/client/event/RotationEvent.java",
+  "dev/rice/jade/client/event/RotationOverrideFlags.java",
+  "dev/rice/jade/client/event/SetCurrentItemEvent.java",
+  "dev/rice/jade/client/event/SilentPacketSendEvent.java",
+  "dev/rice/jade/client/event/SliderChangeEvent.java",
+  "dev/rice/jade/client/event/TickEndEvent.java",
+  "dev/rice/jade/client/event/TickEvent.java",
+  "dev/rice/jade/client/event/TickStartEvent.java",
+  "dev/rice/jade/client/event/UpdateWalkingPlayerEvent.java",
+  "dev/rice/jade/client/gui/ItemPreviewScreen$0.java",
+  "dev/rice/jade/client/gui/ItemPreviewScreen.java",
+  "dev/rice/jade/client/gui/LaLy043.java",
+  "dev/rice/jade/client/gui/LarpMappingScreen.java",
+  "dev/rice/jade/client/gui/LarpScreen$1.java",
+  "dev/rice/jade/client/gui/LarpScreen$2.java",
+  "dev/rice/jade/client/gui/LarpScreen.java",
+  "dev/rice/jade/client/gui/QuickBuyCopyScreen$1.java",
+  "dev/rice/jade/client/gui/QuickBuyCopyScreen$2.java",
+  "dev/rice/jade/client/gui/QuickBuyCopyScreen$3.java",
+  "dev/rice/jade/client/gui/QuickBuyCopyScreen.java",
+  "dev/rice/jade/client/gui/QuickBuyItems.java",
+  "dev/rice/jade/client/gui/QuickBuyLayoutComposer.java",
+  "dev/rice/jade/client/gui/ScrolledTextLayout$1.java",
+  "dev/rice/jade/client/gui/ScrolledTextLayout$2.java",
+  "dev/rice/jade/client/gui/ScrolledTextLayout.java",
+  "dev/rice/jade/client/gui/TextField$1.java",
+  "dev/rice/jade/client/gui/TextField.java",
+  "dev/rice/jade/client/gui/TextFieldAccess.java",
+  "dev/rice/jade/client/module/Category.java",
+  "dev/rice/jade/client/module/Keybind.java",
+  "dev/rice/jade/client/module/Module$2.java",
+  "dev/rice/jade/client/module/Module.java",
+  "dev/rice/jade/client/module/ModuleInfo.java",
+  "dev/rice/jade/client/module/ModuleState.java",
+  "dev/rice/jade/client/module/client/Rendering.java",
+  "dev/rice/jade/client/module/minigames/Opsec$2.java",
+  "dev/rice/jade/client/module/minigames/Opsec$3.java",
+  "dev/rice/jade/client/module/minigames/Opsec$4.java",
+  "dev/rice/jade/client/module/minigames/Opsec.java",
+  "dev/rice/jade/client/module/minigames/opsec/QuickBuyCatalogue.java",
+  "dev/rice/jade/client/module/minigames/opsec/QuickBuyEditCooldown.java",
+  "dev/rice/jade/client/module/minigames/opsec/QuickBuyGridUtils.java",
+  "dev/rice/jade/client/module/minigames/opsec/QuickBuyRecoveryPlanner$0.java",
+  "dev/rice/jade/client/module/minigames/opsec/QuickBuyRecoveryPlanner.java",
+  "dev/rice/jade/client/module/minigames/opsec/QuickBuySetup$1.java",
+  "dev/rice/jade/client/module/minigames/opsec/QuickBuySetup.java",
+  "dev/rice/jade/client/module/minigames/opsec/QuickBuySlotReader.java",
+  "dev/rice/jade/client/module/minigames/opsec/WDHhrTSdi.java",
+  "dev/rice/jade/client/module/minigames/opsec/oeqxjyc2.java",
+  "dev/rice/jade/client/module/render/Arraylist.java",
+  "dev/rice/jade/client/module/render/arraylist/ColorTheme.java",
+  "dev/rice/jade/client/module/render/arraylist/GradientColors.java",
+  "dev/rice/jade/client/module/render/esp/ShaderUniforms.java",
+  "dev/rice/jade/client/module/render/nametags/FormattingState.java",
+  "dev/rice/jade/client/module/render/nametags/GlyphStringDrawer.java",
+  "dev/rice/jade/client/module/render/nametags/MinecraftFont.java",
+  "dev/rice/jade/client/module/render/nametags/ScaledFontMetrics.java",
+  "dev/rice/jade/client/module/render/nametags/ScaledStringRenderer.java",
+  "dev/rice/jade/client/module/render/shared/ScreenQuad.java",
+  "dev/rice/jade/client/module/render/shared/ShaderLoader.java",
+  "dev/rice/jade/client/module/render/shared/ShaderProgram.java",
+  "dev/rice/jade/client/module/render/shared/ShaderRegistry.java",
+  "dev/rice/jade/client/setting/BooleanSetting.java",
+  "dev/rice/jade/client/setting/ColorSetting.java",
+  "dev/rice/jade/client/setting/DescriptionSetting.java",
+  "dev/rice/jade/client/setting/FontSetting.java",
+  "dev/rice/jade/client/setting/GroupSetting.java",
+  "dev/rice/jade/client/setting/JsonConfigHelper.java",
+  "dev/rice/jade/client/setting/LabelSetting.java",
+  "dev/rice/jade/client/setting/MultiSelectSetting.java",
+  "dev/rice/jade/client/setting/Setting.java",
+  "dev/rice/jade/client/setting/SliderBounds.java",
+  "dev/rice/jade/client/setting/SliderSetting.java",
+  "dev/rice/jade/deps/loader107/AdditiveMixConstantCipherTwo.java",
+  "dev/rice/jade/deps/loader107/HypixelPlayerStats$0.java",
+  "dev/rice/jade/deps/loader107/HypixelPlayerStats.java",
+  "dev/rice/jade/deps/loader107/PendingChatQueue.java",
+  "dev/rice/jade/deps/loader107/StatsLookupService$1.java",
+  "dev/rice/jade/deps/loader107/StatsLookupService$2.java",
+  "dev/rice/jade/deps/loader107/StatsLookupService$3.java",
+  "dev/rice/jade/deps/loader107/StatsLookupService$4.java",
+  "dev/rice/jade/deps/loader107/StatsLookupService$5.java",
+  "dev/rice/jade/deps/loader107/StatsLookupService.java"
+ ],
+ "shims": [
+  "dev/rice/jade/client/Jade.java",
+  "dev/rice/jade/client/common/ConfigEntry.java",
+  "dev/rice/jade/client/common/ModuleManager.java",
+  "dev/rice/jade/client/common/RelationManager.java",
+  "dev/rice/jade/client/common/TeamUtils.java",
+  "dev/rice/jade/client/core/ConfigProfile.java",
+  "dev/rice/jade/client/gui/ClickGui.java",
+  "dev/rice/jade/client/module/client/Gui.java",
+  "dev/rice/jade/client/module/client/Settings.java",
+  "dev/rice/jade/client/module/combat/AutoClicker.java",
+  "dev/rice/jade/client/module/minigames/BedwarsUtils.java",
+  "dev/rice/jade/client/module/player/DelayRemover.java",
+  "dev/rice/jade/client/module/player/Freecam.java",
+  "dev/rice/jade/client/module/player/InventoryManager.java",
+  "dev/rice/jade/client/setting/MMzhau.java",
+  "dev/rice/jade/deps/loader107/CoreResourceIndex.java",
+  "dev/rice/jade/deps/loader107/InjectionPaths.java",
+  "dev/rice/jade/deps/loader107/LocalCoreLoader.java",
+  "dev/rice/jade/deps/loader107/TlsSockets.java",
+  "dev/rice/jade/deps/websocket/client/WebSocketClient.java",
+  "dev/rice/jade/deps/websocket/enums/ReadyState.java",
+  "dev/rice/jade/deps/websocket/handshake/ServerHandshake.java",
+  "dev/rice/jade/inject/InjectionAgent.java",
+  "dev/rice/jade/inject/RuntimeAccess.java",
+  "dev/rice/jade/mixin/impl/accessor/IAccessorEntityPlayerSP.java",
+  "dev/rice/jade/mixin/impl/accessor/IAccessorMinecraft.java",
+  "dev/rice/jade/mixin/impl/accessor/IAccessorPlayerControllerMP.java"
+ ],
+ "upstream": "https://github.com/Tewxx/OpenJade"
+}

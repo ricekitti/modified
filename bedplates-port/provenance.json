@@ -1,0 +1,12 @@
+{
+  "source": "C:/Users/ethan/Downloads/message (1).txt",
+  "reference_sha256": "a10a896c424894beab53c79d7895ed598fc2e7b78108d77d7c92a27a44bf44de",
+  "scope": "Bed-defense detection, counts, icon plates and display settings from supplied script; loadstring comment is reference data, not executed",
+  "port": "Native Visual descriptor plus embedded Java 8 payload for named, SRG and official 1.8.9 mappings",
+  "changes_from_script": [
+    "Scan only loaded chunk storage, with eight chunks of discovery work per update; no player-swing prerequisite",
+    "All Minecraft world access stays on the client thread",
+    "Deduplicate bed halves using bed facing metadata; clear caches on toggle/world change",
+    "Deterministic material order and guarded GL state restoration"
+  ]
+}

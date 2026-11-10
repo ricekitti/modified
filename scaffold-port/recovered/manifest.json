@@ -1,0 +1,101 @@
+{
+  "provenance": "Local class dump; version unverified",
+  "files": [
+    {
+      "file": "C:\\classdump\\out\\com.alan.clients.module.impl.player.scaffold.downwards.NormalDownwards.class",
+      "sha256": "6cdf12c2abd1f6f455ad48ee9817f83f094abaca7969b48f16a05125c3587164"
+    },
+    {
+      "file": "C:\\classdump\\out\\com.alan.clients.module.impl.player.scaffold.downwards.VerusDownwards.class",
+      "sha256": "8228c18781f517c6377e69460b891260ad63043a37e055cf85fa9703724b1ae7"
+    },
+    {
+      "file": "C:\\classdump\\out\\com.alan.clients.module.impl.player.scaffold.downwards.WatchdogDownwards.class",
+      "sha256": "01dda441f1cbd46a674962f3cd4502e4bcfb8f36d47ac7b88d2d0bd850673a4b"
+    },
+    {
+      "file": "C:\\classdump\\out\\com.alan.clients.module.impl.player.scaffold.sprint.BypassSprint.class",
+      "sha256": "b765ab4f08a83cfb1cc3af2f4da7263c44588c3f8279eb47b26463f3ee9917b3"
+    },
+    {
+      "file": "C:\\classdump\\out\\com.alan.clients.module.impl.player.scaffold.sprint.DisabledSprint.class",
+      "sha256": "3dcd6f8f7159734f5a6f753f27b5acf2a84d097977b1cc96860c220dbbcb622c"
+    },
+    {
+      "file": "C:\\classdump\\out\\com.alan.clients.module.impl.player.scaffold.sprint.LegitSprint.class",
+      "sha256": "5ace09cce16d29b771a1f664757e67ede90ed1491781dee30fec386234a21a19"
+    },
+    {
+      "file": "C:\\classdump\\out\\com.alan.clients.module.impl.player.scaffold.sprint.MatrixSprint.class",
+      "sha256": "4996a13f8808c585019f50a1d6ee0f7158e16909feeb5d660c6230ed2694a064"
+    },
+    {
+      "file": "C:\\classdump\\out\\com.alan.clients.module.impl.player.scaffold.sprint.VerusSprint.class",
+      "sha256": "3ebc1c038529a115da0f4ef5ca84d9623a2d5432c1310c4909a8a052e458d85a"
+    },
+    {
+      "file": "C:\\classdump\\out\\com.alan.clients.module.impl.player.scaffold.sprint.VulcanSprint.class",
+      "sha256": "d089d2c2cda83b952a65bbd7478616044b119632a9c4dff1c3d88a458ee079e2"
+    },
+    {
+      "file": "C:\\classdump\\out\\com.alan.clients.module.impl.player.scaffold.sprint.WatchdogJumpSprint.class",
+      "sha256": "bf036d42cef05c4000738a5231eb62087b575a1ee59cf1b66421e105caa80366"
+    },
+    {
+      "file": "C:\\classdump\\out\\com.alan.clients.module.impl.player.scaffold.sprint.WatchdogJumpSprintHelper.class",
+      "sha256": "6127f5a1552aaf1afa609287380a3554942fafa89ae0b48d278052749849c877"
+    },
+    {
+      "file": "C:\\classdump\\out\\com.alan.clients.module.impl.player.scaffold.sprint.WatchdogPredictiSprint.class",
+      "sha256": "48a0c10f98a4a943181e4072814dee880446ff6210c894b098e0c496b9c2c859"
+    },
+    {
+      "file": "C:\\classdump\\out\\com.alan.clients.module.impl.player.scaffold.sprint.WatchdogSprint.class",
+      "sha256": "5065e726baff6d276e76b1a7d016d17202fcb98a64aa82f9662f5cf9355943f3"
+    },
+    {
+      "file": "C:\\classdump\\out\\com.alan.clients.module.impl.player.scaffold.tower.AirJumpTower.class",
+      "sha256": "118528c9a1b67b923e0e1d15920d4bf72f58934e7341f67fd6b7237617c49e1c"
+    },
+    {
+      "file": "C:\\classdump\\out\\com.alan.clients.module.impl.player.scaffold.tower.LegitTower.class",
+      "sha256": "100df4f700a83a652b2600bed3b475729775e0712e652f92460cce5daf21c25d"
+    },
+    {
+      "file": "C:\\classdump\\out\\com.alan.clients.module.impl.player.scaffold.tower.MatrixTower.class",
+      "sha256": "6905704a04ff9053cffee74427c1ca243a1073028a843bee6383a67caa7a7872"
+    },
+    {
+      "file": "C:\\classdump\\out\\com.alan.clients.module.impl.player.scaffold.tower.MMCTower.class",
+      "sha256": "77d35f8aeef6890f2e7c568df09ab9249596b2691bca36d29ad13b7aa296d732"
+    },
+    {
+      "file": "C:\\classdump\\out\\com.alan.clients.module.impl.player.scaffold.tower.NCPTower.class",
+      "sha256": "bf8f1aa8c924b3cc0daf84c166b0924effca00cfe0f8308fd515584428a3f22c"
+    },
+    {
+      "file": "C:\\classdump\\out\\com.alan.clients.module.impl.player.scaffold.tower.NormalTower.class",
+      "sha256": "eac871a791e854d9e55b41edfb112230381105943122427d5684d51192c97913"
+    },
+    {
+      "file": "C:\\classdump\\out\\com.alan.clients.module.impl.player.scaffold.tower.VanillaTower.class",
+      "sha256": "db0e0c3f16d8248ee7fbf0a54d617b87d34b6ca3914a04c8a3b448dc71d674b1"
+    },
+    {
+      "file": "C:\\classdump\\out\\com.alan.clients.module.impl.player.scaffold.tower.VerusTower.class",
+      "sha256": "d5d5429f6bc8c61476258c2f86296851128eee37863dad869a9ab79c7d6240d9"
+    },
+    {
+      "file": "C:\\classdump\\out\\com.alan.clients.module.impl.player.scaffold.tower.VulcanTower.class",
+      "sha256": "ed5331a4d7ebf59e3809a396dec348f45284b80cbb471933756b551c219bfbfd"
+    },
+    {
+      "file": "C:\\classdump\\out\\com.alan.clients.module.impl.player.scaffold.tower.WatchdogPrediction18Tower.class",
+      "sha256": "768a60d2ba11fc90263c1afba7696afac9f3b76c43926c69afebf5d225de234d"
+    },
+    {
+      "file": "C:\\classdump\\out\\com.alan.clients.module.impl.player.scaffold.tower.WatchdogTower.class",
+      "sha256": "d4dab49baf9d685fab30f0c26ff5d0ea082df9ff8cab63a40937dbbf6c98cf61"
+    }
+  ]
+}

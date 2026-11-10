@@ -1,0 +1,42 @@
+# Expected post-compile adapter rewrites (tools/MayuBytecode.java adapt), one line per class and rule: class<TAB>rule<TAB>count.
+# Scope: the Mayu port (myau/**) and the OpenB4 script runtime (dev/rice/client/script/openb4/**). Each line is a JVM
+# boundary of unmodified upstream code on vanilla 1.8.9 with already-loaded classes:
+#   EnumFacing.VALUES          Forge access transformer field -> MayuForge.enumFacingValues() (same array)
+#   Item.* / Block.* (Forge)   Forge-only methods -> MayuForge / OpenB4Forge (real Forge when loaded, else Forge's vanilla result)
+#   ForgeHooks.*               Forge event hook -> MayuForge (real Forge when loaded, else true)
+#   Mixin accessor [cast]      @Accessor/@Invoker interface calls -> MayuAccessors (cast to the @Mixin target class)
+#   Mixin accessor frame/local type  the same cast type in the StackMapTable / LocalVariableTable (verifier metadata)
+myau/BedESPModule	Mixin accessor AccessorRenderManager.getRenderPosX	1
+myau/BedESPModule	Mixin accessor AccessorRenderManager.getRenderPosY	1
+myau/BedESPModule	Mixin accessor AccessorRenderManager.getRenderPosZ	1
+myau/BedESPModule	Mixin accessor cast AccessorRenderManager -> net/minecraft/client/renderer/entity/RenderManager	3
+myau/BedNukerModule	Item.getDigSpeed (Forge)	1
+myau/BedNukerModule	Mixin accessor AccessorPlayerControllerMP.callSyncCurrentPlayItem	1
+myau/BedNukerModule	Mixin accessor AccessorPlayerControllerMP.getCurrentPlayerItem	1
+myau/BedNukerModule	Mixin accessor cast AccessorPlayerControllerMP -> net/minecraft/client/multiplayer/PlayerControllerMP	1
+myau/BedNukerModule	Mixin accessor frame type AccessorPlayerControllerMP -> net/minecraft/client/multiplayer/PlayerControllerMP	1
+myau/CommandManager	Mixin accessor AccessorC14PacketTabComplete.setMessage	1
+myau/CommandManager	Mixin accessor cast AccessorC14PacketTabComplete -> net/minecraft/network/play/client/C14PacketTabComplete	1
+myau/CommandManager	Mixin accessor frame type AccessorC14PacketTabComplete -> net/minecraft/network/play/client/C14PacketTabComplete	2
+myau/HUDModule	Mixin accessor AccessorGuiChat.getInputField	1
+myau/HUDModule	Mixin accessor cast AccessorGuiChat -> net/minecraft/client/gui/GuiChat	1
+myau/ItemUtils	Item.getMetadata(ItemStack) (Forge)	1
+myau/ItemUtils	Item.getToolClasses (Forge)	1
+myau/PlayerUtils	ForgeHooks.onPlayerAttackTarget (Forge)	1
+myau/RenderUtils	Mixin accessor AccessorEntityRenderer.callSetupCameraTransform	1
+myau/RenderUtils	Mixin accessor AccessorMinecraft.getTimer	6
+myau/RenderUtils	Mixin accessor AccessorRenderManager.getRenderPosX	7
+myau/RenderUtils	Mixin accessor AccessorRenderManager.getRenderPosY	7
+myau/RenderUtils	Mixin accessor AccessorRenderManager.getRenderPosZ	7
+myau/RenderUtils	Mixin accessor cast AccessorEntityRenderer -> net/minecraft/client/renderer/EntityRenderer	1
+myau/RenderUtils	Mixin accessor cast AccessorMinecraft -> net/minecraft/client/Minecraft	6
+myau/RenderUtils	Mixin accessor cast AccessorRenderManager -> net/minecraft/client/renderer/entity/RenderManager	19
+myau/RenderUtils	Mixin accessor frame type AccessorRenderManager -> net/minecraft/client/renderer/entity/RenderManager	3
+myau/RenderUtils	Mixin accessor local type AccessorRenderManager -> net/minecraft/client/renderer/entity/RenderManager	1
+myau/RotationUtils	Mixin accessor AccessorEntity.callGetVectorForRotation	2
+myau/RotationUtils	Mixin accessor cast AccessorEntity -> net/minecraft/entity/Entity	2
+myau/host/MayuMixins	Mixin accessor AccessorEntityPlayer.getItemInUse	1
+myau/host/MayuMixins	Mixin accessor AccessorEntityPlayer.getItemInUseCount	1
+myau/host/MayuMixins	Mixin accessor AccessorEntityPlayer.setItemInUse	2
+myau/host/MayuMixins	Mixin accessor AccessorEntityPlayer.setItemInUseCount	2
+myau/host/MayuMixins	Mixin accessor cast AccessorEntityPlayer -> net/minecraft/entity/player/EntityPlayer	6

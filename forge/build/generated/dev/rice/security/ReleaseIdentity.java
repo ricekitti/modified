@@ -1,0 +1,1 @@
+package dev.rice.security; public final class ReleaseIdentity { private ReleaseIdentity() {} public static String build() { return "c1813758-95fa-45df-b56d-032c09e6a495"; }}

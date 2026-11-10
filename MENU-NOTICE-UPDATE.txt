@@ -1,0 +1,14 @@
+Menu injection notification — 2026-10-30
+After successful setup, show Rice Slinky injected plus Press <configured key> to open GUI.
+Default GUI key is RSHIFT; custom saved key bindings are reflected.
+Toast lasts eight seconds from the first drawable frame, with fade in/out.
+Renderer initializes on updateDisplay at the title screen as well as getMouseOver in-world.
+Startup toast is independent of world/player presence and the Notifications module visibility settings.
+Only the GUI may be enabled at the menu. Gameplay module activation remains deferred until world/player are ready.
+Corrected renderer scale function declarations to float to match their implementations.
+Previous Block In crash fix and latest Soju auth are retained.
+Verification: regular 7/7 tests; modified 16/16 tests.
+Embedded DLL extraction verified by SHA256 against the correct edition payload.
+Live Lunar menu rendering and keyboard interaction still need a game restart and user retry.
+Release SHA256: A0C3E70EC62167531F26A417EC0CB26E86001B20B3CDFAAD49FE66A9E2DF3EA6
+DLL SHA256: C3E35084B798018B7C2BEFDA4E89E310E6A5B7FD898842CE58807AAD409623C8

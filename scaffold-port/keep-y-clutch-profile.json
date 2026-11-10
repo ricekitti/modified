@@ -1,0 +1,20 @@
+{
+  "range": 5,
+  "max_aim_dist": 360,
+  "min_height": 1,
+  "click_speed": 20,
+  "randomization": 0.429999977350235,
+  "select_blocks": "Always",
+  "sideways_only": true,
+  "aim_speed": 33,
+  "aim_mult": 0.600435733795166,
+  "aim_mult_strength": 0.27668845653533936,
+  "aim_multipoint": true,
+  "snapback_delay": 5,
+  "snapback_duration": 5,
+  "snapback_instant_on_jump": true,
+  "snapback_disable_after": false,
+  "require_air": false,
+  "require_damage": false,
+  "require_backwards": false
+}

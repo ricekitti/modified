@@ -1,0 +1,43 @@
+{
+  "sources_sha256": {
+    "Scaffold.java": "a08925cea71b9f913a0297247f74e027b8f97a492a849d20b940a2b19bddeff8",
+    "AngleUtils.java": "14731bfd8b2e640e27cec2e8cd7268a6938085c17ea7a8925063233a9f9b22a3",
+    "GameAccess.java": "2f2772d3b111617b808bcf999519d3158ee1658950f29920b9cbc3c3620bcb6c",
+    "RotationManager.java": "3963e6d14397f9cf0ec10e13315ce9e29717698f176a7f8200c98851a35a329a"
+  },
+  "source_files_compiled_unchanged": 4,
+  "original_helper_sha256": {
+    "com/snowify/module/player/scaffold/Blocks.class": "54a7233032158f62733f9c98555376cf01c5e144ac0982a87a373eb963fd3ba2",
+    "com/snowify/module/player/scaffold/Blocks$1.class": "f6dcd2226150e45e6f8f9b202fcdf3dbb792956dfbefb3c8a022ab44cfaf7079",
+    "com/snowify/module/player/scaffold/BlockCounter.class": "56d44f7a6c4e5d0fedcd78225ad4dc9cf30f2e11d18c64af472d3eb9e3fd3321",
+    "com/snowify/util/WorldDraw.class": "3efec2cc00dd63ab1fe0da21de76d89d4124a7b21264d118974fdd92ad8b6ee7"
+  },
+  "helper_adaptation": "Package relocation com.snowify -> com.snowy; Minecraft SRG -> named. No helper behavior edits.",
+  "host_adapters": [
+    "settings and lifecycle",
+    "native event dispatch",
+    "Claims for connected modules",
+    "native HUD theme",
+    "placement observers (no foreign packet queue)",
+    "mixin liveness via native counters"
+  ],
+  "verified_at": "2026-11-03T17:13:03.537625",
+  "modified_ctest": "22/22 passed",
+  "movement_cases_per_mapping": 1040,
+  "game_mappings": [
+    "named",
+    "srg",
+    "official"
+  ],
+  "packaged_dll_sha256": "cecc0e58741175533ee90948a41aa75adfc5117104facf503b26ddba6f4fad76",
+  "loader_sha256": "8c534a3499dea06c7e9cd39afe1d5995df70bbd76006a3f184198dd6781dac2a",
+  "updated_launchers": [
+    "modified/rice-loader-supplied-scaffold.exe",
+    "modified/rice-loader.exe",
+    "modified/rice-loader-remember-key.exe",
+    "slinky-modified.exe"
+  ],
+  "locked_launchers": [],
+  "runtime_extraction": "matched native DLL",
+  "live_gameplay_verified": false
+}

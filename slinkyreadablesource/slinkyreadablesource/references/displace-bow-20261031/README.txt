@@ -1,0 +1,1 @@
+Rice source export: Bow Aimbot, Knockback Displace, and KillAura Displace. Includes bow prediction helpers, Raven bS backend sources, void scanner, Weapons module, and B4AuraHost. Requires the existing Rice client framework and Minecraft 1.8.9 dependencies; this is not a standalone build. KillAura Displace is currently unregistered in CoreModules.

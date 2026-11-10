@@ -1,0 +1,1061 @@
+﻿{
+    "extracted_at_utc":  "2026-11-05T18:22:52.6740674Z",
+    "source_zip":  "C:\\Users\\ethan\\Documents\\ChatGPT\\dfdfdf\\valen-selected-src.zip",
+    "source_zip_sha256":  "127F23AED8E9920CDD774F4C269F9FAA330A7674C5846E8ADE35144ACAD3A3BF",
+    "source_zip_bytes":  361748,
+    "extract_dir":  "C:\\Users\\ethan\\Documents\\rice slinky new\\modified\\valen-selected-ref-20261105\\extracted",
+    "files":  {
+                  "valen-selected-src/MODULES.json":  {
+                                                          "bytes":  636,
+                                                          "sha256":  "A82D96E06CCBFED942A9358D8137A3512934A37A20D37D3D58B100A9466AD03B"
+                                                      },
+                  "valen-selected-src/README.md":  {
+                                                       "bytes":  1567,
+                                                       "sha256":  "D0BF3EE67000DF74682CB4ADE8DDBB9454D7CBBB3521CCD9EA4A7C103DA7F708"
+                                                   },
+                  "valen-selected-src/src/main/java/valen/clickgui/animation/OpeningAnimation.java":  {
+                                                                                                          "bytes":  903,
+                                                                                                          "sha256":  "884E0C9E5C0BA0401543F7F4F54DB917AFF85E9264B45BF27FC131A594FE0BDB"
+                                                                                                      },
+                  "valen-selected-src/src/main/java/valen/clickgui/animation/RevealAnimation.java":  {
+                                                                                                         "bytes":  1480,
+                                                                                                         "sha256":  "7803B1E339F2ECE6EA8078F6B17E4F190294C3C3D31086A24BBBA487AE866BC1"
+                                                                                                     },
+                  "valen-selected-src/src/main/java/valen/clickgui/animation/ScaleDrag.java":  {
+                                                                                                   "bytes":  774,
+                                                                                                   "sha256":  "7404F3C55BB8C5C2AE43021003747437F5A1F5BFD7F55B29C31AFBDD5F80C0C3"
+                                                                                               },
+                  "valen-selected-src/src/main/java/valen/clickgui/animation/ScrollOffsetAnimation.java":  {
+                                                                                                               "bytes":  2224,
+                                                                                                               "sha256":  "5A8D709066469F036D0F9B63ECC00E58D0F71F15353A23C42A396467841A1C38"
+                                                                                                           },
+                  "valen-selected-src/src/main/java/valen/clickgui/animation/ToggleAnimation.java":  {
+                                                                                                         "bytes":  1716,
+                                                                                                         "sha256":  "E3778727AB28CA6AA7A409A92EBD24C2C8C53C584AF45A4451A96B32D9966245"
+                                                                                                     },
+                  "valen-selected-src/src/main/java/valen/clickgui/ClickGui.java":  {
+                                                                                        "bytes":  71689,
+                                                                                        "sha256":  "BB5E9A805CD72819EEC898B1120611F99FC79D974A437F2AD67F0246A797D569"
+                                                                                    },
+                  "valen-selected-src/src/main/java/valen/clickgui/ClickGuiStyle.java":  {
+                                                                                             "bytes":  11198,
+                                                                                             "sha256":  "B8948CFAE37003A6157F6263BE6964F4962B0BBB1D9D0CFD2F129B44893FA41C"
+                                                                                         },
+                  "valen-selected-src/src/main/java/valen/clickgui/components/Component.java":  {
+                                                                                                    "bytes":  770,
+                                                                                                    "sha256":  "3B75F7585B6C3625A3F874DD2766BB3F478B877A61F9378B14A8E66734893F76"
+                                                                                                },
+                  "valen-selected-src/src/main/java/valen/clickgui/components/FocusableTextComponent.java":  {
+                                                                                                                 "bytes":  251,
+                                                                                                                 "sha256":  "01FC4107448AECEDACEE497440A3912790971DA92A740938E4FC339B3159F602"
+                                                                                                             },
+                  "valen-selected-src/src/main/java/valen/clickgui/components/impl/AbstractItemSearchComponent.java":  {
+                                                                                                                           "bytes":  9249,
+                                                                                                                           "sha256":  "7BFB91A642F1D1518F52EF36D4773D437C16CC167AE3543E86F8056A9D3A7960"
+                                                                                                                       },
+                  "valen-selected-src/src/main/java/valen/clickgui/components/impl/AbstractSearchListComponent.java":  {
+                                                                                                                           "bytes":  17881,
+                                                                                                                           "sha256":  "0B40749462B6A691DD9CBF7F1050ADF26AFD95FC55BDEF09A79E94FCCE0AE89F"
+                                                                                                                       },
+                  "valen-selected-src/src/main/java/valen/clickgui/components/impl/AbstractTextInputComponent.java":  {
+                                                                                                                          "bytes":  5630,
+                                                                                                                          "sha256":  "F9A61D2E1C3A8EC174A3585A32ADD5EBC2E88EC2CCBBD9AE61BDB629C794016B"
+                                                                                                                      },
+                  "valen-selected-src/src/main/java/valen/clickgui/components/impl/BindComponent.java":  {
+                                                                                                             "bytes":  9303,
+                                                                                                             "sha256":  "18F5DC986CC146493A60C0E903F65E629B7FCF183587D10BB19CD66EE419CCA8"
+                                                                                                         },
+                  "valen-selected-src/src/main/java/valen/clickgui/components/impl/BlockSearchComponent.java":  {
+                                                                                                                    "bytes":  10873,
+                                                                                                                    "sha256":  "FA5CF07B24D6B832C5F35757306F547279A9CBF60F9BBFC36034A9CC62E4344E"
+                                                                                                                },
+                  "valen-selected-src/src/main/java/valen/clickgui/components/impl/ButtonComponent.java":  {
+                                                                                                               "bytes":  4242,
+                                                                                                               "sha256":  "C6042F49BF40DAA8A3FD8F3F5278E370E3A120098C645140DD9F1CA377123AD3"
+                                                                                                           },
+                  "valen-selected-src/src/main/java/valen/clickgui/components/impl/CategoryComponent.java":  {
+                                                                                                                 "bytes":  24528,
+                                                                                                                 "sha256":  "E3D74F29D010BD29BC36EF3664DE8293A7FABF36FDF2705055604378FDB18543"
+                                                                                                             },
+                  "valen-selected-src/src/main/java/valen/clickgui/components/impl/ClickGuiTextField.java":  {
+                                                                                                                 "bytes":  8467,
+                                                                                                                 "sha256":  "D1CDB6A9ABF78F90E2E78A003C37DC9E02040DAF00A6B5CAFAD6BC35F5B021EC"
+                                                                                                             },
+                  "valen-selected-src/src/main/java/valen/clickgui/components/impl/ColorComponent.java":  {
+                                                                                                              "bytes":  21850,
+                                                                                                              "sha256":  "1E6C4224C25E16EBE703D469F40A428DDDE36F561AAC8A05651141A10D9C273B"
+                                                                                                          },
+                  "valen-selected-src/src/main/java/valen/clickgui/components/impl/DescriptionComponent.java":  {
+                                                                                                                    "bytes":  4195,
+                                                                                                                    "sha256":  "DA1F0FA3E0C6937AB4DB1A933D7C4415F6B29060F5199B56D3E9C3951BD62681"
+                                                                                                                },
+                  "valen-selected-src/src/main/java/valen/clickgui/components/impl/GroupComponent.java":  {
+                                                                                                              "bytes":  1953,
+                                                                                                              "sha256":  "99B13AFF844B1872E267F06FFE03C99D0E3FE93A4A831B6FF8C926C903A2A361"
+                                                                                                          },
+                  "valen-selected-src/src/main/java/valen/clickgui/components/impl/InventoryItemSearchComponent.java":  {
+                                                                                                                            "bytes":  13546,
+                                                                                                                            "sha256":  "B36CEA289A0F83D363B21AFB975CCC4B3582E4B8DC7DD1CE6AE103582FE446D5"
+                                                                                                                        },
+                  "valen-selected-src/src/main/java/valen/clickgui/components/impl/ItemSearchComponent.java":  {
+                                                                                                                   "bytes":  3413,
+                                                                                                                   "sha256":  "B58EF40A1217750A97FE664937383B8AB10E76F0143B924DFEA5BD4FB521B473"
+                                                                                                               },
+                  "valen-selected-src/src/main/java/valen/clickgui/components/impl/ModuleComponent.java":  {
+                                                                                                               "bytes":  30717,
+                                                                                                               "sha256":  "C97A4DD8F6535C9ACEFCA3541CF57730CE4EF20E4E76A03DA370D6B865210057"
+                                                                                                           },
+                  "valen-selected-src/src/main/java/valen/clickgui/components/impl/MultiSelectComponent.java":  {
+                                                                                                                    "bytes":  6631,
+                                                                                                                    "sha256":  "04A399A84C31AC940A3A3B59CB7CA7EC35622FB0575C8AC5226EF4A3DCB3D9F0"
+                                                                                                                },
+                  "valen-selected-src/src/main/java/valen/clickgui/components/impl/PlayerListComponent.java":  {
+                                                                                                                   "bytes":  15196,
+                                                                                                                   "sha256":  "A4B319C7722A285815C57076DF7A37D0EE391F7F0413B3B036931791C5AA0E17"
+                                                                                                               },
+                  "valen-selected-src/src/main/java/valen/clickgui/components/impl/SliderComponent.java":  {
+                                                                                                               "bytes":  18459,
+                                                                                                               "sha256":  "C06EBCCC702B34E1FB89A27AF943799E56BA19DDB55BD8674199FB4FA8FB89A3"
+                                                                                                           },
+                  "valen-selected-src/src/main/java/valen/clickgui/components/impl/StringListComponent.java":  {
+                                                                                                                   "bytes":  8740,
+                                                                                                                   "sha256":  "DD51C0E0FD5B57B0028307E6CB7E10D38FCC01AEF19D27D9AF120FE50F6A9946"
+                                                                                                               },
+                  "valen-selected-src/src/main/java/valen/clickgui/components/impl/TextFieldComponent.java":  {
+                                                                                                                  "bytes":  3391,
+                                                                                                                  "sha256":  "7BD6950385EF0AC2F8E8A6CE41D20BC408FEF1B14F2DE2091F9A3DF1174FDEA2"
+                                                                                                              },
+                  "valen-selected-src/src/main/java/valen/clickgui/GuiAppearance.java":  {
+                                                                                             "bytes":  5487,
+                                                                                             "sha256":  "292339C43FD7CECB6936A26A31DDF5E09300813DDD58977B63E56E65332BA6AD"
+                                                                                         },
+                  "valen-selected-src/src/main/java/valen/clickgui/GuiTransform.java":  {
+                                                                                            "bytes":  1126,
+                                                                                            "sha256":  "4A4739DB0D169921418EFB6A370F31469E82E340E157E5C1ABAFA7A530805071"
+                                                                                        },
+                  "valen-selected-src/src/main/java/valen/clickgui/HudEditor.java":  {
+                                                                                         "bytes":  7916,
+                                                                                         "sha256":  "5CBE2B5DF3C70243CC9F97B53F12C3BA02052A883001BBF6C33E15B274931B81"
+                                                                                     },
+                  "valen-selected-src/src/main/java/valen/clickgui/page/ConfigsPage.java":  {
+                                                                                                "bytes":  42434,
+                                                                                                "sha256":  "61379A2D92301BDD23CA35B1452DBFCEBFFAD8042B2C1311556779286C60317B"
+                                                                                            },
+                  "valen-selected-src/src/main/java/valen/clickgui/page/FriendsPage.java":  {
+                                                                                                "bytes":  10735,
+                                                                                                "sha256":  "345B63D7DA3E6BF7E5EC3C1F16602A3BFF1FF0285AA86EDC6797DFA76A2A09CB"
+                                                                                            },
+                  "valen-selected-src/src/main/java/valen/clickgui/page/GuiPage.java":  {
+                                                                                            "bytes":  834,
+                                                                                            "sha256":  "FD932F75D21835D0703D49CF64F4DFB53011557377BB05DFF654FA13EC03C319"
+                                                                                        },
+                  "valen-selected-src/src/main/java/valen/clickgui/page/GuiSettingsPage.java":  {
+                                                                                                    "bytes":  13618,
+                                                                                                    "sha256":  "BA8874F1D78F4CC69359FDF32C512A4EB22A99271AF8E2ACDDD27DE5B1F3E8DD"
+                                                                                                },
+                  "valen-selected-src/src/main/java/valen/clickgui/page/HoverSet.java":  {
+                                                                                             "bytes":  1080,
+                                                                                             "sha256":  "AADBF5EEE1FDB46D9EEB3A5E54245D59B689A9C040869CD5D56348316D4D6576"
+                                                                                         },
+                  "valen-selected-src/src/main/java/valen/clickgui/page/PageUI.java":  {
+                                                                                           "bytes":  5258,
+                                                                                           "sha256":  "DABC639F7620F320B3189B18F5ED09E25EB057E262BB37B9AD519A65CAE029C7"
+                                                                                       },
+                  "valen-selected-src/src/main/java/valen/clickgui/page/PremadeProfilesPage.java":  {
+                                                                                                        "bytes":  4596,
+                                                                                                        "sha256":  "5C85EDB6A0A4E1B9A82B728A4F9D7D68C29529606A0088471552C6A7077C7034"
+                                                                                                    },
+                  "valen-selected-src/src/main/java/valen/clickgui/render/Controls.java":  {
+                                                                                               "bytes":  6050,
+                                                                                               "sha256":  "1765A2E0208E6D3FD3B7F9C62A87EB948D16C74753C36EE1906A1C6CEAE15E13"
+                                                                                           },
+                  "valen-selected-src/src/main/java/valen/clickgui/render/PopupMenu.java":  {
+                                                                                                "bytes":  8998,
+                                                                                                "sha256":  "3B2462C9D20789C3BE091DF37EC8CE1D5B6757935AB300A579B0AAD39BBFB992"
+                                                                                            },
+                  "valen-selected-src/src/main/java/valen/clickgui/render/SceneSnapshot.java":  {
+                                                                                                    "bytes":  3789,
+                                                                                                    "sha256":  "A9A74CF668A89F1920134C218250D0A4E8FE87D05DF47DF5B59ECE7A51B3F0BC"
+                                                                                                },
+                  "valen-selected-src/src/main/java/valen/clickgui/render/Shape.java":  {
+                                                                                            "bytes":  6165,
+                                                                                            "sha256":  "C7A0481D4AA7DC878E56EF8D133CCAC061004EB7207F02F6D57BB2FD791F96D6"
+                                                                                        },
+                  "valen-selected-src/src/main/java/valen/command/Command.java":  {
+                                                                                      "bytes":  3239,
+                                                                                      "sha256":  "976E1BBA52F4A19DEFA19996108359984EC129B928B7E7E3093E8D04DA421C2F"
+                                                                                  },
+                  "valen-selected-src/src/main/java/valen/command/CommandInput.java":  {
+                                                                                           "bytes":  1428,
+                                                                                           "sha256":  "FD3523BFFB32564D3B67E5538864D23AB7539002D2E48AB27F6ADB4C7F32E4D8"
+                                                                                       },
+                  "valen-selected-src/src/main/java/valen/command/CommandManager.java":  {
+                                                                                             "bytes":  11325,
+                                                                                             "sha256":  "982E28D64EC22CBF63F86F5210A2D35617DF6F6A88E9C2C6C8270F2E369FB3D0"
+                                                                                         },
+                  "valen-selected-src/src/main/java/valen/command/impl/Bind.java":  {
+                                                                                        "bytes":  5589,
+                                                                                        "sha256":  "ECFDC659BBE45026E7A30F361A2AFA49C8CEE1CB974324D73CB787A7164ECFBC"
+                                                                                    },
+                  "valen-selected-src/src/main/java/valen/command/impl/Binds.java":  {
+                                                                                         "bytes":  3004,
+                                                                                         "sha256":  "59B3EF68CE5225D014D687FF169B250F3D64ACD19F857745E34667FCE45ADCD6"
+                                                                                     },
+                  "valen-selected-src/src/main/java/valen/command/impl/Cname.java":  {
+                                                                                         "bytes":  710,
+                                                                                         "sha256":  "6282FBEF0D882F48A87B33DDC737EF3BADF8849914AD08431F10A6839A3CC631"
+                                                                                     },
+                  "valen-selected-src/src/main/java/valen/command/impl/Configs.java":  {
+                                                                                           "bytes":  5977,
+                                                                                           "sha256":  "2B3ECC450F905A4A0747FEFA07CA2507F9ABEFBA226FE58A56121066D538AEAC"
+                                                                                       },
+                  "valen-selected-src/src/main/java/valen/command/impl/Debug.java":  {
+                                                                                         "bytes":  1303,
+                                                                                         "sha256":  "81045858F84CA9AD2926252C3707CEC3C646DE1AA3C5D14B86D5CC6D7530BFDC"
+                                                                                     },
+                  "valen-selected-src/src/main/java/valen/command/impl/Enemy.java":  {
+                                                                                         "bytes":  1753,
+                                                                                         "sha256":  "51008B1BB45FF1164A3C574CF26B34B3F458E5B5B50CBFAC4CCFF27EBAC2CC86"
+                                                                                     },
+                  "valen-selected-src/src/main/java/valen/command/impl/FriendCommand.java":  {
+                                                                                                 "bytes":  3886,
+                                                                                                 "sha256":  "76AD460CB063032FB8EA2F7407272DA8D06975A6256F65B0ED4B93C7566853D4"
+                                                                                             },
+                  "valen-selected-src/src/main/java/valen/command/impl/HideAll.java":  {
+                                                                                           "bytes":  821,
+                                                                                           "sha256":  "D6DE85A5A94818AAAEE4265BFFF273ED6DD6C96659BF14C80B89AB0208F093AA"
+                                                                                       },
+                  "valen-selected-src/src/main/java/valen/command/impl/Name.java":  {
+                                                                                        "bytes":  692,
+                                                                                        "sha256":  "97CECEE26E0E487714AEDC09A14D2E2ADE6540287FCF9B35DCBC34D0BC9401E9"
+                                                                                    },
+                  "valen-selected-src/src/main/java/valen/command/impl/Ping.java":  {
+                                                                                        "bytes":  377,
+                                                                                        "sha256":  "FEA44DBB138B385385145E9BF7465FE8C0A3652FD8A2AF891CE57715E2815D3D"
+                                                                                    },
+                  "valen-selected-src/src/main/java/valen/command/impl/Prefix.java":  {
+                                                                                          "bytes":  1654,
+                                                                                          "sha256":  "DDB0D511360471DA7E23F34127F642A498A210FB46324F8391F15C9C402B029D"
+                                                                                      },
+                  "valen-selected-src/src/main/java/valen/command/impl/ShowAll.java":  {
+                                                                                           "bytes":  827,
+                                                                                           "sha256":  "E493592908EC18C5731C16E9356B7BE33EFB5BD5AA4743F019DFA6F76560C254"
+                                                                                       },
+                  "valen-selected-src/src/main/java/valen/command/impl/Toggle.java":  {
+                                                                                          "bytes":  1874,
+                                                                                          "sha256":  "C341FE08E503FBA3136EF3E916098DABEA6250FCA28830632233C47C2590737B"
+                                                                                      },
+                  "valen-selected-src/src/main/java/valen/command/impl/Track.java":  {
+                                                                                         "bytes":  3479,
+                                                                                         "sha256":  "00FFBA4FB070E1007EEECCC0EB50BBC34A9146728570C34100287260B550BBF5"
+                                                                                     },
+                  "valen-selected-src/src/main/java/valen/command/impl/Unbind.java":  {
+                                                                                          "bytes":  1886,
+                                                                                          "sha256":  "62355E6262C7B81A755DF5EC09255580719B0B6438660C3CDFF91A2567EB02BD"
+                                                                                      },
+                  "valen-selected-src/src/main/java/valen/event/AttackEvent.java":  {
+                                                                                        "bytes":  705,
+                                                                                        "sha256":  "3789E9FD252EE184C0735189E01AEFA55E72757E30177BC2A03FD72E84EC8EC7"
+                                                                                    },
+                  "valen-selected-src/src/main/java/valen/event/ClickMouseEvent.java":  {
+                                                                                            "bytes":  164,
+                                                                                            "sha256":  "C93C4AD2BE62343B62CF712611FFFE6B197300BF0889CC480CFAFE92711F4EFA"
+                                                                                        },
+                  "valen-selected-src/src/main/java/valen/event/ClientLookEvent.java":  {
+                                                                                            "bytes":  312,
+                                                                                            "sha256":  "5F459CABADA28E2234A3B8D24AE10C6BE03B443CA824E4DB5231D61880E296CB"
+                                                                                        },
+                  "valen-selected-src/src/main/java/valen/event/ClientRotationEvent.java":  {
+                                                                                                "bytes":  486,
+                                                                                                "sha256":  "165AB972F73D5DB0A53EA8C72C8DAE42FED36530B21236ACF817DD4E2869D7F0"
+                                                                                            },
+                  "valen-selected-src/src/main/java/valen/event/CollisionEvent.java":  {
+                                                                                           "bytes":  1054,
+                                                                                           "sha256":  "E9021E42DC4BA5CC2D00E64FBD0A215D3D9243E575C23E17190D5A151255F7A8"
+                                                                                       },
+                  "valen-selected-src/src/main/java/valen/event/DispatchPacketEvent.java":  {
+                                                                                                "bytes":  471,
+                                                                                                "sha256":  "B3DD37EE01A974A963E5B49A4B0D9A337504F9C1026F80313367E7AC4A4A24CF"
+                                                                                            },
+                  "valen-selected-src/src/main/java/valen/event/GameTickEvent.java":  {
+                                                                                          "bytes":  162,
+                                                                                          "sha256":  "82BFCE8C437237921E47BA044762EB4A4B04D8103B0EEA11EB9E7F6720A217E0"
+                                                                                      },
+                  "valen-selected-src/src/main/java/valen/event/GuiUpdateEvent.java":  {
+                                                                                           "bytes":  479,
+                                                                                           "sha256":  "75DF6DDBBA3DD758FD46BFEF25C68401082BBE40FBB1C5CDC433BBC41C07C505"
+                                                                                       },
+                  "valen-selected-src/src/main/java/valen/event/JumpEvent.java":  {
+                                                                                      "bytes":  870,
+                                                                                      "sha256":  "C43BFC6230DAA6374446D4C283197D8D5024692091B218CC3F3929A4D539762C"
+                                                                                  },
+                  "valen-selected-src/src/main/java/valen/event/KeyPressEvent.java":  {
+                                                                                          "bytes":  389,
+                                                                                          "sha256":  "AF2013D310FC7216ECAC79273B2955C94ADE85F71BCD623FBA569AF363731387"
+                                                                                      },
+                  "valen-selected-src/src/main/java/valen/event/LagStartEvent.java":  {
+                                                                                          "bytes":  569,
+                                                                                          "sha256":  "9F1A1D2CAF416A00637A91BDA15F3D76BFBD6A17477C42E46EEF66EF4F5F69A5"
+                                                                                      },
+                  "valen-selected-src/src/main/java/valen/event/NoEventPacketEvent.java":  {
+                                                                                               "bytes":  469,
+                                                                                               "sha256":  "12F4D7D8517DA61DB501932BE61DFA5F24BF81658E63B4E0C14CA49A9AA9AD36"
+                                                                                           },
+                  "valen-selected-src/src/main/java/valen/event/PlayerMoveEvent.java":  {
+                                                                                            "bytes":  430,
+                                                                                            "sha256":  "8AC9542ADA26CF59720BEA15A6401AAB1AA67B9D00E18879553CFB5325A5770D"
+                                                                                        },
+                  "valen-selected-src/src/main/java/valen/event/PostMotionEvent.java":  {
+                                                                                            "bytes":  164,
+                                                                                            "sha256":  "CCEFFE5C4888F65B60BE4B46FE294E10B97B8DAFB195A09BE81DA980C2A49B09"
+                                                                                        },
+                  "valen-selected-src/src/main/java/valen/event/PostMouseSelectionEvent.java":  {
+                                                                                                    "bytes":  172,
+                                                                                                    "sha256":  "10DF4F4B2ADE4631B75C74DA1085C6E312CF5435DF2BDA068B11BBC8E3E17D81"
+                                                                                                },
+                  "valen-selected-src/src/main/java/valen/event/PostPlayerInputEvent.java":  {
+                                                                                                 "bytes":  169,
+                                                                                                 "sha256":  "0674ED90BDF6B3F5432D85862BECF31E38952FD8FF5F34EDBE4E23C8BC83FCC3"
+                                                                                             },
+                  "valen-selected-src/src/main/java/valen/event/PostSetSliderEvent.java":  {
+                                                                                               "bytes":  340,
+                                                                                               "sha256":  "CDBA6321A1E040FE06D25D48CE279FC59E153E8B9CCF3E67AC3141ACE3CE1873"
+                                                                                           },
+                  "valen-selected-src/src/main/java/valen/event/PostUpdateEvent.java":  {
+                                                                                            "bytes":  164,
+                                                                                            "sha256":  "84E27A1A44FA434514C87397EA25D702F2927E69E774F1E713DCBAD1D43FA0AA"
+                                                                                        },
+                  "valen-selected-src/src/main/java/valen/event/PreAttackEvent.java":  {
+                                                                                           "bytes":  559,
+                                                                                           "sha256":  "31E39C7B1FB819471B0F28853DEDD62235619E970E8EBDE2438FB52643CAEB19"
+                                                                                       },
+                  "valen-selected-src/src/main/java/valen/event/PreEntityVelocityEvent.java":  {
+                                                                                                   "bytes":  599,
+                                                                                                   "sha256":  "5EEC8C2F39967C547BE757F9CFBBBCCFB676DDD7D9EAF9845EA506B9F9456794"
+                                                                                               },
+                  "valen-selected-src/src/main/java/valen/event/PreExplosionPacketEvent.java":  {
+                                                                                                    "bytes":  571,
+                                                                                                    "sha256":  "F83F92F2775FC61B10656F5C399A32FBD90FAB33FB9E007C3347B7D1A81A2243"
+                                                                                                },
+                  "valen-selected-src/src/main/java/valen/event/PreInputEvent.java":  {
+                                                                                          "bytes":  162,
+                                                                                          "sha256":  "CF5AD537FF264A62714956E67BB869932A24809FF9F7EFA18EBF3E431A626C13"
+                                                                                      },
+                  "valen-selected-src/src/main/java/valen/event/PreMotionEvent.java":  {
+                                                                                           "bytes":  2393,
+                                                                                           "sha256":  "6BC3FFD822C61307C1B8B788B0D9946CAA711400906ACE0268AD8A321741FBD8"
+                                                                                       },
+                  "valen-selected-src/src/main/java/valen/event/PrePlayerInputEvent.java":  {
+                                                                                                "bytes":  1303,
+                                                                                                "sha256":  "0792CD15625045CB4F22570927922DA76FB73EDBC2D130947AC620C0F3BB2A55"
+                                                                                            },
+                  "valen-selected-src/src/main/java/valen/event/PrePlayerInteractEvent.java":  {
+                                                                                                   "bytes":  171,
+                                                                                                   "sha256":  "F0E97C5821CD994708CEE7C3254892C780CEBB51EF704A3596EEE502534D0C20"
+                                                                                               },
+                  "valen-selected-src/src/main/java/valen/event/PrePlayerMovementInputEvent.java":  {
+                                                                                                        "bytes":  346,
+                                                                                                        "sha256":  "8C1094F6D09078948803C1B82490CC832FAAF4EA5565E99C069A100CA7144F39"
+                                                                                                    },
+                  "valen-selected-src/src/main/java/valen/event/PreSlotScrollEvent.java":  {
+                                                                                               "bytes":  399,
+                                                                                               "sha256":  "F6B231C99FDA02494D6EF9C8765A5F870890193D2376ADFAFC07BF7FC9664EB4"
+                                                                                           },
+                  "valen-selected-src/src/main/java/valen/event/PreUpdateEvent.java":  {
+                                                                                           "bytes":  163,
+                                                                                           "sha256":  "BF86F9CE4D8F4B54035E491BA60A2F270E58CB2C943700697C38CB0236F8E4EC"
+                                                                                       },
+                  "valen-selected-src/src/main/java/valen/event/ReceivePacketEvent.java":  {
+                                                                                               "bytes":  542,
+                                                                                               "sha256":  "2008CFF1BE2F9D977F1D74908D621BD391D250D37DB0CB87DD4A561633253900"
+                                                                                           },
+                  "valen-selected-src/src/main/java/valen/event/RightClickDelayTickEvent.java":  {
+                                                                                                     "bytes":  173,
+                                                                                                     "sha256":  "7ED24646BD14DD70C3FCEA2DD7FD75F26605FBE44E9355E90B4FA9F0A9F54BAB"
+                                                                                                 },
+                  "valen-selected-src/src/main/java/valen/event/RightClickMouseEvent.java":  {
+                                                                                                 "bytes":  242,
+                                                                                                 "sha256":  "24B4F9020222BF5658B1FA739898CD3D6591B2254D22E0F8B51D3A09C04BBDEC"
+                                                                                             },
+                  "valen-selected-src/src/main/java/valen/event/RunGameLoopEvent.java":  {
+                                                                                             "bytes":  165,
+                                                                                             "sha256":  "0F17DDFD3A1AC0712CD709C59E9FF1608236D906815E2E54F7E825D1BDF577B0"
+                                                                                         },
+                  "valen-selected-src/src/main/java/valen/event/SendPacketEvent.java":  {
+                                                                                            "bytes":  536,
+                                                                                            "sha256":  "21859BD68F719880AAEAC40E244FFAFA294B8CF7B8F8B2378D38F62B46A00B99"
+                                                                                        },
+                  "valen-selected-src/src/main/java/valen/event/SlotUpdateEvent.java":  {
+                                                                                            "bytes":  324,
+                                                                                            "sha256":  "C96571BC89443D5F150309B4CFC018E465748DC21CD64B9EEFCAD4613B938C7A"
+                                                                                        },
+                  "valen-selected-src/src/main/java/valen/event/StepHeightEvent.java":  {
+                                                                                            "bytes":  451,
+                                                                                            "sha256":  "72F2AFD86EBC292D72DC7F72087C193E26A9B99B969A0EBD4B03D1FB75A6E41F"
+                                                                                        },
+                  "valen-selected-src/src/main/java/valen/event/StrafeEvent.java":  {
+                                                                                        "bytes":  978,
+                                                                                        "sha256":  "F482D0F2633A8F1E335B2370FCFDC6744780705547217FF010BA8738BDF38540"
+                                                                                    },
+                  "valen-selected-src/src/main/java/valen/event/UseItemEvent.java":  {
+                                                                                         "bytes":  479,
+                                                                                         "sha256":  "BB0258DC515214DFFCD22A4B8161390FDFFC697BC139945A4A5537E03474045A"
+                                                                                     },
+                  "valen-selected-src/src/main/java/valen/helper/DebugHelper.java":  {
+                                                                                         "bytes":  987,
+                                                                                         "sha256":  "C5D43DB0DDC484AD06D790F084235FD0473BA65AFABB428089E5D26A03B2A596"
+                                                                                     },
+                  "valen-selected-src/src/main/java/valen/helper/MouseHelper.java":  {
+                                                                                         "bytes":  3444,
+                                                                                         "sha256":  "48584A1B92BBF93B2F7D3A33C13E852D20934B08FEF1F87568D06FA9E4D63920"
+                                                                                     },
+                  "valen-selected-src/src/main/java/valen/helper/PingHelper.java":  {
+                                                                                        "bytes":  2329,
+                                                                                        "sha256":  "54FC0441DC25387C50A4E40D2D86CFA6BE90C62684049AC64D210879BC0EBC42"
+                                                                                    },
+                  "valen-selected-src/src/main/java/valen/helper/RotationHelper.java":  {
+                                                                                            "bytes":  15368,
+                                                                                            "sha256":  "5514F8A9D4C06FAB49F563360AB083BB95D60CC88326F36AB8CF2BD478513572"
+                                                                                        },
+                  "valen-selected-src/src/main/java/valen/lag/api/EnumLagDirection.java":  {
+                                                                                               "bytes":  1745,
+                                                                                               "sha256":  "3D3C09DD2AC5484687548A95C6B9E128DA56169F5E46ECC7AD147069450E3B8D"
+                                                                                           },
+                  "valen-selected-src/src/main/java/valen/lag/api/LagRequest.java":  {
+                                                                                         "bytes":  1514,
+                                                                                         "sha256":  "308014A0126C17437FDEEF49856504C6B29B068F53C7A647FC1F4A520E77A40A"
+                                                                                     },
+                  "valen-selected-src/src/main/java/valen/lag/handler/AbstractFastTrackProvider.java":  {
+                                                                                                            "bytes":  375,
+                                                                                                            "sha256":  "3D85296E2DFC49D939CC226E43B97CF49A319AFF515D8E948A99B50BD7258541"
+                                                                                                        },
+                  "valen-selected-src/src/main/java/valen/lag/handler/UnifiedLagHandler.java":  {
+                                                                                                    "bytes":  4533,
+                                                                                                    "sha256":  "068E347C9B03F5C7A694751BDE000D5D59213116A8A462B6F8A19111DCA449A8"
+                                                                                                },
+                  "valen-selected-src/src/main/java/valen/lag/queue/BiTrackLagNodeQueue.java":  {
+                                                                                                    "bytes":  9379,
+                                                                                                    "sha256":  "1E3C09F2347ED3042BDAC26E2AE2427A100CC8B6F56EA95AF34A9A7B3DF6983D"
+                                                                                                },
+                  "valen-selected-src/src/main/java/valen/lag/timeout/AbstractTimeout.java":  {
+                                                                                                  "bytes":  676,
+                                                                                                  "sha256":  "C84919A5A1F8175BE406E6F10688CD16F51EC1DF84C459BA5F523F34AE9580E8"
+                                                                                              },
+                  "valen-selected-src/src/main/java/valen/lag/timeout/ModuleBackedTimeout.java":  {
+                                                                                                      "bytes":  1652,
+                                                                                                      "sha256":  "90CEF99C8A539B2D27C8B70CA01B93975ACE9D89C3BA19662E7B9731A773F892"
+                                                                                                  },
+                  "valen-selected-src/src/main/java/valen/lunar/bridge/StartupBridge.java":  {
+                                                                                                 "bytes":  629,
+                                                                                                 "sha256":  "9B8E6F1F22836056267AAB045E08D1D2BDEF579FDF49779124B312001A02E9DB"
+                                                                                             },
+                  "valen-selected-src/src/main/java/valen/lunar/forge/client/event/ClientChatReceivedEvent.java":  {
+                                                                                                                       "bytes":  599,
+                                                                                                                       "sha256":  "255A81D3ED6FAC19F5B19196A06E2572533F285C10563374D67368BBD03D544D"
+                                                                                                                   },
+                  "valen-selected-src/src/main/java/valen/lunar/forge/client/event/DrawBlockHighlightEvent.java":  {
+                                                                                                                       "bytes":  1279,
+                                                                                                                       "sha256":  "C5BF3FF2EB9D4000F3440AC223A1896B12177B9C84FFF6FDD7406A2DCF08428E"
+                                                                                                                   },
+                  "valen-selected-src/src/main/java/valen/lunar/forge/client/event/GuiOpenEvent.java":  {
+                                                                                                            "bytes":  490,
+                                                                                                            "sha256":  "6D8D84544715C017D3D700DDC8CBE0E4E222183ABA3325A8480DA83BFFE27DBE"
+                                                                                                        },
+                  "valen-selected-src/src/main/java/valen/lunar/forge/client/event/GuiScreenEvent.java":  {
+                                                                                                              "bytes":  1273,
+                                                                                                              "sha256":  "2B8CCFF64BB20B5F96006AACD5ACBADA754D7BEC85005AAA62B44E643C80839A"
+                                                                                                          },
+                  "valen-selected-src/src/main/java/valen/lunar/forge/client/event/MouseEvent.java":  {
+                                                                                                          "bytes":  761,
+                                                                                                          "sha256":  "330DECF48E670EF91988134372E48B539E09DD7C689BE822331C99A7672D0341"
+                                                                                                      },
+                  "valen-selected-src/src/main/java/valen/lunar/forge/client/event/RenderLivingEvent.java":  {
+                                                                                                                 "bytes":  1677,
+                                                                                                                 "sha256":  "DF026EE6C645E825D04EE8D5640AA8CB0D71F52E6090489265DAA734F73E59B5"
+                                                                                                             },
+                  "valen-selected-src/src/main/java/valen/lunar/forge/client/event/RenderPlayerEvent.java":  {
+                                                                                                                 "bytes":  1492,
+                                                                                                                 "sha256":  "6FB1C271BE3FE4117258DF3101C5E2D06F719EED47F282CD237304A70230BA18"
+                                                                                                             },
+                  "valen-selected-src/src/main/java/valen/lunar/forge/client/event/RenderWorldLastEvent.java":  {
+                                                                                                                    "bytes":  552,
+                                                                                                                    "sha256":  "9E59A09EC9C58D0E45383010F08E19A16E28C33EF82CC0B3B5A0E7D9F6231290"
+                                                                                                                },
+                  "valen-selected-src/src/main/java/valen/lunar/forge/client/ForgeHooksClient.java":  {
+                                                                                                          "bytes":  662,
+                                                                                                          "sha256":  "6AEE6C4F1253248DDA41D6A037D675AF57E55A32BFDD31AB52451A374C70EF27"
+                                                                                                      },
+                  "valen-selected-src/src/main/java/valen/lunar/forge/common/ForgeHooks.java":  {
+                                                                                                    "bytes":  932,
+                                                                                                    "sha256":  "86085F92DF9CF9E0A8148AB8184D204782478F333606648F5C17B5F0F83F1081"
+                                                                                                },
+                  "valen-selected-src/src/main/java/valen/lunar/forge/common/MinecraftForge.java":  {
+                                                                                                        "bytes":  232,
+                                                                                                        "sha256":  "10143BC7C8DFECA79160891289B79A11688B0CA20D0DE1EB2775A6E74E62AA5D"
+                                                                                                    },
+                  "valen-selected-src/src/main/java/valen/lunar/forge/event/entity/EntityEvent.java":  {
+                                                                                                           "bytes":  401,
+                                                                                                           "sha256":  "EEF0559717A139FA6A4AD66C82CEA87A681BCB3603D5DA5D51B292FF24E09EA1"
+                                                                                                       },
+                  "valen-selected-src/src/main/java/valen/lunar/forge/event/entity/EntityJoinWorldEvent.java":  {
+                                                                                                                    "bytes":  589,
+                                                                                                                    "sha256":  "A46E6DC58397FE2C02683A734E6E0B8F4E0E2229248243B03E527DF0D053CADA"
+                                                                                                                },
+                  "valen-selected-src/src/main/java/valen/lunar/forge/event/entity/living/LivingEvent.java":  {
+                                                                                                                  "bytes":  1047,
+                                                                                                                  "sha256":  "412318906BBEED238A342EE1CFC34ACC554632818F9C8C275AADF94DCF99087E"
+                                                                                                              },
+                  "valen-selected-src/src/main/java/valen/lunar/forge/event/entity/player/AttackEntityEvent.java":  {
+                                                                                                                        "bytes":  651,
+                                                                                                                        "sha256":  "0DF0ABB472D08E92D445A0A174BEDB879E3DAC78A027200FBDD97D03A6D23C9E"
+                                                                                                                    },
+                  "valen-selected-src/src/main/java/valen/lunar/forge/event/entity/player/PlayerEvent.java":  {
+                                                                                                                  "bytes":  613,
+                                                                                                                  "sha256":  "8B5736A262D3EDA92330FFF63BD4504A1E4B3551BA04DB605C46C0496774DA3B"
+                                                                                                              },
+                  "valen-selected-src/src/main/java/valen/lunar/forge/event/entity/player/PlayerInteractEvent.java":  {
+                                                                                                                          "bytes":  1148,
+                                                                                                                          "sha256":  "7C6BA0EEF13C24D4B0B28E8419185C25FB6C6C173F39B841A73B27D252246E05"
+                                                                                                                      },
+                  "valen-selected-src/src/main/java/valen/lunar/forge/event/world/WorldEvent.java":  {
+                                                                                                         "bytes":  656,
+                                                                                                         "sha256":  "D93590FFE325121ABEFE6F2A3C6AAAF5BF652EAE63376AD5ACA6403C39953820"
+                                                                                                     },
+                  "valen-selected-src/src/main/java/valen/lunar/forge/fml/client/config/GuiButtonExt.java":  {
+                                                                                                                 "bytes":  493,
+                                                                                                                 "sha256":  "C72D4739EB7D5314332151A50240931C26D6BB86FC4E73577D66F22052EE4340"
+                                                                                                             },
+                  "valen-selected-src/src/main/java/valen/lunar/forge/fml/common/event/FMLInitializationEvent.java":  {
+                                                                                                                          "bytes":  129,
+                                                                                                                          "sha256":  "ABBB8424B79408B1020798A41C4075D84B8F4B06493A649599F9649276EE51E9"
+                                                                                                                      },
+                  "valen-selected-src/src/main/java/valen/lunar/forge/fml/common/eventhandler/Cancelable.java":  {
+                                                                                                                     "bytes":  361,
+                                                                                                                     "sha256":  "6EA259EDFA27CC8145092FF2354C4D8A4978560FACBF21F4AF49012B43832377"
+                                                                                                                 },
+                  "valen-selected-src/src/main/java/valen/lunar/forge/fml/common/eventhandler/Event.java":  {
+                                                                                                                "bytes":  1018,
+                                                                                                                "sha256":  "DBD6ED1B3FDCC9A0FF60396A70A5E56BE49538AAC5DC62BD0F77F3E74A83501F"
+                                                                                                            },
+                  "valen-selected-src/src/main/java/valen/lunar/forge/fml/common/eventhandler/EventBus.java":  {
+                                                                                                                   "bytes":  3909,
+                                                                                                                   "sha256":  "264A16705035BF7F6C64A0F2CF59AB87B10076D6925FA99BC07094D1CC4D3686"
+                                                                                                               },
+                  "valen-selected-src/src/main/java/valen/lunar/forge/fml/common/eventhandler/EventPriority.java":  {
+                                                                                                                        "bytes":  177,
+                                                                                                                        "sha256":  "13ACE5037867B3EA0B0B264F48E12F1CC8BDD5748169D7687F7929FFF2E239F0"
+                                                                                                                    },
+                  "valen-selected-src/src/main/java/valen/lunar/forge/fml/common/eventhandler/SubscribeEvent.java":  {
+                                                                                                                         "bytes":  550,
+                                                                                                                         "sha256":  "0646D22261E312FE87D91CAA4D1820ED7412D4C69A31F5E863F18EB70657366D"
+                                                                                                                     },
+                  "valen-selected-src/src/main/java/valen/lunar/forge/fml/common/gameevent/TickEvent.java":  {
+                                                                                                                 "bytes":  1522,
+                                                                                                                 "sha256":  "8E816FC0F6403A65AF34E83161EC4A5DAC3D9A0F7BFB36BDBAD0D089DB376C0A"
+                                                                                                             },
+                  "valen-selected-src/src/main/java/valen/lunar/forge/fml/common/Mod.java":  {
+                                                                                                 "bytes":  752,
+                                                                                                 "sha256":  "E9271C793E912723060498FC4E78807A07C2829432E52ECDE49DC83735B42AEB"
+                                                                                             },
+                  "valen-selected-src/src/main/java/valen/lunar/forge/fml/relauncher/ReflectionHelper.java":  {
+                                                                                                                  "bytes":  620,
+                                                                                                                  "sha256":  "6E88ED48857E457E05F543C29F000AE35519668E03B0FD6136F65F9BA2D6B67C"
+                                                                                                              },
+                  "valen-selected-src/src/main/java/valen/lunar/forge/fml/relauncher/Side.java":  {
+                                                                                                      "bytes":  267,
+                                                                                                      "sha256":  "E14DC8A9B5D8647CB2381553DAAE2037709E5553915DD566CB14766C8AA1C725"
+                                                                                                  },
+                  "valen-selected-src/src/main/java/valen/lunar/forge/fml/relauncher/SideOnly.java":  {
+                                                                                                          "bytes":  485,
+                                                                                                          "sha256":  "99FBE766FAA8EC5D3BBB1E6A7FF6F06C7498E41A1AD03BB450D9C9E1F7815305"
+                                                                                                      },
+                  "valen-selected-src/src/main/java/valen/lunar/LunarRuntime.java":  {
+                                                                                         "bytes":  378,
+                                                                                         "sha256":  "094B09EEC5596D7BDCA9E4E4609F8FF71105AA63D4248B71B34015F971F00530"
+                                                                                     },
+                  "valen-selected-src/src/main/java/valen/lunar/mixin/ChatEvents.java":  {
+                                                                                             "bytes":  1803,
+                                                                                             "sha256":  "431D203B5D06AFAE1D90570E03C08DE763649B2F0A2CB4434AAFBEEEE6F3BAD2"
+                                                                                         },
+                  "valen-selected-src/src/main/java/valen/lunar/mixin/ChatPacketAccess.java":  {
+                                                                                                   "bytes":  671,
+                                                                                                   "sha256":  "18F5BA65A52FD9650E93129FA7E87AB3F275B05C75FFDFEA7F5814F06BF27FBA"
+                                                                                               },
+                  "valen-selected-src/src/main/java/valen/lunar/mixin/HighlightEvents.java":  {
+                                                                                                  "bytes":  1467,
+                                                                                                  "sha256":  "C93BBEF6647016468121C537A06D81DEF9E7613993081744655BD34829F81D50"
+                                                                                              },
+                  "valen-selected-src/src/main/java/valen/lunar/mixin/InteractionEvents.java":  {
+                                                                                                    "bytes":  2087,
+                                                                                                    "sha256":  "502AD632D8C0BE08659F433ADF899905B305E5C5EFBEC36FFB7CD3085953115B"
+                                                                                                },
+                  "valen-selected-src/src/main/java/valen/lunar/mixin/ItemRendererAccess.java":  {
+                                                                                                     "bytes":  643,
+                                                                                                     "sha256":  "EAA081E8CD67118E00AAC8933EB4562DCD6CA769D23B0429216EE34C42088F54"
+                                                                                                 },
+                  "valen-selected-src/src/main/java/valen/lunar/mixin/ItemUseRenderEvents.java":  {
+                                                                                                      "bytes":  1130,
+                                                                                                      "sha256":  "1838669904B3F629F92D976811680AFE3F64FD8F9DAF40C73B57377B4F86168E"
+                                                                                                  },
+                  "valen-selected-src/src/main/java/valen/lunar/mixin/LivingEvents.java":  {
+                                                                                               "bytes":  1210,
+                                                                                               "sha256":  "E57FB1906C23F4EF326FEA0B45B18F27480DE421E4A41E51756F878BC0D345DF"
+                                                                                           },
+                  "valen-selected-src/src/main/java/valen/lunar/mixin/MinecraftEvents.java":  {
+                                                                                                  "bytes":  4667,
+                                                                                                  "sha256":  "6F891EAC19EBF0379D098DEA66A7AE7925F9E89F24445BB79E6D634557793C6E"
+                                                                                              },
+                  "valen-selected-src/src/main/java/valen/lunar/mixin/NameRenderEvents.java":  {
+                                                                                                   "bytes":  1391,
+                                                                                                   "sha256":  "570D72339B3AEEDB18BDDC86A7B42C90B6B14C35C3BB095E805F2334F85A4F51"
+                                                                                               },
+                  "valen-selected-src/src/main/java/valen/lunar/mixin/PlayerEvents.java":  {
+                                                                                               "bytes":  1537,
+                                                                                               "sha256":  "E09C0AFC9487A3B7052240D5D2ED152D2254E5AE754B959446DD26348C799CA4"
+                                                                                           },
+                  "valen-selected-src/src/main/java/valen/lunar/mixin/PlayerRenderEvents.java":  {
+                                                                                                     "bytes":  1980,
+                                                                                                     "sha256":  "5A5301258F1D198B86BDCC63E34480D4085EEFA255D231AAD4D5AEC592FDC7A2"
+                                                                                                 },
+                  "valen-selected-src/src/main/java/valen/lunar/mixin/RenderEvents.java":  {
+                                                                                               "bytes":  1882,
+                                                                                               "sha256":  "E0A1D4214C5C1824AC9FC196BB7A777949D5C438B532D733A4A5BB88D63AE1C2"
+                                                                                           },
+                  "valen-selected-src/src/main/java/valen/lunar/mixin/WorldEvents.java":  {
+                                                                                              "bytes":  1282,
+                                                                                              "sha256":  "2CD549845851F9AA3F3ABF0A7AFFAEEF3C878109910DFC609D2EB47108E540C7"
+                                                                                          },
+                  "valen-selected-src/src/main/java/valen/lunar/render/FullscreenQuad.java":  {
+                                                                                                  "bytes":  803,
+                                                                                                  "sha256":  "188173EB9CB5849BD4A4CA2BABBF681C3ADA16CC55AB4802853B269F82A7F5DD"
+                                                                                              },
+                  "valen-selected-src/src/main/java/valen/lunar/render/LunarBlockAnimation.java":  {
+                                                                                                       "bytes":  1976,
+                                                                                                       "sha256":  "CE1FDD3DA921BCDC2BA707CCD256875EEAF9553295E20989AC1DD2945C2E82F2"
+                                                                                                   },
+                  "valen-selected-src/src/main/java/valen/lunar/render/LunarFramebuffer.java":  {
+                                                                                                    "bytes":  6039,
+                                                                                                    "sha256":  "96DA5EE70CFFF443EEE40BA1D61A00622B8A255645CB8F169730AA2E14D3CFC9"
+                                                                                                },
+                  "valen-selected-src/src/main/java/valen/lunar/render/LunarMatrices.java":  {
+                                                                                                 "bytes":  443,
+                                                                                                 "sha256":  "C9A077771BF1C8B8B6E8394CBC363D5D19D7F2CE3765F0DC66019C23368CFB98"
+                                                                                             },
+                  "valen-selected-src/src/main/java/valen/lunar/render/LunarPostProcessing.java":  {
+                                                                                                       "bytes":  3120,
+                                                                                                       "sha256":  "9312FA605CCFAF0E494B4D1B9FC931D4AC2E2D099F869A1F3D19912E7DCDF489"
+                                                                                                   },
+                  "valen-selected-src/src/main/java/valen/lunar/VanillaHooks.java":  {
+                                                                                         "bytes":  527,
+                                                                                         "sha256":  "F0FFC510727B8055BC1935F649306E15726550252EFDFA3F3CA19C1203BC2E3C"
+                                                                                     },
+                  "valen-selected-src/src/main/java/valen/mixin/impl/accessor/IAccessorEntity.java":  {
+                                                                                                          "bytes":  714,
+                                                                                                          "sha256":  "761F3A2FD590922F0142781E1F81804605526184463472F4A8DF947F6C792FA6"
+                                                                                                      },
+                  "valen-selected-src/src/main/java/valen/mixin/impl/accessor/IAccessorEntityArrow.java":  {
+                                                                                                               "bytes":  574,
+                                                                                                               "sha256":  "855BEE291391B29379B5D33BC7FA1667CAB6FA5FB1606EB673F6EDB35BB30A64"
+                                                                                                           },
+                  "valen-selected-src/src/main/java/valen/mixin/impl/accessor/IAccessorEntityLivingBase.java":  {
+                                                                                                                    "bytes":  669,
+                                                                                                                    "sha256":  "C5E22A7F8952B40B51274B8DFD311C7923CD4E99779B7A8BBAD909C47DDADD42"
+                                                                                                                },
+                  "valen-selected-src/src/main/java/valen/mixin/impl/accessor/IAccessorEntityPlayer.java":  {
+                                                                                                                "bytes":  712,
+                                                                                                                "sha256":  "A800A235CCD9CF5353DDE31B79C9CABF90C4D8559E9828F4FA94104CF24DC073"
+                                                                                                            },
+                  "valen-selected-src/src/main/java/valen/mixin/impl/accessor/IAccessorEntityPlayerSP.java":  {
+                                                                                                                  "bytes":  1036,
+                                                                                                                  "sha256":  "65EFA02F60E734D08CC9F4F68781BD01B5EB80EA53E5B88FF3B6D7D02C7F35F0"
+                                                                                                              },
+                  "valen-selected-src/src/main/java/valen/mixin/impl/accessor/IAccessorEntityRenderer.java":  {
+                                                                                                                  "bytes":  1965,
+                                                                                                                  "sha256":  "70557553F2AC1C80154E11DFE9EE2125AB25EC567D6B14AD357C33A737C5E81C"
+                                                                                                              },
+                  "valen-selected-src/src/main/java/valen/mixin/impl/accessor/IAccessorGuiContainer.java":  {
+                                                                                                                "bytes":  730,
+                                                                                                                "sha256":  "A3474980F4B7AE111674C6B2E239B09FAB26228A3BB6F4780AB2DE958E7761EA"
+                                                                                                            },
+                  "valen-selected-src/src/main/java/valen/mixin/impl/accessor/IAccessorGuiIngame.java":  {
+                                                                                                             "bytes":  898,
+                                                                                                             "sha256":  "07C7DD7D5A07DCFC934C7E9F9ED48891E2F8376BF44AC3AED8E515A0B8401273"
+                                                                                                         },
+                  "valen-selected-src/src/main/java/valen/mixin/impl/accessor/IAccessorGuiPlayerTabOverlay.java":  {
+                                                                                                                       "bytes":  895,
+                                                                                                                       "sha256":  "9A6C6EFDE919919C01B5908173E398BD82E2BEC511B5986AD36D472900672560"
+                                                                                                                   },
+                  "valen-selected-src/src/main/java/valen/mixin/impl/accessor/IAccessorGuiScreen.java":  {
+                                                                                                             "bytes":  708,
+                                                                                                             "sha256":  "256D0A750AC6C66EF32CFFAD488A8F11F796D7E7548FCB927CA91C2495A3611D"
+                                                                                                         },
+                  "valen-selected-src/src/main/java/valen/mixin/impl/accessor/IAccessorGuiScreenBook.java":  {
+                                                                                                                 "bytes":  694,
+                                                                                                                 "sha256":  "DC3A1764AD1F75EA6503A1F646FB91ECEC85436DF3D56187A0F50A7035B4473D"
+                                                                                                             },
+                  "valen-selected-src/src/main/java/valen/mixin/impl/accessor/IAccessorItemFood.java":  {
+                                                                                                            "bytes":  669,
+                                                                                                            "sha256":  "749E54C9DF36939CF0417FC9C10AF6AB175FE7E626F188CF368275E4A1020EDF"
+                                                                                                        },
+                  "valen-selected-src/src/main/java/valen/mixin/impl/accessor/IAccessorMinecraft.java":  {
+                                                                                                             "bytes":  1669,
+                                                                                                             "sha256":  "74CD0BDDBCBD3827702CD7A9E7594CFAD4DA6CF72A6482972A92667733BA8A32"
+                                                                                                         },
+                  "valen-selected-src/src/main/java/valen/mixin/impl/accessor/IAccessorMouseHelper.java":  {
+                                                                                                               "bytes":  749,
+                                                                                                               "sha256":  "00EE07BE850D11B648FFD414F324FCC76C49BFED73D523627C44FE39B23C0DBC"
+                                                                                                           },
+                  "valen-selected-src/src/main/java/valen/mixin/impl/accessor/IAccessorNetworkManager.java":  {
+                                                                                                                  "bytes":  662,
+                                                                                                                  "sha256":  "3DFAD2FEDC1AE2903DA0449CF1D2A8DC9366EE9F42A202E78FA013892FF12D2B"
+                                                                                                              },
+                  "valen-selected-src/src/main/java/valen/mixin/impl/accessor/IAccessorPlayerControllerMP.java":  {
+                                                                                                                      "bytes":  1435,
+                                                                                                                      "sha256":  "EE2BF8574888D5AE89191C87366541E877DE34742B3F3EE59CB15CD6A6121863"
+                                                                                                                  },
+                  "valen-selected-src/src/main/java/valen/mixin/impl/accessor/IAccessorRenderManager.java":  {
+                                                                                                                 "bytes":  785,
+                                                                                                                 "sha256":  "C6F84F1B3FEE993557432C6FD3D0EC32999E526387E117919ABE374C5BBA9C56"
+                                                                                                             },
+                  "valen-selected-src/src/main/java/valen/mixin/impl/accessor/IAccessorS14PacketEntity.java":  {
+                                                                                                                   "bytes":  590,
+                                                                                                                   "sha256":  "A7A51BC28230AE703BD8D580D886E2F078FD72D52B688AB166F9337482B09282"
+                                                                                                               },
+                  "valen-selected-src/src/main/java/valen/mixin/impl/accessor/IAccessorShaderGroup.java":  {
+                                                                                                               "bytes":  807,
+                                                                                                               "sha256":  "B23276665698BC32D7655EF9F802856D461550F26200D83B38F059723D64F2F2"
+                                                                                                           },
+                  "valen-selected-src/src/main/java/valen/mixin/interfaces/IMixinItemRenderer.java":  {
+                                                                                                          "bytes":  297,
+                                                                                                          "sha256":  "F55FD550352C101C319922D2EF805B6D844B5D26C9E2AFD4A106FA929E17D48B"
+                                                                                                      },
+                  "valen-selected-src/src/main/java/valen/mixin/interfaces/IMixinMinecraft.java":  {
+                                                                                                       "bytes":  245,
+                                                                                                       "sha256":  "713A61CCD9A9A6CE217F98FFD116A9AD92AAD37C21ECF77A5064940776233FF9"
+                                                                                                   },
+                  "valen-selected-src/src/main/java/valen/mixin/interfaces/ISaturationRenderer.java":  {
+                                                                                                           "bytes":  364,
+                                                                                                           "sha256":  "C97947EDB80A4AA0D801D50CC3E6DA742321A97214DA9D09D2495255F67742A4"
+                                                                                                       },
+                  "valen-selected-src/src/main/java/valen/module/impl/minigames/AutoQuickBuy.java":  {
+                                                                                                         "bytes":  11182,
+                                                                                                         "sha256":  "28778640371CB0F802980A52E01832D1746788C7C075FAD275FC33A575406FC4"
+                                                                                                     },
+                  "valen-selected-src/src/main/java/valen/module/impl/minigames/quickbuy/BedWarsShopItem.java":  {
+                                                                                                                     "bytes":  17042,
+                                                                                                                     "sha256":  "A3E85F0635D4A35C761CA8C077481F2C36C028A766CE1931D6B74B8EA5216AB6"
+                                                                                                                 },
+                  "valen-selected-src/src/main/java/valen/module/impl/minigames/quickbuy/QuickBuyPresetScreen.java":  {
+                                                                                                                          "bytes":  17133,
+                                                                                                                          "sha256":  "FAA0DFA44FFEF96692FB842E4E2402043D6770A12B16608387441E2EAFCD5548"
+                                                                                                                      },
+                  "valen-selected-src/src/main/java/valen/module/impl/minigames/quickbuy/QuickBuyPresetsSetting.java":  {
+                                                                                                                            "bytes":  9195,
+                                                                                                                            "sha256":  "8B44D38E11217CB119D767AB2359EAEADF418BDAECE23BE42A0F3B3DF0B5DE30"
+                                                                                                                        },
+                  "valen-selected-src/src/main/java/valen/module/impl/movement/FireballBoost.java":  {
+                                                                                                         "bytes":  8066,
+                                                                                                         "sha256":  "FD46CF3A488EB26274BD9DA3A104C58CFF282BEE0F25A7DB46BDFE7EB58CF2B2"
+                                                                                                     },
+                  "valen-selected-src/src/main/java/valen/module/impl/player/AutoPearl.java":  {
+                                                                                                   "bytes":  245,
+                                                                                                   "sha256":  "DB2D42EBEE2DB2986F61EA2EF937C0A8663A070BCD9A784CED0D2265261CA53A"
+                                                                                               },
+                  "valen-selected-src/src/main/java/valen/module/impl/player/BridgeEgg.java":  {
+                                                                                                   "bytes":  18407,
+                                                                                                   "sha256":  "7D33D5CDB76185F15D3340C72D9114F4A65FE9BDF40B1DBE4332D298DA2BF25F"
+                                                                                               },
+                  "valen-selected-src/src/main/java/valen/module/impl/player/FireballPearlClutch.java":  {
+                                                                                                             "bytes":  275,
+                                                                                                             "sha256":  "5FF394A9FCA0485BCE0DC28476DACD9FB2404F2277EB6A0A5E78E56E401969B3"
+                                                                                                         },
+                  "valen-selected-src/src/main/java/valen/module/impl/player/PearlRescueModule.java":  {
+                                                                                                           "bytes":  45170,
+                                                                                                           "sha256":  "12BA2F18C45FE9AF345AD51E448FF539738E729D4A7BA4AF9FFE46CAAA4E2AD0"
+                                                                                                       },
+                  "valen-selected-src/src/main/java/valen/module/Module.java":  {
+                                                                                    "bytes":  6673,
+                                                                                    "sha256":  "5FBE2EBFF46D4FEBBAAB957415854AC35B346113269D1B11A5A9A8D23A4E77DE"
+                                                                                },
+                  "valen-selected-src/src/main/java/valen/module/ModuleManager.java":  {
+                                                                                           "bytes":  15194,
+                                                                                           "sha256":  "253EF9A7D33A89DC0557A87836267C37AAEA20B9CFCA1C00DD970AE8C7A838B5"
+                                                                                       },
+                  "valen-selected-src/src/main/java/valen/module/setting/impl/BlockEspSetting.java":  {
+                                                                                                          "bytes":  3403,
+                                                                                                          "sha256":  "CECED83CAFD0D0A8ABBD34836CCC3F5F57D09A236AAA48EAF586FB4598D29667"
+                                                                                                      },
+                  "valen-selected-src/src/main/java/valen/module/setting/impl/BlockListSetting.java":  {
+                                                                                                           "bytes":  3973,
+                                                                                                           "sha256":  "A394F8ADB3E994231B33970E35944175470A4B015B412CD3CE258A5CE67CF9E3"
+                                                                                                       },
+                  "valen-selected-src/src/main/java/valen/module/setting/impl/ButtonSetting.java":  {
+                                                                                                        "bytes":  3796,
+                                                                                                        "sha256":  "7ADB74249BFFE9746DC696F9BA2B5B2A1190196DC55FDF9C1DF5C6E2ED919750"
+                                                                                                    },
+                  "valen-selected-src/src/main/java/valen/module/setting/impl/ColorSetting.java":  {
+                                                                                                       "bytes":  5365,
+                                                                                                       "sha256":  "6D27CAFBC683F3F63F031B4E6026FD656CA41ED5341D01D02D9EB165B993BBE8"
+                                                                                                   },
+                  "valen-selected-src/src/main/java/valen/module/setting/impl/DescriptionSetting.java":  {
+                                                                                                             "bytes":  542,
+                                                                                                             "sha256":  "F990D61FF3E795CDD64C247BDF08CA164255B301B671EA2CED80F245872D6E68"
+                                                                                                         },
+                  "valen-selected-src/src/main/java/valen/module/setting/impl/GroupSetting.java":  {
+                                                                                                       "bytes":  413,
+                                                                                                       "sha256":  "D07FD2F4D2CDC78867FFE1FC889E056B2CF9B3569C12E43BFA65579647B1B0A7"
+                                                                                                   },
+                  "valen-selected-src/src/main/java/valen/module/setting/impl/InventoryItemListSetting.java":  {
+                                                                                                                   "bytes":  5618,
+                                                                                                                   "sha256":  "846CCE2724BF398205B0A4DC4BE3D39733B2DD0E4B1E4EC9A61176D66CF66269"
+                                                                                                               },
+                  "valen-selected-src/src/main/java/valen/module/setting/impl/ItemListSetting.java":  {
+                                                                                                          "bytes":  1363,
+                                                                                                          "sha256":  "F84C73D0139EB7453E746FB4CD4DA33BC5890876729F9398923D29A90CD5E5C0"
+                                                                                                      },
+                  "valen-selected-src/src/main/java/valen/module/setting/impl/KeySetting.java":  {
+                                                                                                     "bytes":  2257,
+                                                                                                     "sha256":  "7F00DBCA7BFF528002CA4DF70BF944182FF7344EA9BCD28485AB62BAF1C3D06A"
+                                                                                                 },
+                  "valen-selected-src/src/main/java/valen/module/setting/impl/MultiSelectSetting.java":  {
+                                                                                                             "bytes":  2996,
+                                                                                                             "sha256":  "167AED399A8B93CC8DD7D033A397BFEDBCC106E28C4FFA870539DD6A917AA2C4"
+                                                                                                         },
+                  "valen-selected-src/src/main/java/valen/module/setting/impl/PlayerListSetting.java":  {
+                                                                                                            "bytes":  2320,
+                                                                                                            "sha256":  "C0DED301E04C63B195E928DCF303D00C03AB1E66F993608F080296E5BBCF16A7"
+                                                                                                        },
+                  "valen-selected-src/src/main/java/valen/module/setting/impl/PotionListSetting.java":  {
+                                                                                                            "bytes":  1058,
+                                                                                                            "sha256":  "90A030E1338595EDD39B1FA3BB696A6750206D447F51CFD518939F3AA3E3A272"
+                                                                                                        },
+                  "valen-selected-src/src/main/java/valen/module/setting/impl/SliderSetting.java":  {
+                                                                                                        "bytes":  7015,
+                                                                                                        "sha256":  "C320BA2DE3EF4A4C4D73FEF07E8F57303E43612EF00EF1DEFC3603F2574362A4"
+                                                                                                    },
+                  "valen-selected-src/src/main/java/valen/module/setting/impl/StringListSetting.java":  {
+                                                                                                            "bytes":  3367,
+                                                                                                            "sha256":  "FEC4B29FDB06535AB0433C58EDC5084F9E22DFE4E85BEF433B23F50E97AEB022"
+                                                                                                        },
+                  "valen-selected-src/src/main/java/valen/module/setting/Setting.java":  {
+                                                                                             "bytes":  1357,
+                                                                                             "sha256":  "3373E73E12475B94CC15FDB8D7B388B5F2A3A82CB1FAF1B4CA6107CAC07B4400"
+                                                                                         },
+                  "valen-selected-src/src/main/java/valen/utility/BedBoostBlockQueue.java":  {
+                                                                                                 "bytes":  1728,
+                                                                                                 "sha256":  "9AEBCD86CFB0F672E8378DD7E940B60F799FC404A5D6D9207DB3FD75A07D3FE7"
+                                                                                             },
+                  "valen-selected-src/src/main/java/valen/utility/BedBoostCycle.java":  {
+                                                                                            "bytes":  4635,
+                                                                                            "sha256":  "7B7F226D8E44C73A8C5E026B694342E3EFD354327EE51D0E89CC63FCF31ED47C"
+                                                                                        },
+                  "valen-selected-src/src/main/java/valen/utility/BedFootHighlightMatcher.java":  {
+                                                                                                      "bytes":  1035,
+                                                                                                      "sha256":  "EF249015FB2E26266AE8738CECF1B2B427546E82F167219E19119F424F814664"
+                                                                                                  },
+                  "valen-selected-src/src/main/java/valen/utility/BlockAnimationUtils.java":  {
+                                                                                                  "bytes":  1580,
+                                                                                                  "sha256":  "66E504E8E7A218B85B566FC37FD682A0E846B3467F194F9829F8FC7D611A3EDB"
+                                                                                              },
+                  "valen-selected-src/src/main/java/valen/utility/BlockHighlightMatcher.java":  {
+                                                                                                    "bytes":  616,
+                                                                                                    "sha256":  "FBFAC3AA455902D5AC72363B54C0723342E27D58D36A52B97F39D2BF78D50518"
+                                                                                                },
+                  "valen-selected-src/src/main/java/valen/utility/BlockHighlightSharedHandler.java":  {
+                                                                                                          "bytes":  2207,
+                                                                                                          "sha256":  "CA8865B375EEDF0F7BC346380B72966D54F9C74CB6DD14DC6B8273F9706C48A7"
+                                                                                                      },
+                  "valen-selected-src/src/main/java/valen/utility/BlockUtils.java":  {
+                                                                                         "bytes":  24952,
+                                                                                         "sha256":  "0DAEC79A253F8FEF6362DC08CA584703DCE00A68A7858ACEE8A371230D200866"
+                                                                                     },
+                  "valen-selected-src/src/main/java/valen/utility/ChestStealerClock.java":  {
+                                                                                                "bytes":  444,
+                                                                                                "sha256":  "184C70E0FA995938E992C0CEA781920782061CB77986F90C65131480FD954B02"
+                                                                                            },
+                  "valen-selected-src/src/main/java/valen/utility/ClickCadence.java":  {
+                                                                                           "bytes":  2074,
+                                                                                           "sha256":  "3AEFA452CA8DC9BA44966AE11170D020B59FCDE8B36C71B2F87948E702EE0EE9"
+                                                                                       },
+                  "valen-selected-src/src/main/java/valen/utility/ClickClock.java":  {
+                                                                                         "bytes":  682,
+                                                                                         "sha256":  "091BA12998BEB7BE5782DF372C08258CF238A7D8FB1E6DB7179C56A786C112C4"
+                                                                                     },
+                  "valen-selected-src/src/main/java/valen/utility/ClientPreferences.java":  {
+                                                                                                "bytes":  9996,
+                                                                                                "sha256":  "81F1FDBD2AF7E2A8A415E19A58F7014F845F7314A2EC1366F6960A334012721C"
+                                                                                            },
+                  "valen-selected-src/src/main/java/valen/utility/config/ClientConfig.java":  {
+                                                                                                  "bytes":  1244,
+                                                                                                  "sha256":  "F968E0A294FBA8F5378FA79B1162654634B88A85EFED3248FAD7A7C772566420"
+                                                                                              },
+                  "valen-selected-src/src/main/java/valen/utility/config/CombatSettingsMigration.java":  {
+                                                                                                             "bytes":  4688,
+                                                                                                             "sha256":  "B1E9E7DDF324CF2C5C79D218FA8D5C11046BCE33837FF26E3FFE14C58978A86E"
+                                                                                                         },
+                  "valen-selected-src/src/main/java/valen/utility/config/ConfigManager.java":  {
+                                                                                                   "bytes":  39192,
+                                                                                                   "sha256":  "8030DF03A6557F0B62A4F416E21B33771294829B98E107F07976DB13FCAA43D8"
+                                                                                               },
+                  "valen-selected-src/src/main/java/valen/utility/config/GuiProfileStore.java":  {
+                                                                                                     "bytes":  4395,
+                                                                                                     "sha256":  "809BD54D3357855B84510E9B4A5779FE8B81266EF1B8950121C90C3D83A47138"
+                                                                                                 },
+                  "valen-selected-src/src/main/java/valen/utility/config/PremadeProfiles.java":  {
+                                                                                                     "bytes":  4042,
+                                                                                                     "sha256":  "A610DE772E1DCB25AD64864AD5F8F4DD23CE004DCEC89DB36A2DC9F76080EBBA"
+                                                                                                 },
+                  "valen-selected-src/src/main/java/valen/utility/ContinuousCondition.java":  {
+                                                                                                  "bytes":  576,
+                                                                                                  "sha256":  "BA480E5EEB1B433C0206BAA77C110607B49198B404A211D0D5B3463E40317686"
+                                                                                              },
+                  "valen-selected-src/src/main/java/valen/utility/FireballJumpTracker.java":  {
+                                                                                                  "bytes":  2053,
+                                                                                                  "sha256":  "7149F202793B402FBF53DCE22D3F7EC5019F4020FDD5DED8D5A7D846A01E7BCE"
+                                                                                              },
+                  "valen-selected-src/src/main/java/valen/utility/font/FontManager.java":  {
+                                                                                               "bytes":  9549,
+                                                                                               "sha256":  "4BED0009D3ED6C4495FC20745DD5497B721411772821ADE722FDB1FB58BC668A"
+                                                                                           },
+                  "valen-selected-src/src/main/java/valen/utility/font/GlyphFontRenderer.java":  {
+                                                                                                     "bytes":  20708,
+                                                                                                     "sha256":  "7DF0026167FDEF7A80CB0A02157FD8402CD32B68DEF6162B7F15BECC2761D2FA"
+                                                                                                 },
+                  "valen-selected-src/src/main/java/valen/utility/font/ValenFontRenderer.java":  {
+                                                                                                     "bytes":  2261,
+                                                                                                     "sha256":  "A56CB312771FB4A1508E386A18C159AC13B0EDEB21179EB67855F51A292F14ED"
+                                                                                                 },
+                  "valen-selected-src/src/main/java/valen/utility/FrozenEntitySync.java":  {
+                                                                                               "bytes":  8968,
+                                                                                               "sha256":  "8D0B77C7E4089253EE808AB7EFCE765E3329FED3C150203B475AA8860E34F058"
+                                                                                           },
+                  "valen-selected-src/src/main/java/valen/utility/HoverTracker.java":  {
+                                                                                           "bytes":  518,
+                                                                                           "sha256":  "9481B71DB5C1165E04E18FA7E2CEB711F57474D95840468532EFE02B29FC7784"
+                                                                                       },
+                  "valen-selected-src/src/main/java/valen/utility/IMinecraftInstance.java":  {
+                                                                                                 "bytes":  287,
+                                                                                                 "sha256":  "2E03B5E19F5F816406C75B0A68CFCD3E33EDB0E97EA5DA6076891BE819AA2F0A"
+                                                                                             },
+                  "valen-selected-src/src/main/java/valen/utility/KeybindConflicts.java":  {
+                                                                                               "bytes":  1625,
+                                                                                               "sha256":  "52B7D4A07EA6C2A241C8320EB22491C4926B7B61BA147A75288D7A4048C1FDDA"
+                                                                                           },
+                  "valen-selected-src/src/main/java/valen/utility/LicenseStatusService.java":  {
+                                                                                                   "bytes":  9340,
+                                                                                                   "sha256":  "98B471F4BC0AA1217DD4964409472585DEB71DFD2517B67186190AD9555D3D39"
+                                                                                               },
+                  "valen-selected-src/src/main/java/valen/utility/ModuleUtils.java":  {
+                                                                                          "bytes":  13225,
+                                                                                          "sha256":  "730F436CB8DEA7A6D47AEE244477B2C6EA2D9E474D00BE6232184C945C1DFB9C"
+                                                                                      },
+                  "valen-selected-src/src/main/java/valen/utility/PacketsHandler.java":  {
+                                                                                             "bytes":  2717,
+                                                                                             "sha256":  "009F73D5886037C7C5834896CFF5562362BFB9F52669FAD35927FC669894A10F"
+                                                                                         },
+                  "valen-selected-src/src/main/java/valen/utility/PacketUtils.java":  {
+                                                                                          "bytes":  2072,
+                                                                                          "sha256":  "DECB846BC46580D4CCF74EA2C0B4FE935A334BA838D1372249E0955449E1E02E"
+                                                                                      },
+                  "valen-selected-src/src/main/java/valen/utility/PearlFireballSequence.java":  {
+                                                                                                    "bytes":  1968,
+                                                                                                    "sha256":  "096312EA70513449961739E1D2DD8002938897A2575F222F9ECF14498B1BF767"
+                                                                                                },
+                  "valen-selected-src/src/main/java/valen/utility/PlayerMinedBlocks.java":  {
+                                                                                                "bytes":  994,
+                                                                                                "sha256":  "EE4AC8517AAF8F019CEAC67A502498250F2E32882273D10E69C815A7203C5253"
+                                                                                            },
+                  "valen-selected-src/src/main/java/valen/utility/PlayerRelationsManager.java":  {
+                                                                                                     "bytes":  15140,
+                                                                                                     "sha256":  "F138DA134AE31A467F9C3283628C0DDA28205930A0DD8861C55D1380FA956D15"
+                                                                                                 },
+                  "valen-selected-src/src/main/java/valen/utility/ProtectionEstimator.java":  {
+                                                                                                  "bytes":  12714,
+                                                                                                  "sha256":  "B3B6208FFC1B0627419158DC4CF03B6730530311D903CA3A70FD98A8012028B5"
+                                                                                              },
+                  "valen-selected-src/src/main/java/valen/utility/RecentColors.java":  {
+                                                                                           "bytes":  2716,
+                                                                                           "sha256":  "F2BA4C7F51D6C1AB66B5BF8A5E535FB6104A2617F6EECE9AD1FBDC69906B2936"
+                                                                                       },
+                  "valen-selected-src/src/main/java/valen/utility/ReflectionUtils.java":  {
+                                                                                              "bytes":  4711,
+                                                                                              "sha256":  "8C0A3E44BF3FDC5F531297F90B241864D92BDA368044AF56789CBCE9EB2FC578"
+                                                                                          },
+                  "valen-selected-src/src/main/java/valen/utility/RenderUtils.java":  {
+                                                                                          "bytes":  92670,
+                                                                                          "sha256":  "44179225E037629FCAB0CD80141B1E0CDCC85FD3DF6E7ED6ABB2FB14EC37954F"
+                                                                                      },
+                  "valen-selected-src/src/main/java/valen/utility/RescueAttempt.java":  {
+                                                                                            "bytes":  1686,
+                                                                                            "sha256":  "FD7EF6BEB31C6DEB57628C058A8CAB5AD77688CB07210CEAFC531EDDF1B0F8F2"
+                                                                                        },
+                  "valen-selected-src/src/main/java/valen/utility/RescueFall.java":  {
+                                                                                         "bytes":  6074,
+                                                                                         "sha256":  "1EBCB3E7F37DD22A2019A2634304D21FB93B8F4EA17BE9AC9FDF8B9A900C3810"
+                                                                                     },
+                  "valen-selected-src/src/main/java/valen/utility/RescueItemUse.java":  {
+                                                                                            "bytes":  2815,
+                                                                                            "sha256":  "445E77EEC1F0C8C81AF478DDE3EDD6E66E49659379A09324E03FE3814D2DD650"
+                                                                                        },
+                  "valen-selected-src/src/main/java/valen/utility/ResourceCounts.java":  {
+                                                                                             "bytes":  885,
+                                                                                             "sha256":  "AA3E8BBFFBD733008E78EB017E9B84A0218C01262F364EDEE42A5078BDC6C6BA"
+                                                                                         },
+                  "valen-selected-src/src/main/java/valen/utility/ResourceRelayClient.java":  {
+                                                                                                  "bytes":  3384,
+                                                                                                  "sha256":  "893409450FD7C632F4592737453B744FCC61CB82D9AE8D092AE40673D8A50538"
+                                                                                              },
+                  "valen-selected-src/src/main/java/valen/utility/RotationUtils.java":  {
+                                                                                            "bytes":  53827,
+                                                                                            "sha256":  "86FAC9DA73148C3DEB891E76ADCA543BF7C9856B490CC86628D9E6DD346C1DE9"
+                                                                                        },
+                  "valen-selected-src/src/main/java/valen/utility/ScaledResolutionCache.java":  {
+                                                                                                    "bytes":  1344,
+                                                                                                    "sha256":  "E0BC9A4079C7E910A4FF8AC3818C97CF18B49C35599742F176FA4194DD98F2D5"
+                                                                                                },
+                  "valen-selected-src/src/main/java/valen/utility/shader/BlurUtils.java":  {
+                                                                                               "bytes":  2255,
+                                                                                               "sha256":  "632A94B740D03E4DE1385A09E6C2EF8288C469C6E2CE2A085E695077B3EE2F6F"
+                                                                                           },
+                  "valen-selected-src/src/main/java/valen/utility/shader/KawaseBlur.java":  {
+                                                                                                "bytes":  6344,
+                                                                                                "sha256":  "F6D6CD04D3F7FA51DB862CE571AF69ABE7893CA879CE31D67982693FB54B4F0D"
+                                                                                            },
+                  "valen-selected-src/src/main/java/valen/utility/shader/ShaderUtils.java":  {
+                                                                                                 "bytes":  36038,
+                                                                                                 "sha256":  "7D602CE7C6451857FD194A9D9F1B39117989842BD7BE59C548AEE62983989D5C"
+                                                                                             },
+                  "valen-selected-src/src/main/java/valen/utility/SharedBlockHighlightCache.java":  {
+                                                                                                        "bytes":  23702,
+                                                                                                        "sha256":  "A505AF30E420DDAF0E6C3F989CDCA2503969736F45C0C52D5909CB21C9A189DD"
+                                                                                                    },
+                  "valen-selected-src/src/main/java/valen/utility/SimulatedPlayer.java":  {
+                                                                                              "bytes":  50295,
+                                                                                              "sha256":  "C87643EE62437B9884332FACAD1505CA3C43E34E0E4DBA27239805A5B22ADE18"
+                                                                                          },
+                  "valen-selected-src/src/main/java/valen/utility/Timer.java":  {
+                                                                                    "bytes":  2239,
+                                                                                    "sha256":  "0A413C93CC4BEB6C72E2CB7CE09B4F5CBA7263D844A5E201B5B1ADFC33D2551F"
+                                                                                },
+                  "valen-selected-src/src/main/java/valen/utility/TimerController.java":  {
+                                                                                              "bytes":  2281,
+                                                                                              "sha256":  "B21295869F7D152BC566752D5D7307A110D62D266B71686BB54EAA2846FAD637"
+                                                                                          },
+                  "valen-selected-src/src/main/java/valen/utility/TimerRangeCycle.java":  {
+                                                                                              "bytes":  4096,
+                                                                                              "sha256":  "2EF31E3771FEAA15238060D16C0877FBC9D6A587D8E5F61E45DAD8C43C625253"
+                                                                                          },
+                  "valen-selected-src/src/main/java/valen/utility/Utils.java":  {
+                                                                                    "bytes":  70659,
+                                                                                    "sha256":  "B20E9D5408E3670A8C9DA9496FADBD2FECD96CBE692A55E63AB44292391CBCC4"
+                                                                                },
+                  "valen-selected-src/src/main/java/valen/utility/VoidFallTracker.java":  {
+                                                                                              "bytes":  2481,
+                                                                                              "sha256":  "A034F1BD7C303446AFB03530B0DC3AE508162AC5C10B8A40AA7C61DC78AE4F07"
+                                                                                          },
+                  "valen-selected-src/src/main/java/valen/Valen.java":  {
+                                                                            "bytes":  8006,
+                                                                            "sha256":  "57B2263C019DDDDD0CD7E8F1A8410A7BFC3BFAF2772BA71B88BC90CCB31ABB19"
+                                                                        }
+              }
+}

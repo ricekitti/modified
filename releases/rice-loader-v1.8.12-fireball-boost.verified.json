@@ -1,0 +1,50 @@
+{
+  "version": "1.8.12.0",
+  "feature": "Fireball Boost (Valen port)",
+  "exe_sha256": "ca780d2a73cf92ed9224f708f6d20ea0284eeffedf81d705f0fdce94a5fe0bfe",
+  "native_sha256": "147114d0d0edea88f2b4b19e692e19a1343930b3edc133015fdcfd7da634adec",
+  "embedded_payload_matches": true,
+  "embedded_match_evidence": "launcher src/bundled/RiceNative.dll == rebuilt build/slinky.dll (sha256 match); NativePayloadRoundtrip CTest passed",
+  "runtime_check_dll": ".build-tools/fireball-boost-v1.8.12-runtime-check/RiceNative.dll",
+  "ctest": { "passed": 32, "failed": 0, "notable": ["SourceFeaturesJvm named/srg/official", "NativePayloadRoundtrip", "ModuleStartup", "LauncherRegression"] },
+  "headless_logic_test": { "name": "FireballBoostLogicTest", "assertions": 35, "covers": ["detection windows", "timer owner arbitration", "Regular/Legit freeze-burst", "cooldown gate", "40-tick cap"] },
+  "java_compile": { "release": 8, "mappings": ["named", "srg", "official"], "classes_transformed": 1271 },
+  "module": { "id": "fireball_boost", "display": "Fireball Boost", "category": "Movement", "feature_index": 5, "native_menu_slot": "0x4b" },
+  "settings": {
+    "mode": { "type": "choice", "options": ["Regular", "Legit"], "default": "Regular", "recovered_from_source": "Legit (screenshot showed Regular only)" },
+    "duration_ms": { "default": 200, "min": 50, "max": 2000, "step": 50 },
+    "cooldown_ms": { "default": 1000, "min": 0, "max": 5000, "step": 50 },
+    "bind": "unassigned (existing keybindings preserved; no auto-bind)"
+  },
+  "source": {
+    "module": "valen/module/impl/movement/FireballBoost.java",
+    "ported_helpers": ["FireballJumpTracker", "TimerRangeCycle", "TimerController"],
+    "hashes_manifest": "modified/valen-selected-ref-20261105/SHA256SUMS.json",
+    "fidelity": "FireballJumpTracker/TimerRangeCycle/TimerController are faithful 1:1 reconstructions (behavior preserved; identifiers clarified). Module body adapts Valen events -> dev.rice SemanticEvent (send=3, receive=2, loop=1) and Valen Lunar timer accessor -> MinecraftFields.timer(mc)."
+  },
+  "collision_resolution": "existing dev.rice.module.impl.FireballBoostModule (native OpenJade boost-delay, unregistered since v159) left untouched; Valen port added as distinguished FireballBoostFeatureModule",
+  "scope_unchanged": ["Clutch", "Scaffold", "Stasis", "Displace", "Bedplates", "Anticheat", "Bow Aimbot", "Fog", "Shaders", "Fireball Pearl"],
+  "documented_differences": [
+    "render-tick keybind re-press dropped (Lunar hold-bind semantics; this client toggles)",
+    "ModuleManager.isBedMining() mutual-exclusion guard dropped (no equivalent accessor exposed to feature modules)"
+  ],
+  "files_changed": {
+    "java_added": [
+      "modified/feature-bridge/java/FireballBoostFeatureModule.java",
+      "modified/feature-bridge/java/fireball/FireballJumpTracker.java",
+      "modified/feature-bridge/java/fireball/TimerController.java",
+      "modified/feature-bridge/java/fireball/TimerRangeCycle.java"
+    ],
+    "native_edited": [
+      "modified/slinkyreadablesource/slinkyreadablesource/src/logic/combat/source_features.cpp",
+      "modified/slinkyreadablesource/slinkyreadablesource/src/engine/jni/module_manager.cpp"
+    ],
+    "bridge_edited": ["modified/feature-bridge/java/NativeFeatureBridge.java"],
+    "build_edited": ["modified/feature-bridge/build.py"],
+    "launcher_version_bumped": ["modified/provided-injector/rice-launcher/CMakeLists.txt", "modified/provided-injector/rice-launcher/src/rice-slinky.rc"],
+    "tests_added": ["modified/feature-bridge/tests/FireballBoostLogicTest.java"]
+  },
+  "releases_preserved": true,
+  "live_gameplay_tested": false,
+  "live_anticheat_interaction_tested": false
+}

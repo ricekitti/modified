@@ -1,0 +1,13 @@
+Test project C:/Users/ethan/Documents/rice slinky new/modified/provided-injector/rice-launcher/build
+    Start 17: SourceFeaturesJvm
+1/4 Test #17: SourceFeaturesJvm ................   Passed    2.02 sec
+    Start 18: SourceFeaturesJvm_srg
+2/4 Test #18: SourceFeaturesJvm_srg ............   Passed    1.99 sec
+    Start 19: SourceFeaturesJvm_official
+3/4 Test #19: SourceFeaturesJvm_official .......   Passed    1.93 sec
+    Start 24: ScaffoldWalkOff
+4/4 Test #24: ScaffoldWalkOff ..................   Passed    0.02 sec
+
+100% tests passed, 0 tests failed out of 4
+
+Total Test time (real) =   5.96 sec

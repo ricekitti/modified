@@ -1,0 +1,10 @@
+{
+  "repository": "https://github.com/ricekitti/snowify-open-src",
+  "commit": "1f7aca61589dac9bb1bd44f6ce8a436aaafd4f56",
+  "source_sha256": "da9dda8b2a281a2b2597c3d0c8d392a0c1a42d47bf04b23a008f665f47aa1cbc",
+  "ported_sha256": "10d8715734be5d4a1aac9ff4edf2e37bdafba3e42f2b1e6cc78217ee0c7e6846",
+  "adaptations": "Package/class/import relocation plus five counted v212 player-mined opening exclusions in progress, wall planning, roof planning, support search and final aim selection. Remaining upstream method bodies retained. Mining history and shared services are explicit Rice hosts.",
+  "wire_source_sha256": "b0f0fd5297c76afb3731acd23e8295f7abab81480093a4644d48a760786fe080",
+  "wire_ported_sha256": "b141b538f0e6735d12db2a47f8dc47c6b5de03f6b4c6a7acf4b12e408760bcca",
+  "wire_adaptations": "Namespace and mapped host access; module-specific handler name; detach/session cleanup. Original force/restore, promotion and diagnostics retained."
+}

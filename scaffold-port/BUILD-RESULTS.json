@@ -1,0 +1,131 @@
+{
+  "status": "PARTIAL - full port unfinished; no live gameplay validation",
+  "recorded_utc": "2026-11-02T19:30:59.579090+00:00",
+  "repository": "ricekitti/rise-open",
+  "reference_commit": "c08acf7223ce9a6cde453cf86f97d77d92c742ba",
+  "dump_provenance": "unverified",
+  "bootstrap": "SlinkyHooks17",
+  "native_declarations": 34,
+  "parent_settings": 39,
+  "implemented_child_settings": 2,
+  "native_rows": 49,
+  "unavailable_selections": [],
+  "unresolved_source": [
+    "Vk/Wa empty branches and original cadence",
+    "Place Extra blocks missing placement output",
+    "Rise cross-module dependencies",
+    "Failed parent methods and dump version provenance"
+  ],
+  "artifacts": [
+    {
+      "path": "C:\\Users\\ethan\\Documents\\rice slinky new\\modified\\rice-loader-scaffold-partial.exe",
+      "bytes": 4422144,
+      "sha256": "14fc19b974da397ae31020765b2eda0196fb058b9fc430bd255d578eabb94230"
+    },
+    {
+      "path": "C:\\Users\\ethan\\Documents\\rice slinky new\\modified\\slinky-scaffold-partial.dll",
+      "bytes": 29182464,
+      "sha256": "ad08d2687b0e0624b70bb8106e15e6d45e7d98f7d70d4c8d3c84fc9b6e447a97"
+    },
+    {
+      "path": "C:\\Users\\ethan\\Documents\\rice slinky new\\modified\\feature-bridge\\build\\features-named.jar",
+      "bytes": 7774464,
+      "sha256": "6c95f3e73aee80c8429f87b46b5cedaeeb6c60d41462c38b5ecc6a36f46dca33"
+    },
+    {
+      "path": "C:\\Users\\ethan\\Documents\\rice slinky new\\modified\\feature-bridge\\build\\features-srg.jar",
+      "bytes": 9722035,
+      "sha256": "5e030ed7f2343f31cc534e0583b04538cc2d6a803f1957aefed49d06cc11ea41"
+    },
+    {
+      "path": "C:\\Users\\ethan\\Documents\\rice slinky new\\modified\\feature-bridge\\build\\features-official.jar",
+      "bytes": 9129936,
+      "sha256": "cd3c58ca275df0fe8a50277cffba0ec8033892e1f4480bb2159200810e61610d"
+    }
+  ],
+  "sources": {
+    "feature-bridge\\java\\ScaffoldDriver.java": "fba35d08cb539045ae361f91692eb5f33c543c75a1863af0b32e75185582391b",
+    "feature-bridge\\java\\ScaffoldGeometry.java": "0779aafd982d6e3443c2a5768b6adaaf99e226800ff3bf6cfb63998c849959d1",
+    "feature-bridge\\java\\ScaffoldHud.java": "5c9014593d75c99bc09889fc1c571f46b713f0a7d248a3a2aa4fcb82a3415ab8",
+    "feature-bridge\\java\\ScaffoldHudRenderer.java": "49c2403708ae63423213fa751205029892129a84e0652ae5a87bd8ae0bc9737c",
+    "feature-bridge\\java\\ScaffoldMath.java": "c17261e3c8a8eeca8bd5319285e7cdcf8cdbfab8d282f2d99b0d96e0b864ca2e",
+    "feature-bridge\\java\\ScaffoldModule.java": "730eb6cedc32868dd4715110606b99b9951617e433d3a9424503e3761fdd2c26",
+    "feature-bridge\\java\\ScaffoldMoveUtil.java": "9ec04a5686459970a8aa31a65aab93e670527609e463d291cd8bf62f312c00b0",
+    "feature-bridge\\java\\ScaffoldPacketState.java": "7c97f719ebfee24711af0fa7fea34edc6de0fdba8d0409cc245c51a5418fac82",
+    "feature-bridge\\java\\ScaffoldPrediction.java": "de4de6515b9abb390064b64d7f9820f398b8c475d7047e2b6f54fa8c95bbe7b1",
+    "feature-bridge\\java\\ScaffoldSafeWalk.java": "a6a92dee71893daea39401a791e3a2a859b39cf50777d34380629fadfa0a8364",
+    "feature-bridge\\java\\ScaffoldSlots.java": "46a50159f955a623e1de4b0fe05a577c6872629ce21cab94cc4269f4149a2e88",
+    "feature-bridge\\java\\ScaffoldTelly.java": "1b22e9884a7364847f379c6adc5683688fa85121311cef327b437c46045d7884",
+    "feature-bridge\\java\\ScaffoldTimer.java": "522148c3bf498dc0e2f65e50d46584b45fe5b4778921ccd16829507987436591",
+    "feature-bridge\\java\\ScaffoldTiming.java": "503d9249345744ce722f3c9b1f731e574de1744554e635a7925db7d9419f6cf9",
+    "feature-bridge\\java\\ScaffoldWatchdog.java": "9597e4de7ac04e75f3ab92ac25eb5b24bb44751f308987358c66ecd9fc7381f4",
+    "feature-bridge\\java\\NativeFeatureBridge.java": "e36d827197cc6892fe23a4d024592b24644a6bff68258d76af980eb5016f1684",
+    "feature-bridge\\build.py": "a4193c399d23454d04f9b81a430618c619a6c203300c7c26e2daf56e54620b92",
+    "feature-bridge\\tests\\ScaffoldBehaviorTest.java": "3096695d5f6177c8b240489db255ce47aa964ee2968dcb5335a5ce022c62506d",
+    "feature-bridge\\tests\\ScaffoldBridgeTest.java": "010216d784a1171910155320eb27983cfac81c7fe21badbc15532c248aed7504",
+    "feature-bridge\\tests\\ScaffoldHudTest.java": "22cbe6fca436a7bde9fcd448998d6e60576d6a2fa03777550734ddf34863886d",
+    "feature-bridge\\tests\\ScaffoldInventoryHookCheck.java": "b1d55a5ed0757dc4b0f81f0a0c247b7bdc42001731ef323e04d458a9d5d9c5d6",
+    "feature-bridge\\tests\\ScaffoldJumpHookCheck.java": "1f3be8e8b0f06fa82480ea7ca4fde2c7df43b77e16e3aee16ee406126ef814d4",
+    "feature-bridge\\tests\\ScaffoldMotionHookCheck.java": "33b332dc67980d0c8af3db886fb178e5413924b57603fe661cc3925db1581e2e",
+    "feature-bridge\\tests\\ScaffoldMoveHookCheck.java": "97098b3d4e2fc8a7e2c921a5aaaed31ef8d1695b5a33c4d274e1598395660f8f",
+    "feature-bridge\\tests\\ScaffoldParentTest.java": "806a173e9122e3c9711b22e707b0f1bd22f9e30a86756a5b41f448b88b9819cf",
+    "feature-bridge\\tests\\ScaffoldSafeWalkTest.java": "8fe83e91bb2e89c0bcb9419e438baff4b43a5b2f0de5a27575f8272424816e3c",
+    "feature-bridge\\tests\\ScaffoldSlotFixtureBridge.java": "c42db7aa3762ca4b732c5e2f52f17646e65c6434aaaf3b91b21e255dba9f60e4",
+    "feature-bridge\\tests\\ScaffoldSlotHookCheck.java": "ef4d589a5798eadde8a303dfe1a6afe62417bcd929e3bc7c4eafec02ce8ce697",
+    "feature-bridge\\tests\\ScaffoldSlotsTest.java": "3d7b28aac866ff5abfedb33bff4f850a9c35a1888a1e5c949ede9e3a34521c46",
+    "feature-bridge\\tests\\ScaffoldTellyTest.java": "a8408e86bb11c94c27cf70072cb00130eafa741419fef93e0a0d30be7628b7d0",
+    "feature-bridge\\tests\\ScaffoldTimingTest.java": "a4008060295a771a6f56778d9a1bdcc7c83cbac711b4b89cd0b96080e91017bd",
+    "feature-bridge\\tests\\ScaffoldWatchdogTest.java": "d04b11f8b47991c7e6dcf792acbbb53f4362736c676cfa9a00ae0e887b074377",
+    "feature-bridge\\tests\\FeatureFixture.java": "bb6af1e08e5c796983643d958b5ec847e60a270ee29cd6ab84fce9c664961bae",
+    "feature-bridge\\tests\\FogGlStubs.java": "d1c85989bcdfb95233ecd092591df859d0a8352fde1b58b6c978d8d8cbb0814f",
+    "feature-bridge\\tests\\FogHookCheck.java": "be336b6ea07bd393173d363a94c765910be9cf0fa14bcf71e33e31cebd8bae53",
+    "provided-injector\\rice-launcher\\tests\\SourceFeaturesJvmTest.cpp": "b43f387a90d9fe66f45f743e73ca4bff4dffd25d073209772d18e1e83c9e0196",
+    "slinkyreadablesource\\slinkyreadablesource\\src\\logic\\combat\\source_features.cpp": "7942e0d839c974e315b098d7170ba0ffbe51717bdb786273815e856b24d19041",
+    "slinkyreadablesource\\slinkyreadablesource\\src\\engine\\base\\java_natives_world.cpp": "e7032b6816b38501a2ec9966530f5a2263c98f3433a93576032b1c2fca27a253",
+    "slinkyreadablesource\\slinkyreadablesource\\src\\engine\\base\\java_natives_frame.cpp": "84062412cb5f93327059f0339eba067248a6a54fa95494d9865bd0d20cbea3a1",
+    "slinkyreadablesource\\slinkyreadablesource\\src\\engine\\jni\\hook_installer.cpp": "e0ebe1839374f0c50cbda6a07f5bf31debd0202265f2fd06a886f07b8e4a5bed",
+    "slinkyreadablesource\\slinkyreadablesource\\src\\engine\\jni\\hook_tables.inc": "c35ff4519f3f5f450c7984b10fbd0a087b60aca270c0a803e9e2c57060743ac7",
+    "slinkyreadablesource\\slinkyreadablesource\\src\\engine\\jni\\classfile_hooks.cpp": "df9dfc890c889a31632f7a2aac00d49bbbf96cb9551937acb397680c02259355",
+    "slinkyreadablesource\\slinkyreadablesource\\src\\data\\rdata.s": "adf9f8f7275955521ed5f08b8ad01271838d0274051ac7f55419671d7b7d3412"
+  },
+  "reference_helpers": {
+    "rise-source\\helpers\\BadPackets-bb.java": "84ef65f648a2f06737b152188d9e9c2ede17a79f8ead1b0e4baf6711adbad81a",
+    "rise-source\\helpers\\CloseWindow-q.java": "c1a5a0cf84b6c081ed698979fa507e45b98706d718761b01f5efd7c38e915bb3",
+    "rise-source\\helpers\\Entity-c.java": "7f0a5e6101844493e449c4690565d0b079bbd1167bde9b0bf71cd27b8f0c57a2",
+    "rise-source\\helpers\\EntityPlayerSP-c.java": "43e092baeb14fb7392f742dca504896f9c2c347ec9e3894c9f411c4a5224e8c7",
+    "rise-source\\helpers\\EventBus.java": "98f0b46469b103bd7f4b12951286589843d4e24052c045964bd5120bfc11ebc1",
+    "rise-source\\helpers\\InventoryPlayer-g.java": "3a4221198143f9a9268ca86227603bcafaf5dc7cb7247158990b5b7ab87da4be",
+    "rise-source\\helpers\\ItemStack-co.java": "86f3c05a5d75bc19f5a5451ed2a163ecfc79a95278f31b23b2606be36fde5ab9",
+    "rise-source\\helpers\\PacketTiming-ao.java": "6dbee5fabaa91d8c8932471743a78925c7192c6384096b174f06bdc182963444",
+    "rise-source\\helpers\\PlayerController-d.java": "8aee736347cc657a4f2c6772bea340fde40c7b3d1fd9443026e2aafc7ec776cb",
+    "rise-source\\helpers\\SlotUtil-aik.java": "f7ed74011f2af4de9988077e6b8cf0e70cbf463c09cbae399f805e28d71216e8",
+    "rise-source\\helpers\\World-w.java": "d318ff94e3adf955177d94cf0cef4ac2f06d5ebb66d4a3bbb25fa2446aed8b0e"
+  },
+  "java_validation": {
+    "suite_passes_by_type": {
+      "behavior": 3,
+      "bridge": 3,
+      "slots": 3,
+      "timing": 3,
+      "telly": 3,
+      "hud": 3,
+      "safe_walk": 3,
+      "watchdog": 3,
+      "parent": 3
+    },
+    "total_suite_executions_passed": 27,
+    "target": "Java 8",
+    "mappings": [
+      "named",
+      "srg",
+      "official"
+    ],
+    "log": "C:\\Users\\ethan\\Documents\\rice slinky new\\modified\\scaffold-port\\validation-build.log"
+  },
+  "native_validation": {
+    "passed": 20,
+    "failed": 0,
+    "log": "C:\\Users\\ethan\\Documents\\rice slinky new\\modified\\scaffold-port\\validation-native.log"
+  },
+  "live_validation_performed": false
+}

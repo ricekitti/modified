@@ -1,0 +1,33 @@
+{
+  "repository": "https://github.com/ricekitti/Mayu-src-latest",
+  "commit": "7026f1748845db7593c607c5f936c79f7dc27183",
+  "blobs": {
+    "ScaffoldModule": "55aa3c7f9f500ee6f6b2b12b645b64ef8c18a41d",
+    "BlockUtils": "113fe9a0af4ad05946f5d472141bcd019f2a2ffd",
+    "MovementUtils": "1200f22884581839c06a3d103bfcb6978364d2f4",
+    "PlayerUtils": "89d9bf2026cccba7538e50c8e069cae10e5ae259",
+    "RotationUtils": "00df55c313051e78fa1b4f246e4782d040e80eb9",
+    "ItemUtils": "71f66c48f04730d384eecf1f2b62be02ff627e1b",
+    "RandomUtils": "6693c734037c09cfbd68f8f070751c18b944692a",
+    "PacketUtils": "dad74a7eb4fb4eec8abf5291a4a7a6372ce50809",
+    "BooleanSetting": "ed251fe34b1df85d4da5802087c075ba69d85e01",
+    "PercentSetting": "729bc773884ba77209a12223448a69b8e5cce7ca",
+    "ModeSetting": "b3bc49a81f680abd685a374741d230509578ff67",
+    "Setting": "141de764e3a2300b62ca3e2d8ad6f970dbc4a86a",
+    "RotationUpdateEvent": "021f81690d98c67556da7f28cf0bf769436fb184",
+    "RotationState": "57f56104d38285bc0f0033b55168fb05b5c58c58",
+    "MoveFlyingEvent": "8853019150c95a805d455f36e26c9b67d9d11b81",
+    "MovementInputEvent": "17493fe75cae9b44eb9a735a9776363176ae3f93",
+    "LivingUpdateEvent": "ae3697979eaf07141710096bf8db8cf90ba6b953",
+    "SafeWalkEvent": "1c4a76a294348918f19c72adb5a3e3f75fe4787c",
+    "RenderOverlayEvent": "3ed7cd7879bebaedef9dc0509f6be6eb3660120d",
+    "LeftClickEvent": "58066de93ad358285c62bf5006275951d6ad7d1d",
+    "RightClickEvent": "e6323ff5238a162c46dd6698ea394f7300cdf4a3",
+    "BlockClickEvent": "8562a62e15be6ee1c3dbe3b8b4d4608f838084fb",
+    "HotbarChangeEvent": "548a2459be38eb728b38978f77b9c897c01db162",
+    "Event": "3af30a4cf5ab0176f1065edc2ddc678d9358880c",
+    "CancellableEvent": "d2958c224b144f09f3c43d7ff6630070cd628dbc",
+    "BlockPlacementTarget": "f78b952b146694e6b5c0ef47e648756493ef2e93",
+    "mixin/MixinGuiIngame": "eb13081ec36f21a58e05d7a301d2d967fbfe49e8"
+  }
+}

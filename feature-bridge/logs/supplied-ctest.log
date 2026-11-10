@@ -1,0 +1,49 @@
+Test project C:/Users/ethan/Documents/rice slinky new/modified/provided-injector/rice-launcher/build
+      Start  1: LicensePrompt
+ 1/22 Test  #1: LicensePrompt ....................   Passed    0.01 sec
+      Start  2: GuiBranding
+ 2/22 Test  #2: GuiBranding ......................   Passed    0.01 sec
+      Start  3: PlayerEspCompatibility
+ 3/22 Test  #3: PlayerEspCompatibility ...........   Passed    0.01 sec
+      Start  4: BlockInLifecycle
+ 4/22 Test  #4: BlockInLifecycle .................   Passed    0.01 sec
+      Start  5: KeyAuthTransport
+ 5/22 Test  #5: KeyAuthTransport .................   Passed    0.01 sec
+      Start  6: KeyAuthClient
+ 6/22 Test  #6: KeyAuthClient ....................   Passed    0.01 sec
+      Start  7: InjectionNotice
+ 7/22 Test  #7: InjectionNotice ..................   Passed    0.01 sec
+      Start  8: HudEditor
+ 8/22 Test  #8: HudEditor ........................   Passed    0.01 sec
+      Start  9: HeavyGlowGpu
+ 9/22 Test  #9: HeavyGlowGpu .....................   Passed    0.38 sec
+      Start 10: HeavyGlowTwoTextureUnits
+10/22 Test #10: HeavyGlowTwoTextureUnits .........   Passed    0.34 sec
+      Start 11: HeavyGlowUnsupportedFallback
+11/22 Test #11: HeavyGlowUnsupportedFallback .....   Passed    0.32 sec
+      Start 12: FireballPearlNative
+12/22 Test #12: FireballPearlNative ..............   Passed    0.01 sec
+      Start 13: GuiStartup
+13/22 Test #13: GuiStartup .......................   Passed    0.01 sec
+      Start 14: AntiFireballCore
+14/22 Test #14: AntiFireballCore .................   Passed    0.01 sec
+      Start 15: AntiFireballNative
+15/22 Test #15: AntiFireballNative ...............   Passed    0.01 sec
+      Start 16: SourceFeaturesJvm
+16/22 Test #16: SourceFeaturesJvm ................   Passed    1.98 sec
+      Start 17: SourceFeaturesJvm_srg
+17/22 Test #17: SourceFeaturesJvm_srg ............   Passed    1.87 sec
+      Start 18: SourceFeaturesJvm_official
+18/22 Test #18: SourceFeaturesJvm_official .......   Passed    2.16 sec
+      Start 19: ModuleStartup
+19/22 Test #19: ModuleStartup ....................   Passed    0.01 sec
+      Start 20: StasisNative
+20/22 Test #20: StasisNative .....................   Passed    0.01 sec
+      Start 21: LauncherRegression
+21/22 Test #21: LauncherRegression ...............   Passed    0.14 sec
+      Start 22: NativePayloadRoundtrip
+22/22 Test #22: NativePayloadRoundtrip ...........   Passed    0.35 sec
+
+100% tests passed, 0 tests failed out of 22
+
+Total Test time (real) =   7.72 sec

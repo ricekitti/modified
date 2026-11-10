@@ -1,0 +1,22 @@
+{
+  "built_at": "2026-11-03T17:20:31.784910",
+  "changes": [
+    "Rounded Scaffold block counter background and glow",
+    "Independent Block counter widget in Edit HUD",
+    "Saved normalized coordinates, reset, clamping, game-size preview"
+  ],
+  "tests": "22/22 passed",
+  "java_source_checks": "named, SRG, official passed",
+  "runtime_dll_sha256": "fe95bceac508ccaf484c43d44afaa5a60be7295d24b4c59ea0f3b950007d1131",
+  "loader_sha256": "f75803ae039aacbe35d726607af09c39b726f19811475616c603af9e4248c3e9",
+  "updated": [
+    "modified/rice-loader-rounded-counter.exe",
+    "modified/rice-loader.exe",
+    "modified/rice-loader-remember-key.exe",
+    "slinky-modified.exe"
+  ],
+  "locked": [
+    "modified/rice-loader-supplied-scaffold.exe"
+  ],
+  "live_visual_verification": false
+}

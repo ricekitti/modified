@@ -1,0 +1,5 @@
+ninja: Entering directory `C:\Users\ethan\Documents\rice slinky new\.build-tools\..\modified\provided-injector\rice-launcher\build'
+[1/2] Building CXX object CMakeFiles\OgDisplaceVoidTest.dir\tests\OgDisplaceVoidTest.cpp.obj
+C:\Users\ethan\Documents\rice slinky new\modified\provided-injector\rice-launcher\tests\OgDisplaceVoidTest.cpp(55): warning C4297: 'source_displace_void_yaw': function assumed not to throw an exception but does
+C:\Users\ethan\Documents\rice slinky new\modified\provided-injector\rice-launcher\tests\OgDisplaceVoidTest.cpp(55): note: The function is extern "C" and /EHc was specified
+[2/2] Linking CXX executable OgDisplaceVoidTest.exe

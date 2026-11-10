@@ -1,0 +1,27 @@
+{
+  "repository": "https://github.com/ricekitti/snowify-open-src",
+  "commit": "1f7aca61589dac9bb1bd44f6ce8a436aaafd4f56",
+  "files": {
+    "anticheat/Anticheat.java": {
+      "upstream_sha256": "8bd85a1d82390f2ee3a8d1fe56aa357acc3f37c79dffcf42c7edf6b4d6463be0",
+      "ported_sha256": "ea305ee07c4a14439234034a4cf25d7cec173f8b369477beac643a34b8e09df0"
+    },
+    "anticheat/BreakCheck.java": {
+      "upstream_sha256": "1f9fcb42382b8ece4995d4aea8e77fc19a9d58534ca5d4b79319657277482aa9",
+      "ported_sha256": "e02e72541a3de6be2e3ac6458e95ac73c27abd84a3a71f6d08e4c015b95e8d90"
+    },
+    "util/Teams.java": {
+      "upstream_sha256": "12549a6c8be30fe6dec1e0932eb0c205018a72c6ee08c6bc047639764b1784e7",
+      "ported_sha256": "9ef3ab28acd6fb6994ae7dc37007962a58f4967cd11782952832954526359640"
+    }
+  },
+  "adaptations": [
+    "Namespace/import relocation to Rice services",
+    "CFR generic-array/raw-iteration compiler repairs",
+    "Rice-specific blacklist directory; Snowify file untouched",
+    "Discard stale scheduled flags across sessions",
+    "Explicit transient reset for disable/unload; blacklist retained",
+    "Honor Slinky Teams relationship bit before Snowify scoreboard fallback"
+  ],
+  "limitations": "Original detector heuristics; GUI font/theme/shared events adapted to Rice. No live-game equivalence claim."
+}

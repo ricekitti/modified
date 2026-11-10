@@ -1,0 +1,17 @@
+2
+field_71432_P
+Lnet/minecraft/client/Minecraft;
+field_71439_g
+Lnet/minecraft/client/entity/EntityPlayerSP;
+field_71441_e
+Lnet/minecraft/client/multiplayer/WorldClient;
+net/minecraft/entity/Entity
+field_70177_z
+field_70125_A
+field_70165_t
+field_70161_v
+field_70122_E
+field_72338_b
+net/minecraft/util/AxisAlignedBB
+net/minecraft/entity/player/InventoryPlayer
+field_70461_c

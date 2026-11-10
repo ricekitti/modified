@@ -1,0 +1,4 @@
+[0/2] Re-checking globbed directories...
+[1/4] Generating data_scaffold_native.obj
+[2/4] Building CXX object CMakeFiles\slinky.dir\src\logic\block\scaffold_native.cpp.obj
+[3/4] Linking CXX shared library slinky.dll

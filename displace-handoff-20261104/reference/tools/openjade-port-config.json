@@ -1,0 +1,706 @@
+{
+ "whole": [
+  "jade.client.common.AimPoint",
+  "jade.client.common.ClosestHitSelector",
+  "jade.client.common.Destroyable",
+  "jade.client.common.EntityRotationOverride",
+  "jade.client.common.EventBus",
+  "jade.client.common.EventBus$0",
+  "jade.client.common.EventPhase",
+  "jade.client.common.EventPriority",
+  "jade.client.common.ExternalChatOverlay$2",
+  "jade.client.common.FontHeightProvider",
+  "jade.client.common.FontManager",
+  "jade.client.common.FontManager$7",
+  "jade.client.common.FontManager$8",
+  "jade.client.common.FontMetricsProvider",
+  "jade.client.common.FontRendererBase",
+  "jade.client.common.FontWidthProvider",
+  "jade.client.common.GlyphCache",
+  "jade.client.common.GlyphMetrics",
+  "jade.client.common.GlyphRasterizer",
+  "jade.client.common.GlyphRenderer",
+  "jade.client.common.HitVecUtils$1",
+  "jade.client.common.IFont",
+  "jade.client.common.IFont$0",
+  "jade.client.common.IGlyphStringDrawer",
+  "jade.client.common.IMinecraft",
+  "jade.client.common.LineHeightFont",
+  "jade.client.common.MouseScrollState",
+  "jade.client.common.OneWayFlag",
+  "jade.client.common.OpsecStore",
+  "jade.client.common.OpsecStore$0",
+  "jade.client.common.PacketDirection",
+  "jade.client.common.PacketExclusions",
+  "jade.client.common.PacketHandlerBinding",
+  "jade.client.common.PacketListenerRegistration",
+  "jade.client.common.PacketReleaseGate",
+  "jade.client.common.PbIqtfxn",
+  "jade.client.common.PlainAndShadowFont",
+  "jade.client.common.PlayerApi$2",
+  "jade.client.common.RasterizedGlyph",
+  "jade.client.common.RayTracer",
+  "jade.client.common.RaytraceUtils$1",
+  "jade.client.common.RenderUtils$1",
+  "jade.client.common.RotationHandler",
+  "jade.client.common.Subscribe",
+  "jade.client.common.TextBottomOffsetProvider",
+  "jade.client.common.TextRenderer",
+  "jade.client.common.TextTopOffsetProvider",
+  "jade.client.common.TextureUploader",
+  "jade.client.common.TrueTypeFont",
+  "jade.client.common.xoHFmOLKl",
+  "jade.client.core.DelayedPacketEntry",
+  "jade.client.core.HandledPacketTracker",
+  "jade.client.core.PacketQueue",
+  "jade.client.core.PacketQueueEntry",
+  "jade.client.core.PacketQueueManager",
+  "jade.client.core.QueuedPacketDispatcher",
+  "jade.client.core.SentPacketTracker",
+  "jade.client.core.TaskSwitchEntry",
+  "jade.client.event.ChangeCurrentItemEvent",
+  "jade.client.event.ClickMouseEvent",
+  "jade.client.event.Event",
+  "jade.client.event.GameLoopEvent",
+  "jade.client.event.JumpData",
+  "jade.client.event.JumpEvent",
+  "jade.client.event.LeftClickEvent",
+  "jade.client.event.MouseEvent",
+  "jade.client.event.MoveFlyingEvent",
+  "jade.client.event.MoveFlyingState",
+  "jade.client.event.MoveInputEvent",
+  "jade.client.event.MoveInputState",
+  "jade.client.event.MoveStateUpdateEvent",
+  "jade.client.event.PacketEvent",
+  "jade.client.event.PacketReceiveEvent",
+  "jade.client.event.PacketSendEvent",
+  "jade.client.event.PlayerMotionState",
+  "jade.client.event.PostWalkingUpdateEvent",
+  "jade.client.event.PreUpdateEvent",
+  "jade.client.event.RenderLivingEvent",
+  "jade.client.event.RenderLivingPostEvent",
+  "jade.client.event.RenderLivingPreEvent",
+  "jade.client.event.RenderTickEvent",
+  "jade.client.event.RenderWorldLastEvent",
+  "jade.client.event.RightClickDelayEvent",
+  "jade.client.event.RightClickEvent",
+  "jade.client.event.RotationEvent",
+  "jade.client.event.SetCurrentItemEvent",
+  "jade.client.event.SilentPacketSendEvent",
+  "jade.client.event.SliderChangeEvent",
+  "jade.client.event.TickEndEvent",
+  "jade.client.event.TickEvent",
+  "jade.client.event.TickStartEvent",
+  "jade.client.event.UpdateWalkingPlayerEvent",
+  "jade.client.gui.ItemPreviewScreen",
+  "jade.client.gui.ItemPreviewScreen$0",
+  "jade.client.gui.LaLy043",
+  "jade.client.gui.LarpMappingScreen",
+  "jade.client.gui.LarpScreen",
+  "jade.client.gui.LarpScreen$1",
+  "jade.client.gui.LarpScreen$2",
+  "jade.client.gui.QuickBuyCopyScreen",
+  "jade.client.gui.QuickBuyCopyScreen$1",
+  "jade.client.gui.QuickBuyCopyScreen$2",
+  "jade.client.gui.QuickBuyCopyScreen$3",
+  "jade.client.gui.QuickBuyItems",
+  "jade.client.gui.ScrolledTextLayout$1",
+  "jade.client.gui.ScrolledTextLayout$2",
+  "jade.client.gui.TextField",
+  "jade.client.gui.TextField$1",
+  "jade.client.module.Category",
+  "jade.client.module.Keybind",
+  "jade.client.module.Module",
+  "jade.client.module.Module$2",
+  "jade.client.module.ModuleInfo",
+  "jade.client.module.ModuleState",
+  "jade.client.module.minigames.Opsec",
+  "jade.client.module.minigames.Opsec$2",
+  "jade.client.module.minigames.Opsec$3",
+  "jade.client.module.minigames.Opsec$4",
+  "jade.client.module.minigames.opsec.QuickBuyCatalogue",
+  "jade.client.module.minigames.opsec.QuickBuyEditCooldown",
+  "jade.client.module.minigames.opsec.QuickBuyGridUtils",
+  "jade.client.module.minigames.opsec.QuickBuyRecoveryPlanner",
+  "jade.client.module.minigames.opsec.QuickBuyRecoveryPlanner$0",
+  "jade.client.module.minigames.opsec.QuickBuySetup",
+  "jade.client.module.minigames.opsec.QuickBuySetup$1",
+  "jade.client.module.minigames.opsec.QuickBuySlotReader",
+  "jade.client.module.minigames.opsec.WDHhrTSdi",
+  "jade.client.module.minigames.opsec.oeqxjyc2",
+  "jade.client.module.render.arraylist.ColorTheme",
+  "jade.client.module.render.esp.ShaderUniforms",
+  "jade.client.module.render.nametags.FormattingState",
+  "jade.client.module.render.nametags.GlyphStringDrawer",
+  "jade.client.module.render.nametags.MinecraftFont",
+  "jade.client.module.render.nametags.ScaledFontMetrics",
+  "jade.client.module.render.shared.ShaderProgram",
+  "jade.client.setting.BooleanSetting",
+  "jade.client.setting.ColorSetting",
+  "jade.client.setting.DescriptionSetting",
+  "jade.client.setting.FontSetting",
+  "jade.client.setting.GroupSetting",
+  "jade.client.setting.LabelSetting",
+  "jade.client.setting.MultiSelectSetting",
+  "jade.client.setting.Setting",
+  "jade.client.setting.SliderBounds",
+  "jade.client.setting.SliderSetting",
+  "jade.deps.loader107.HypixelPlayerStats",
+  "jade.deps.loader107.HypixelPlayerStats$0",
+  "jade.deps.loader107.StatsLookupService",
+  "jade.deps.loader107.StatsLookupService$1",
+  "jade.deps.loader107.StatsLookupService$2",
+  "jade.deps.loader107.StatsLookupService$3",
+  "jade.deps.loader107.StatsLookupService$4",
+  "jade.deps.loader107.StatsLookupService$5"
+ ],
+ "members": {
+  "jade.client.command.ClipboardUtils": [
+   "generateRequestId"
+  ],
+  "jade.client.command.TimeTokenGenerator": [
+   "HXFm"
+  ],
+  "jade.client.common.AQKBeof5": [
+   "readStreamText"
+  ],
+  "jade.client.common.AngleUtils": [
+   "HItqhqB",
+   "clampPitch",
+   "computeRotations",
+   "computeRotationsSafe",
+   "getLookVector",
+   "interpolateRotation",
+   "quantizeAngle"
+  ],
+  "jade.client.common.ArgbColorUtils": [
+   "CWWp",
+   "SDtD",
+   "getAlpha",
+   "getBlue",
+   "toRgbaArray",
+   "xzId"
+  ],
+  "jade.client.common.AttackHelper": [
+   "findCanRiderInteractMethod",
+   "invokeCanRiderInteract",
+   "method"
+  ],
+  "jade.client.common.BlockBoundsUtils": [
+   "getBlockStateSafe",
+   "getFullCubeBounds",
+   "sBdmu"
+  ],
+  "jade.client.common.BlockTypes": [
+   "DSLVc",
+   "INTERACTIVE_BLOCK_TYPES",
+   "hczi"
+  ],
+  "jade.client.common.BlockUtils": [
+   "canPlaceItemOnSide",
+   "getSelectedBounds",
+   "iepjdt",
+   "isInteractiveBlock",
+   "isReplaceableAt"
+  ],
+  "jade.client.common.ClientUtils": [
+   "AIowEv",
+   "AOAtn",
+   "RANDOM",
+   "YVVZ",
+   "canRiderInteract",
+   "eqyXnoq",
+   "friends",
+   "getBedWarsBoardType",
+   "initialNestedUpdateDepth",
+   "isFriend",
+   "isFriendName",
+   "isInNestedUpdate",
+   "isInWorld",
+   "isJumpKeyDown",
+   "isOnHypixel",
+   "isPassableBlock",
+   "isTeammate",
+   "mdeQ",
+   "randomDouble",
+   "readStreamText",
+   "sendColoredMessage",
+   "sendDebugMessage",
+   "sendJadeMessage",
+   "threadLocal",
+   "vAxywR",
+   "xusXfhC",
+   "zaUnpz"
+  ],
+  "jade.client.common.ComponentTextMetrics": [
+   "height",
+   "top"
+  ],
+  "jade.client.common.DangerousModules": [
+   "CTWLqFe",
+   "DangerousModules",
+   "VIA",
+   "ZLqGjyW",
+   "acknowledgedIds",
+   "acknowledgementsLoaded",
+   "afX",
+   "checkLoadedModules",
+   "containsId",
+   "findActiveDanger",
+   "findUnconditionalDanger",
+   "getAcknowledgementsFile",
+   "hNg",
+   "isConditionActive",
+   "isIdMissing",
+   "isMissingEntry",
+   "lastRegistryJson",
+   "loadAcknowledgements",
+   "loadFromJson",
+   "markPendingDanger",
+   "normalizeName",
+   "pendingModules",
+   "refreshRegistry",
+   "warnPendingDanger"
+  ],
+  "jade.client.common.EntityReachTracer": [
+   "getHitVector",
+   "traceHitVector"
+  ],
+  "jade.client.common.FIdTNZFlk0": [
+   "niSo8"
+  ],
+  "jade.client.common.GameStateUtils": [
+   "isInGameWithFocus",
+   "isInWorld",
+   "isOnHypixel",
+   "yrvB"
+  ],
+  "jade.client.common.HitVecUtils": [
+   "GDwcL",
+   "clampToBox",
+   "clampValue",
+   "countTrue",
+   "fejS",
+   "getAimPointOnEntity",
+   "getVisibleFaceSamples",
+   "lerpValue",
+   "sBno468",
+   "toUnitFraction",
+   "toVec3ForAxis"
+  ],
+  "jade.client.common.HttpConnectionUtils": [
+   "fetchText",
+   "readResponse"
+  ],
+  "jade.client.common.HttpUtils": [
+   "httpRequestWithTimeouts"
+  ],
+  "jade.client.common.ItemNames": [
+   "formatSkyblockName",
+   "getCleanDisplayName",
+   "getSkyblockId",
+   "matchesToolName",
+   "tooltipContains"
+  ],
+  "jade.client.common.MiddleClickFriend": [
+   "isScrollKeyPressed",
+   "scrollState"
+  ],
+  "jade.client.common.MovementFix": [
+   "fixMovementInput",
+   "getMovementYaw",
+   "wrapDegrees"
+  ],
+  "jade.client.common.OOPXSd": [
+   "resolve"
+  ],
+  "jade.client.common.PacketDispatcher": [
+   "dispatchPacket",
+   "handleInboundPacket"
+  ],
+  "jade.client.common.PacketUtils": [
+   "NQazztK",
+   "consumeSilentlySent",
+   "isOutboundPacket",
+   "packetExclusions",
+   "sendSilently"
+  ],
+  "jade.client.common.PassableBlocks": [
+   "isPassable",
+   "isPassableClass",
+   "tqC"
+  ],
+  "jade.client.common.PlaceUtils": [
+   "canPlaceItemOnSide",
+   "isBlockReplaceable"
+  ],
+  "jade.client.common.PlayerApi": [
+   "lookupProfileByName",
+   "parseJsonObject",
+   "parseProfile",
+   "parseUndashedUuid"
+  ],
+  "jade.client.common.QuickBuyLayout": [
+   "AFIIiUl",
+   "XouT",
+   "ahnDbkE",
+   "buildLayout",
+   "getItemAt",
+   "indexOfItem",
+   "isDerangement",
+   "isValidLayout",
+   "normalizeItemName",
+   "selectAllowedItem",
+   "shuffleLayout",
+   "ywZww"
+  ],
+  "jade.client.common.RaytraceUtils": [
+   "KmB",
+   "canSeeEntity",
+   "intersectsEntityAlongRay",
+   "isLineOfSightBlockedByEntity"
+  ],
+  "jade.client.common.RectUtils": [
+   "expandRect",
+   "expandRectByPadding",
+   "toScaledPosition"
+  ],
+  "jade.client.common.RenderUtils": [
+   "GIWbDs",
+   "QvSfy6",
+   "XNRNki",
+   "applyAlphaState",
+   "applyDepthState",
+   "applyLightingState",
+   "cIv778",
+   "jgivP",
+   "jxyoE",
+   "lTbf",
+   "lht",
+   "rebindActiveTexture",
+   "resetGlPipelineState",
+   "resetLightmapState",
+   "resetTextureUnitState",
+   "restoreLightmapState",
+   "setAlphaThreshold",
+   "uyB6"
+  ],
+  "jade.client.common.RotationInterpolator": [
+   "stepRotation",
+   "tfpXj"
+  ],
+  "jade.client.common.RotationQuantizer": [
+   "quantizeRotation"
+  ],
+  "jade.client.common.RotationTargets": [
+   "JIWq",
+   "anglesToCoordinates",
+   "anglesToEntityAimPoint",
+   "lccPbxo"
+  ],
+  "jade.client.common.RotationUtils": [
+   "IuZ",
+   "NSsr",
+   "QweciK",
+   "anglesToCoordinatesWithPitchOffset",
+   "anglesToEntity",
+   "anglesToEntityRayTracedFull",
+   "applyRenderedYaw",
+   "createEntityIgnoreFilter",
+   "getEntityHitVec",
+   "getLookVector",
+   "gib",
+   "hasHitOffset",
+   "hasPendingRotationOverride",
+   "lastSentRotation",
+   "outgoingYaw",
+   "pN0",
+   "previousPitch",
+   "rayTracer",
+   "smoothAnglesRandomized",
+   "traceBlockHit",
+   "traceBlockThroughUncollidable"
+  ],
+  "jade.client.common.RoundedRect": [
+   "ABgU",
+   "drawRoundedOutline",
+   "drawRoundedRect",
+   "outlineShader"
+  ],
+  "jade.client.common.RoundedShader": [
+   "Fzsi8",
+   "applyRectUniforms",
+   "beginBlendPass",
+   "drawRoundedOutline",
+   "endShaderPass",
+   "restoreGlState",
+   "setUniformColor",
+   "yJdrG"
+  ],
+  "jade.client.common.ScoreboardUtils": [
+   "ATIk",
+   "IwugSbg",
+   "dj854",
+   "getBedWarsBoardType",
+   "getSidebarObjective"
+  ],
+  "jade.client.common.SettingRowLayout": [
+   "QYl2"
+  ],
+  "jade.client.common.StringDrawer": [
+   "plain",
+   "shadow"
+  ],
+  "jade.client.common.TextUtils": [
+   "QJdK",
+   "randomDoubleInRange",
+   "withAlpha"
+  ],
+  "jade.client.common.ToolNames": [
+   "AXE_TIERS",
+   "IsbZ",
+   "matchesNameVariant",
+   "matchesTieredToolName",
+   "matchesToolName",
+   "normalizeItemName"
+  ],
+  "jade.client.common.Wlo914": [
+   "GKjTw"
+  ],
+  "jade.client.common.WorldUtils": [
+   "getBlock",
+   "getBlockState",
+   "getSelectionBounds"
+  ],
+  "jade.client.common.pGYEwTJtYO": [
+   "artifact",
+   "malformedPrefix",
+   "minecraftColor",
+   "opaqueAlpha",
+   "shadow",
+   "withAlpha"
+  ],
+  "jade.client.event.RotationOverrideFlags": [
+   "markPitchOverride",
+   "markYawOverride"
+  ],
+  "jade.client.gui.QuickBuyLayoutComposer": [
+   "composeLayoutWithReplacements",
+   "computeDifference",
+   "findExtraItems",
+   "findMissingItems"
+  ],
+  "jade.client.gui.ScrolledTextLayout": [
+   "ImA6",
+   "buildVisibleText",
+   "clamp",
+   "computeVisibleRange",
+   "isPointInRect"
+  ],
+  "jade.client.gui.TextFieldAccess": [
+   "HCioa",
+   "SlqyFo",
+   "enabledColorField",
+   "getCursorPosition",
+   "getSelectionEnd",
+   "getTextColor",
+   "isEnabledField",
+   "lFnhUr",
+   "lineScrollOffsetField",
+   "qZn0",
+   "readBoolean",
+   "readInt",
+   "resolveMappedField"
+  ],
+  "jade.client.module.render.Arraylist": [
+   "AOGM",
+   "YUzc",
+   "getGradientColors",
+   "sampleMultiColorGradient",
+   "setGradientColors",
+   "waveSpeed",
+   "xQec0"
+  ],
+  "jade.client.module.render.arraylist.GradientColors": [
+   "ZZZb",
+   "blend",
+   "waveFraction"
+  ],
+  "jade.client.module.render.nametags.ScaledStringRenderer": [
+   "draw"
+  ],
+  "jade.client.module.render.shared.ScreenQuad": [
+   "addVertex",
+   "drawFullScreenQuad",
+   "drawQuad",
+   "drawTexturedQuad"
+  ],
+  "jade.client.module.render.shared.ShaderLoader": [
+   "attachShaders",
+   "compileShader"
+  ],
+  "jade.client.module.render.shared.ShaderRegistry": [
+   "ITAJb",
+   "IjM",
+   "openShaderStream"
+  ],
+  "jade.client.setting.JsonConfigHelper": [
+   "MCzK",
+   "mZr0"
+  ],
+  "jade.deps.loader107.AdditiveMixConstantCipherTwo": [
+   "computeMix",
+   "decodeLong"
+  ],
+  "jade.deps.loader107.PendingChatQueue": [
+   "QUEUE_LOCK",
+   "enqueueMessage"
+  ],
+  "net.jade.dev.agent.transformer.JadeAgentHooks": [
+   "CONTAINER_DRAW_SLOT",
+   "JadeAgentHooks",
+   "LOGGED_FAILURES",
+   "ensureJadeStarted",
+   "findField",
+   "findMethod",
+   "getBooleanField",
+   "getDoubleField",
+   "getField",
+   "getFloatField",
+   "getIntField",
+   "handleLocalChatMessage",
+   "invokeAny",
+   "invokeBoolean",
+   "invokeMethod",
+   "invokeStatic",
+   "log",
+   "minecraft",
+   "minecraftPlayer",
+   "mixinEventBridgeActive",
+   "onChangeCurrentItem",
+   "onClickMouse",
+   "onContainerClick",
+   "onContainerDisplayedStack",
+   "onContainerDrawScreen",
+   "onContainerDrawSlotBegin",
+   "onContainerDrawSlotEnd",
+   "onContainerManualInput",
+   "onContainerTooltipStack",
+   "onLivingJump",
+   "onMoveFlying",
+   "onNetworkReceive",
+   "onNetworkSend",
+   "onPlayerUpdateHead",
+   "onRenderWorldLast",
+   "onRightClickMouse",
+   "onRunGameLoopStart",
+   "onRunTickEnd",
+   "onRunTickStart",
+   "onSetCurrentItem",
+   "onUpdatePlayerMoveState",
+   "onUpdateWalkingPlayer",
+   "prePlayerInteractPostedThisTick",
+   "resolveHoveredContainerSlot",
+   "setBooleanField",
+   "setDoubleField",
+   "setFloatField",
+   "setIntField",
+   "startupAttempted"
+  ],
+  "jade.client.common.ChatSender": [
+   "ChatSender",
+   "HARd",
+   "Mmb4",
+   "daPdo",
+   "deliverMessage",
+   "formatGradientTitle",
+   "fzvR",
+   "getGradientColors",
+   "sendDebugMessage"
+  ],
+  "jade.client.common.ChatUtils": [
+   "FLOW_OPEN_PATTERN",
+   "FLOW_TAG_PATTERN",
+   "applyFlowGradient",
+   "flowTextCache",
+   "hasFlowTag",
+   "kWr1",
+   "mfX4",
+   "normalizeHexColor",
+   "resolveFlowText",
+   "translateAmpersandCodes"
+  ],
+  "jade.client.common.ConditionalChatFormatter": [
+   "emitFormattedMessage"
+  ],
+  "jade.client.common.ExternalChatOverlay": [
+   "WBGA",
+   "XTQhR"
+  ],
+  "jade.client.module.client.Rendering": [
+   "isExternalOutput",
+   "output"
+  ]
+ },
+ "shells": {
+  "jade.client.module.client.Rendering": {
+   "decl": "public final class Rendering extends Module",
+   "extra": "   // Rice host shell: only Rendering.isExternalOutput is ported. Rice has no Jade Rendering module, so\n   // getModule(Rendering.class) is null and chat always goes to the vanilla chat (upstream's default).\n   private Rendering() {\n      super(\"Rendering\", Category.client);\n      this.output = null;\n   }\n"
+  },
+  "jade.client.module.render.Arraylist": {
+   "decl": "public final class Arraylist",
+   "extra": "   // Rice host shell: only Arraylist's static theme-gradient members are ported (Rice draws its own module list).\n"
+  }
+ },
+ "shims": [
+  "dev/rice/jade/client/Jade.java",
+  "dev/rice/jade/client/common/ConfigEntry.java",
+  "dev/rice/jade/client/common/ModuleManager.java",
+  "dev/rice/jade/client/common/RelationManager.java",
+  "dev/rice/jade/client/common/TeamUtils.java",
+  "dev/rice/jade/client/core/ConfigProfile.java",
+  "dev/rice/jade/client/gui/ClickGui.java",
+  "dev/rice/jade/client/module/client/Gui.java",
+  "dev/rice/jade/client/module/client/Settings.java",
+  "dev/rice/jade/client/module/combat/AutoClicker.java",
+  "dev/rice/jade/client/module/minigames/BedwarsUtils.java",
+  "dev/rice/jade/client/module/player/DelayRemover.java",
+  "dev/rice/jade/client/module/player/Freecam.java",
+  "dev/rice/jade/client/module/player/InventoryManager.java",
+  "dev/rice/jade/client/setting/MMzhau.java",
+  "dev/rice/jade/deps/loader107/CoreResourceIndex.java",
+  "dev/rice/jade/deps/loader107/InjectionPaths.java",
+  "dev/rice/jade/deps/loader107/LocalCoreLoader.java",
+  "dev/rice/jade/deps/loader107/TlsSockets.java",
+  "dev/rice/jade/deps/websocket/client/WebSocketClient.java",
+  "dev/rice/jade/deps/websocket/enums/ReadyState.java",
+  "dev/rice/jade/deps/websocket/handshake/ServerHandshake.java",
+  "dev/rice/jade/inject/InjectionAgent.java",
+  "dev/rice/jade/inject/RuntimeAccess.java",
+  "dev/rice/jade/mixin/impl/accessor/IAccessorEntityPlayerSP.java",
+  "dev/rice/jade/mixin/impl/accessor/IAccessorMinecraft.java",
+  "dev/rice/jade/mixin/impl/accessor/IAccessorPlayerControllerMP.java"
+ ],
+ "stubs": {
+  "net.jade.dev.agent.transformer.JadeAgentHooks": {
+   "handleLocalChatMessage": {
+    "reason": "Only reachable when InjectionAgent.isBadlionRuntime() is true (Badlion chat routing to Jade IRC); the Rice host defines it false, so the IRC/Discord bus is never shipped.",
+    "body": "   private static boolean handleLocalChatMessage(Minecraft mc, String message) {\n      return false;\n   }\n"
+   }
+  }
+ },
+ "rewrites": [
+  {
+   "class": "jade.client.common.EventBus",
+   "old": "Ozg.computeIfAbsent(var5, EventBus::createPriorityMap).computeIfAbsent(var7, EventBus::listenersFor)",
+   "new": "((EnumMap<EventPriority, List<EventBus$0>>)Ozg.computeIfAbsent((Class<? extends Event>)var5, EventBus::createPriorityMap)).computeIfAbsent(var7, EventBus::listenersFor)",
+   "reason": "decompiler artefact: the raw Class key and raw EnumMap factory make javac erase the call's return type; type-only casts restore the declared generic types, identical after erasure"
+  },
+  {
+   "class": "jade.client.common.OpsecStore",
+   "old": "var1.add(var3);",
+   "new": "var1.add(new jade.deps.gson.JsonPrimitive(var3));",
+   "reason": "JsonArray.add(String) exists only in Jade's shaded Gson 2.4+; Minecraft 1.8.9 ships Gson 2.2.4, where add(new JsonPrimitive(s)) produces the identical JSON"
+  }
+ ]
+}

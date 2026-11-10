@@ -1,0 +1,24 @@
+{
+  "reference_sha256": "06626941523aae0c4ee58614f1e98abc1b80788faeb7e20cd0b00c34370149b7",
+  "methods": [
+    "findBestVoidYaw",
+    "selectBetterVoidYaw",
+    "scoreVoidPath",
+    "getVoidNeighborhood",
+    "getVoidPathBlockedDistance",
+    "isOneBlockWall",
+    "isVoidColumn",
+    "getColumnKey"
+  ],
+  "classes": [
+    "VoidYawCandidate",
+    "VoidPathScore",
+    "VoidNeighborhood"
+  ],
+  "adaptations": [
+    "host constructor/API",
+    "1.8.9 block collision API",
+    "debug observers omitted",
+    "optional existing Legit Void filter added by build.py"
+  ]
+}
